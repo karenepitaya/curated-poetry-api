@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+      - name: Test
+        run: go test ./...
+      - name: Vet
+        run: go vet ./...
+
+  linux-amd64:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+          cache: true
+      - name: Build static Linux amd64 binary
+        env:
+          CGO_ENABLED: "0"
+          GOOS: linux
+          GOARCH: amd64
+        run: go build -trimpath -ldflags="-s -w -X main.version=${GITHUB_SHA}" -o dist/curated-poetry-api ./cmd/server
+      - name: Record SHA-256
+        working-directory: dist
+        run: sha256sum curated-poetry-api > curated-poetry-api.sha256
+      - name: Include license and source notices
+        run: cp LICENSE DATA_LICENSE NOTICE dist/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: curated-poetry-api-linux-amd64
+          path: dist/
+          if-no-files-found: error

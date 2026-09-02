@@ -1,0 +1,28 @@
+Curated Poetry API notices
+==========================
+
+Code in this repository is licensed under the MIT License. See LICENSE.
+
+The original selection, transcription, structured metadata, variant decisions,
+and simplified/traditional normalization records in data/ and docs/CURATION.md
+are dedicated to the public domain under CC0 1.0 Universal. See DATA_LICENSE.
+
+The underlying Tang poems are ancient works. The project consults scans whose
+Wikimedia Commons file pages mark them as public-domain scans; it does not
+claim copyright in the source texts and does not redistribute the scan files.
+Public-domain status can vary by jurisdiction, so users should verify the
+linked file-page notices for their own use:
+
+- 1933 edition of 唐詩三百首, used as the base witness for 49 poems,
+  National Library of China scan on Wikimedia Commons:
+  https://commons.wikimedia.org/wiki/File:NLC416-17jh000616-101322_%E5%94%90%E8%A9%A9%E4%B8%89%E7%99%BE%E9%A6%96.pdf
+- 1933 edition of 本事詩, used only as the base witness for
+  題都城南莊 because the specified 1933 唐詩三百首 does not include it;
+  National Library of China scan on Wikimedia Commons:
+  https://commons.wikimedia.org/wiki/File:NLC511-027032013010163-20835_%E6%9C%AC%E4%BA%8B%E8%A9%A9.pdf
+- 1705 御定全唐詩 scans on Wikimedia Commons:
+  https://commons.wikimedia.org/wiki/Category:%E5%BE%A1%E5%AE%9A%E5%85%A8%E5%94%90%E8%A9%A9
+
+Each poem in this small, independently reviewed selection uses two witnesses
+drawn from the three scanned bibliographic editions listed above. It is not
+presented as an authoritative scholarly critical edition.
