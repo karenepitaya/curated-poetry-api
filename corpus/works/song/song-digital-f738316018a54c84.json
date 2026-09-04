@@ -1,0 +1,164 @@
+{
+  "id": "song-digital-f738316018a54c84",
+  "title": {
+    "hans": "戚氏·晚秋天",
+    "hant": "戚氏·晚秋天"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "戚氏",
+    "hant": "戚氏"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "晚秋天。",
+          "hant": "晚秋天。"
+        },
+        {
+          "id": "line-2",
+          "hans": "一霎微雨洒庭轩。",
+          "hant": "一霎微雨灑庭軒。"
+        },
+        {
+          "id": "line-3",
+          "hans": "槛菊萧疏，井梧零乱惹残烟。",
+          "hant": "檻菊蕭疏，井梧零亂惹殘煙。"
+        },
+        {
+          "id": "line-4",
+          "hans": "凄然。",
+          "hant": "悽然。"
+        },
+        {
+          "id": "line-5",
+          "hans": "望江关。",
+          "hant": "望江關。"
+        },
+        {
+          "id": "line-6",
+          "hans": "飞云黯淡夕阳间。",
+          "hant": "飛雲黯淡夕陽間。"
+        },
+        {
+          "id": "line-7",
+          "hans": "当时宋玉悲感，向此临水与登山。",
+          "hant": "當時宋玉悲感，向此臨水與登山。"
+        },
+        {
+          "id": "line-8",
+          "hans": "远道迢递，行人凄楚，倦听陇水潺。",
+          "hant": "遠道迢遞，行人悽楚，倦聽隴水潺。"
+        },
+        {
+          "id": "line-9",
+          "hans": "正蝉吟败叶，蛩响衰草，相应喧喧。",
+          "hant": "正蟬吟敗葉，蛩響衰草，相應喧喧。"
+        },
+        {
+          "id": "line-10",
+          "hans": "孤馆度日如年。",
+          "hant": "孤館度日如年。"
+        },
+        {
+          "id": "line-11",
+          "hans": "风露渐变，悄悄至更阑。",
+          "hant": "風露漸變，悄悄至更闌。"
+        },
+        {
+          "id": "line-12",
+          "hans": "长天净，绛河清浅，皓月婵娟。",
+          "hant": "長天淨，絳河清淺，皓月嬋娟。"
+        },
+        {
+          "id": "line-13",
+          "hans": "思绵绵。",
+          "hant": "思綿綿。"
+        },
+        {
+          "id": "line-14",
+          "hans": "夜永对景，那堪屈指，暗想从前。",
+          "hant": "夜永對景，那堪屈指，暗想從前。"
+        },
+        {
+          "id": "line-15",
+          "hans": "未名未禄，绮陌红楼，往往经岁迁延。",
+          "hant": "未名未祿，綺陌紅樓，往往經歲遷延。"
+        },
+        {
+          "id": "line-16",
+          "hans": "帝里风光好，当年少日，暮宴朝欢。",
+          "hant": "帝裏風光好，當年少日，暮宴朝歡。"
+        },
+        {
+          "id": "line-17",
+          "hans": "况有狂朋怪侣，遇当歌、对酒竞留连。",
+          "hant": "況有狂朋怪侶，遇當歌、對酒競留連。"
+        },
+        {
+          "id": "line-18",
+          "hans": "别来迅景如梭，旧游似梦，烟水程何限。",
+          "hant": "別來迅景如梭，舊遊似夢，煙水程何限。"
+        },
+        {
+          "id": "line-19",
+          "hans": "念利名、憔悴长萦绊。",
+          "hant": "念利名、憔悴長縈絆。"
+        },
+        {
+          "id": "line-20",
+          "hans": "追往事、空惨愁颜。",
+          "hant": "追往事、空慘愁顏。"
+        },
+        {
+          "id": "line-21",
+          "hans": "漏箭移、稍觉轻寒。",
+          "hant": "漏箭移、稍覺輕寒。"
+        },
+        {
+          "id": "line-22",
+          "hans": "渐呜咽、画角数声残。",
+          "hant": "漸嗚咽、畫角數聲殘。"
+        },
+        {
+          "id": "line-23",
+          "hans": "对闲窗畔，停灯向晓，抱影无眠。",
+          "hant": "對閒窗畔，停燈向曉，抱影無眠。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 148,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

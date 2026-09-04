@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-8874b594f8980939",
+  "title": {
+    "hans": "临江仙·忆昔西池池上饮",
+    "hant": "臨江仙·憶昔西池池上飲"
+  },
+  "author": {
+    "name": {
+      "hans": "晁冲之",
+      "hant": "晁衝之"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "临江仙",
+    "hant": "臨江仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "忆昔西池池上饮，年年多少欢娱。",
+          "hant": "憶昔西池池上飲，年年多少歡娛。"
+        },
+        {
+          "id": "line-2",
+          "hans": "别来不寄一行书。",
+          "hant": "別來不寄一行書。"
+        },
+        {
+          "id": "line-3",
+          "hans": "寻常相见了，犹道不如初。",
+          "hant": "尋常相見了，猶道不如初。"
+        },
+        {
+          "id": "line-4",
+          "hans": "安稳锦屏今夜梦，月明好度江湖。",
+          "hant": "安穩錦屏今夜夢，月明好度江湖。"
+        },
+        {
+          "id": "line-5",
+          "hans": "相思休问定何如。",
+          "hant": "相思休問定何如。"
+        },
+        {
+          "id": "line-6",
+          "hans": "情知春去後，管得落花无。",
+          "hant": "情知春去後，管得落花無。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 246,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-ac32315359c5c0cf",
+  "title": {
+    "hans": "高阳台·残雪庭阴",
+    "hant": "高陽臺·殘雪庭陰"
+  },
+  "author": {
+    "name": {
+      "hans": "王沂孙",
+      "hant": "王沂孫"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "高阳台",
+    "hant": "高陽臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "残雪庭阴，轻寒帘影，霏霏玉管春葭。",
+          "hant": "殘雪庭陰，輕寒簾影，霏霏玉管春葭。"
+        },
+        {
+          "id": "line-2",
+          "hans": "小帖金泥，不知春在谁家。",
+          "hant": "小帖金泥，不知春在誰家。"
+        },
+        {
+          "id": "line-3",
+          "hans": "相思一夜窗前梦，奈个人、水隔天遮。",
+          "hant": "相思一夜窗前夢，奈個人、水隔天遮。"
+        },
+        {
+          "id": "line-4",
+          "hans": "但凄然，满树幽香，满地横斜。",
+          "hant": "但悽然，滿樹幽香，滿地橫斜。"
+        },
+        {
+          "id": "line-5",
+          "hans": "江南自是离愁苦，况游骢古道，归雁平沙。",
+          "hant": "江南自是離愁苦，況遊驄古道，歸雁平沙。"
+        },
+        {
+          "id": "line-6",
+          "hans": "怎得银笺，殷勤与说年华。",
+          "hant": "怎得銀箋，殷勤與說年華。"
+        },
+        {
+          "id": "line-7",
+          "hans": "如今处处生芳草，纵凭高、不见天涯。",
+          "hant": "如今處處生芳草，縱憑高、不見天涯。"
+        },
+        {
+          "id": "line-8",
+          "hans": "更消他，几度东风，几度飞花。",
+          "hant": "更消他，幾度東風，幾度飛花。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 251,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

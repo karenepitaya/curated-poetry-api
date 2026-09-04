@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-dd5b45ec5c620e22",
+  "title": {
+    "hans": "柳梢青·数声鶗鴂",
+    "hant": "柳梢青·數聲鶗鴂"
+  },
+  "author": {
+    "name": {
+      "hans": "蔡伸",
+      "hant": "蔡伸"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "柳梢青",
+    "hant": "柳梢青"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "数声鶗鴂。",
+          "hant": "數聲鶗鴂。"
+        },
+        {
+          "id": "line-2",
+          "hans": "可怜又是，春归时节。",
+          "hant": "可憐又是，春歸時節。"
+        },
+        {
+          "id": "line-3",
+          "hans": "满院东风，海棠铺绣，梨花飘雪。",
+          "hant": "滿院東風，海棠鋪繡，梨花飄雪。"
+        },
+        {
+          "id": "line-4",
+          "hans": "丁香露泣残枝，算未比、愁肠寸结。",
+          "hant": "丁香露泣殘枝，算未比、愁腸寸結。"
+        },
+        {
+          "id": "line-5",
+          "hans": "自是休文，多情多感，不干风月。",
+          "hant": "自是休文，多情多感，不幹風月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 206,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

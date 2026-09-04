@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-6376ff0f93d98635",
+  "title": {
+    "hans": "清平乐·留春不住",
+    "hant": "清平樂·留春不住"
+  },
+  "author": {
+    "name": {
+      "hans": "王安国",
+      "hant": "王安國"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "清平乐",
+    "hant": "清平樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "留春不住。",
+          "hant": "留春不住。"
+        },
+        {
+          "id": "line-2",
+          "hans": "费尽莺儿语。",
+          "hant": "費盡鶯兒語。"
+        },
+        {
+          "id": "line-3",
+          "hans": "满地残红宫锦污。",
+          "hant": "滿地殘紅宮錦污。"
+        },
+        {
+          "id": "line-4",
+          "hans": "昨夜南园风雨。",
+          "hant": "昨夜南園風雨。"
+        },
+        {
+          "id": "line-5",
+          "hans": "小怜初上琵琶。",
+          "hant": "小憐初上琵琶。"
+        },
+        {
+          "id": "line-6",
+          "hans": "晓来思绕天涯。",
+          "hant": "曉來思繞天涯。"
+        },
+        {
+          "id": "line-7",
+          "hans": "不肯画堂朱户，春风自在梨花。",
+          "hant": "不肯畫堂朱戶，春風自在梨花。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 18,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

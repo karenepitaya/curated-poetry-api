@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-cbc4a39918c82db3",
+  "title": {
+    "hans": "庆宫春・高阳台·双桨莼波",
+    "hant": "慶宮春・高陽臺·雙槳蓴波"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "庆宫春・高阳台",
+    "hant": "慶宮春・高陽臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "双桨莼波，一蓑松雨，暮愁渐满空阔。",
+          "hant": "雙槳蓴波，一蓑松雨，暮愁漸滿空闊。"
+        },
+        {
+          "id": "line-2",
+          "hans": "呼我盟鸥，翩翩欲下，背人还过木末。",
+          "hant": "呼我盟鷗，翩翩欲下，揹人還過木末。"
+        },
+        {
+          "id": "line-3",
+          "hans": "那回归去，荡云雪、孤舟夜发。",
+          "hant": "那回歸去，蕩雲雪、孤舟夜發。"
+        },
+        {
+          "id": "line-4",
+          "hans": "伤心重见，依约眉山，黛痕低压。",
+          "hant": "傷心重見，依約眉山，黛痕低壓。"
+        },
+        {
+          "id": "line-5",
+          "hans": "采香径里春寒，老子婆娑，自歌谁答。",
+          "hant": "採香徑裏春寒，老子婆娑，自歌誰答。"
+        },
+        {
+          "id": "line-6",
+          "hans": "垂虹西望，飘然引去，此兴平生难遏。",
+          "hant": "垂虹西望，飄然引去，此興平生難遏。"
+        },
+        {
+          "id": "line-7",
+          "hans": "酒醒波远，政凝想、明素袜。",
+          "hant": "酒醒波遠，政凝想、明素襪。"
+        },
+        {
+          "id": "line-8",
+          "hans": "如今安在，唯有阑干，伴人一霎。",
+          "hant": "如今安在，唯有闌干，伴人一霎。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 126,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

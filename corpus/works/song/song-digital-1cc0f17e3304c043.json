@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-1cc0f17e3304c043",
+  "title": {
+    "hans": "祝英台令·宝钗分",
+    "hant": "祝英臺令·寶釵分"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "祝英台令",
+    "hant": "祝英臺令"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "宝钗分，桃叶渡。",
+          "hant": "寶釵分，桃葉渡。"
+        },
+        {
+          "id": "line-2",
+          "hans": "烟柳暗南浦。",
+          "hant": "煙柳暗南浦。"
+        },
+        {
+          "id": "line-3",
+          "hans": "怕上层楼，十日九风雨。",
+          "hant": "怕上層樓，十日九風雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "断肠片片飞红，都无人管，倩谁唤、流莺声住。",
+          "hant": "斷腸片片飛紅，都無人管，倩誰喚、流鶯聲住。"
+        },
+        {
+          "id": "line-5",
+          "hans": "鬓边觑。",
+          "hant": "鬢邊覷。"
+        },
+        {
+          "id": "line-6",
+          "hans": "试把花卜心期，才簪又重数。",
+          "hant": "試把花卜心期，才簪又重數。"
+        },
+        {
+          "id": "line-7",
+          "hans": "罗帐灯昏，呜咽梦中语。",
+          "hant": "羅帳燈昏，嗚咽夢中語。"
+        },
+        {
+          "id": "line-8",
+          "hans": "是他春带愁来，春归何处。",
+          "hant": "是他春帶愁來，春歸何處。"
+        },
+        {
+          "id": "line-9",
+          "hans": "却不解、将愁归去。",
+          "hant": "卻不解、將愁歸去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 213,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

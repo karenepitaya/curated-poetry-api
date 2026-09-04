@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-8593a613d718ddcb",
+  "title": {
+    "hans": "采莲令·月华收",
+    "hant": "採蓮令·月華收"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "采莲令",
+    "hant": "採蓮令"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "月华收，云淡霜天曙。",
+          "hant": "月華收，雲淡霜天曙。"
+        },
+        {
+          "id": "line-2",
+          "hans": "西征客、此时情苦。",
+          "hant": "西征客、此時情苦。"
+        },
+        {
+          "id": "line-3",
+          "hans": "翠娥执手送临歧，轧轧开朱户。",
+          "hant": "翠娥執手送臨歧，軋軋開朱戶。"
+        },
+        {
+          "id": "line-4",
+          "hans": "千娇面、盈盈伫立，无言有泪，断肠争忍回顾。",
+          "hant": "千嬌面、盈盈佇立，無言有淚，斷腸爭忍回顧。"
+        },
+        {
+          "id": "line-5",
+          "hans": "一叶兰舟，便恁急桨凌波去。",
+          "hant": "一葉蘭舟，便恁急槳凌波去。"
+        },
+        {
+          "id": "line-6",
+          "hans": "贪行色、岂知离绪。",
+          "hant": "貪行色、豈知離緒。"
+        },
+        {
+          "id": "line-7",
+          "hans": "万般方寸，但饮恨，脉脉同谁语。",
+          "hant": "萬般方寸，但飲恨，脈脈同誰語。"
+        },
+        {
+          "id": "line-8",
+          "hans": "更回首、重城不见，寒江天外，隐隐两三烟树。",
+          "hant": "更回首、重城不見，寒江天外，隱隱兩三煙樹。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 143,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

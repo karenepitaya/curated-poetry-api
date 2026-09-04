@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-68b1f097d1a9f331",
+  "title": {
+    "hans": "尉迟杯·隋堤路",
+    "hant": "尉遲杯·隋堤路"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "尉迟杯",
+    "hant": "尉遲杯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "隋堤路。",
+          "hant": "隋堤路。"
+        },
+        {
+          "id": "line-2",
+          "hans": "渐日晚、密霭生深树。",
+          "hant": "漸日晚、密靄生深樹。"
+        },
+        {
+          "id": "line-3",
+          "hans": "阴阴淡月笼沙，还宿河桥深处。",
+          "hant": "陰陰淡月籠沙，還宿河橋深處。"
+        },
+        {
+          "id": "line-4",
+          "hans": "无情画舸，都不管、烟波隔南浦。",
+          "hant": "無情畫舸，都不管、煙波隔南浦。"
+        },
+        {
+          "id": "line-5",
+          "hans": "等行人、醉拥重衾，载将离恨归去。",
+          "hant": "等行人、醉擁重衾，載將離恨歸去。"
+        },
+        {
+          "id": "line-6",
+          "hans": "因念旧客京华，长偎傍、疏林小槛欢聚。",
+          "hant": "因念舊客京華，長偎傍、疏林小檻歡聚。"
+        },
+        {
+          "id": "line-7",
+          "hans": "冶叶倡条俱相识，仍惯见、珠歌翠舞。",
+          "hant": "冶葉倡條俱相識，仍慣見、珠歌翠舞。"
+        },
+        {
+          "id": "line-8",
+          "hans": "如今向、渔村水驿，夜如岁、焚香独自语。",
+          "hant": "如今向、漁村水驛，夜如歲、焚香獨自語。"
+        },
+        {
+          "id": "line-9",
+          "hans": "有何人、念我无，梦魂凝想鸳侣。",
+          "hant": "有何人、念我無，夢魂凝想鴛侶。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 241,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

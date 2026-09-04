@@ -1,0 +1,139 @@
+{
+  "id": "song-digital-f71fc046f31d5ee9",
+  "title": {
+    "hans": "兰陵王·柳阴直",
+    "hant": "蘭陵王·柳陰直"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "兰陵王",
+    "hant": "蘭陵王"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "柳阴直。",
+          "hant": "柳陰直。"
+        },
+        {
+          "id": "line-2",
+          "hans": "烟里丝丝弄碧。",
+          "hant": "煙裏絲絲弄碧。"
+        },
+        {
+          "id": "line-3",
+          "hans": "隋堤上、曾见几番，拂水飘绵送行色。",
+          "hant": "隋堤上、曾見幾番，拂水飄綿送行色。"
+        },
+        {
+          "id": "line-4",
+          "hans": "登临望故国。",
+          "hant": "登臨望故國。"
+        },
+        {
+          "id": "line-5",
+          "hans": "谁识。",
+          "hant": "誰識。"
+        },
+        {
+          "id": "line-6",
+          "hans": "京华倦客。",
+          "hant": "京華倦客。"
+        },
+        {
+          "id": "line-7",
+          "hans": "长亭路，年去岁来，应折柔条过千尺。",
+          "hant": "長亭路，年去歲來，應折柔條過千尺。"
+        },
+        {
+          "id": "line-8",
+          "hans": "闲寻旧踪迹。",
+          "hant": "閒尋舊蹤跡。"
+        },
+        {
+          "id": "line-9",
+          "hans": "又酒趁哀弦，灯照离席。",
+          "hant": "又酒趁哀弦，燈照離席。"
+        },
+        {
+          "id": "line-10",
+          "hans": "梨花榆火催寒食。",
+          "hant": "梨花榆火催寒食。"
+        },
+        {
+          "id": "line-11",
+          "hans": "愁一箭风快，半篙波暖，回头迢递便数驿。",
+          "hant": "愁一箭風快，半篙波暖，回頭迢遞便數驛。"
+        },
+        {
+          "id": "line-12",
+          "hans": "望人在天北。",
+          "hant": "望人在天北。"
+        },
+        {
+          "id": "line-13",
+          "hans": "凄恻。",
+          "hant": "悽惻。"
+        },
+        {
+          "id": "line-14",
+          "hans": "恨堆积。",
+          "hant": "恨堆積。"
+        },
+        {
+          "id": "line-15",
+          "hans": "渐别浦萦回，津堠岑寂。",
+          "hant": "漸別浦縈迴，津堠岑寂。"
+        },
+        {
+          "id": "line-16",
+          "hans": "斜阳冉冉春无极。",
+          "hant": "斜陽冉冉春無極。"
+        },
+        {
+          "id": "line-17",
+          "hans": "念月榭携手，露桥闻笛。",
+          "hant": "念月榭攜手，露橋聞笛。"
+        },
+        {
+          "id": "line-18",
+          "hans": "沈思前事，似梦里，泪暗滴。",
+          "hant": "沈思前事，似夢裏，淚暗滴。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 237,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

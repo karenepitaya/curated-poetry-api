@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-20bf6ea79857fc60",
+  "title": {
+    "hans": "浣溪沙·一曲新词酒一杯",
+    "hant": "浣溪沙·一曲新詞酒一杯"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浣溪沙",
+    "hant": "浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "一曲新词酒一杯。",
+          "hant": "一曲新詞酒一杯。"
+        },
+        {
+          "id": "line-2",
+          "hans": "去年天气旧亭台。",
+          "hant": "去年天氣舊亭臺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "夕阳西下几时回。",
+          "hant": "夕陽西下幾時回。"
+        },
+        {
+          "id": "line-4",
+          "hans": "无可奈何花落去，似曾相识燕归来。",
+          "hant": "無可奈何花落去，似曾相識燕歸來。"
+        },
+        {
+          "id": "line-5",
+          "hans": "小园香径独徘徊。",
+          "hant": "小園香徑獨徘徊。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 159,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

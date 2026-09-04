@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-d93a23d186f3eeb8",
+  "title": {
+    "hans": "紫萸香慢·近重阳",
+    "hant": "紫萸香慢·近重陽"
+  },
+  "author": {
+    "name": {
+      "hans": "姚云文",
+      "hant": "姚雲文"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "紫萸香慢",
+    "hant": "紫萸香慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "近重阳、偏多风雨，绝怜此日暄明。",
+          "hant": "近重陽、偏多風雨，絕憐此日暄明。"
+        },
+        {
+          "id": "line-2",
+          "hans": "问秋香浓未，待携客、出西城。",
+          "hant": "問秋香濃未，待攜客、出西城。"
+        },
+        {
+          "id": "line-3",
+          "hans": "正自羁怀多感，怕荒台高处，更不胜情。",
+          "hant": "正自羈懷多感，怕荒臺高處，更不勝情。"
+        },
+        {
+          "id": "line-4",
+          "hans": "向尊前、又忆洒酒插花人。",
+          "hant": "向尊前、又憶灑酒插花人。"
+        },
+        {
+          "id": "line-5",
+          "hans": "只座上、已无老兵。",
+          "hant": "只座上、已無老兵。"
+        },
+        {
+          "id": "line-6",
+          "hans": "凄情。",
+          "hant": "悽情。"
+        },
+        {
+          "id": "line-7",
+          "hans": "浅醉还醒。",
+          "hant": "淺醉還醒。"
+        },
+        {
+          "id": "line-8",
+          "hans": "愁不肯、与诗平。",
+          "hant": "愁不肯、與詩平。"
+        },
+        {
+          "id": "line-9",
+          "hans": "记长楸走马，雕弓笮柳，前事休评。",
+          "hant": "記長楸走馬，雕弓笮柳，前事休評。"
+        },
+        {
+          "id": "line-10",
+          "hans": "紫萸一枝传赐，梦谁到、汉家陵。",
+          "hant": "紫萸一枝傳賜，夢誰到、漢家陵。"
+        },
+        {
+          "id": "line-11",
+          "hans": "尽乌纱、便随风去，要天知道，华发如此星星。",
+          "hant": "盡烏紗、便隨風去，要天知道，華髮如此星星。"
+        },
+        {
+          "id": "line-12",
+          "hans": "歌罢涕零。",
+          "hant": "歌罷涕零。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 254,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

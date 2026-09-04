@@ -1,0 +1,69 @@
+{
+  "id": "song-digital-420c2ac0fecf1c93",
+  "title": {
+    "hans": "好事近·凝碧旧池头",
+    "hant": "好事近·凝碧舊池頭"
+  },
+  "author": {
+    "name": {
+      "hans": "韩元吉",
+      "hant": "韓元吉"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "好事近",
+    "hant": "好事近"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "凝碧旧池头，一听管弦凄切。",
+          "hant": "凝碧舊池頭，一聽管絃悽切。"
+        },
+        {
+          "id": "line-2",
+          "hans": "多少梨园声在，总不堪华发。",
+          "hant": "多少梨園聲在，總不堪華髮。"
+        },
+        {
+          "id": "line-3",
+          "hans": "杏花无处避春愁，也傍野烟发。",
+          "hant": "杏花無處避春愁，也傍野煙發。"
+        },
+        {
+          "id": "line-4",
+          "hans": "惟有御沟声断，似知人呜咽。",
+          "hant": "惟有御溝聲斷，似知人嗚咽。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 57,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

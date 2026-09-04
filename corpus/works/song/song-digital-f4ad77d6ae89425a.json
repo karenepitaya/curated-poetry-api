@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-f4ad77d6ae89425a",
+  "title": {
+    "hans": "惜分飞·泪湿阑干花著露",
+    "hant": "惜分飛·淚溼闌干花著露"
+  },
+  "author": {
+    "name": {
+      "hans": "毛滂",
+      "hant": "毛滂"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "惜分飞",
+    "hant": "惜分飛"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "泪湿阑干花著露。",
+          "hant": "淚溼闌干花著露。"
+        },
+        {
+          "id": "line-2",
+          "hans": "愁到眉峰碧聚。",
+          "hant": "愁到眉峯碧聚。"
+        },
+        {
+          "id": "line-3",
+          "hans": "此恨平分取。",
+          "hant": "此恨平分取。"
+        },
+        {
+          "id": "line-4",
+          "hans": "更无言语。",
+          "hant": "更無言語。"
+        },
+        {
+          "id": "line-5",
+          "hans": "空相觑。",
+          "hant": "空相覷。"
+        },
+        {
+          "id": "line-6",
+          "hans": "短雨残云无意绪。",
+          "hant": "短雨殘雲無意緒。"
+        },
+        {
+          "id": "line-7",
+          "hans": "寂寞朝朝暮暮。",
+          "hant": "寂寞朝朝暮暮。"
+        },
+        {
+          "id": "line-8",
+          "hans": "今夜山深处。",
+          "hant": "今夜山深處。"
+        },
+        {
+          "id": "line-9",
+          "hans": "断魂分付。",
+          "hant": "斷魂分付。"
+        },
+        {
+          "id": "line-10",
+          "hans": "潮回去。",
+          "hant": "潮回去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 247,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

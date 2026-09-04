@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-31263ab72725a7d9",
+  "title": {
+    "hans": "菩萨蛮·赤阑桥尽香街直",
+    "hant": "菩薩蠻·赤闌橋盡香街直"
+  },
+  "author": {
+    "name": {
+      "hans": "陈克",
+      "hant": "陳克"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "菩萨蛮",
+    "hant": "菩薩蠻"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "赤阑桥尽香街直。",
+          "hant": "赤闌橋盡香街直。"
+        },
+        {
+          "id": "line-2",
+          "hans": "笼街细柳娇无力。",
+          "hant": "籠街細柳嬌無力。"
+        },
+        {
+          "id": "line-3",
+          "hans": "金碧上青空。",
+          "hant": "金碧上青空。"
+        },
+        {
+          "id": "line-4",
+          "hans": "花晴帘影红。",
+          "hant": "花晴簾影紅。"
+        },
+        {
+          "id": "line-5",
+          "hans": "黄衫飞白马。",
+          "hant": "黃衫飛白馬。"
+        },
+        {
+          "id": "line-6",
+          "hans": "日日青楼下。",
+          "hant": "日日青樓下。"
+        },
+        {
+          "id": "line-7",
+          "hans": "醉眼不逢人。",
+          "hant": "醉眼不逢人。"
+        },
+        {
+          "id": "line-8",
+          "hans": "午香吹暗尘。",
+          "hant": "午香吹暗塵。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 270,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

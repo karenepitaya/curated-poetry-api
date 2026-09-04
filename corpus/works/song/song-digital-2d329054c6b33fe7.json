@@ -1,0 +1,69 @@
+{
+  "id": "song-digital-2d329054c6b33fe7",
+  "title": {
+    "hans": "卜算子·缺月挂疏桐",
+    "hant": "卜算子·缺月掛疏桐"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "卜算子",
+    "hant": "卜算子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "缺月挂疏桐，漏断人初静。",
+          "hant": "缺月掛疏桐，漏斷人初靜。"
+        },
+        {
+          "id": "line-2",
+          "hans": "时见幽人独往来，缥缈孤鸿影。",
+          "hant": "時見幽人獨往來，縹緲孤鴻影。"
+        },
+        {
+          "id": "line-3",
+          "hans": "惊起却回头，有恨无人省。",
+          "hant": "驚起卻回頭，有恨無人省。"
+        },
+        {
+          "id": "line-4",
+          "hans": "拣尽寒枝不肯栖，枫落吴江冷。",
+          "hant": "揀盡寒枝不肯棲，楓落吳江冷。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 41,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

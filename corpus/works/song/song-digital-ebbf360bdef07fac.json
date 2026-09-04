@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-ebbf360bdef07fac",
+  "title": {
+    "hans": "浣溪沙·漠漠轻寒上小楼",
+    "hant": "浣溪沙·漠漠輕寒上小樓"
+  },
+  "author": {
+    "name": {
+      "hans": "秦观",
+      "hant": "秦觀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浣溪沙",
+    "hant": "浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "漠漠轻寒上小楼。",
+          "hant": "漠漠輕寒上小樓。"
+        },
+        {
+          "id": "line-2",
+          "hans": "晓阴无赖似穷秋。",
+          "hant": "曉陰無賴似窮秋。"
+        },
+        {
+          "id": "line-3",
+          "hans": "淡烟流水画屏幽。",
+          "hant": "淡煙流水畫屏幽。"
+        },
+        {
+          "id": "line-4",
+          "hans": "自在飞花轻似梦，无边丝雨细如愁。",
+          "hant": "自在飛花輕似夢，無邊絲雨細如愁。"
+        },
+        {
+          "id": "line-5",
+          "hans": "宝帘闲挂小银钩。",
+          "hant": "寶簾閒掛小銀鉤。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 68,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

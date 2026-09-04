@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-6eb45e73a3d9c31b",
+  "title": {
+    "hans": "鹧鸪天·枕簟溪堂冷欲秋",
+    "hant": "鷓鴣天·枕簟溪堂冷欲秋"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "鹧鸪天",
+    "hant": "鷓鴣天"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "枕簟溪堂冷欲秋。",
+          "hant": "枕簟溪堂冷欲秋。"
+        },
+        {
+          "id": "line-2",
+          "hans": "断云依水晚来收。",
+          "hant": "斷雲依水晚來收。"
+        },
+        {
+          "id": "line-3",
+          "hans": "红莲相倚浑如醉，白鸟无言定自愁。",
+          "hant": "紅蓮相倚渾如醉，白鳥無言定自愁。"
+        },
+        {
+          "id": "line-4",
+          "hans": "书咄咄，且休休。",
+          "hant": "書咄咄，且休休。"
+        },
+        {
+          "id": "line-5",
+          "hans": "一丘一壑也风流。",
+          "hant": "一丘一壑也風流。"
+        },
+        {
+          "id": "line-6",
+          "hans": "不知筋力衰多少，但觉新来懒上楼。",
+          "hant": "不知筋力衰多少，但覺新來懶上樓。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 210,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

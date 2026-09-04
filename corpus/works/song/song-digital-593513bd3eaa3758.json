@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-593513bd3eaa3758",
+  "title": {
+    "hans": "薄幸·青楼春晚",
+    "hant": "薄倖·青樓春晚"
+  },
+  "author": {
+    "name": {
+      "hans": "吕渭老",
+      "hant": "呂渭老"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "薄幸",
+    "hant": "薄倖"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "青楼春晚。",
+          "hant": "青樓春晚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "昼寂寂、梳匀又懒。",
+          "hant": "晝寂寂、梳勻又懶。"
+        },
+        {
+          "id": "line-3",
+          "hans": "乍听得、鸦啼莺弄，惹起新愁无限。",
+          "hant": "乍聽得、鴉啼鶯弄，惹起新愁無限。"
+        },
+        {
+          "id": "line-4",
+          "hans": "记年时、偷掷春心，花间隔雾遥相见。",
+          "hant": "記年時、偷擲春心，花間隔霧遙相見。"
+        },
+        {
+          "id": "line-5",
+          "hans": "便角枕题诗，宝钗贳酒，共醉青苔深院。",
+          "hant": "便角枕題詩，寶釵貰酒，共醉青苔深院。"
+        },
+        {
+          "id": "line-6",
+          "hans": "怎忘得、回廊下，携手处、花明月满。",
+          "hant": "怎忘得、迴廊下，攜手處、花明月滿。"
+        },
+        {
+          "id": "line-7",
+          "hans": "如今但暮雨，蜂愁蝶恨，小窗闲对芭蕉展。",
+          "hant": "如今但暮雨，蜂愁蝶恨，小窗閒對芭蕉展。"
+        },
+        {
+          "id": "line-8",
+          "hans": "却谁拘管。",
+          "hant": "卻誰拘管。"
+        },
+        {
+          "id": "line-9",
+          "hans": "尽无言、闲品秦筝，泪满参差雁。",
+          "hant": "盡無言、閒品秦箏，淚滿參差雁。"
+        },
+        {
+          "id": "line-10",
+          "hans": "腰支渐小，心与杨花共远。",
+          "hant": "腰支漸小，心與楊花共遠。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 116,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

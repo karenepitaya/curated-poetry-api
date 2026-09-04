@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-378de098314fe01c",
+  "title": {
+    "hans": "清平乐·红笺小字",
+    "hant": "清平樂·紅箋小字"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "清平乐",
+    "hant": "清平樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "红笺小字。",
+          "hant": "紅箋小字。"
+        },
+        {
+          "id": "line-2",
+          "hans": "说尽平生意。",
+          "hant": "說盡平生意。"
+        },
+        {
+          "id": "line-3",
+          "hans": "鸿雁在云鱼在水。",
+          "hant": "鴻雁在雲魚在水。"
+        },
+        {
+          "id": "line-4",
+          "hans": "惆怅此情难寄。",
+          "hant": "惆悵此情難寄。"
+        },
+        {
+          "id": "line-5",
+          "hans": "斜阳独倚西楼。",
+          "hant": "斜陽獨倚西樓。"
+        },
+        {
+          "id": "line-6",
+          "hans": "遥山恰对帘钩。",
+          "hant": "遙山恰對簾鉤。"
+        },
+        {
+          "id": "line-7",
+          "hans": "人面不知何处，绿波依旧东流。",
+          "hant": "人面不知何處，綠波依舊東流。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 162,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

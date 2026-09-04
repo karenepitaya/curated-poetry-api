@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-5e9645188a62f0f2",
+  "title": {
+    "hans": "三姝媚·湖山经醉惯",
+    "hant": "三姝媚·湖山經醉慣"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "三姝媚",
+    "hant": "三姝媚"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "湖山经醉惯。",
+          "hant": "湖山經醉慣。"
+        },
+        {
+          "id": "line-2",
+          "hans": "溃春衫、啼痕酒痕无限。",
+          "hant": "潰春衫、啼痕酒痕無限。"
+        },
+        {
+          "id": "line-3",
+          "hans": "又客长安，叹断襟零袂，尘谁浣。",
+          "hant": "又客長安，嘆斷襟零袂，塵誰浣。"
+        },
+        {
+          "id": "line-4",
+          "hans": "紫曲门荒，沿败井、风摇青蔓。",
+          "hant": "紫曲門荒，沿敗井、風搖青蔓。"
+        },
+        {
+          "id": "line-5",
+          "hans": "对语东邻，犹是曾巢，谢堂双燕。",
+          "hant": "對語東鄰，猶是曾巢，謝堂雙燕。"
+        },
+        {
+          "id": "line-6",
+          "hans": "春梦人间须断。",
+          "hant": "春夢人間須斷。"
+        },
+        {
+          "id": "line-7",
+          "hans": "但怪得、当年梦缘能短。",
+          "hant": "但怪得、當年夢緣能短。"
+        },
+        {
+          "id": "line-8",
+          "hans": "绣屋秦筝，傍海棠偏爱，夜深开宴。",
+          "hant": "繡屋秦箏，傍海棠偏愛，夜深開宴。"
+        },
+        {
+          "id": "line-9",
+          "hans": "舞歇歌沈，花未减、红颜先变。",
+          "hant": "舞歇歌沈，花未減、紅顏先變。"
+        },
+        {
+          "id": "line-10",
+          "hans": "伫久河桥欲去，斜阳泪满。",
+          "hant": "佇久河橋欲去，斜陽淚滿。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 80,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

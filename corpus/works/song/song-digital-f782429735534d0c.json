@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-f782429735534d0c",
+  "title": {
+    "hans": "满庭芳·山抹微云",
+    "hant": "滿庭芳·山抹微雲"
+  },
+  "author": {
+    "name": {
+      "hans": "秦观",
+      "hant": "秦觀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "满庭芳",
+    "hant": "滿庭芳"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "山抹微云，天连衰草，画角声断谯门。",
+          "hant": "山抹微雲，天連衰草，畫角聲斷譙門。"
+        },
+        {
+          "id": "line-2",
+          "hans": "暂停征棹，聊共引离尊。",
+          "hant": "暫停徵棹，聊共引離尊。"
+        },
+        {
+          "id": "line-3",
+          "hans": "多少蓬莱旧事，空回首、烟霭纷纷。",
+          "hant": "多少蓬萊舊事，空回首、煙靄紛紛。"
+        },
+        {
+          "id": "line-4",
+          "hans": "斜阳外，寒鸦万点，流水绕孤村。",
+          "hant": "斜陽外，寒鴉萬點，流水繞孤村。"
+        },
+        {
+          "id": "line-5",
+          "hans": "销魂。",
+          "hant": "銷魂。"
+        },
+        {
+          "id": "line-6",
+          "hans": "当此际，香囊暗解，罗带轻分。",
+          "hant": "當此際，香囊暗解，羅帶輕分。"
+        },
+        {
+          "id": "line-7",
+          "hans": "谩赢得、青楼薄名存。",
+          "hant": "謾贏得、青樓薄名存。"
+        },
+        {
+          "id": "line-8",
+          "hans": "此去何时见也，襟袖上、空惹啼痕。",
+          "hant": "此去何時見也，襟袖上、空惹啼痕。"
+        },
+        {
+          "id": "line-9",
+          "hans": "伤情处，高城望断，灯火已黄昏。",
+          "hant": "傷情處，高城望斷，燈火已黃昏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 67,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

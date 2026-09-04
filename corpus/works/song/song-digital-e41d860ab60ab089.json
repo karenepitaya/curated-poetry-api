@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-e41d860ab60ab089",
+  "title": {
+    "hans": "水龙吟·楚天千里清秋",
+    "hant": "水龍吟·楚天千里清秋"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "水龙吟",
+    "hant": "水龍吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "楚天千里清秋，水随天去秋无际。",
+          "hant": "楚天千里清秋，水隨天去秋無際。"
+        },
+        {
+          "id": "line-2",
+          "hans": "遥岑远目，献愁供恨，玉簪螺髻。",
+          "hant": "遙岑遠目，獻愁供恨，玉簪螺髻。"
+        },
+        {
+          "id": "line-3",
+          "hans": "落日楼头，断鸿声里，江南游子。",
+          "hant": "落日樓頭，斷鴻聲裏，江南遊子。"
+        },
+        {
+          "id": "line-4",
+          "hans": "把吴钩看了，栏干拍遍，无人会、登临意。",
+          "hant": "把吳鉤看了，欄干拍遍，無人會、登臨意。"
+        },
+        {
+          "id": "line-5",
+          "hans": "休说鲈鱼堪。",
+          "hant": "休說鱸魚堪。"
+        },
+        {
+          "id": "line-6",
+          "hans": "尽西风、季鹰归未。",
+          "hant": "盡西風、季鷹歸未。"
+        },
+        {
+          "id": "line-7",
+          "hans": "求田问舍，怕应羞见，刘郎才气。",
+          "hant": "求田問舍，怕應羞見，劉郎才氣。"
+        },
+        {
+          "id": "line-8",
+          "hans": "可惜流年，忧愁风雨，树犹如此。",
+          "hant": "可惜流年，憂愁風雨，樹猶如此。"
+        },
+        {
+          "id": "line-9",
+          "hans": "倩何人，唤取盈盈翠袖，英雄泪。",
+          "hant": "倩何人，喚取盈盈翠袖，英雄淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 208,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

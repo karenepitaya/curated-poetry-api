@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-04b983b029b39bec",
+  "title": {
+    "hans": "杏花天·绿丝低拂鸳鸯浦",
+    "hant": "杏花天·綠絲低拂鴛鴦浦"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "杏花天",
+    "hant": "杏花天"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绿丝低拂鸳鸯浦。",
+          "hant": "綠絲低拂鴛鴦浦。"
+        },
+        {
+          "id": "line-2",
+          "hans": "想桃叶、当时唤渡。",
+          "hant": "想桃葉、當時喚渡。"
+        },
+        {
+          "id": "line-3",
+          "hans": "又将愁眼与春风，待去。",
+          "hant": "又將愁眼與春風，待去。"
+        },
+        {
+          "id": "line-4",
+          "hans": "倚兰桡、更少驻。",
+          "hant": "倚蘭橈、更少駐。"
+        },
+        {
+          "id": "line-5",
+          "hans": "金陵路。",
+          "hant": "金陵路。"
+        },
+        {
+          "id": "line-6",
+          "hans": "莺吟燕舞。",
+          "hant": "鶯吟燕舞。"
+        },
+        {
+          "id": "line-7",
+          "hans": "算潮水、知人最苦。",
+          "hant": "算潮水、知人最苦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "满汀芳草不成归，日暮。",
+          "hant": "滿汀芳草不成歸，日暮。"
+        },
+        {
+          "id": "line-9",
+          "hans": "更移舟、向甚处。",
+          "hant": "更移舟、向甚處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 123,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

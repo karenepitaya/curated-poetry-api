@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-abe626a30ce02095",
+  "title": {
+    "hans": "甘州・八声甘州·记玉关",
+    "hant": "甘州・八聲甘州·記玉關"
+  },
+  "author": {
+    "name": {
+      "hans": "张炎",
+      "hant": "張炎"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "甘州・八声甘州",
+    "hant": "甘州・八聲甘州"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "记玉关、踏雪事清游。",
+          "hant": "記玉關、踏雪事清遊。"
+        },
+        {
+          "id": "line-2",
+          "hans": "寒气脆貂裘。",
+          "hant": "寒氣脆貂裘。"
+        },
+        {
+          "id": "line-3",
+          "hans": "傍枯林古道，长河饮马，此意悠悠。",
+          "hant": "傍枯林古道，長河飲馬，此意悠悠。"
+        },
+        {
+          "id": "line-4",
+          "hans": "短梦依然江表，老泪洒西州。",
+          "hant": "短夢依然江表，老淚灑西州。"
+        },
+        {
+          "id": "line-5",
+          "hans": "一字无题处，落叶都愁。",
+          "hant": "一字無題處，落葉都愁。"
+        },
+        {
+          "id": "line-6",
+          "hans": "载取白云归去，问谁留楚佩，弄影中洲。",
+          "hant": "載取白雲歸去，問誰留楚佩，弄影中洲。"
+        },
+        {
+          "id": "line-7",
+          "hans": "折芦花赠远，零落一身秋。",
+          "hant": "折蘆花贈遠，零落一身秋。"
+        },
+        {
+          "id": "line-8",
+          "hans": "向寻常野桥流水，待招来、不是旧沙鸥。",
+          "hant": "向尋常野橋流水，待招來、不是舊沙鷗。"
+        },
+        {
+          "id": "line-9",
+          "hans": "空怀感，有斜阳处，却怕登楼。",
+          "hant": "空懷感，有斜陽處，卻怕登樓。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 258,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

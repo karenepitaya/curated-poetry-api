@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-6f5e110351148850",
+  "title": {
+    "hans": "阮郎归·天边金掌露成霜",
+    "hant": "阮郎歸·天邊金掌露成霜"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "阮郎归",
+    "hant": "阮郎歸"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "天边金掌露成霜。",
+          "hant": "天邊金掌露成霜。"
+        },
+        {
+          "id": "line-2",
+          "hans": "云随雁字长。",
+          "hant": "雲隨雁字長。"
+        },
+        {
+          "id": "line-3",
+          "hans": "绿杯红袖称重阳。",
+          "hant": "綠杯紅袖稱重陽。"
+        },
+        {
+          "id": "line-4",
+          "hans": "人情似故乡。",
+          "hant": "人情似故鄉。"
+        },
+        {
+          "id": "line-5",
+          "hans": "兰佩紫，菊簪黄。",
+          "hant": "蘭佩紫，菊簪黃。"
+        },
+        {
+          "id": "line-6",
+          "hans": "殷勤理旧狂。",
+          "hant": "殷勤理舊狂。"
+        },
+        {
+          "id": "line-7",
+          "hans": "欲将沈醉换悲凉。",
+          "hant": "欲將沈醉換悲涼。"
+        },
+        {
+          "id": "line-8",
+          "hans": "清歌莫断肠。",
+          "hant": "清歌莫斷腸。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 30,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

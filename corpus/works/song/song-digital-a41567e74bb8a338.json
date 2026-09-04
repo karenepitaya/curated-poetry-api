@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-a41567e74bb8a338",
+  "title": {
+    "hans": "月下笛·万里孤云",
+    "hant": "月下笛·萬里孤雲"
+  },
+  "author": {
+    "name": {
+      "hans": "张炎",
+      "hant": "張炎"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "月下笛",
+    "hant": "月下笛"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "万里孤云，清游渐远，故人何处。",
+          "hant": "萬里孤雲，清遊漸遠，故人何處。"
+        },
+        {
+          "id": "line-2",
+          "hans": "寒窗梦里，犹记经行旧时路。",
+          "hant": "寒窗夢裏，猶記經行舊時路。"
+        },
+        {
+          "id": "line-3",
+          "hans": "连昌约略无多柳，第一是、难听夜雨。",
+          "hant": "連昌約略無多柳，第一是、難聽夜雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "谩惊回凄悄，相看烛影，拥衾谁语。",
+          "hant": "謾驚回悽悄，相看燭影，擁衾誰語。"
+        },
+        {
+          "id": "line-5",
+          "hans": "张绪。",
+          "hant": "張緒。"
+        },
+        {
+          "id": "line-6",
+          "hans": "归何暮。",
+          "hant": "歸何暮。"
+        },
+        {
+          "id": "line-7",
+          "hans": "半零落，依依断桥鸥鹭。",
+          "hant": "半零落，依依斷橋鷗鷺。"
+        },
+        {
+          "id": "line-8",
+          "hans": "天涯倦旅。",
+          "hant": "天涯倦旅。"
+        },
+        {
+          "id": "line-9",
+          "hans": "此时心事良苦。",
+          "hant": "此時心事良苦。"
+        },
+        {
+          "id": "line-10",
+          "hans": "只愁重洒西州泪，问杜曲、人家在否。",
+          "hant": "只愁重灑西州淚，問杜曲、人家在否。"
+        },
+        {
+          "id": "line-11",
+          "hans": "恐翠袖、正天寒，犹倚梅花那树。",
+          "hant": "恐翠袖、正天寒，猶倚梅花那樹。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 261,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

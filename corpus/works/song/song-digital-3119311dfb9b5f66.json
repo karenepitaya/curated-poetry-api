@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-3119311dfb9b5f66",
+  "title": {
+    "hans": "鹧鸪天·彩袖殷勤捧玉锺",
+    "hant": "鷓鴣天·彩袖殷勤捧玉鍾"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "鹧鸪天",
+    "hant": "鷓鴣天"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "彩袖殷勤捧玉锺。",
+          "hant": "彩袖殷勤捧玉鍾。"
+        },
+        {
+          "id": "line-2",
+          "hans": "当年拼却醉颜红。",
+          "hant": "當年拼卻醉顏紅。"
+        },
+        {
+          "id": "line-3",
+          "hans": "舞低杨柳楼心月，歌尽桃花扇影风。",
+          "hant": "舞低楊柳樓心月，歌盡桃花扇影風。"
+        },
+        {
+          "id": "line-4",
+          "hans": "从别後，忆相逢。",
+          "hant": "從別後，憶相逢。"
+        },
+        {
+          "id": "line-5",
+          "hans": "几回魂梦与君同。",
+          "hant": "幾回魂夢與君同。"
+        },
+        {
+          "id": "line-6",
+          "hans": "今宵剩把银釭照，犹恐相逢是梦中。",
+          "hant": "今宵剩把銀釭照，猶恐相逢是夢中。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 23,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-87a2d51817024d69",
+  "title": {
+    "hans": "三姝媚·烟光摇缥瓦",
+    "hant": "三姝媚·煙光搖縹瓦"
+  },
+  "author": {
+    "name": {
+      "hans": "史达祖",
+      "hant": "史達祖"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "三姝媚",
+    "hant": "三姝媚"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "烟光摇缥瓦。",
+          "hant": "煙光搖縹瓦。"
+        },
+        {
+          "id": "line-2",
+          "hans": "望晴檐多风，柳花如洒。",
+          "hant": "望晴檐多風，柳花如灑。"
+        },
+        {
+          "id": "line-3",
+          "hans": "锦瑟横床，想泪痕尘影，凤弦常下。",
+          "hant": "錦瑟橫牀，想淚痕塵影，鳳弦常下。"
+        },
+        {
+          "id": "line-4",
+          "hans": "倦出犀帷，频梦见、王孙骄马。",
+          "hant": "倦出犀帷，頻夢見、王孫驕馬。"
+        },
+        {
+          "id": "line-5",
+          "hans": "讳道相思，偷理绡裙，自惊腰衩。",
+          "hant": "諱道相思，偷理綃裙，自驚腰衩。"
+        },
+        {
+          "id": "line-6",
+          "hans": "惆怅南楼遥夜。",
+          "hant": "惆悵南樓遙夜。"
+        },
+        {
+          "id": "line-7",
+          "hans": "记翠箔张灯，枕肩歌罢。",
+          "hant": "記翠箔張燈，枕肩歌罷。"
+        },
+        {
+          "id": "line-8",
+          "hans": "又入铜驼，遍旧家门巷，首询声价。",
+          "hant": "又入銅駝，遍舊家門巷，首詢聲價。"
+        },
+        {
+          "id": "line-9",
+          "hans": "可惜东风，将恨与、闲花俱谢。",
+          "hant": "可惜東風，將恨與、閒花俱謝。"
+        },
+        {
+          "id": "line-10",
+          "hans": "记取崔徽模样，归来暗写。",
+          "hant": "記取崔徽模樣，歸來暗寫。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 182,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

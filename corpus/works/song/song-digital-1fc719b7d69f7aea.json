@@ -1,0 +1,119 @@
+{
+  "id": "song-digital-1fc719b7d69f7aea",
+  "title": {
+    "hans": "摸鱼儿·对西风",
+    "hant": "摸魚兒·對西風"
+  },
+  "author": {
+    "name": {
+      "hans": "朱嗣发",
+      "hant": "朱嗣發"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "摸鱼儿",
+    "hant": "摸魚兒"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "对西风、鬓摇烟碧，参差前事流水。",
+          "hant": "對西風、鬢搖煙碧，參差前事流水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "紫丝罗带鸳鸯结，的的镜盟钗誓。",
+          "hant": "紫絲羅帶鴛鴦結，的的鏡盟釵誓。"
+        },
+        {
+          "id": "line-3",
+          "hans": "浑不记、漫手织回文，几度欲心碎。",
+          "hant": "渾不記、漫手織迴文，幾度欲心碎。"
+        },
+        {
+          "id": "line-4",
+          "hans": "安花著蒂。",
+          "hant": "安花著蒂。"
+        },
+        {
+          "id": "line-5",
+          "hans": "奈雨覆云翻，情宽分窄，石上玉簪脆。",
+          "hant": "奈雨覆雲翻，情寬分窄，石上玉簪脆。"
+        },
+        {
+          "id": "line-6",
+          "hans": "朱楼外。",
+          "hant": "朱樓外。"
+        },
+        {
+          "id": "line-7",
+          "hans": "愁压空云欲坠。",
+          "hant": "愁壓空雲欲墜。"
+        },
+        {
+          "id": "line-8",
+          "hans": "月痕犹照无寐。",
+          "hant": "月痕猶照無寐。"
+        },
+        {
+          "id": "line-9",
+          "hans": "阴晴也只随天意。",
+          "hant": "陰晴也只隨天意。"
+        },
+        {
+          "id": "line-10",
+          "hans": "枉了玉消香碎。",
+          "hant": "枉了玉消香碎。"
+        },
+        {
+          "id": "line-11",
+          "hans": "君且醉。",
+          "hant": "君且醉。"
+        },
+        {
+          "id": "line-12",
+          "hans": "君不见、长门青草春风泪。",
+          "hant": "君不見、長門青草春風淚。"
+        },
+        {
+          "id": "line-13",
+          "hans": "一时左计。",
+          "hant": "一時左計。"
+        },
+        {
+          "id": "line-14",
+          "hans": "悔不早荆钗，暮天修竹，头白倚寒翠。",
+          "hant": "悔不早荊釵，暮天修竹，頭白倚寒翠。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 98,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

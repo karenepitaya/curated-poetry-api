@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-7e57eae04b9afa87",
+  "title": {
+    "hans": "喜迁莺·晓光催角",
+    "hant": "喜遷鶯·曉光催角"
+  },
+  "author": {
+    "name": {
+      "hans": "刘一止",
+      "hant": "劉一止"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "喜迁莺",
+    "hant": "喜遷鶯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "晓光催角。",
+          "hant": "曉光催角。"
+        },
+        {
+          "id": "line-2",
+          "hans": "听宿鸟未惊，邻鸡先觉。",
+          "hant": "聽宿鳥未驚，鄰雞先覺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "迤逦烟村，马嘶人起，残月尚穿林薄。",
+          "hant": "迤邐煙村，馬嘶人起，殘月尚穿林薄。"
+        },
+        {
+          "id": "line-4",
+          "hans": "泪痕带霜微凝，酒力冲寒犹弱。",
+          "hant": "淚痕帶霜微凝，酒力衝寒猶弱。"
+        },
+        {
+          "id": "line-5",
+          "hans": "叹倦客、悄不禁，重染风尘京洛。",
+          "hant": "嘆倦客、悄不禁，重染風塵京洛。"
+        },
+        {
+          "id": "line-6",
+          "hans": "追念，人别後，心事万重，难觅孤鸿托。",
+          "hant": "追念，人別後，心事萬重，難覓孤鴻託。"
+        },
+        {
+          "id": "line-7",
+          "hans": "翠幌娇深，曲屏香暖，争念岁寒飘泊。",
+          "hant": "翠幌嬌深，曲屏香暖，爭念歲寒飄泊。"
+        },
+        {
+          "id": "line-8",
+          "hans": "怨月恨花烦恼，不是不曾经著。",
+          "hant": "怨月恨花煩惱，不是不曾經著。"
+        },
+        {
+          "id": "line-9",
+          "hans": "这情味，望一成消减，新来还恶。",
+          "hant": "這情味，望一成消減，新來還惡。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 265,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

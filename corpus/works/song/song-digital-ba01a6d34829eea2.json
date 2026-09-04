@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-ba01a6d34829eea2",
+  "title": {
+    "hans": "虞美人·芙蓉落尽天涵水",
+    "hant": "虞美人·芙蓉落盡天涵水"
+  },
+  "author": {
+    "name": {
+      "hans": "舒亶",
+      "hant": "舒亶"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "虞美人",
+    "hant": "虞美人"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "芙蓉落尽天涵水。",
+          "hant": "芙蓉落盡天涵水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "日暮沧波起。",
+          "hant": "日暮滄波起。"
+        },
+        {
+          "id": "line-3",
+          "hans": "背飞双燕帖云寒。",
+          "hant": "背飛雙燕帖雲寒。"
+        },
+        {
+          "id": "line-4",
+          "hans": "独向小楼东畔、倚阑看。",
+          "hant": "獨向小樓東畔、倚闌看。"
+        },
+        {
+          "id": "line-5",
+          "hans": "浮生只合尊前老。",
+          "hant": "浮生只合尊前老。"
+        },
+        {
+          "id": "line-6",
+          "hans": "雪满长安道。",
+          "hant": "雪滿長安道。"
+        },
+        {
+          "id": "line-7",
+          "hans": "故人早晚上高台。",
+          "hant": "故人早晚上高臺。"
+        },
+        {
+          "id": "line-8",
+          "hans": "赠我江南春色、一枝梅。",
+          "hant": "贈我江南春色、一枝梅。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 49,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

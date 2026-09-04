@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-9e0992bb479af85f",
+  "title": {
+    "hans": "临江仙·梦後楼台高锁",
+    "hant": "臨江仙·夢後樓臺高鎖"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "临江仙",
+    "hant": "臨江仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "梦後楼台高锁，酒醒帘幕低垂。",
+          "hant": "夢後樓臺高鎖，酒醒簾幕低垂。"
+        },
+        {
+          "id": "line-2",
+          "hans": "去年春恨却来时。",
+          "hant": "去年春恨卻來時。"
+        },
+        {
+          "id": "line-3",
+          "hans": "落花人独立，微雨燕双飞。",
+          "hant": "落花人獨立，微雨燕雙飛。"
+        },
+        {
+          "id": "line-4",
+          "hans": "记得小苹初见，两重心字罗衣。",
+          "hant": "記得小蘋初見，兩重心字羅衣。"
+        },
+        {
+          "id": "line-5",
+          "hans": "琵琶弦上说相思。",
+          "hant": "琵琶弦上說相思。"
+        },
+        {
+          "id": "line-6",
+          "hans": "当时明月在，曾照彩云归。",
+          "hant": "當時明月在，曾照彩雲歸。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 19,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

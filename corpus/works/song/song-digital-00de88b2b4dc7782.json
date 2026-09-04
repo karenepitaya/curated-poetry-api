@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-00de88b2b4dc7782",
+  "title": {
+    "hans": "一丛花令・一丛花·伤高怀远几时穷",
+    "hant": "一叢花令・一叢花·傷高懷遠幾時窮"
+  },
+  "author": {
+    "name": {
+      "hans": "张先",
+      "hant": "張先"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "一丛花令・一丛花",
+    "hant": "一叢花令・一叢花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "伤高怀远几时穷。",
+          "hant": "傷高懷遠幾時窮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "无物似情浓。",
+          "hant": "無物似情濃。"
+        },
+        {
+          "id": "line-3",
+          "hans": "离愁正引千丝乱，更东陌、飞絮。",
+          "hant": "離愁正引千絲亂，更東陌、飛絮。"
+        },
+        {
+          "id": "line-4",
+          "hans": "嘶骑渐遥，征尘不断，何处认郎踪。",
+          "hant": "嘶騎漸遙，征塵不斷，何處認郎蹤。"
+        },
+        {
+          "id": "line-5",
+          "hans": "双鸳池沼水溶溶。",
+          "hant": "雙鴛池沼水溶溶。"
+        },
+        {
+          "id": "line-6",
+          "hans": "南北小桡通。",
+          "hant": "南北小橈通。"
+        },
+        {
+          "id": "line-7",
+          "hans": "梯横画阁黄昏後，又还是、斜月帘栊。",
+          "hant": "梯橫畫閣黃昏後，又還是、斜月簾櫳。"
+        },
+        {
+          "id": "line-8",
+          "hans": "沈恨细思，不如桃杏，犹解嫁东风。",
+          "hant": "沈恨細思，不如桃杏，猶解嫁東風。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 155,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-1a65df6e028926a1",
+  "title": {
+    "hans": "八归·芳莲坠粉",
+    "hant": "八歸·芳蓮墜粉"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "八归",
+    "hant": "八歸"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "芳莲坠粉，蔬桐吹绿，庭院暗雨乍歇。",
+          "hant": "芳蓮墜粉，蔬桐吹綠，庭院暗雨乍歇。"
+        },
+        {
+          "id": "line-2",
+          "hans": "无端抱影销魂处，还见筱墙萤暗，藓阶蛩切。",
+          "hant": "無端抱影銷魂處，還見筱牆螢暗，蘚階蛩切。"
+        },
+        {
+          "id": "line-3",
+          "hans": "送客重寻西去路，问水面、琵琶谁拨。",
+          "hant": "送客重尋西去路，問水面、琵琶誰撥。"
+        },
+        {
+          "id": "line-4",
+          "hans": "最可惜、一片江山，总付与啼。",
+          "hant": "最可惜、一片江山，總付與啼。"
+        },
+        {
+          "id": "line-5",
+          "hans": "长恨相从未款，而今何事，又对西风离别。",
+          "hant": "長恨相從未款，而今何事，又對西風離別。"
+        },
+        {
+          "id": "line-6",
+          "hans": "渚寒烟淡，棹移人远，缥缈行舟如叶。",
+          "hant": "渚寒煙淡，棹移人遠，縹緲行舟如葉。"
+        },
+        {
+          "id": "line-7",
+          "hans": "想文君望久，倚竹愁生步罗袜。",
+          "hant": "想文君望久，倚竹愁生步羅襪。"
+        },
+        {
+          "id": "line-8",
+          "hans": "归来後、翠尊双饮，下了珠帘，玲珑闲看月。",
+          "hant": "歸來後、翠尊雙飲，下了珠簾，玲瓏閒看月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 131,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

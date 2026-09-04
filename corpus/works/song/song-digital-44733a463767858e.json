@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-44733a463767858e",
+  "title": {
+    "hans": "浪淘沙·把酒祝东风",
+    "hant": "浪淘沙·把酒祝東風"
+  },
+  "author": {
+    "name": {
+      "hans": "欧阳修",
+      "hant": "歐陽修"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浪淘沙",
+    "hant": "浪淘沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "把酒祝东风。",
+          "hant": "把酒祝東風。"
+        },
+        {
+          "id": "line-2",
+          "hans": "且共从容。",
+          "hant": "且共從容。"
+        },
+        {
+          "id": "line-3",
+          "hans": "垂杨紫陌洛城东。",
+          "hant": "垂楊紫陌洛城東。"
+        },
+        {
+          "id": "line-4",
+          "hans": "总是当时携手处，游遍芳丛。",
+          "hant": "總是當時攜手處，遊遍芳叢。"
+        },
+        {
+          "id": "line-5",
+          "hans": "聚散苦匆匆。",
+          "hant": "聚散苦匆匆。"
+        },
+        {
+          "id": "line-6",
+          "hans": "此恨无穷。",
+          "hant": "此恨無窮。"
+        },
+        {
+          "id": "line-7",
+          "hans": "今年花胜去年红。",
+          "hant": "今年花勝去年紅。"
+        },
+        {
+          "id": "line-8",
+          "hans": "可惜明年花更好，知与谁同。",
+          "hant": "可惜明年花更好，知與誰同。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 176,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

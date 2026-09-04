@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-fa707363ebb64a8d",
+  "title": {
+    "hans": "瑞鹤仙·绀烟迷雁迹",
+    "hant": "瑞鶴仙·紺煙迷雁跡"
+  },
+  "author": {
+    "name": {
+      "hans": "蒋捷",
+      "hant": "蔣捷"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞鹤仙",
+    "hant": "瑞鶴仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绀烟迷雁迹。",
+          "hant": "紺煙迷雁跡。"
+        },
+        {
+          "id": "line-2",
+          "hans": "渐断鼓零钟，街喧初息。",
+          "hant": "漸斷鼓零鍾，街喧初息。"
+        },
+        {
+          "id": "line-3",
+          "hans": "风檠背寒壁。",
+          "hant": "風檠背寒壁。"
+        },
+        {
+          "id": "line-4",
+          "hans": "放冰蜍飞到，丝丝窗隙。",
+          "hant": "放冰蜍飛到，絲絲窗隙。"
+        },
+        {
+          "id": "line-5",
+          "hans": "琼瑰暗泣。",
+          "hant": "瓊瑰暗泣。"
+        },
+        {
+          "id": "line-6",
+          "hans": "念乡关、霜芜似织。",
+          "hant": "念鄉關、霜蕪似織。"
+        },
+        {
+          "id": "line-7",
+          "hans": "漫将身、化鹤归来，忘却旧游端的。",
+          "hant": "漫將身、化鶴歸來，忘卻舊遊端的。"
+        },
+        {
+          "id": "line-8",
+          "hans": "欢极。",
+          "hant": "歡極。"
+        },
+        {
+          "id": "line-9",
+          "hans": "蓬壶蕖浸，花院梨溶，醉连春夕。",
+          "hant": "蓬壺蕖浸，花院梨溶，醉連春夕。"
+        },
+        {
+          "id": "line-10",
+          "hans": "柯云罢弈。",
+          "hant": "柯雲罷弈。"
+        },
+        {
+          "id": "line-11",
+          "hans": "樱桃在，梦难觅。",
+          "hant": "櫻桃在，夢難覓。"
+        },
+        {
+          "id": "line-12",
+          "hans": "劝清光，乍可幽窗相伴，休照红楼夜笛。",
+          "hant": "勸清光，乍可幽窗相伴，休照紅樓夜笛。"
+        },
+        {
+          "id": "line-13",
+          "hans": "怕人间、换谱伊凉，素娥未识。",
+          "hant": "怕人間、換譜伊涼，素娥未識。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 257,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

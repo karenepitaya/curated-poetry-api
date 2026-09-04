@@ -1,0 +1,124 @@
+{
+  "id": "song-digital-bc1ebba46dd4aeb1",
+  "title": {
+    "hans": "霓裳中序第一·亭皋正望极",
+    "hant": "霓裳中序第一·亭皋正望極"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "霓裳中序第一",
+    "hant": "霓裳中序第一"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "亭皋正望极。",
+          "hant": "亭皋正望極。"
+        },
+        {
+          "id": "line-2",
+          "hans": "乱落江莲归未得。",
+          "hant": "亂落江蓮歸未得。"
+        },
+        {
+          "id": "line-3",
+          "hans": "多病却无气力。",
+          "hant": "多病卻無氣力。"
+        },
+        {
+          "id": "line-4",
+          "hans": "况纨扇渐疏，罗衣初萦。",
+          "hant": "況紈扇漸疏，羅衣初縈。"
+        },
+        {
+          "id": "line-5",
+          "hans": "流光过隙。",
+          "hant": "流光過隙。"
+        },
+        {
+          "id": "line-6",
+          "hans": "叹杏梁、双燕如客。",
+          "hant": "嘆杏梁、雙燕如客。"
+        },
+        {
+          "id": "line-7",
+          "hans": "人何在，一帘淡月，仿佛照颜色。",
+          "hant": "人何在，一簾淡月，彷彿照顏色。"
+        },
+        {
+          "id": "line-8",
+          "hans": "幽寂。",
+          "hant": "幽寂。"
+        },
+        {
+          "id": "line-9",
+          "hans": "乱蛩吟壁。",
+          "hant": "亂蛩吟壁。"
+        },
+        {
+          "id": "line-10",
+          "hans": "动庾信、清愁似织。",
+          "hant": "動庾信、清愁似織。"
+        },
+        {
+          "id": "line-11",
+          "hans": "沈思年少浪迹。",
+          "hant": "沈思年少浪跡。"
+        },
+        {
+          "id": "line-12",
+          "hans": "笛里关山，柳下坊陌。",
+          "hant": "笛裏關山，柳下坊陌。"
+        },
+        {
+          "id": "line-13",
+          "hans": "坠红无信息。",
+          "hant": "墜紅無信息。"
+        },
+        {
+          "id": "line-14",
+          "hans": "漫暗水，涓涓溜碧。",
+          "hant": "漫暗水，涓涓溜碧。"
+        },
+        {
+          "id": "line-15",
+          "hans": "漂零久，而今何意，醉卧酒垆侧。",
+          "hant": "漂零久，而今何意，醉臥酒壚側。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 125,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

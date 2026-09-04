@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-3fc65fcc35777b7f",
+  "title": {
+    "hans": "虞美人·曲阑干外天如水",
+    "hant": "虞美人·曲闌干外天如水"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "虞美人",
+    "hant": "虞美人"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "曲阑干外天如水。",
+          "hant": "曲闌干外天如水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "昨夜还曾倚。",
+          "hant": "昨夜還曾倚。"
+        },
+        {
+          "id": "line-3",
+          "hans": "初将明月比佳期。",
+          "hant": "初將明月比佳期。"
+        },
+        {
+          "id": "line-4",
+          "hans": "长向月圆时候、望人归。",
+          "hant": "長向月圓時候、望人歸。"
+        },
+        {
+          "id": "line-5",
+          "hans": "罗衣著破前香在。",
+          "hant": "羅衣著破前香在。"
+        },
+        {
+          "id": "line-6",
+          "hans": "旧意谁教改。",
+          "hant": "舊意誰教改。"
+        },
+        {
+          "id": "line-7",
+          "hans": "一春离恨懒调弦。",
+          "hant": "一春離恨懶調絃。"
+        },
+        {
+          "id": "line-8",
+          "hans": "犹有两行闲泪、宝筝前。",
+          "hant": "猶有兩行閒淚、寶箏前。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 33,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

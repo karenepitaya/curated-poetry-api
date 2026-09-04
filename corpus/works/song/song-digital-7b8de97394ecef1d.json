@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-7b8de97394ecef1d",
+  "title": {
+    "hans": "念奴娇·洞庭青草",
+    "hant": "念奴嬌·洞庭青草"
+  },
+  "author": {
+    "name": {
+      "hans": "张孝祥",
+      "hant": "張孝祥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "念奴娇",
+    "hant": "念奴嬌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "洞庭青草，近中秋、更无一点风色。",
+          "hant": "洞庭青草，近中秋、更無一點風色。"
+        },
+        {
+          "id": "line-2",
+          "hans": "玉鉴琼田三万顷，著我扁舟一叶。",
+          "hant": "玉鑑瓊田三萬頃，著我扁舟一葉。"
+        },
+        {
+          "id": "line-3",
+          "hans": "素月分辉，明河共影，表里俱澄澈。",
+          "hant": "素月分輝，明河共影，表裏俱澄澈。"
+        },
+        {
+          "id": "line-4",
+          "hans": "悠然心会，妙处难与君说。",
+          "hant": "悠然心會，妙處難與君說。"
+        },
+        {
+          "id": "line-5",
+          "hans": "应念岭海经年，孤光自照，肝肺皆冰雪。",
+          "hant": "應念嶺海經年，孤光自照，肝肺皆冰雪。"
+        },
+        {
+          "id": "line-6",
+          "hans": "短发萧骚襟袖冷，稳泛沧浪空阔。",
+          "hant": "短髮蕭騷襟袖冷，穩泛滄浪空闊。"
+        },
+        {
+          "id": "line-7",
+          "hans": "尽吸西江，细斟北斗，万象为宾客。",
+          "hant": "盡吸西江，細斟北斗，萬象爲賓客。"
+        },
+        {
+          "id": "line-8",
+          "hans": "扣舷独笑，不知今夕何夕。",
+          "hant": "扣舷獨笑，不知今夕何夕。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 279,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

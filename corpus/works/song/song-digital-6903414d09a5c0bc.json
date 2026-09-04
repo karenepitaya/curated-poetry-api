@@ -1,0 +1,139 @@
+{
+  "id": "song-digital-6903414d09a5c0bc",
+  "title": {
+    "hans": "兰陵王·卷朱箔",
+    "hant": "蘭陵王·卷朱箔"
+  },
+  "author": {
+    "name": {
+      "hans": "张元干",
+      "hant": "張元幹"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "兰陵王",
+    "hant": "蘭陵王"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "卷朱箔。",
+          "hant": "卷朱箔。"
+        },
+        {
+          "id": "line-2",
+          "hans": "朝雨轻阴乍阁。",
+          "hant": "朝雨輕陰乍閣。"
+        },
+        {
+          "id": "line-3",
+          "hans": "阑干外，烟柳弄晴，芳草侵阶映红药。",
+          "hant": "闌干外，煙柳弄晴，芳草侵階映紅藥。"
+        },
+        {
+          "id": "line-4",
+          "hans": "东风妒花恶。",
+          "hant": "東風妒花惡。"
+        },
+        {
+          "id": "line-5",
+          "hans": "吹落。",
+          "hant": "吹落。"
+        },
+        {
+          "id": "line-6",
+          "hans": "梢头嫩萼。",
+          "hant": "梢頭嫩萼。"
+        },
+        {
+          "id": "line-7",
+          "hans": "屏山掩，沈水倦熏，中酒心情怕杯勺。",
+          "hant": "屏山掩，瀋水倦燻，中酒心情怕杯勺。"
+        },
+        {
+          "id": "line-8",
+          "hans": "寻思旧京洛。",
+          "hant": "尋思舊京洛。"
+        },
+        {
+          "id": "line-9",
+          "hans": "正年少疏狂，歌笑迷著。",
+          "hant": "正年少疏狂，歌笑迷著。"
+        },
+        {
+          "id": "line-10",
+          "hans": "障泥油壁催梳掠。",
+          "hant": "障泥油壁催梳掠。"
+        },
+        {
+          "id": "line-11",
+          "hans": "曾驰道同载，上林携手，灯夜初过早共约。",
+          "hant": "曾馳道同載，上林攜手，燈夜初過早共約。"
+        },
+        {
+          "id": "line-12",
+          "hans": "又争信漂泊。",
+          "hant": "又爭信漂泊。"
+        },
+        {
+          "id": "line-13",
+          "hans": "寂寞。",
+          "hant": "寂寞。"
+        },
+        {
+          "id": "line-14",
+          "hans": "念行乐。",
+          "hant": "念行樂。"
+        },
+        {
+          "id": "line-15",
+          "hans": "甚粉淡衣襟，音断弦索。",
+          "hant": "甚粉淡衣襟，音斷絃索。"
+        },
+        {
+          "id": "line-16",
+          "hans": "琼枝璧月春如昨。",
+          "hant": "瓊枝璧月春如昨。"
+        },
+        {
+          "id": "line-17",
+          "hans": "怅别後华表，那回双鹤。",
+          "hant": "悵別後華表，那回雙鶴。"
+        },
+        {
+          "id": "line-18",
+          "hans": "相思除是，向醉里、暂忘却。",
+          "hant": "相思除是，向醉裏、暫忘卻。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 114,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

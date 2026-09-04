@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-d5d515d1c1c08e6d",
+  "title": {
+    "hans": "木兰花・玉楼春·秋千院落重帘暮",
+    "hant": "木蘭花・玉樓春·鞦韆院落重簾暮"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "木兰花・玉楼春",
+    "hant": "木蘭花・玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "秋千院落重帘暮。",
+          "hant": "鞦韆院落重簾暮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "彩笔闲来题绣户。",
+          "hant": "彩筆閒來題繡戶。"
+        },
+        {
+          "id": "line-3",
+          "hans": "墙头丹杏雨馀花，门外绿杨风後絮。",
+          "hant": "牆頭丹杏雨餘花，門外綠楊風後絮。"
+        },
+        {
+          "id": "line-4",
+          "hans": "朝云信断知何处。",
+          "hant": "朝雲信斷知何處。"
+        },
+        {
+          "id": "line-5",
+          "hans": "应作襄王春梦去。",
+          "hant": "應作襄王春夢去。"
+        },
+        {
+          "id": "line-6",
+          "hans": "紫骝认得旧游踪，嘶过画桥东畔路。",
+          "hant": "紫騮認得舊遊蹤，嘶過畫橋東畔路。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 26,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

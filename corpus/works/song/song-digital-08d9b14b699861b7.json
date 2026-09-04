@@ -1,0 +1,129 @@
+{
+  "id": "song-digital-08d9b14b699861b7",
+  "title": {
+    "hans": "莺啼序·残寒正欺病酒",
+    "hant": "鶯啼序·殘寒正欺病酒"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "莺啼序",
+    "hant": "鶯啼序"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "残寒正欺病酒，掩沈香绣户。",
+          "hant": "殘寒正欺病酒，掩沈香繡戶。"
+        },
+        {
+          "id": "line-2",
+          "hans": "燕来晚、飞入西城，似说春事迟暮。",
+          "hant": "燕來晚、飛入西城，似說春事遲暮。"
+        },
+        {
+          "id": "line-3",
+          "hans": "画船载、清明过却，晴烟冉冉吴宫树。",
+          "hant": "畫船載、清明過卻，晴煙冉冉吳宮樹。"
+        },
+        {
+          "id": "line-4",
+          "hans": "念羁情游荡，随风化为轻絮。",
+          "hant": "念羈情遊蕩，隨風化爲輕絮。"
+        },
+        {
+          "id": "line-5",
+          "hans": "十载西湖，傍柳系马，趁娇尘软雾。",
+          "hant": "十載西湖，傍柳繫馬，趁嬌塵軟霧。"
+        },
+        {
+          "id": "line-6",
+          "hans": "溯红渐、招入仙溪，锦儿偷寄幽素。",
+          "hant": "溯紅漸、招入仙溪，錦兒偷寄幽素。"
+        },
+        {
+          "id": "line-7",
+          "hans": "倚银屏、春宽梦窄，断红湿、歌纨金缕。",
+          "hant": "倚銀屏、春寬夢窄，斷紅溼、歌紈金縷。"
+        },
+        {
+          "id": "line-8",
+          "hans": "暝堤空，轻把斜阳，总还鸥鹭。",
+          "hant": "暝堤空，輕把斜陽，總還鷗鷺。"
+        },
+        {
+          "id": "line-9",
+          "hans": "幽兰旋老，杜若还生，水乡尚寄旅。",
+          "hant": "幽蘭旋老，杜若還生，水鄉尚寄旅。"
+        },
+        {
+          "id": "line-10",
+          "hans": "别後访、六桥无信，事往花委，瘗玉埋香，几番风雨。",
+          "hant": "別後訪、六橋無信，事往花委，瘞玉埋香，幾番風雨。"
+        },
+        {
+          "id": "line-11",
+          "hans": "长波妒盼，遥山羞黛，渔灯分影春江宿，记当时、短楫桃根渡。",
+          "hant": "長波妒盼，遙山羞黛，漁燈分影春江宿，記當時、短楫桃根渡。"
+        },
+        {
+          "id": "line-12",
+          "hans": "青楼彷佛，临分败壁题诗，泪墨惨澹尘土。",
+          "hant": "青樓彷佛，臨分敗壁題詩，淚墨慘澹塵土。"
+        },
+        {
+          "id": "line-13",
+          "hans": "危亭望极，草色天涯，吹鬓侵半苎。",
+          "hant": "危亭望極，草色天涯，吹鬢侵半苧。"
+        },
+        {
+          "id": "line-14",
+          "hans": "暗点检、离痕欢唾，尚染鲛绡，凤迷归，破鸾慵舞。",
+          "hant": "暗點檢、離痕歡唾，尚染鮫綃，鳳迷歸，破鸞慵舞。"
+        },
+        {
+          "id": "line-15",
+          "hans": "殷勤待写，书中长恨，蓝霞辽海沈过雁，漫相思、弹入哀筝柱。",
+          "hant": "殷勤待寫，書中長恨，藍霞遼海沈過雁，漫相思、彈入哀箏柱。"
+        },
+        {
+          "id": "line-16",
+          "hans": "伤心千里江南，怨曲重招，断魂在否。",
+          "hant": "傷心千里江南，怨曲重招，斷魂在否。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 8,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

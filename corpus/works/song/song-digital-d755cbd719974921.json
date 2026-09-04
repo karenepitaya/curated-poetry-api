@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-d755cbd719974921",
+  "title": {
+    "hans": "凤凰台上忆吹箫·香冷金猊",
+    "hant": "鳳凰臺上憶吹簫·香冷金猊"
+  },
+  "author": {
+    "name": {
+      "hans": "李清照",
+      "hant": "李清照"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "凤凰台上忆吹箫",
+    "hant": "鳳凰臺上憶吹簫"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "香冷金猊，被翻红浪，起来人未梳头。",
+          "hant": "香冷金猊，被翻紅浪，起來人未梳頭。"
+        },
+        {
+          "id": "line-2",
+          "hans": "任宝奁闲掩，日上帘钩。",
+          "hant": "任寶奩閒掩，日上簾鉤。"
+        },
+        {
+          "id": "line-3",
+          "hans": "生怕闲愁暗恨，多少事、欲说还休。",
+          "hant": "生怕閒愁暗恨，多少事、欲說還休。"
+        },
+        {
+          "id": "line-4",
+          "hans": "今年瘦，非干病酒，不是悲秋。",
+          "hant": "今年瘦，非幹病酒，不是悲秋。"
+        },
+        {
+          "id": "line-5",
+          "hans": "明朝，这回去也，千万遍阳关，也即难留。",
+          "hant": "明朝，這回去也，千萬遍陽關，也即難留。"
+        },
+        {
+          "id": "line-6",
+          "hans": "念武陵春晚，云锁重楼。",
+          "hant": "念武陵春晚，雲鎖重樓。"
+        },
+        {
+          "id": "line-7",
+          "hans": "记取楼前绿水，应念我、终日凝眸。",
+          "hant": "記取樓前綠水，應念我、終日凝眸。"
+        },
+        {
+          "id": "line-8",
+          "hans": "凝眸处，从今更数，几段新愁。",
+          "hant": "凝眸處，從今更數，幾段新愁。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 200,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

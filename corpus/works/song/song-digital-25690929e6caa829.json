@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-25690929e6caa829",
+  "title": {
+    "hans": "疏影·苔枝缀玉",
+    "hant": "疏影·苔枝綴玉"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "疏影",
+    "hant": "疏影"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "苔枝缀玉。",
+          "hant": "苔枝綴玉。"
+        },
+        {
+          "id": "line-2",
+          "hans": "有翠禽小小，枝上同宿。",
+          "hant": "有翠禽小小，枝上同宿。"
+        },
+        {
+          "id": "line-3",
+          "hans": "客里相逢，篱角黄昏，无言自倚修竹。",
+          "hant": "客裏相逢，籬角黃昏，無言自倚修竹。"
+        },
+        {
+          "id": "line-4",
+          "hans": "昭君不惯胡沙远，但暗忆、江南江北。",
+          "hant": "昭君不慣胡沙遠，但暗憶、江南江北。"
+        },
+        {
+          "id": "line-5",
+          "hans": "想佩环、月夜归来，化作此花幽独。",
+          "hant": "想佩環、月夜歸來，化作此花幽獨。"
+        },
+        {
+          "id": "line-6",
+          "hans": "犹记深宫旧事，那人正睡里，飞近蛾绿。",
+          "hant": "猶記深宮舊事，那人正睡裏，飛近蛾綠。"
+        },
+        {
+          "id": "line-7",
+          "hans": "莫似春风，不管盈盈，早与安排金屋。",
+          "hant": "莫似春風，不管盈盈，早與安排金屋。"
+        },
+        {
+          "id": "line-8",
+          "hans": "还教一片随波去，又却怨、玉龙哀曲。",
+          "hant": "還教一片隨波去，又卻怨、玉龍哀曲。"
+        },
+        {
+          "id": "line-9",
+          "hans": "等恁时、重觅幽香，已入小窗横幅。",
+          "hant": "等恁時、重覓幽香，已入小窗橫幅。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 136,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "song-digital-69eea9ef2b252ee6",
+  "title": {
+    "hans": "解语花·风销焰蜡",
+    "hant": "解語花·風銷焰蠟"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "解语花",
+    "hant": "解語花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "风销焰蜡，露烘炉。",
+          "hant": "風銷焰蠟，露烘爐。"
+        },
+        {
+          "id": "line-2",
+          "hans": "花市光相射。",
+          "hant": "花市光相射。"
+        },
+        {
+          "id": "line-3",
+          "hans": "桂华流瓦。",
+          "hant": "桂華流瓦。"
+        },
+        {
+          "id": "line-4",
+          "hans": "纤云散，耿耿素娥欲下。",
+          "hant": "纖雲散，耿耿素娥欲下。"
+        },
+        {
+          "id": "line-5",
+          "hans": "衣裳淡雅。",
+          "hant": "衣裳淡雅。"
+        },
+        {
+          "id": "line-6",
+          "hans": "看楚女、纤腰一把。",
+          "hant": "看楚女、纖腰一把。"
+        },
+        {
+          "id": "line-7",
+          "hans": "箫鼓喧，人影参差，满路飘香麝。",
+          "hant": "簫鼓喧，人影參差，滿路飄香麝。"
+        },
+        {
+          "id": "line-8",
+          "hans": "因念都城放夜。",
+          "hant": "因念都城放夜。"
+        },
+        {
+          "id": "line-9",
+          "hans": "望千门如昼，嬉笑游冶。",
+          "hant": "望千門如晝，嬉笑遊冶。"
+        },
+        {
+          "id": "line-10",
+          "hans": "钿车罗帕。",
+          "hant": "鈿車羅帕。"
+        },
+        {
+          "id": "line-11",
+          "hans": "相逢处，自有暗尘随马。",
+          "hant": "相逢處，自有暗塵隨馬。"
+        },
+        {
+          "id": "line-12",
+          "hans": "年光是也。",
+          "hant": "年光是也。"
+        },
+        {
+          "id": "line-13",
+          "hans": "唯只见、旧情衰谢。",
+          "hant": "唯只見、舊情衰謝。"
+        },
+        {
+          "id": "line-14",
+          "hans": "清漏移，飞盖归来，从舞休歌罢。",
+          "hant": "清漏移，飛蓋歸來，從舞休歌罷。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 233,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-a70b7cb9c46ab29e",
+  "title": {
+    "hans": "翠楼吟·月冷龙沙",
+    "hant": "翠樓吟·月冷龍沙"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "翠楼吟",
+    "hant": "翠樓吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "月冷龙沙，尘轻虎落，今年汉初赐。",
+          "hant": "月冷龍沙，塵輕虎落，今年漢初賜。"
+        },
+        {
+          "id": "line-2",
+          "hans": "新翻胡部曲，听毡幕、元戎歌吹。",
+          "hant": "新翻胡部曲，聽氈幕、元戎歌吹。"
+        },
+        {
+          "id": "line-3",
+          "hans": "层楼高峙。",
+          "hant": "層樓高峙。"
+        },
+        {
+          "id": "line-4",
+          "hans": "看栏曲萦红，檐牙飞翠。",
+          "hant": "看欄曲縈紅，檐牙飛翠。"
+        },
+        {
+          "id": "line-5",
+          "hans": "人姝丽。",
+          "hant": "人姝麗。"
+        },
+        {
+          "id": "line-6",
+          "hans": "粉香吹下，夜寒风细。",
+          "hant": "粉香吹下，夜寒風細。"
+        },
+        {
+          "id": "line-7",
+          "hans": "此地。",
+          "hant": "此地。"
+        },
+        {
+          "id": "line-8",
+          "hans": "宜有词仙，拥素云黄鹤，与君游戏。",
+          "hant": "宜有詞仙，擁素雲黃鶴，與君遊戲。"
+        },
+        {
+          "id": "line-9",
+          "hans": "玉梯凝望久，叹芳草、萋萋千里。",
+          "hant": "玉梯凝望久，嘆芳草、萋萋千里。"
+        },
+        {
+          "id": "line-10",
+          "hans": "天涯情味。",
+          "hant": "天涯情味。"
+        },
+        {
+          "id": "line-11",
+          "hans": "仗酒清愁，花销英气。",
+          "hant": "仗酒清愁，花銷英氣。"
+        },
+        {
+          "id": "line-12",
+          "hans": "西山外。",
+          "hant": "西山外。"
+        },
+        {
+          "id": "line-13",
+          "hans": "晚来还卷，一帘秋霁。",
+          "hant": "晚來還卷，一簾秋霽。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 137,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

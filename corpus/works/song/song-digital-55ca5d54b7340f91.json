@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-55ca5d54b7340f91",
+  "title": {
+    "hans": "贺新郎·深院榴花吐",
+    "hant": "賀新郎·深院榴花吐"
+  },
+  "author": {
+    "name": {
+      "hans": "刘克庄",
+      "hant": "劉克莊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "贺新郎",
+    "hant": "賀新郎"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "深院榴花吐。",
+          "hant": "深院榴花吐。"
+        },
+        {
+          "id": "line-2",
+          "hans": "画帘开、衣纨扇，午风清暑。",
+          "hant": "畫簾開、衣紈扇，午風清暑。"
+        },
+        {
+          "id": "line-3",
+          "hans": "儿女纷纷夸结束，新样钗符艾虎。",
+          "hant": "兒女紛紛誇結束，新樣釵符艾虎。"
+        },
+        {
+          "id": "line-4",
+          "hans": "早已有、游人观渡。",
+          "hant": "早已有、遊人觀渡。"
+        },
+        {
+          "id": "line-5",
+          "hans": "老大逢场慵作戏，任陌头、年少争旗鼓。",
+          "hant": "老大逢場慵作戲，任陌頭、年少爭旗鼓。"
+        },
+        {
+          "id": "line-6",
+          "hans": "溪雨急，浪花舞。",
+          "hant": "溪雨急，浪花舞。"
+        },
+        {
+          "id": "line-7",
+          "hans": "灵均标致高如许。",
+          "hant": "靈均標緻高如許。"
+        },
+        {
+          "id": "line-8",
+          "hans": "忆生平、既纫兰佩，更怀椒糈。",
+          "hant": "憶生平、既紉蘭佩，更懷椒糈。"
+        },
+        {
+          "id": "line-9",
+          "hans": "谁信骚魂千载後，波底垂涎角黍。",
+          "hant": "誰信騷魂千載後，波底垂涎角黍。"
+        },
+        {
+          "id": "line-10",
+          "hans": "又说是、蛟馋龙怒。",
+          "hant": "又說是、蛟饞龍怒。"
+        },
+        {
+          "id": "line-11",
+          "hans": "把似而今醒到了，料当年、醉死差无苦。",
+          "hant": "把似而今醒到了，料當年、醉死差無苦。"
+        },
+        {
+          "id": "line-12",
+          "hans": "聊一笑，吊千古。",
+          "hant": "聊一笑，吊千古。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 54,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

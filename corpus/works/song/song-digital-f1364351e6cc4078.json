@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-f1364351e6cc4078",
+  "title": {
+    "hans": "淡黄柳·空城晓月",
+    "hant": "淡黃柳·空城曉月"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "淡黄柳",
+    "hant": "淡黃柳"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "空城晓月。",
+          "hant": "空城曉月。"
+        },
+        {
+          "id": "line-2",
+          "hans": "吹入垂杨陌。",
+          "hant": "吹入垂楊陌。"
+        },
+        {
+          "id": "line-3",
+          "hans": "马上单衣寒恻恻。",
+          "hant": "馬上單衣寒惻惻。"
+        },
+        {
+          "id": "line-4",
+          "hans": "看尽鹅黄嫩绿，都是江南旧相识。",
+          "hant": "看盡鵝黃嫩綠，都是江南舊相識。"
+        },
+        {
+          "id": "line-5",
+          "hans": "正岑寂。",
+          "hant": "正岑寂。"
+        },
+        {
+          "id": "line-6",
+          "hans": "明朝又寒食。",
+          "hant": "明朝又寒食。"
+        },
+        {
+          "id": "line-7",
+          "hans": "强携酒、小桥宅，怕梨花落尽成秋色。",
+          "hant": "強攜酒、小橋宅，怕梨花落盡成秋色。"
+        },
+        {
+          "id": "line-8",
+          "hans": "燕燕飞来，问春何在，唯有池塘自碧。",
+          "hant": "燕燕飛來，問春何在，唯有池塘自碧。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 134,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

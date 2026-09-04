@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-aa6404f0db3ce9af",
+  "title": {
+    "hans": "西河·佳丽地",
+    "hant": "西河·佳麗地"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "西河",
+    "hant": "西河"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "佳丽地。",
+          "hant": "佳麗地。"
+        },
+        {
+          "id": "line-2",
+          "hans": "南朝盛事谁记。",
+          "hant": "南朝盛事誰記。"
+        },
+        {
+          "id": "line-3",
+          "hans": "山围故国绕清江，髻鬟对起。",
+          "hant": "山圍故國繞清江，髻鬟對起。"
+        },
+        {
+          "id": "line-4",
+          "hans": "怒涛寂寞打孤城，风樯遥度天际。",
+          "hant": "怒濤寂寞打孤城，風檣遙度天際。"
+        },
+        {
+          "id": "line-5",
+          "hans": "断崖树，犹倒倚。",
+          "hant": "斷崖樹，猶倒倚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "莫愁艇子曾系。",
+          "hant": "莫愁艇子曾系。"
+        },
+        {
+          "id": "line-7",
+          "hans": "空馀旧迹郁苍苍，雾沈半垒。",
+          "hant": "空餘舊跡鬱蒼蒼，霧沈半壘。"
+        },
+        {
+          "id": "line-8",
+          "hans": "夜深月过女墙来，赏心东望淮水。",
+          "hant": "夜深月過女牆來，賞心東望淮水。"
+        },
+        {
+          "id": "line-9",
+          "hans": "酒旗戏鼓甚处市。",
+          "hant": "酒旗戲鼓甚處市。"
+        },
+        {
+          "id": "line-10",
+          "hans": "想依稀、王谢邻里。",
+          "hant": "想依稀、王謝鄰里。"
+        },
+        {
+          "id": "line-11",
+          "hans": "燕子不知何世。",
+          "hant": "燕子不知何世。"
+        },
+        {
+          "id": "line-12",
+          "hans": "入寻常、巷陌人家，相对如说兴亡，斜阳里。",
+          "hant": "入尋常、巷陌人家，相對如說興亡，斜陽裏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 238,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

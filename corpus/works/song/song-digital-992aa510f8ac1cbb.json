@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-992aa510f8ac1cbb",
+  "title": {
+    "hans": "洞仙歌·雪云散尽",
+    "hant": "洞仙歌·雪雲散盡"
+  },
+  "author": {
+    "name": {
+      "hans": "李元膺",
+      "hant": "李元膺"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "洞仙歌",
+    "hant": "洞仙歌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "雪云散尽，放晓晴池院。",
+          "hant": "雪雲散盡，放曉晴池院。"
+        },
+        {
+          "id": "line-2",
+          "hans": "杨柳于人便青眼。",
+          "hant": "楊柳於人便青眼。"
+        },
+        {
+          "id": "line-3",
+          "hans": "更风流多处，一点梅心、相映远。",
+          "hant": "更風流多處，一點梅心、相映遠。"
+        },
+        {
+          "id": "line-4",
+          "hans": "约略轻笑浅。",
+          "hant": "約略輕笑淺。"
+        },
+        {
+          "id": "line-5",
+          "hans": "一年春好处，不在浓芳，小艳疏香最娇软。",
+          "hant": "一年春好處，不在濃芳，小豔疏香最嬌軟。"
+        },
+        {
+          "id": "line-6",
+          "hans": "到清明时候，百紫千红花正乱。",
+          "hant": "到清明時候，百紫千紅花正亂。"
+        },
+        {
+          "id": "line-7",
+          "hans": "已失春风一半。",
+          "hant": "已失春風一半。"
+        },
+        {
+          "id": "line-8",
+          "hans": "蚤占取韶光，共追游，但莫管春寒，醉红自暖。",
+          "hant": "蚤佔取韶光，共追遊，但莫管春寒，醉紅自暖。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 63,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

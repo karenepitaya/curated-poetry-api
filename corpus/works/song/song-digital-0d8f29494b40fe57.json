@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-0d8f29494b40fe57",
+  "title": {
+    "hans": "天仙子·水调数声持酒听",
+    "hant": "天仙子·水調數聲持酒聽"
+  },
+  "author": {
+    "name": {
+      "hans": "张先",
+      "hant": "張先"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "天仙子",
+    "hant": "天仙子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "水调数声持酒听。",
+          "hant": "水調數聲持酒聽。"
+        },
+        {
+          "id": "line-2",
+          "hans": "午醉醒来愁未醒。",
+          "hant": "午醉醒來愁未醒。"
+        },
+        {
+          "id": "line-3",
+          "hans": "送春春去几时回，临晚镜。",
+          "hant": "送春春去幾時回，臨晚鏡。"
+        },
+        {
+          "id": "line-4",
+          "hans": "伤流景。",
+          "hant": "傷流景。"
+        },
+        {
+          "id": "line-5",
+          "hans": "往事後期空记省。",
+          "hant": "往事後期空記省。"
+        },
+        {
+          "id": "line-6",
+          "hans": "沙上并禽池上暝。",
+          "hant": "沙上並禽池上暝。"
+        },
+        {
+          "id": "line-7",
+          "hans": "云破月来花弄影。",
+          "hant": "雲破月來花弄影。"
+        },
+        {
+          "id": "line-8",
+          "hans": "重重帘幕密遮灯，风不定。",
+          "hant": "重重簾幕密遮燈，風不定。"
+        },
+        {
+          "id": "line-9",
+          "hans": "人初静。",
+          "hant": "人初靜。"
+        },
+        {
+          "id": "line-10",
+          "hans": "明日落红应满径。",
+          "hant": "明日落紅應滿徑。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 156,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

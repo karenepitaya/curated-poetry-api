@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-c149ab35a9cf6a4d",
+  "title": {
+    "hans": "风入松·一春长费买花钱",
+    "hant": "風入松·一春長費買花錢"
+  },
+  "author": {
+    "name": {
+      "hans": "俞国宝",
+      "hant": "俞國寶"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "风入松",
+    "hant": "風入松"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "一春长费买花钱。",
+          "hant": "一春長費買花錢。"
+        },
+        {
+          "id": "line-2",
+          "hans": "日日醉花边。",
+          "hant": "日日醉花邊。"
+        },
+        {
+          "id": "line-3",
+          "hans": "玉骢惯识西湖路，骄嘶过、沽酒垆前。",
+          "hant": "玉驄慣識西湖路，驕嘶過、沽酒壚前。"
+        },
+        {
+          "id": "line-4",
+          "hans": "红杏香中箫鼓，绿杨影里秋千。",
+          "hant": "紅杏香中簫鼓，綠楊影裏鞦韆。"
+        },
+        {
+          "id": "line-5",
+          "hans": "暖风十里丽人天。",
+          "hant": "暖風十里麗人天。"
+        },
+        {
+          "id": "line-6",
+          "hans": "花压髻云偏。",
+          "hant": "花壓髻雲偏。"
+        },
+        {
+          "id": "line-7",
+          "hans": "画船载取春归去，馀情寄、湖水湖烟。",
+          "hant": "畫船載取春歸去，餘情寄、湖水湖煙。"
+        },
+        {
+          "id": "line-8",
+          "hans": "明日重扶残醉，来寻陌上花钿。",
+          "hant": "明日重扶殘醉，來尋陌上花鈿。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 177,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

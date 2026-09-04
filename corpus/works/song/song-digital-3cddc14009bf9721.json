@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-3cddc14009bf9721",
+  "title": {
+    "hans": "水龙吟·夜来风雨匆匆",
+    "hant": "水龍吟·夜來風雨匆匆"
+  },
+  "author": {
+    "name": {
+      "hans": "程垓",
+      "hant": "程垓"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "水龙吟",
+    "hant": "水龍吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "夜来风雨匆匆，故园定是花无几。",
+          "hant": "夜來風雨匆匆，故園定是花無幾。"
+        },
+        {
+          "id": "line-2",
+          "hans": "愁多愁极，等闲孤负，一年芳意。",
+          "hant": "愁多愁極，等閒孤負，一年芳意。"
+        },
+        {
+          "id": "line-3",
+          "hans": "柳困花慵，杏青梅小，对人容易。",
+          "hant": "柳困花慵，杏青梅小，對人容易。"
+        },
+        {
+          "id": "line-4",
+          "hans": "算好春长在，好花长见，元只是、人憔悴。",
+          "hant": "算好春長在，好花長見，元只是、人憔悴。"
+        },
+        {
+          "id": "line-5",
+          "hans": "回首池南旧事。",
+          "hant": "回首池南舊事。"
+        },
+        {
+          "id": "line-6",
+          "hans": "恨星星、不堪重记。",
+          "hant": "恨星星、不堪重記。"
+        },
+        {
+          "id": "line-7",
+          "hans": "如今但有，看花老眼，伤时清泪。",
+          "hant": "如今但有，看花老眼，傷時清淚。"
+        },
+        {
+          "id": "line-8",
+          "hans": "不怕逢花瘦，只愁怕、老来风味。",
+          "hant": "不怕逢花瘦，只愁怕、老來風味。"
+        },
+        {
+          "id": "line-9",
+          "hans": "待繁红乱处，留云借月，也须拼醉。",
+          "hant": "待繁紅亂處，留雲借月，也須拼醉。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 218,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-19549cf2c157b98a",
+  "title": {
+    "hans": "绮寮怨·上马人扶残醉",
+    "hant": "綺寮怨·上馬人扶殘醉"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "绮寮怨",
+    "hant": "綺寮怨"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "上马人扶残醉，晓风吹未醒。",
+          "hant": "上馬人扶殘醉，曉風吹未醒。"
+        },
+        {
+          "id": "line-2",
+          "hans": "映水曲、翠瓦朱檐，垂杨里、乍见津亭。",
+          "hant": "映水曲、翠瓦朱檐，垂楊裏、乍見津亭。"
+        },
+        {
+          "id": "line-3",
+          "hans": "当时曾题败壁，蛛丝罩、淡墨苔晕青。",
+          "hant": "當時曾題敗壁，蛛絲罩、淡墨苔暈青。"
+        },
+        {
+          "id": "line-4",
+          "hans": "念去来、岁月如流，徘徊久、叹息愁思盈。",
+          "hant": "念去來、歲月如流，徘徊久、嘆息愁思盈。"
+        },
+        {
+          "id": "line-5",
+          "hans": "去去倦寻路程。",
+          "hant": "去去倦尋路程。"
+        },
+        {
+          "id": "line-6",
+          "hans": "江陵旧事，何曾再问杨琼。",
+          "hant": "江陵舊事，何曾再問楊瓊。"
+        },
+        {
+          "id": "line-7",
+          "hans": "旧曲凄清。",
+          "hant": "舊曲悽清。"
+        },
+        {
+          "id": "line-8",
+          "hans": "敛愁黛、与谁听。",
+          "hant": "斂愁黛、與誰聽。"
+        },
+        {
+          "id": "line-9",
+          "hans": "尊前故人如在，想念我、最关情。",
+          "hant": "尊前故人如在，想念我、最關情。"
+        },
+        {
+          "id": "line-10",
+          "hans": "何须渭城。",
+          "hant": "何須渭城。"
+        },
+        {
+          "id": "line-11",
+          "hans": "歌声未尽处，先泪零。",
+          "hant": "歌聲未盡處，先淚零。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 239,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

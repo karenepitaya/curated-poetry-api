@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-d747b3a27390bc93",
+  "title": {
+    "hans": "夜飞鹊・夜飞鹊慢·河桥送人处",
+    "hant": "夜飛鵲・夜飛鵲慢·河橋送人處"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "夜飞鹊・夜飞鹊慢",
+    "hant": "夜飛鵲・夜飛鵲慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "河桥送人处，凉夜何其。",
+          "hant": "河橋送人處，涼夜何其。"
+        },
+        {
+          "id": "line-2",
+          "hans": "斜月远堕馀辉。",
+          "hant": "斜月遠墮餘輝。"
+        },
+        {
+          "id": "line-3",
+          "hans": "铜盘烛泪已流尽，霏霏凉露沾衣。",
+          "hant": "銅盤燭淚已流盡，霏霏涼露沾衣。"
+        },
+        {
+          "id": "line-4",
+          "hans": "相将散离会，探风前津鼓，树杪参旗。",
+          "hant": "相將散離會，探風前津鼓，樹杪參旗。"
+        },
+        {
+          "id": "line-5",
+          "hans": "华骢会意，纵扬鞭、亦自行迟。",
+          "hant": "華驄會意，縱揚鞭、亦自行遲。"
+        },
+        {
+          "id": "line-6",
+          "hans": "迢递路回清野，人语渐无闻，空带愁归。",
+          "hant": "迢遞路回清野，人語漸無聞，空帶愁歸。"
+        },
+        {
+          "id": "line-7",
+          "hans": "何意重红满地，遗钿不见，斜径都迷。",
+          "hant": "何意重紅滿地，遺鈿不見，斜徑都迷。"
+        },
+        {
+          "id": "line-8",
+          "hans": "兔葵燕麦，向残阳、欲与人齐。",
+          "hant": "兔葵燕麥，向殘陽、欲與人齊。"
+        },
+        {
+          "id": "line-9",
+          "hans": "但徘徊班草，欷酹酒，极望天西。",
+          "hant": "但徘徊班草，欷酹酒，極望天西。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 243,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

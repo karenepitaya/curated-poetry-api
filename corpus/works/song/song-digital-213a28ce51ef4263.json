@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-213a28ce51ef4263",
+  "title": {
+    "hans": "踏莎行·候馆梅残",
+    "hant": "踏莎行·候館梅殘"
+  },
+  "author": {
+    "name": {
+      "hans": "欧阳修",
+      "hant": "歐陽修"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "踏莎行",
+    "hant": "踏莎行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "候馆梅残，溪桥柳细。",
+          "hant": "候館梅殘，溪橋柳細。"
+        },
+        {
+          "id": "line-2",
+          "hans": "草熏风暖摇征辔。",
+          "hant": "草薰風暖搖徵轡。"
+        },
+        {
+          "id": "line-3",
+          "hans": "离愁渐远渐无穷，迢迢不断如春水。",
+          "hant": "離愁漸遠漸無窮，迢迢不斷如春水。"
+        },
+        {
+          "id": "line-4",
+          "hans": "寸寸柔肠，盈盈粉泪。",
+          "hant": "寸寸柔腸，盈盈粉淚。"
+        },
+        {
+          "id": "line-5",
+          "hans": "楼高莫近危阑倚。",
+          "hant": "樓高莫近危闌倚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "平芜尽处是春山，行人更在春山外。",
+          "hant": "平蕪盡處是春山，行人更在春山外。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 171,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

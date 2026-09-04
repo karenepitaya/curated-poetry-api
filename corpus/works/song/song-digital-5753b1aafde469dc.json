@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-5753b1aafde469dc",
+  "title": {
+    "hans": "清平乐·留人不住",
+    "hant": "清平樂·留人不住"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "清平乐",
+    "hant": "清平樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "留人不住。",
+          "hant": "留人不住。"
+        },
+        {
+          "id": "line-2",
+          "hans": "醉解兰舟去。",
+          "hant": "醉解蘭舟去。"
+        },
+        {
+          "id": "line-3",
+          "hans": "一棹碧涛春水路。",
+          "hant": "一棹碧濤春水路。"
+        },
+        {
+          "id": "line-4",
+          "hans": "过尽晓莺啼处。",
+          "hant": "過盡曉鶯啼處。"
+        },
+        {
+          "id": "line-5",
+          "hans": "渡头杨柳青青。",
+          "hant": "渡頭楊柳青青。"
+        },
+        {
+          "id": "line-6",
+          "hans": "枝枝叶叶离情。",
+          "hant": "枝枝葉葉離情。"
+        },
+        {
+          "id": "line-7",
+          "hans": "此後锦书休寄，画楼云雨无凭。",
+          "hant": "此後錦書休寄，畫樓雲雨無憑。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 25,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-608b9ab9fb8d3953",
+  "title": {
+    "hans": "薄幸·艳真多态",
+    "hant": "薄倖·豔真多態"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "薄幸",
+    "hant": "薄倖"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "艳真多态。",
+          "hant": "豔真多態。"
+        },
+        {
+          "id": "line-2",
+          "hans": "更的的，频回眄睐。",
+          "hant": "更的的，頻回眄睞。"
+        },
+        {
+          "id": "line-3",
+          "hans": "便认得、琴心相许，与写宜男双带。",
+          "hant": "便認得、琴心相許，與寫宜男雙帶。"
+        },
+        {
+          "id": "line-4",
+          "hans": "记画堂、斜月朦胧，轻颦微笑娇无奈。",
+          "hant": "記畫堂、斜月朦朧，輕顰微笑嬌無奈。"
+        },
+        {
+          "id": "line-5",
+          "hans": "便翡翠屏开，芙蓉帐掩，与把香罗偷解。",
+          "hant": "便翡翠屏開，芙蓉帳掩，與把香羅偷解。"
+        },
+        {
+          "id": "line-6",
+          "hans": "自过了收灯後，都不见、踏青挑菜。",
+          "hant": "自過了收燈後，都不見、踏青挑菜。"
+        },
+        {
+          "id": "line-7",
+          "hans": "几回凭双燕，丁宁深意，往来翻恨重帘碍。",
+          "hant": "幾回憑雙燕，丁寧深意，往來翻恨重簾礙。"
+        },
+        {
+          "id": "line-8",
+          "hans": "约何时再。",
+          "hant": "約何時再。"
+        },
+        {
+          "id": "line-9",
+          "hans": "正春浓酒暖，人闲昼永无聊赖。",
+          "hant": "正春濃酒暖，人閒晝永無聊賴。"
+        },
+        {
+          "id": "line-10",
+          "hans": "厌厌睡起，犹有花梢日在。",
+          "hant": "厭厭睡起，猶有花梢日在。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 75,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

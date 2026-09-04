@@ -1,0 +1,69 @@
+{
+  "id": "song-digital-d5bf12e07e1b79be",
+  "title": {
+    "hans": "卜算子·驿外断桥边",
+    "hant": "卜算子·驛外斷橋邊"
+  },
+  "author": {
+    "name": {
+      "hans": "陆游",
+      "hant": "陸游"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "卜算子",
+    "hant": "卜算子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "驿外断桥边，寂寞开无主。",
+          "hant": "驛外斷橋邊，寂寞開無主。"
+        },
+        {
+          "id": "line-2",
+          "hans": "已是黄昏独自愁，更著风和雨。",
+          "hant": "已是黃昏獨自愁，更著風和雨。"
+        },
+        {
+          "id": "line-3",
+          "hans": "无意苦争春，一任群芳妒。",
+          "hant": "無意苦爭春，一任羣芳妒。"
+        },
+        {
+          "id": "line-4",
+          "hans": "零落成泥碾作尘，只有香如故。",
+          "hant": "零落成泥碾作塵，只有香如故。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 13,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

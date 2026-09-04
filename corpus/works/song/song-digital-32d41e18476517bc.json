@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-32d41e18476517bc",
+  "title": {
+    "hans": "浣溪沙·一向年光有限身",
+    "hant": "浣溪沙·一向年光有限身"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浣溪沙",
+    "hant": "浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "一向年光有限身。",
+          "hant": "一向年光有限身。"
+        },
+        {
+          "id": "line-2",
+          "hans": "等闲离别易消魂。",
+          "hant": "等閒離別易消魂。"
+        },
+        {
+          "id": "line-3",
+          "hans": "酒筵歌席莫辞频。",
+          "hant": "酒筵歌席莫辭頻。"
+        },
+        {
+          "id": "line-4",
+          "hans": "满目山河空念远，落花风雨更伤春。",
+          "hant": "滿目山河空念遠，落花風雨更傷春。"
+        },
+        {
+          "id": "line-5",
+          "hans": "不如怜取眼前人。",
+          "hant": "不如憐取眼前人。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 160,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

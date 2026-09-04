@@ -1,0 +1,85 @@
+{
+  "id": "song-digital-22fe6103d3836ffa",
+  "title": {
+    "hans": "青玉案·一年春事都来几",
+    "hant": "青玉案·一年春事都來幾"
+  },
+  "author": {
+    "name": {
+      "hans": "无名氏",
+      "hant": "無名氏"
+    },
+    "attributionStatus": "unknown",
+    "attributionNote": "电子来源署名无名氏，未确定作者。"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "青玉案",
+    "hant": "青玉案"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "一年春事都来几。",
+          "hant": "一年春事都來幾。"
+        },
+        {
+          "id": "line-2",
+          "hans": "早过了、三之二。",
+          "hant": "早過了、三之二。"
+        },
+        {
+          "id": "line-3",
+          "hans": "绿暗红嫣浑可事。",
+          "hant": "綠暗紅嫣渾可事。"
+        },
+        {
+          "id": "line-4",
+          "hans": "绿杨庭院，暖风帘幕，有个人憔悴。",
+          "hant": "綠楊庭院，暖風簾幕，有個人憔悴。"
+        },
+        {
+          "id": "line-5",
+          "hans": "买花载酒长安市。",
+          "hant": "買花載酒長安市。"
+        },
+        {
+          "id": "line-6",
+          "hans": "又争似家山见桃李。",
+          "hant": "又爭似家山見桃李。"
+        },
+        {
+          "id": "line-7",
+          "hans": "不枉东风吹客泪，相思难表，梦魂无据，惟有归来是。",
+          "hant": "不枉東風吹客淚，相思難表，夢魂無據，惟有歸來是。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 77,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

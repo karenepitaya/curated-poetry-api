@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-c50f9fbee23f0b5b",
+  "title": {
+    "hans": "醉中真・浣溪沙·不信芳春厌老人",
+    "hant": "醉中真・浣溪沙·不信芳春厭老人"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "醉中真・浣溪沙",
+    "hant": "醉中真・浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "不信芳春厌老人。",
+          "hant": "不信芳春厭老人。"
+        },
+        {
+          "id": "line-2",
+          "hans": "老人几度送春归。",
+          "hant": "老人幾度送春歸。"
+        },
+        {
+          "id": "line-3",
+          "hans": "惜春行乐莫辞频。",
+          "hant": "惜春行樂莫辭頻。"
+        },
+        {
+          "id": "line-4",
+          "hans": "巧笑艳歌皆我意，恼花颠酒拼君嗔。",
+          "hant": "巧笑豔歌皆我意，惱花顛酒拼君嗔。"
+        },
+        {
+          "id": "line-5",
+          "hans": "物情惟有醉中真。",
+          "hant": "物情惟有醉中真。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 73,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

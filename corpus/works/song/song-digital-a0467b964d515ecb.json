@@ -1,0 +1,69 @@
+{
+  "id": "song-digital-a0467b964d515ecb",
+  "title": {
+    "hans": "生查子·关山魂梦长",
+    "hant": "生查子·關山魂夢長"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "生查子",
+    "hant": "生查子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "关山魂梦长，鱼雁音尘少。",
+          "hant": "關山魂夢長，魚雁音塵少。"
+        },
+        {
+          "id": "line-2",
+          "hans": "两鬓可怜青，只为相思老。",
+          "hant": "兩鬢可憐青，只爲相思老。"
+        },
+        {
+          "id": "line-3",
+          "hans": "归梦碧纱窗，说与人人道。",
+          "hant": "歸夢碧紗窗，說與人人道。"
+        },
+        {
+          "id": "line-4",
+          "hans": "真个别离难，不似相逢好。",
+          "hant": "真個別離難，不似相逢好。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 24,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

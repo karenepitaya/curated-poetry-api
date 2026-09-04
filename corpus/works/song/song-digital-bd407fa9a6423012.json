@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-bd407fa9a6423012",
+  "title": {
+    "hans": "澡兰香·盘丝系腕",
+    "hant": "澡蘭香·盤絲系腕"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "澡兰香",
+    "hant": "澡蘭香"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "盘丝系腕，巧篆垂簪，玉隐绀纱睡觉。",
+          "hant": "盤絲系腕，巧篆垂簪，玉隱紺紗睡覺。"
+        },
+        {
+          "id": "line-2",
+          "hans": "银瓶露井，彩云窗，往事少年依约。",
+          "hant": "銀瓶露井，彩雲窗，往事少年依約。"
+        },
+        {
+          "id": "line-3",
+          "hans": "为当时、曾写榴裙，伤心红绡褪萼。",
+          "hant": "爲當時、曾寫榴裙，傷心紅綃褪萼。"
+        },
+        {
+          "id": "line-4",
+          "hans": "黍梦光阴渐老，汀洲烟箬。",
+          "hant": "黍夢光陰漸老，汀洲煙箬。"
+        },
+        {
+          "id": "line-5",
+          "hans": "莫唱江南古调，怨抑难招，楚江沈魄。",
+          "hant": "莫唱江南古調，怨抑難招，楚江沈魄。"
+        },
+        {
+          "id": "line-6",
+          "hans": "薰风燕乳，暗雨梅黄，午镜澡兰帘幕。",
+          "hant": "薰風燕乳，暗雨梅黃，午鏡澡蘭簾幕。"
+        },
+        {
+          "id": "line-7",
+          "hans": "念秦楼、也拟人归，应翦菖浦自酌。",
+          "hant": "念秦樓、也擬人歸，應翦菖浦自酌。"
+        },
+        {
+          "id": "line-8",
+          "hans": "但怅望、一屡新蟾，随人天角。",
+          "hant": "但悵望、一屢新蟾，隨人天角。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 197,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

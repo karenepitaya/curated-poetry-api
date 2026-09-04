@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-e6e148b9f6627b19",
+  "title": {
+    "hans": "贺新郎·乳燕飞华屋",
+    "hant": "賀新郎·乳燕飛華屋"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "贺新郎",
+    "hant": "賀新郎"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "乳燕飞华屋。",
+          "hant": "乳燕飛華屋。"
+        },
+        {
+          "id": "line-2",
+          "hans": "悄无人、桐阴转午，晚凉新浴。",
+          "hant": "悄無人、桐陰轉午，晚涼新浴。"
+        },
+        {
+          "id": "line-3",
+          "hans": "手弄生绡白团扇，扇手一时似玉。",
+          "hant": "手弄生綃白團扇，扇手一時似玉。"
+        },
+        {
+          "id": "line-4",
+          "hans": "渐困倚、孤眠清熟。",
+          "hant": "漸困倚、孤眠清熟。"
+        },
+        {
+          "id": "line-5",
+          "hans": "帘外谁来推绣户，枉教人、梦断瑶台曲。",
+          "hant": "簾外誰來推繡戶，枉教人、夢斷瑤臺曲。"
+        },
+        {
+          "id": "line-6",
+          "hans": "又却是，风敲竹。",
+          "hant": "又卻是，風敲竹。"
+        },
+        {
+          "id": "line-7",
+          "hans": "石榴半吐红巾蹙。",
+          "hant": "石榴半吐紅巾蹙。"
+        },
+        {
+          "id": "line-8",
+          "hans": "待浮花、浪蕊都尽，伴君幽独。",
+          "hant": "待浮花、浪蕊都盡，伴君幽獨。"
+        },
+        {
+          "id": "line-9",
+          "hans": "艳一枝细看取，芳心千重似束。",
+          "hant": "豔一枝細看取，芳心千重似束。"
+        },
+        {
+          "id": "line-10",
+          "hans": "又恐被、秋风惊绿。",
+          "hant": "又恐被、秋風驚綠。"
+        },
+        {
+          "id": "line-11",
+          "hans": "若待得君来向此，花前对酒不忍触。",
+          "hant": "若待得君來向此，花前對酒不忍觸。"
+        },
+        {
+          "id": "line-12",
+          "hans": "共粉泪，两蔌蔌。",
+          "hant": "共粉淚，兩蔌蔌。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 42,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-be5c5ce024a9d66d",
+  "title": {
+    "hans": "秦楼月・忆秦娥·楼阴缺",
+    "hant": "秦樓月・憶秦娥·樓陰缺"
+  },
+  "author": {
+    "name": {
+      "hans": "范成大",
+      "hant": "范成大"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "秦楼月・忆秦娥",
+    "hant": "秦樓月・憶秦娥"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "楼阴缺。",
+          "hant": "樓陰缺。"
+        },
+        {
+          "id": "line-2",
+          "hans": "阑干影卧东厢月。",
+          "hant": "闌干影臥東廂月。"
+        },
+        {
+          "id": "line-3",
+          "hans": "东厢月。",
+          "hant": "東廂月。"
+        },
+        {
+          "id": "line-4",
+          "hans": "一天风露，杏花如雪。",
+          "hant": "一天風露，杏花如雪。"
+        },
+        {
+          "id": "line-5",
+          "hans": "隔烟催漏金虬咽。",
+          "hant": "隔煙催漏金虯咽。"
+        },
+        {
+          "id": "line-6",
+          "hans": "罗帏暗淡灯花结。",
+          "hant": "羅幃暗淡燈花結。"
+        },
+        {
+          "id": "line-7",
+          "hans": "灯花结。",
+          "hant": "燈花結。"
+        },
+        {
+          "id": "line-8",
+          "hans": "片时春梦，江南天阔。",
+          "hant": "片時春夢，江南天闊。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 275,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

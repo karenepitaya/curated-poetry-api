@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-cbcc6b1aacde1a6f",
+  "title": {
+    "hans": "一萼红·古城阴",
+    "hant": "一萼紅·古城陰"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "一萼红",
+    "hant": "一萼紅"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "古城阴。",
+          "hant": "古城陰。"
+        },
+        {
+          "id": "line-2",
+          "hans": "有官梅几许，红萼未宜簪。",
+          "hant": "有官梅幾許，紅萼未宜簪。"
+        },
+        {
+          "id": "line-3",
+          "hans": "池面冰胶，墙腰雪老，云意还又沈沈。",
+          "hant": "池面冰膠，牆腰雪老，雲意還又沈沈。"
+        },
+        {
+          "id": "line-4",
+          "hans": "翠藤共、闲穿径竹，渐笑语、惊起卧沙禽。",
+          "hant": "翠藤共、閒穿徑竹，漸笑語、驚起臥沙禽。"
+        },
+        {
+          "id": "line-5",
+          "hans": "野老林泉，故王台榭，呼唤登临。",
+          "hant": "野老林泉，故王臺榭，呼喚登臨。"
+        },
+        {
+          "id": "line-6",
+          "hans": "南去北来何事，荡湘云楚水，目极伤心。",
+          "hant": "南去北來何事，蕩湘雲楚水，目極傷心。"
+        },
+        {
+          "id": "line-7",
+          "hans": "朱户黏鸡，金盘簇燕，空叹时序侵寻。",
+          "hant": "朱戶黏雞，金盤簇燕，空嘆時序侵尋。"
+        },
+        {
+          "id": "line-8",
+          "hans": "记曾共，西楼雅集，想垂杨、还袅万丝金。",
+          "hant": "記曾共，西樓雅集，想垂楊、還嫋萬絲金。"
+        },
+        {
+          "id": "line-9",
+          "hans": "待得归鞍到时，只怕春深。",
+          "hant": "待得歸鞍到時，只怕春深。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 128,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

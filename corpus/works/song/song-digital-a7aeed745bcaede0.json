@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-a7aeed745bcaede0",
+  "title": {
+    "hans": "唐多令·何处合成愁",
+    "hant": "唐多令·何處合成愁"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "唐多令",
+    "hant": "唐多令"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "何处合成愁。",
+          "hant": "何處合成愁。"
+        },
+        {
+          "id": "line-2",
+          "hans": "离人心上秋。",
+          "hant": "離人心上秋。"
+        },
+        {
+          "id": "line-3",
+          "hans": "纵芭蕉、不雨也飕飕。",
+          "hant": "縱芭蕉、不雨也颼颼。"
+        },
+        {
+          "id": "line-4",
+          "hans": "都道晚凉天气好，有明月、怕登楼。",
+          "hant": "都道晚涼天氣好，有明月、怕登樓。"
+        },
+        {
+          "id": "line-5",
+          "hans": "年事梦中休。",
+          "hant": "年事夢中休。"
+        },
+        {
+          "id": "line-6",
+          "hans": "花空烟水流。",
+          "hant": "花空煙水流。"
+        },
+        {
+          "id": "line-7",
+          "hans": "燕辞归、客尚淹留。",
+          "hant": "燕辭歸、客尚淹留。"
+        },
+        {
+          "id": "line-8",
+          "hans": "垂柳不萦裙带住，漫长是、系行舟。",
+          "hant": "垂柳不縈裙帶住，漫長是、系行舟。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 86,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

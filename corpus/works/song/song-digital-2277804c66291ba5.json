@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-2277804c66291ba5",
+  "title": {
+    "hans": "瑞鹤仙·郊原初过雨",
+    "hant": "瑞鶴仙·郊原初過雨"
+  },
+  "author": {
+    "name": {
+      "hans": "袁去华",
+      "hant": "袁去華"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞鹤仙",
+    "hant": "瑞鶴仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "郊原初过雨。",
+          "hant": "郊原初過雨。"
+        },
+        {
+          "id": "line-2",
+          "hans": "见败叶零乱，风定犹舞。",
+          "hant": "見敗葉零亂，風定猶舞。"
+        },
+        {
+          "id": "line-3",
+          "hans": "斜阳挂深树。",
+          "hant": "斜陽掛深樹。"
+        },
+        {
+          "id": "line-4",
+          "hans": "映浓愁浅黛，遥山眉妩。",
+          "hant": "映濃愁淺黛，遙山眉嫵。"
+        },
+        {
+          "id": "line-5",
+          "hans": "来时旧路。",
+          "hant": "來時舊路。"
+        },
+        {
+          "id": "line-6",
+          "hans": "尚岩花、娇黄半吐。",
+          "hant": "尚巖花、嬌黃半吐。"
+        },
+        {
+          "id": "line-7",
+          "hans": "到而今，唯有溪边流水，见人如故。",
+          "hant": "到而今，唯有溪邊流水，見人如故。"
+        },
+        {
+          "id": "line-8",
+          "hans": "无语。",
+          "hant": "無語。"
+        },
+        {
+          "id": "line-9",
+          "hans": "邮亭深静，下马还寻，旧曾题处。",
+          "hant": "郵亭深靜，下馬還尋，舊曾題處。"
+        },
+        {
+          "id": "line-10",
+          "hans": "无聊倦旅。",
+          "hant": "無聊倦旅。"
+        },
+        {
+          "id": "line-11",
+          "hans": "伤离恨，最愁苦。",
+          "hant": "傷離恨，最愁苦。"
+        },
+        {
+          "id": "line-12",
+          "hans": "纵收香藏镜，他年重到，人面桃花在否。",
+          "hant": "縱收香藏鏡，他年重到，人面桃花在否。"
+        },
+        {
+          "id": "line-13",
+          "hans": "念沈沈、小阁幽窗，有时梦去。",
+          "hant": "念沈沈、小閣幽窗，有時夢去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 10,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

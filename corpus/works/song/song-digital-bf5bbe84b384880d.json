@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-bf5bbe84b384880d",
+  "title": {
+    "hans": "安公子·弱柳丝千缕",
+    "hant": "安公子·弱柳絲千縷"
+  },
+  "author": {
+    "name": {
+      "hans": "袁去华",
+      "hant": "袁去華"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "安公子",
+    "hant": "安公子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "弱柳丝千缕。",
+          "hant": "弱柳絲千縷。"
+        },
+        {
+          "id": "line-2",
+          "hans": "嫩黄匀遍鸦啼处。",
+          "hant": "嫩黃勻遍鴉啼處。"
+        },
+        {
+          "id": "line-3",
+          "hans": "寒入罗衣春尚浅，过一番风雨。",
+          "hant": "寒入羅衣春尚淺，過一番風雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "问燕子来时，绿水桥边路。",
+          "hant": "問燕子來時，綠水橋邊路。"
+        },
+        {
+          "id": "line-5",
+          "hans": "曾画楼、见个人人否。",
+          "hant": "曾畫樓、見個人人否。"
+        },
+        {
+          "id": "line-6",
+          "hans": "料静掩云窗，尘满哀弦危柱。",
+          "hant": "料靜掩雲窗，塵滿哀弦危柱。"
+        },
+        {
+          "id": "line-7",
+          "hans": "庾信愁如许。",
+          "hant": "庾信愁如許。"
+        },
+        {
+          "id": "line-8",
+          "hans": "为谁都著眉端聚。",
+          "hant": "爲誰都著眉端聚。"
+        },
+        {
+          "id": "line-9",
+          "hans": "独立东风弹泪眼，寄烟波东去。",
+          "hant": "獨立東風彈淚眼，寄煙波東去。"
+        },
+        {
+          "id": "line-10",
+          "hans": "念永昼春闲，人倦如何度。",
+          "hant": "念永晝春閒，人倦如何度。"
+        },
+        {
+          "id": "line-11",
+          "hans": "闲傍枕、百啭黄鹂语。",
+          "hant": "閒傍枕、百囀黃鸝語。"
+        },
+        {
+          "id": "line-12",
+          "hans": "唤觉来厌厌，残照依然花坞。",
+          "hant": "喚覺來厭厭，殘照依然花塢。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 12,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

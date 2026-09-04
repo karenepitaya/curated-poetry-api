@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-370f6ee8c554da14",
+  "title": {
+    "hans": "忆王孙·萋萋芳草忆王孙",
+    "hant": "憶王孫·萋萋芳草憶王孫"
+  },
+  "author": {
+    "name": {
+      "hans": "李重元",
+      "hant": "李重元"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "忆王孙",
+    "hant": "憶王孫"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "萋萋芳草忆王孙。",
+          "hant": "萋萋芳草憶王孫。"
+        },
+        {
+          "id": "line-2",
+          "hans": "柳外楼高空断魂。",
+          "hant": "柳外樓高空斷魂。"
+        },
+        {
+          "id": "line-3",
+          "hans": "杜宇声声不忍闻。",
+          "hant": "杜宇聲聲不忍聞。"
+        },
+        {
+          "id": "line-4",
+          "hans": "欲黄昏。",
+          "hant": "欲黃昏。"
+        },
+        {
+          "id": "line-5",
+          "hans": "雨打梨花深闭门。",
+          "hant": "雨打梨花深閉門。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 110,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-caa058b4a7bb59b6",
+  "title": {
+    "hans": "渡江云·山空天入海",
+    "hant": "渡江雲·山空天入海"
+  },
+  "author": {
+    "name": {
+      "hans": "张炎",
+      "hant": "張炎"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "渡江云",
+    "hant": "渡江雲"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "山空天入海，倚楼望极，风急暮潮初。",
+          "hant": "山空天入海，倚樓望極，風急暮潮初。"
+        },
+        {
+          "id": "line-2",
+          "hans": "一帘鸠外雨，几处闲田，隔水动春锄。",
+          "hant": "一簾鳩外雨，幾處閒田，隔水動春鋤。"
+        },
+        {
+          "id": "line-3",
+          "hans": "新烟禁柳，想如今、绿到西湖。",
+          "hant": "新菸禁柳，想如今、綠到西湖。"
+        },
+        {
+          "id": "line-4",
+          "hans": "犹记得、当年深隐，门掩两三株。",
+          "hant": "猶記得、當年深隱，門掩兩三株。"
+        },
+        {
+          "id": "line-5",
+          "hans": "愁余。",
+          "hant": "愁餘。"
+        },
+        {
+          "id": "line-6",
+          "hans": "荒洲古溆，断梗疏萍，更漂流何处。",
+          "hant": "荒洲古漵，斷梗疏萍，更漂流何處。"
+        },
+        {
+          "id": "line-7",
+          "hans": "空自觉、围羞带减，影怯灯孤。",
+          "hant": "空自覺、圍羞帶減，影怯燈孤。"
+        },
+        {
+          "id": "line-8",
+          "hans": "常疑即见桃花面，甚近来、翻笑无书。",
+          "hant": "常疑即見桃花面，甚近來、翻笑無書。"
+        },
+        {
+          "id": "line-9",
+          "hans": "书纵远，如何也都无。",
+          "hant": "書縱遠，如何也都無。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 259,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

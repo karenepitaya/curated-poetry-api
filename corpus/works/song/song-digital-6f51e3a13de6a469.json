@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-6f51e3a13de6a469",
+  "title": {
+    "hans": "惜黄花慢·送客吴皋",
+    "hant": "惜黃花慢·送客吳皋"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "惜黄花慢",
+    "hant": "惜黃花慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "送客吴皋。",
+          "hant": "送客吳皋。"
+        },
+        {
+          "id": "line-2",
+          "hans": "正试霜夜冷，枫落长桥。",
+          "hant": "正試霜夜冷，楓落長橋。"
+        },
+        {
+          "id": "line-3",
+          "hans": "望天不尽，背城渐杳，离亭黯黯，恨水迢迢。",
+          "hant": "望天不盡，背城漸杳，離亭黯黯，恨水迢迢。"
+        },
+        {
+          "id": "line-4",
+          "hans": "翠香零落红衣老，暮愁锁、残柳眉梢。",
+          "hant": "翠香零落紅衣老，暮愁鎖、殘柳眉梢。"
+        },
+        {
+          "id": "line-5",
+          "hans": "念瘦腰。",
+          "hant": "念瘦腰。"
+        },
+        {
+          "id": "line-6",
+          "hans": "沈郎旧日，曾系兰桡。",
+          "hant": "沈郎舊日，曾系蘭橈。"
+        },
+        {
+          "id": "line-7",
+          "hans": "仙人凤咽琼箫。",
+          "hant": "仙人鳳咽瓊簫。"
+        },
+        {
+          "id": "line-8",
+          "hans": "怅断魂送远，九辨难招。",
+          "hant": "悵斷魂送遠，九辨難招。"
+        },
+        {
+          "id": "line-9",
+          "hans": "醉鬟留盼，小窗翦烛，歌云载恨，飞上银霄。",
+          "hant": "醉鬟留盼，小窗翦燭，歌雲載恨，飛上銀霄。"
+        },
+        {
+          "id": "line-10",
+          "hans": "素秋不解随船去，败红趁、一叶寒涛。",
+          "hant": "素秋不解隨船去，敗紅趁、一葉寒濤。"
+        },
+        {
+          "id": "line-11",
+          "hans": "梦翠翘。",
+          "hant": "夢翠翹。"
+        },
+        {
+          "id": "line-12",
+          "hans": "怨鸿料过南谯。",
+          "hant": "怨鴻料過南譙。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 9,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

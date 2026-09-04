@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-833bcafe95668bbc",
+  "title": {
+    "hans": "永遇乐·落日熔金",
+    "hant": "永遇樂·落日熔金"
+  },
+  "author": {
+    "name": {
+      "hans": "李清照",
+      "hant": "李清照"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "永遇乐",
+    "hant": "永遇樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "落日熔金，暮云合璧，人在何处。",
+          "hant": "落日熔金，暮雲合璧，人在何處。"
+        },
+        {
+          "id": "line-2",
+          "hans": "染柳烟浓，吹梅笛怨，春意知几许。",
+          "hant": "染柳煙濃，吹梅笛怨，春意知幾許。"
+        },
+        {
+          "id": "line-3",
+          "hans": "元宵佳节，融和天气，次第岂无风雨。",
+          "hant": "元宵佳節，融和天氣，次第豈無風雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "来相召、香车宝马，谢他酒朋诗侣。",
+          "hant": "來相召、香車寶馬，謝他酒朋詩侶。"
+        },
+        {
+          "id": "line-5",
+          "hans": "中州盛日，闺门多暇，记得偏重三五。",
+          "hant": "中州盛日，閨門多暇，記得偏重三五。"
+        },
+        {
+          "id": "line-6",
+          "hans": "铺翠冠儿，拈金雪柳，簇带争济楚。",
+          "hant": "鋪翠冠兒，拈金雪柳，簇帶爭濟楚。"
+        },
+        {
+          "id": "line-7",
+          "hans": "如今憔悴，风鬟霜鬓，怕见夜间出去。",
+          "hant": "如今憔悴，風鬟霜鬢，怕見夜間出去。"
+        },
+        {
+          "id": "line-8",
+          "hans": "不如向、帘儿底下，听人笑语。",
+          "hant": "不如向、簾兒底下，聽人笑語。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 203,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

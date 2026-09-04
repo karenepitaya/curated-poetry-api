@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-7311c9697fb7a0b4",
+  "title": {
+    "hans": "忆少年·无穷官柳",
+    "hant": "憶少年·無窮官柳"
+  },
+  "author": {
+    "name": {
+      "hans": "晁补之",
+      "hant": "晁補之"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "忆少年",
+    "hant": "憶少年"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "无穷官柳，无情画舸，无根行客。",
+          "hant": "無窮官柳，無情畫舸，無根行客。"
+        },
+        {
+          "id": "line-2",
+          "hans": "南山尚相送，只高城人隔。",
+          "hant": "南山尚相送，只高城人隔。"
+        },
+        {
+          "id": "line-3",
+          "hans": "罨画园林溪绀碧。",
+          "hant": "罨畫園林溪紺碧。"
+        },
+        {
+          "id": "line-4",
+          "hans": "算重来、尽成陈迹。",
+          "hant": "算重來、盡成陳跡。"
+        },
+        {
+          "id": "line-5",
+          "hans": "刘郎鬓如此，况桃花颜色。",
+          "hant": "劉郎鬢如此，況桃花顏色。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 221,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

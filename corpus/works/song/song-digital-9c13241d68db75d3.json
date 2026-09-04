@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-9c13241d68db75d3",
+  "title": {
+    "hans": "绿头鸭・多丽·玉人家",
+    "hant": "綠頭鴨・多麗·玉人家"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "绿头鸭・多丽",
+    "hant": "綠頭鴨・多麗"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "玉人家，画楼珠箔临津。",
+          "hant": "玉人家，畫樓珠箔臨津。"
+        },
+        {
+          "id": "line-2",
+          "hans": "托微风、彩箫流怨，断肠马上曾闻。",
+          "hant": "託微風、彩簫流怨，斷腸馬上曾聞。"
+        },
+        {
+          "id": "line-3",
+          "hans": "燕堂开、艳妆丛里，调琴思、认歌颦。",
+          "hant": "燕堂開、豔妝叢裏，調琴思、認歌顰。"
+        },
+        {
+          "id": "line-4",
+          "hans": "麝蜡烟浓，玉莲漏短，更衣不待酒初醺。",
+          "hant": "麝蠟煙濃，玉蓮漏短，更衣不待酒初醺。"
+        },
+        {
+          "id": "line-5",
+          "hans": "绣屏掩、枕鸳相就，香气渐暾暾。",
+          "hant": "繡屏掩、枕鴛相就，香氣漸暾暾。"
+        },
+        {
+          "id": "line-6",
+          "hans": "回廊影，疏钟淡月，几许销魂。",
+          "hant": "迴廊影，疏鍾淡月，幾許銷魂。"
+        },
+        {
+          "id": "line-7",
+          "hans": "翠钗分、银笺封泪，舞鞋从此生尘。",
+          "hant": "翠釵分、銀箋封淚，舞鞋從此生塵。"
+        },
+        {
+          "id": "line-8",
+          "hans": "住兰舟、载将离恨，转南浦、背西曛。",
+          "hant": "住蘭舟、載將離恨，轉南浦、背西曛。"
+        },
+        {
+          "id": "line-9",
+          "hans": "记取明年，蔷薇谢後，佳期应未误行云。",
+          "hant": "記取明年，薔薇謝後，佳期應未誤行雲。"
+        },
+        {
+          "id": "line-10",
+          "hans": "凤城远，楚梅香嫩，先寄一枝春。",
+          "hant": "鳳城遠，楚梅香嫩，先寄一枝春。"
+        },
+        {
+          "id": "line-11",
+          "hans": "青门外，祗凭芳草，寻访郎君。",
+          "hant": "青門外，祗憑芳草，尋訪郎君。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 219,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

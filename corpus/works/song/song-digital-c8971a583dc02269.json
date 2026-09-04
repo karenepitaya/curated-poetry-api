@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-c8971a583dc02269",
+  "title": {
+    "hans": "御街行·纷纷堕叶飘香砌",
+    "hant": "御街行·紛紛墮葉飄香砌"
+  },
+  "author": {
+    "name": {
+      "hans": "范仲淹",
+      "hant": "范仲淹"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "御街行",
+    "hant": "御街行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "纷纷堕叶飘香砌。",
+          "hant": "紛紛墮葉飄香砌。"
+        },
+        {
+          "id": "line-2",
+          "hans": "夜寂静、寒声碎。",
+          "hant": "夜寂靜、寒聲碎。"
+        },
+        {
+          "id": "line-3",
+          "hans": "真珠帘卷玉楼空，天淡银河垂地。",
+          "hant": "真珠簾卷玉樓空，天淡銀河垂地。"
+        },
+        {
+          "id": "line-4",
+          "hans": "年年今夜，月华如练，长是人千里。",
+          "hant": "年年今夜，月華如練，長是人千里。"
+        },
+        {
+          "id": "line-5",
+          "hans": "愁肠已断无由醉。",
+          "hant": "愁腸已斷無由醉。"
+        },
+        {
+          "id": "line-6",
+          "hans": "酒未到、先成泪。",
+          "hant": "酒未到、先成淚。"
+        },
+        {
+          "id": "line-7",
+          "hans": "残灯明灭枕头欹。",
+          "hant": "殘燈明滅枕頭欹。"
+        },
+        {
+          "id": "line-8",
+          "hans": "谙尽孤眠滋味。",
+          "hant": "諳盡孤眠滋味。"
+        },
+        {
+          "id": "line-9",
+          "hans": "都来此事，眉间心上，无计相回避。",
+          "hant": "都來此事，眉間心上，無計相迴避。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 140,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

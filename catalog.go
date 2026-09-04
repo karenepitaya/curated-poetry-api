@@ -19,7 +19,7 @@ import (
 
 var ErrNoMatchingWorks = errors.New("no works match the query")
 
-//go:embed corpus
+//go:embed corpus sources/chinese-poetry-songci/songci-300.json
 var embeddedCorpus embed.FS
 
 // Catalog is immutable after loading and safe for concurrent use. The random
@@ -146,6 +146,7 @@ type corpusData struct {
 	collections    []Collection
 	normalizations []NormalizationRule
 	revision       string
+	digitalRecords map[string][]digitalRecord
 }
 
 type normalizationFile struct {
@@ -190,6 +191,10 @@ func loadCorpus(dataFS fs.FS, selectedWorkPaths []string) (corpusData, error) {
 		}
 		data.editions = append(data.editions, edition)
 	}
+	data.digitalRecords, err = loadDigitalSources(dataFS, data.editions)
+	if err != nil {
+		return data, err
+	}
 
 	collectionPaths, err := jsonPaths(dataFS, "corpus/collections")
 	if err != nil {
@@ -218,6 +223,11 @@ func loadCorpus(dataFS fs.FS, selectedWorkPaths []string) (corpusData, error) {
 		allPaths = append(allPaths, editionPaths...)
 		allPaths = append(allPaths, collectionPaths...)
 		allPaths = append(allPaths, "corpus/normalization.json")
+		for _, edition := range data.editions {
+			if edition.Kind == "digital-text" {
+				allPaths = append(allPaths, edition.SourcePath)
+			}
+		}
 		data.revision, err = corpusRevision(dataFS, allPaths)
 		if err != nil {
 			return data, err
@@ -419,6 +429,10 @@ func randomIndexFrom(reader io.Reader, length int) (int, error) {
 }
 
 func cloneWork(work Work) Work {
+	if work.Evidence.DigitalSource != nil {
+		source := *work.Evidence.DigitalSource
+		work.Evidence.DigitalSource = &source
+	}
 	if work.Tune != nil {
 		tune := *work.Tune
 		work.Tune = &tune

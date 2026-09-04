@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-1ff0d0af0d632dad",
+  "title": {
+    "hans": "高阳台·宫粉雕痕",
+    "hant": "高陽臺·宮粉雕痕"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "高阳台",
+    "hant": "高陽臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "宫粉雕痕，仙云堕影，无人野水荒湾。",
+          "hant": "宮粉雕痕，仙雲墮影，無人野水荒灣。"
+        },
+        {
+          "id": "line-2",
+          "hans": "古石埋香，金沙锁骨连环。",
+          "hant": "古石埋香，金沙鎖骨連環。"
+        },
+        {
+          "id": "line-3",
+          "hans": "南楼不恨吹横笛，恨晓风、千里关山。",
+          "hant": "南樓不恨吹橫笛，恨曉風、千里關山。"
+        },
+        {
+          "id": "line-4",
+          "hans": "半飘零，庭上黄昏，月冷阑干。",
+          "hant": "半飄零，庭上黃昏，月冷闌干。"
+        },
+        {
+          "id": "line-5",
+          "hans": "寿阳空理愁鸾。",
+          "hant": "壽陽空理愁鸞。"
+        },
+        {
+          "id": "line-6",
+          "hans": "问谁调玉髓，暗补香瘢。",
+          "hant": "問誰調玉髓，暗補香瘢。"
+        },
+        {
+          "id": "line-7",
+          "hans": "细雨归鸿，孤山无限春寒。",
+          "hant": "細雨歸鴻，孤山無限春寒。"
+        },
+        {
+          "id": "line-8",
+          "hans": "离魂难倩招清些，梦缟衣、解佩溪边。",
+          "hant": "離魂難倩招清些，夢縞衣、解佩溪邊。"
+        },
+        {
+          "id": "line-9",
+          "hans": "最愁人，啼鸟晴明，叶底青圆。",
+          "hant": "最愁人，啼鳥晴明，葉底青圓。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 79,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-6cb6773e8b2855ac",
+  "title": {
+    "hans": "浪淘沙·梦觉",
+    "hant": "浪淘沙·夢覺"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浪淘沙",
+    "hant": "浪淘沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "梦觉、透窗风一线，寒灯吹息。",
+          "hant": "夢覺、透窗風一線，寒燈吹息。"
+        },
+        {
+          "id": "line-2",
+          "hans": "那堪酒醒，又闻空阶，夜雨频滴。",
+          "hant": "那堪酒醒，又聞空階，夜雨頻滴。"
+        },
+        {
+          "id": "line-3",
+          "hans": "嗟因循、久作天涯客。",
+          "hant": "嗟因循、久作天涯客。"
+        },
+        {
+          "id": "line-4",
+          "hans": "负佳人、几许盟言，便忍把、从前欢会，陡顿翻成忧戚。",
+          "hant": "負佳人、幾許盟言，便忍把、從前歡會，陡頓翻成憂戚。"
+        },
+        {
+          "id": "line-5",
+          "hans": "愁极。",
+          "hant": "愁極。"
+        },
+        {
+          "id": "line-6",
+          "hans": "再三追思，洞房深处，几度饮散歌阑，香暖鸳鸯被，岂暂时疏散，费伊心力。",
+          "hant": "再三追思，洞房深處，幾度飲散歌闌，香暖鴛鴦被，豈暫時疏散，費伊心力。"
+        },
+        {
+          "id": "line-7",
+          "hans": "云尤雨，有万般千种，相怜相惜。",
+          "hant": "雲尤雨，有萬般千種，相憐相惜。"
+        },
+        {
+          "id": "line-8",
+          "hans": "恰到如今，天长漏永，无端自家疏隔。",
+          "hant": "恰到如今，天長漏永，無端自家疏隔。"
+        },
+        {
+          "id": "line-9",
+          "hans": "知何时、却拥秦云态，愿低帏昵枕，轻轻细说与，江乡夜夜，数寒更思忆。",
+          "hant": "知何時、卻擁秦雲態，願低幃暱枕，輕輕細說與，江鄉夜夜，數寒更思憶。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 145,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-0b4cbeac1c6636dc",
+  "title": {
+    "hans": "浣溪沙·门隔花深梦旧游",
+    "hant": "浣溪沙·門隔花深夢舊遊"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浣溪沙",
+    "hant": "浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "门隔花深梦旧游。",
+          "hant": "門隔花深夢舊遊。"
+        },
+        {
+          "id": "line-2",
+          "hans": "夕阳无语燕归愁。",
+          "hant": "夕陽無語燕歸愁。"
+        },
+        {
+          "id": "line-3",
+          "hans": "玉纤香动小帘钩。",
+          "hant": "玉纖香動小簾鉤。"
+        },
+        {
+          "id": "line-4",
+          "hans": "落絮无声春堕泪，行云有影月含羞。",
+          "hant": "落絮無聲春墮淚，行雲有影月含羞。"
+        },
+        {
+          "id": "line-5",
+          "hans": "东风临夜冷於秋。",
+          "hant": "東風臨夜冷於秋。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 192,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

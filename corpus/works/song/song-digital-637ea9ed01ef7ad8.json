@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-637ea9ed01ef7ad8",
+  "title": {
+    "hans": "燕山亭·裁翦冰绡",
+    "hant": "燕山亭·裁翦冰綃"
+  },
+  "author": {
+    "name": {
+      "hans": "赵佶",
+      "hant": "趙佶"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "燕山亭",
+    "hant": "燕山亭"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "裁翦冰绡，打叠数重，冷淡燕脂匀注。",
+          "hant": "裁翦冰綃，打疊數重，冷淡燕脂勻注。"
+        },
+        {
+          "id": "line-2",
+          "hans": "新样靓妆，艳溢香融，羞杀蕊珠宫女。",
+          "hant": "新樣靚妝，豔溢香融，羞殺蕊珠宮女。"
+        },
+        {
+          "id": "line-3",
+          "hans": "易得凋零，更多少、无情风雨。",
+          "hant": "易得凋零，更多少、無情風雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "愁苦。",
+          "hant": "愁苦。"
+        },
+        {
+          "id": "line-5",
+          "hans": "闲院落凄凉，几番春暮。",
+          "hant": "閒院落淒涼，幾番春暮。"
+        },
+        {
+          "id": "line-6",
+          "hans": "凭寄离恨重重，这双燕，何曾会人言语。",
+          "hant": "憑寄離恨重重，這雙燕，何曾會人言語。"
+        },
+        {
+          "id": "line-7",
+          "hans": "天遥地远，万水千山，知他故宫何处。",
+          "hant": "天遙地遠，萬水千山，知他故宮何處。"
+        },
+        {
+          "id": "line-8",
+          "hans": "怎不思量，除梦里、有时会去。",
+          "hant": "怎不思量，除夢裏、有時會去。"
+        },
+        {
+          "id": "line-9",
+          "hans": "无据。",
+          "hant": "無據。"
+        },
+        {
+          "id": "line-10",
+          "hans": "和梦也、有时不做。",
+          "hant": "和夢也、有時不做。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 198,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

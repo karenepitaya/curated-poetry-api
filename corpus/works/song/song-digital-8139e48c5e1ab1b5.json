@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-8139e48c5e1ab1b5",
+  "title": {
+    "hans": "东风第一枝·巧沁兰心",
+    "hant": "東風第一枝·巧沁蘭心"
+  },
+  "author": {
+    "name": {
+      "hans": "史达祖",
+      "hant": "史達祖"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "东风第一枝",
+    "hant": "東風第一枝"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "巧沁兰心，偷黏草甲，东风欲障新暖。",
+          "hant": "巧沁蘭心，偷黏草甲，東風慾障新暖。"
+        },
+        {
+          "id": "line-2",
+          "hans": "谩凝碧瓦难留，信知暮寒轻浅。",
+          "hant": "謾凝碧瓦難留，信知暮寒輕淺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "行天入镜，做弄出、轻松纤软。",
+          "hant": "行天入鏡，做弄出、輕鬆纖軟。"
+        },
+        {
+          "id": "line-4",
+          "hans": "料故园、不卷重帘，误了乍来双燕。",
+          "hant": "料故園、不卷重簾，誤了乍來雙燕。"
+        },
+        {
+          "id": "line-5",
+          "hans": "青未了、柳回白眼。",
+          "hant": "青未了、柳回白眼。"
+        },
+        {
+          "id": "line-6",
+          "hans": "红欲断、杏开素面。",
+          "hant": "紅欲斷、杏開素面。"
+        },
+        {
+          "id": "line-7",
+          "hans": "旧游忆著山阴，厚盟遂妨上苑。",
+          "hant": "舊遊憶著山陰，厚盟遂妨上苑。"
+        },
+        {
+          "id": "line-8",
+          "hans": "寒炉重暖，便放慢春衫针线。",
+          "hant": "寒爐重暖，便放慢春衫針線。"
+        },
+        {
+          "id": "line-9",
+          "hans": "恐凤靴、挑菜归来，万一灞桥相见。",
+          "hant": "恐鳳靴、挑菜歸來，萬一灞橋相見。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 180,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

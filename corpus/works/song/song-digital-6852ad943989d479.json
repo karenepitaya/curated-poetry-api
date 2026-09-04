@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-6852ad943989d479",
+  "title": {
+    "hans": "贺新郎·绿树听鹈",
+    "hant": "賀新郎·綠樹聽鵜"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "贺新郎",
+    "hant": "賀新郎"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绿树听鹈。",
+          "hant": "綠樹聽鵜。"
+        },
+        {
+          "id": "line-2",
+          "hans": "更那堪、鹧鸪声住，杜鹃声切。",
+          "hant": "更那堪、鷓鴣聲住，杜鵑聲切。"
+        },
+        {
+          "id": "line-3",
+          "hans": "啼到春归无寻处，苦恨芳菲都歇。",
+          "hant": "啼到春歸無尋處，苦恨芳菲都歇。"
+        },
+        {
+          "id": "line-4",
+          "hans": "算未抵、人间离别。",
+          "hant": "算未抵、人間離別。"
+        },
+        {
+          "id": "line-5",
+          "hans": "马上琵琶关塞黑，更长门、翠辇辞金阙。",
+          "hant": "馬上琵琶關塞黑，更長門、翠輦辭金闕。"
+        },
+        {
+          "id": "line-6",
+          "hans": "看燕燕，送归妾。",
+          "hant": "看燕燕，送歸妾。"
+        },
+        {
+          "id": "line-7",
+          "hans": "将军百战身名裂。",
+          "hant": "將軍百戰身名裂。"
+        },
+        {
+          "id": "line-8",
+          "hans": "向河梁、回头万里，故人长绝。",
+          "hant": "向河梁、回頭萬里，故人長絕。"
+        },
+        {
+          "id": "line-9",
+          "hans": "易水萧萧西风冷，满座衣冠似雪。",
+          "hant": "易水蕭蕭西風冷，滿座衣冠似雪。"
+        },
+        {
+          "id": "line-10",
+          "hans": "正壮士、悲歌未彻。",
+          "hant": "正壯士、悲歌未徹。"
+        },
+        {
+          "id": "line-11",
+          "hans": "啼鸟还知如许恨，料不啼清泪长啼血。",
+          "hant": "啼鳥還知如許恨，料不啼清淚長啼血。"
+        },
+        {
+          "id": "line-12",
+          "hans": "谁共我，醉明月。",
+          "hant": "誰共我，醉明月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 216,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

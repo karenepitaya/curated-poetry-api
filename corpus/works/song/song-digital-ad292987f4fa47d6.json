@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-ad292987f4fa47d6",
+  "title": {
+    "hans": "祝英台近·采幽香",
+    "hant": "祝英臺近·採幽香"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "祝英台近",
+    "hant": "祝英臺近"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "采幽香，巡古苑，竹冷翠微路。",
+          "hant": "採幽香，巡古苑，竹冷翠微路。"
+        },
+        {
+          "id": "line-2",
+          "hans": "斗草溪根，沙印小莲步。",
+          "hant": "鬥草溪根，沙印小蓮步。"
+        },
+        {
+          "id": "line-3",
+          "hans": "自怜两鬓清霜，一年寒食，又身在、云山深处。",
+          "hant": "自憐兩鬢清霜，一年寒食，又身在、雲山深處。"
+        },
+        {
+          "id": "line-4",
+          "hans": "昼闲度。",
+          "hant": "晝閒度。"
+        },
+        {
+          "id": "line-5",
+          "hans": "因甚天也悭春，轻阴便成雨。",
+          "hant": "因甚天也慳春，輕陰便成雨。"
+        },
+        {
+          "id": "line-6",
+          "hans": "绿暗长亭，归梦趁风絮。",
+          "hant": "綠暗長亭，歸夢趁風絮。"
+        },
+        {
+          "id": "line-7",
+          "hans": "有情花影阑干，莺声门径，解留我、霎时凝伫。",
+          "hant": "有情花影闌干，鶯聲門徑，解留我、霎時凝佇。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 195,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

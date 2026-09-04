@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-ab84d134337fa1f0",
+  "title": {
+    "hans": "蝶恋花·卷絮风头寒欲尽",
+    "hant": "蝶戀花·卷絮風頭寒欲盡"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蝶恋花",
+    "hant": "蝶戀花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "卷絮风头寒欲尽。",
+          "hant": "卷絮風頭寒欲盡。"
+        },
+        {
+          "id": "line-2",
+          "hans": "坠粉飘红，日日香成阵。",
+          "hant": "墜粉飄紅，日日香成陣。"
+        },
+        {
+          "id": "line-3",
+          "hans": "新酒又添残酒困。",
+          "hant": "新酒又添殘酒困。"
+        },
+        {
+          "id": "line-4",
+          "hans": "今春不减前春恨。",
+          "hant": "今春不減前春恨。"
+        },
+        {
+          "id": "line-5",
+          "hans": "蝶去莺飞无处问。",
+          "hant": "蝶去鶯飛無處問。"
+        },
+        {
+          "id": "line-6",
+          "hans": "隔水高楼，望断双鱼信。",
+          "hant": "隔水高樓，望斷雙魚信。"
+        },
+        {
+          "id": "line-7",
+          "hans": "恼乱层波横一寸。",
+          "hant": "惱亂層波橫一寸。"
+        },
+        {
+          "id": "line-8",
+          "hans": "斜阳只与黄昏近。",
+          "hant": "斜陽只與黃昏近。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 20,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

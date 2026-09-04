@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-e63b1273ae2598b9",
+  "title": {
+    "hans": "青门引・青门饮·乍暖还轻冷",
+    "hant": "青門引・青門飲·乍暖還輕冷"
+  },
+  "author": {
+    "name": {
+      "hans": "张先",
+      "hant": "張先"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "青门引・青门饮",
+    "hant": "青門引・青門飲"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "乍暖还轻冷。",
+          "hant": "乍暖還輕冷。"
+        },
+        {
+          "id": "line-2",
+          "hans": "风雨晚来方定。",
+          "hant": "風雨晚來方定。"
+        },
+        {
+          "id": "line-3",
+          "hans": "庭轩寂寞近清明，残花中酒，又是去年病。",
+          "hant": "庭軒寂寞近清明，殘花中酒，又是去年病。"
+        },
+        {
+          "id": "line-4",
+          "hans": "楼头画角风吹醒。",
+          "hant": "樓頭畫角風吹醒。"
+        },
+        {
+          "id": "line-5",
+          "hans": "入夜重门静。",
+          "hant": "入夜重門靜。"
+        },
+        {
+          "id": "line-6",
+          "hans": "那堪更被明月，隔墙送过秋千影。",
+          "hant": "那堪更被明月，隔牆送過鞦韆影。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 158,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

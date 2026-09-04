@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-dac46ef80ef7510e",
+  "title": {
+    "hans": "宴清都·春讯飞琼管",
+    "hant": "宴清都·春訊飛瓊管"
+  },
+  "author": {
+    "name": {
+      "hans": "卢祖皋",
+      "hant": "盧祖皋"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "宴清都",
+    "hant": "宴清都"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "春讯飞琼管。",
+          "hant": "春訊飛瓊管。"
+        },
+        {
+          "id": "line-2",
+          "hans": "风日薄、度墙啼鸟声乱。",
+          "hant": "風日薄、度牆啼鳥聲亂。"
+        },
+        {
+          "id": "line-3",
+          "hans": "江城次第，笙歌翠合，绮罗香暖。",
+          "hant": "江城次第，笙歌翠合，綺羅香暖。"
+        },
+        {
+          "id": "line-4",
+          "hans": "溶溶涧渌冰泮。",
+          "hant": "溶溶澗淥冰泮。"
+        },
+        {
+          "id": "line-5",
+          "hans": "醉梦里、年华暗换。",
+          "hant": "醉夢裏、年華暗換。"
+        },
+        {
+          "id": "line-6",
+          "hans": "料黛眉重锁隋堤，芳心还动梁苑。",
+          "hant": "料黛眉重鎖隋堤，芳心還動梁苑。"
+        },
+        {
+          "id": "line-7",
+          "hans": "新来雁阔云音，鸾分槛影，无计重见。",
+          "hant": "新來雁闊雲音，鸞分檻影，無計重見。"
+        },
+        {
+          "id": "line-8",
+          "hans": "啼春细雨，笼愁澹月，恁时庭院。",
+          "hant": "啼春細雨，籠愁澹月，恁時庭院。"
+        },
+        {
+          "id": "line-9",
+          "hans": "离肠未语先断。",
+          "hant": "離腸未語先斷。"
+        },
+        {
+          "id": "line-10",
+          "hans": "算犹有、凭高望眼。",
+          "hant": "算猶有、憑高望眼。"
+        },
+        {
+          "id": "line-11",
+          "hans": "更那堪、芳草连天，飞梅弄晚。",
+          "hant": "更那堪、芳草連天，飛梅弄晚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 187,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

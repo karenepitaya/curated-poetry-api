@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-41eb30ad64ba63de",
+  "title": {
+    "hans": "夏云峰·天阔云高",
+    "hant": "夏雲峯·天闊雲高"
+  },
+  "author": {
+    "name": {
+      "hans": "仲殊",
+      "hant": "仲殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "夏云峰",
+    "hant": "夏雲峯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "天阔云高，溪横水远。",
+          "hant": "天闊雲高，溪橫水遠。"
+        },
+        {
+          "id": "line-2",
+          "hans": "晚日寒生轻晕。",
+          "hant": "晚日寒生輕暈。"
+        },
+        {
+          "id": "line-3",
+          "hans": "闲阶静、杨花渐少，朱门掩、莺声犹嫩。",
+          "hant": "閒階靜、楊花漸少，朱門掩、鶯聲猶嫩。"
+        },
+        {
+          "id": "line-4",
+          "hans": "悔匆匆、过却清明，旋占得馀芳，已成幽恨。",
+          "hant": "悔匆匆、過卻清明，旋佔得餘芳，已成幽恨。"
+        },
+        {
+          "id": "line-5",
+          "hans": "都几日阴沈，连宵慵困。",
+          "hant": "都幾日陰沈，連宵慵困。"
+        },
+        {
+          "id": "line-6",
+          "hans": "起来韶华都尽。",
+          "hant": "起來韶華都盡。"
+        },
+        {
+          "id": "line-7",
+          "hans": "怨入双眉闲斗损。",
+          "hant": "怨入雙眉閒鬥損。"
+        },
+        {
+          "id": "line-8",
+          "hans": "乍品得情怀，看承全近。",
+          "hant": "乍品得情懷，看承全近。"
+        },
+        {
+          "id": "line-9",
+          "hans": "深深态、无非自许。",
+          "hant": "深深態、無非自許。"
+        },
+        {
+          "id": "line-10",
+          "hans": "厌厌意、终羞人间。",
+          "hant": "厭厭意、終羞人間。"
+        },
+        {
+          "id": "line-11",
+          "hans": "争知道、梦里蓬莱，待忘了馀香，时传音信。",
+          "hant": "爭知道、夢裏蓬萊，待忘了餘香，時傳音信。"
+        },
+        {
+          "id": "line-12",
+          "hans": "纵留得莺花，东风不住，也则眼前愁闷。",
+          "hant": "縱留得鶯花，東風不住，也則眼前愁悶。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 107,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

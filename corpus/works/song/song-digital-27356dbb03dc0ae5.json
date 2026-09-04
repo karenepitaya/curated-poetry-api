@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-27356dbb03dc0ae5",
+  "title": {
+    "hans": "长亭怨・长亭怨慢·泛孤艇",
+    "hant": "長亭怨・長亭怨慢·泛孤艇"
+  },
+  "author": {
+    "name": {
+      "hans": "王沂孙",
+      "hant": "王沂孫"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "长亭怨・长亭怨慢",
+    "hant": "長亭怨・長亭怨慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "泛孤艇、东皋过遍。",
+          "hant": "泛孤艇、東皋過遍。"
+        },
+        {
+          "id": "line-2",
+          "hans": "尚记当日，绿阴门掩。",
+          "hant": "尚記當日，綠陰門掩。"
+        },
+        {
+          "id": "line-3",
+          "hans": "屐齿莓阶，酒痕罗袖事何限。",
+          "hant": "屐齒莓階，酒痕羅袖事何限。"
+        },
+        {
+          "id": "line-4",
+          "hans": "欲寻前迹，空惆怅、成秋苑。",
+          "hant": "欲尋前跡，空惆悵、成秋苑。"
+        },
+        {
+          "id": "line-5",
+          "hans": "自约赏花人，别後总、风流云散。",
+          "hant": "自約賞花人，別後總、風流雲散。"
+        },
+        {
+          "id": "line-6",
+          "hans": "水远。",
+          "hant": "水遠。"
+        },
+        {
+          "id": "line-7",
+          "hans": "怎知流水外，却是乱山尤远。",
+          "hant": "怎知流水外，卻是亂山尤遠。"
+        },
+        {
+          "id": "line-8",
+          "hans": "天涯梦短。",
+          "hant": "天涯夢短。"
+        },
+        {
+          "id": "line-9",
+          "hans": "想忘了、绮疏雕槛。",
+          "hant": "想忘了、綺疏雕檻。"
+        },
+        {
+          "id": "line-10",
+          "hans": "望不尽、苒苒斜阳，抚乔木、年华将晚。",
+          "hant": "望不盡、苒苒斜陽，撫喬木、年華將晚。"
+        },
+        {
+          "id": "line-11",
+          "hans": "但数点红英，犹识西园凄婉。",
+          "hant": "但數點紅英，猶識西園悽婉。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 253,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

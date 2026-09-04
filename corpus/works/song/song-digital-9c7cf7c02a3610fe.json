@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-9c7cf7c02a3610fe",
+  "title": {
+    "hans": "木兰花・玉楼春·燕鸿过後莺归去",
+    "hant": "木蘭花・玉樓春·燕鴻過後鶯歸去"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "木兰花・玉楼春",
+    "hant": "木蘭花・玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "燕鸿过後莺归去。",
+          "hant": "燕鴻過後鶯歸去。"
+        },
+        {
+          "id": "line-2",
+          "hans": "细算浮生千万绪。",
+          "hant": "細算浮生千萬緒。"
+        },
+        {
+          "id": "line-3",
+          "hans": "长於春梦几多时，散似秋云无觅处。",
+          "hant": "長於春夢幾多時，散似秋雲無覓處。"
+        },
+        {
+          "id": "line-4",
+          "hans": "闻琴解佩神仙侣。",
+          "hant": "聞琴解佩神仙侶。"
+        },
+        {
+          "id": "line-5",
+          "hans": "挽断罗衣留不住。",
+          "hant": "挽斷羅衣留不住。"
+        },
+        {
+          "id": "line-6",
+          "hans": "劝君莫作独醒人，烂醉花间应有数。",
+          "hant": "勸君莫作獨醒人，爛醉花間應有數。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 163,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

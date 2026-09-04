@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-6438a4c2e6711f5f",
+  "title": {
+    "hans": "八声甘州·对潇潇",
+    "hant": "八聲甘州·對瀟瀟"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "八声甘州",
+    "hant": "八聲甘州"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "对潇潇、暮雨洒江天，一番洗清秋。",
+          "hant": "對瀟瀟、暮雨灑江天，一番洗清秋。"
+        },
+        {
+          "id": "line-2",
+          "hans": "渐霜风凄惨，关河冷落，残照当楼。",
+          "hant": "漸霜風悽慘，關河冷落，殘照當樓。"
+        },
+        {
+          "id": "line-3",
+          "hans": "是处红衰翠减，苒苒物华休。",
+          "hant": "是處紅衰翠減，苒苒物華休。"
+        },
+        {
+          "id": "line-4",
+          "hans": "惟有长江水，无语东流。",
+          "hant": "惟有長江水，無語東流。"
+        },
+        {
+          "id": "line-5",
+          "hans": "不忍登高临远，望故乡渺邈，归思难收。",
+          "hant": "不忍登高臨遠，望故鄉渺邈，歸思難收。"
+        },
+        {
+          "id": "line-6",
+          "hans": "叹年来踪迹，何事苦淹留。",
+          "hant": "嘆年來蹤跡，何事苦淹留。"
+        },
+        {
+          "id": "line-7",
+          "hans": "想佳人、妆楼望，误几回、天际识归舟。",
+          "hant": "想佳人、妝樓望，誤幾回、天際識歸舟。"
+        },
+        {
+          "id": "line-8",
+          "hans": "争知我、倚阑干处，正恁凝愁。",
+          "hant": "爭知我、倚闌干處，正恁凝愁。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 151,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

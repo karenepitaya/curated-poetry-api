@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-0f69fe8c1439fc8d",
+  "title": {
+    "hans": "江城子·画楼帘幕卷新晴",
+    "hant": "江城子·畫樓簾幕卷新晴"
+  },
+  "author": {
+    "name": {
+      "hans": "卢祖皋",
+      "hant": "盧祖皋"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "江城子",
+    "hant": "江城子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "画楼帘幕卷新晴。",
+          "hant": "畫樓簾幕卷新晴。"
+        },
+        {
+          "id": "line-2",
+          "hans": "掩银屏。",
+          "hant": "掩銀屏。"
+        },
+        {
+          "id": "line-3",
+          "hans": "晓寒轻。",
+          "hant": "曉寒輕。"
+        },
+        {
+          "id": "line-4",
+          "hans": "坠粉飘香，日日唤愁生。",
+          "hant": "墜粉飄香，日日喚愁生。"
+        },
+        {
+          "id": "line-5",
+          "hans": "暗数十年湖上路，能几度，著娉婷。",
+          "hant": "暗數十年湖上路，能幾度，著娉婷。"
+        },
+        {
+          "id": "line-6",
+          "hans": "年华空自感飘零。",
+          "hant": "年華空自感飄零。"
+        },
+        {
+          "id": "line-7",
+          "hans": "拥春酲。",
+          "hant": "擁春酲。"
+        },
+        {
+          "id": "line-8",
+          "hans": "对谁醒。",
+          "hant": "對誰醒。"
+        },
+        {
+          "id": "line-9",
+          "hans": "天阔云闲，无处觅箫声。",
+          "hant": "天闊雲閒，無處覓簫聲。"
+        },
+        {
+          "id": "line-10",
+          "hans": "载酒买花年少事，浑不似，旧心情。",
+          "hant": "載酒買花年少事，渾不似，舊心情。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 188,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

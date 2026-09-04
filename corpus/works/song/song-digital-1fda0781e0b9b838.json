@@ -1,0 +1,144 @@
+{
+  "id": "song-digital-1fda0781e0b9b838",
+  "title": {
+    "hans": "兰陵王·送春去",
+    "hant": "蘭陵王·送春去"
+  },
+  "author": {
+    "name": {
+      "hans": "刘辰翁",
+      "hant": "劉辰翁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "兰陵王",
+    "hant": "蘭陵王"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "送春去。",
+          "hant": "送春去。"
+        },
+        {
+          "id": "line-2",
+          "hans": "春去人间无路。",
+          "hant": "春去人間無路。"
+        },
+        {
+          "id": "line-3",
+          "hans": "秋千外、芳草连天，谁遣风沙暗南浦。",
+          "hant": "鞦韆外、芳草連天，誰遣風沙暗南浦。"
+        },
+        {
+          "id": "line-4",
+          "hans": "依依甚意绪。",
+          "hant": "依依甚意緒。"
+        },
+        {
+          "id": "line-5",
+          "hans": "漫忆海门飞絮。",
+          "hant": "漫憶海門飛絮。"
+        },
+        {
+          "id": "line-6",
+          "hans": "乱鸦过，斗转城荒，不见来时试灯处。",
+          "hant": "亂鴉過，斗轉城荒，不見來時試燈處。"
+        },
+        {
+          "id": "line-7",
+          "hans": "春去。",
+          "hant": "春去。"
+        },
+        {
+          "id": "line-8",
+          "hans": "最谁苦。",
+          "hant": "最誰苦。"
+        },
+        {
+          "id": "line-9",
+          "hans": "但箭雁沉边，梁燕无主。",
+          "hant": "但箭雁沉邊，梁燕無主。"
+        },
+        {
+          "id": "line-10",
+          "hans": "杜鹃声里长门暮。",
+          "hant": "杜鵑聲里長門暮。"
+        },
+        {
+          "id": "line-11",
+          "hans": "想玉树凋土，泪盘如露。",
+          "hant": "想玉樹凋土，淚盤如露。"
+        },
+        {
+          "id": "line-12",
+          "hans": "咸阳送客屡回顾。",
+          "hant": "咸陽送客屢回顧。"
+        },
+        {
+          "id": "line-13",
+          "hans": "斜日未能度。",
+          "hant": "斜日未能度。"
+        },
+        {
+          "id": "line-14",
+          "hans": "春去。",
+          "hant": "春去。"
+        },
+        {
+          "id": "line-15",
+          "hans": "尚来否。",
+          "hant": "尚來否。"
+        },
+        {
+          "id": "line-16",
+          "hans": "正江令恨别，庾信愁赋。",
+          "hant": "正江令恨別，庾信愁賦。"
+        },
+        {
+          "id": "line-17",
+          "hans": "苏堤尽日风和雨。",
+          "hant": "蘇堤盡日風和雨。"
+        },
+        {
+          "id": "line-18",
+          "hans": "叹神游故国，花记前度。",
+          "hant": "嘆神遊故國，花記前度。"
+        },
+        {
+          "id": "line-19",
+          "hans": "人生流落，顾孺子，共夜雨。",
+          "hant": "人生流落，顧孺子，共夜雨。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 89,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-820b928a0b7eb38b",
+  "title": {
+    "hans": "阮郎归·湘天风雨破寒初",
+    "hant": "阮郎歸·湘天風雨破寒初"
+  },
+  "author": {
+    "name": {
+      "hans": "秦观",
+      "hant": "秦觀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "阮郎归",
+    "hant": "阮郎歸"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "湘天风雨破寒初。",
+          "hant": "湘天風雨破寒初。"
+        },
+        {
+          "id": "line-2",
+          "hans": "深沈庭院虚。",
+          "hant": "深沈庭院虛。"
+        },
+        {
+          "id": "line-3",
+          "hans": "丽谯吹罢《小单于》。",
+          "hant": "麗譙吹罷《小單于》。"
+        },
+        {
+          "id": "line-4",
+          "hans": "迢迢清夜徂。",
+          "hant": "迢迢清夜徂。"
+        },
+        {
+          "id": "line-5",
+          "hans": "乡梦断，旅魂孤。",
+          "hant": "鄉夢斷，旅魂孤。"
+        },
+        {
+          "id": "line-6",
+          "hans": "峥嵘岁又除。",
+          "hant": "崢嶸歲又除。"
+        },
+        {
+          "id": "line-7",
+          "hans": "衡阳犹有雁传书。",
+          "hant": "衡陽猶有雁傳書。"
+        },
+        {
+          "id": "line-8",
+          "hans": "郴阳和雁无。",
+          "hant": "郴陽和雁無。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 69,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

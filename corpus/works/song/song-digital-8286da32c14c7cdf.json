@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-8286da32c14c7cdf",
+  "title": {
+    "hans": "御街行·街南绿树春饶絮",
+    "hant": "御街行·街南綠樹春饒絮"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "御街行",
+    "hant": "御街行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "街南绿树春饶絮。",
+          "hant": "街南綠樹春饒絮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "雪满游春路。",
+          "hant": "雪滿遊春路。"
+        },
+        {
+          "id": "line-3",
+          "hans": "树头花艳杂娇云，树底人家朱户。",
+          "hant": "樹頭花豔雜嬌雲，樹底人家朱戶。"
+        },
+        {
+          "id": "line-4",
+          "hans": "北楼闲上，疏帘高卷，直见街南树。",
+          "hant": "北樓閒上，疏簾高卷，直見街南樹。"
+        },
+        {
+          "id": "line-5",
+          "hans": "阑干倚尽犹慵去。",
+          "hant": "闌干倚盡猶慵去。"
+        },
+        {
+          "id": "line-6",
+          "hans": "几度黄昏雨。",
+          "hant": "幾度黃昏雨。"
+        },
+        {
+          "id": "line-7",
+          "hans": "晚春盘马踏青苔，曾傍绿阴深驻。",
+          "hant": "晚春盤馬踏青苔，曾傍綠陰深駐。"
+        },
+        {
+          "id": "line-8",
+          "hans": "落花犹在，香屏空掩，人面知何处。",
+          "hant": "落花猶在，香屏空掩，人面知何處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 32,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

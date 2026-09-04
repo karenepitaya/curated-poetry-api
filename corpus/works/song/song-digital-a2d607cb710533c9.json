@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-a2d607cb710533c9",
+  "title": {
+    "hans": "帝台春·芳草碧色",
+    "hant": "帝臺春·芳草碧色"
+  },
+  "author": {
+    "name": {
+      "hans": "李甲",
+      "hant": "李甲"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "帝台春",
+    "hant": "帝臺春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "芳草碧色，萋萋遍南陌。",
+          "hant": "芳草碧色，萋萋遍南陌。"
+        },
+        {
+          "id": "line-2",
+          "hans": "暖絮乱红，也知人、春愁无力。",
+          "hant": "暖絮亂紅，也知人、春愁無力。"
+        },
+        {
+          "id": "line-3",
+          "hans": "忆得盈盈拾翠侣，共携赏、凤城寒食。",
+          "hant": "憶得盈盈拾翠侶，共攜賞、鳳城寒食。"
+        },
+        {
+          "id": "line-4",
+          "hans": "到今来，海角逢春，天涯为客。",
+          "hant": "到今來，海角逢春，天涯爲客。"
+        },
+        {
+          "id": "line-5",
+          "hans": "愁旋释。",
+          "hant": "愁旋釋。"
+        },
+        {
+          "id": "line-6",
+          "hans": "还似织。",
+          "hant": "還似織。"
+        },
+        {
+          "id": "line-7",
+          "hans": "泪暗拭。",
+          "hant": "淚暗拭。"
+        },
+        {
+          "id": "line-8",
+          "hans": "又偷滴。",
+          "hant": "又偷滴。"
+        },
+        {
+          "id": "line-9",
+          "hans": "谩伫立、遍倚危阑，尽黄昏，也只是、暮云凝碧。",
+          "hant": "謾佇立、遍倚危闌，盡黃昏，也只是、暮雲凝碧。"
+        },
+        {
+          "id": "line-10",
+          "hans": "拼则而已今拼了，忘则怎生便忘得。",
+          "hant": "拼則而已今拼了，忘則怎生便忘得。"
+        },
+        {
+          "id": "line-11",
+          "hans": "又还问鳞鸿，试重寻消息。",
+          "hant": "又還問鱗鴻，試重尋消息。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 71,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

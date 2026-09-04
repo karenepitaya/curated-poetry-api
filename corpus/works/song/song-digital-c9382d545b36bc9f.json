@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-c9382d545b36bc9f",
+  "title": {
+    "hans": "喜迁莺·月波疑滴",
+    "hant": "喜遷鶯·月波疑滴"
+  },
+  "author": {
+    "name": {
+      "hans": "史达祖",
+      "hant": "史達祖"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "喜迁莺",
+    "hant": "喜遷鶯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "月波疑滴。",
+          "hant": "月波疑滴。"
+        },
+        {
+          "id": "line-2",
+          "hans": "望玉壶天近，了无尘隔。",
+          "hant": "望玉壺天近，了無塵隔。"
+        },
+        {
+          "id": "line-3",
+          "hans": "翠眼圈花，冰丝织练，黄道宝光相直。",
+          "hant": "翠眼圈花，冰絲織練，黃道寶光相直。"
+        },
+        {
+          "id": "line-4",
+          "hans": "自怜诗酒瘦，难应接、许多春色。",
+          "hant": "自憐詩酒瘦，難應接、許多春色。"
+        },
+        {
+          "id": "line-5",
+          "hans": "最无赖，是随香趁烛，曾伴狂客。",
+          "hant": "最無賴，是隨香趁燭，曾伴狂客。"
+        },
+        {
+          "id": "line-6",
+          "hans": "踪迹。",
+          "hant": "蹤跡。"
+        },
+        {
+          "id": "line-7",
+          "hans": "谩记忆。",
+          "hant": "謾記憶。"
+        },
+        {
+          "id": "line-8",
+          "hans": "老了杜郎，忍听东风笛。",
+          "hant": "老了杜郎，忍聽東風笛。"
+        },
+        {
+          "id": "line-9",
+          "hans": "柳院灯疏，梅厅雪在，谁与细倾春碧。",
+          "hant": "柳院燈疏，梅廳雪在，誰與細傾春碧。"
+        },
+        {
+          "id": "line-10",
+          "hans": "旧情拘未定，犹自学、当年游历。",
+          "hant": "舊情拘未定，猶自學、當年遊歷。"
+        },
+        {
+          "id": "line-11",
+          "hans": "怕万一，误玉人、夜寒帘隙。",
+          "hant": "怕萬一，誤玉人、夜寒簾隙。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 181,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

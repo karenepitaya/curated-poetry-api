@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-66f88947a8dfaf87",
+  "title": {
+    "hans": "大·对宿烟收",
+    "hant": "大·對宿煙收"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "大",
+    "hant": "大"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "对宿烟收，春禽静，飞雨时鸣高屋。",
+          "hant": "對宿煙收，春禽靜，飛雨時鳴高屋。"
+        },
+        {
+          "id": "line-2",
+          "hans": "墙头青玉旆，洗铅霜都尽，嫩梢相触。",
+          "hant": "牆頭青玉旆，洗鉛霜都盡，嫩梢相觸。"
+        },
+        {
+          "id": "line-3",
+          "hans": "润逼琴丝，寒侵枕障，虫网吹沾帘竹。",
+          "hant": "潤逼琴絲，寒侵枕障，蟲網吹沾簾竹。"
+        },
+        {
+          "id": "line-4",
+          "hans": "邮亭无人处，听檐声不断，困眠初熟。",
+          "hant": "郵亭無人處，聽檐聲不斷，困眠初熟。"
+        },
+        {
+          "id": "line-5",
+          "hans": "奈愁极顿惊，梦轻难记，自怜幽独。",
+          "hant": "奈愁極頓驚，夢輕難記，自憐幽獨。"
+        },
+        {
+          "id": "line-6",
+          "hans": "行人归意速。",
+          "hant": "行人歸意速。"
+        },
+        {
+          "id": "line-7",
+          "hans": "最先念、流潦妨车毂。",
+          "hant": "最先念、流潦妨車轂。"
+        },
+        {
+          "id": "line-8",
+          "hans": "怎奈向、兰成憔悴，卫清羸，等闲时、易伤心目。",
+          "hant": "怎奈向、蘭成憔悴，衛清羸，等閒時、易傷心目。"
+        },
+        {
+          "id": "line-9",
+          "hans": "未怪平阳客，双泪落、笛中哀曲。",
+          "hant": "未怪平陽客，雙淚落、笛中哀曲。"
+        },
+        {
+          "id": "line-10",
+          "hans": "况萧索、青芜国。",
+          "hant": "況蕭索、青蕪國。"
+        },
+        {
+          "id": "line-11",
+          "hans": "红糁铺地，门外荆桃如菽。",
+          "hant": "紅糝鋪地，門外荊桃如菽。"
+        },
+        {
+          "id": "line-12",
+          "hans": "夜游共谁秉烛。",
+          "hant": "夜遊共誰秉燭。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 234,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

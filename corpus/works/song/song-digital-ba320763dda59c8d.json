@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-ba320763dda59c8d",
+  "title": {
+    "hans": "桂枝香·登临送目",
+    "hant": "桂枝香·登臨送目"
+  },
+  "author": {
+    "name": {
+      "hans": "王安石",
+      "hant": "王安石"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "桂枝香",
+    "hant": "桂枝香"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "登临送目。",
+          "hant": "登臨送目。"
+        },
+        {
+          "id": "line-2",
+          "hans": "正故国晚秋，天气初肃。",
+          "hant": "正故國晚秋，天氣初肅。"
+        },
+        {
+          "id": "line-3",
+          "hans": "千里澄江似练，翠峰如簇。",
+          "hant": "千里澄江似練，翠峯如簇。"
+        },
+        {
+          "id": "line-4",
+          "hans": "归帆去棹残阳里，背西风、酒旗斜矗。",
+          "hant": "歸帆去棹殘陽裏，背西風、酒旗斜矗。"
+        },
+        {
+          "id": "line-5",
+          "hans": "彩舟云淡，星河鹭起，画图难足。",
+          "hant": "彩舟雲淡，星河鷺起，畫圖難足。"
+        },
+        {
+          "id": "line-6",
+          "hans": "念往昔、繁华竞逐。",
+          "hant": "念往昔、繁華競逐。"
+        },
+        {
+          "id": "line-7",
+          "hans": "叹门外楼头，悲恨相续。",
+          "hant": "嘆門外樓頭，悲恨相續。"
+        },
+        {
+          "id": "line-8",
+          "hans": "千古凭高，对此漫嗟荣辱。",
+          "hant": "千古憑高，對此漫嗟榮辱。"
+        },
+        {
+          "id": "line-9",
+          "hans": "六朝旧事随流水，但寒烟、芳草凝绿。",
+          "hant": "六朝舊事隨流水，但寒煙、芳草凝綠。"
+        },
+        {
+          "id": "line-10",
+          "hans": "至今商女，时时犹唱，後庭遗曲。",
+          "hant": "至今商女，時時猶唱，後庭遺曲。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 15,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

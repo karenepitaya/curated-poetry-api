@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-bc4a94f70829e631",
+  "title": {
+    "hans": "眉妩·渐新痕悬柳",
+    "hant": "眉嫵·漸新痕懸柳"
+  },
+  "author": {
+    "name": {
+      "hans": "王沂孙",
+      "hant": "王沂孫"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "眉妩",
+    "hant": "眉嫵"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "渐新痕悬柳，澹彩穿花，依约破初暝。",
+          "hant": "漸新痕懸柳，澹彩穿花，依約破初暝。"
+        },
+        {
+          "id": "line-2",
+          "hans": "便有团圆意，深深拜，相逢谁在香径。",
+          "hant": "便有團圓意，深深拜，相逢誰在香徑。"
+        },
+        {
+          "id": "line-3",
+          "hans": "画眉未稳，料素娥、犹带离恨。",
+          "hant": "畫眉未穩，料素娥、猶帶離恨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "最堪爱、一曲银钩小，宝帘挂秋冷。",
+          "hant": "最堪愛、一曲銀鉤小，寶簾掛秋冷。"
+        },
+        {
+          "id": "line-5",
+          "hans": "千古盈亏休问。",
+          "hant": "千古盈虧休問。"
+        },
+        {
+          "id": "line-6",
+          "hans": "叹慢磨玉斧，难补金镜。",
+          "hant": "嘆慢磨玉斧，難補金鏡。"
+        },
+        {
+          "id": "line-7",
+          "hans": "太液池犹在，凄凉处、何人重赋清景。",
+          "hant": "太液池猶在，淒涼處、何人重賦清景。"
+        },
+        {
+          "id": "line-8",
+          "hans": "故山夜永。",
+          "hant": "故山夜永。"
+        },
+        {
+          "id": "line-9",
+          "hans": "试待他、窥户端正。",
+          "hant": "試待他、窺戶端正。"
+        },
+        {
+          "id": "line-10",
+          "hans": "看云外山河，还老尽、桂花影。",
+          "hant": "看雲外山河，還老盡、桂花影。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 249,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-837c9daa980a308d",
+  "title": {
+    "hans": "唐多令·芦叶满汀洲",
+    "hant": "唐多令·蘆葉滿汀洲"
+  },
+  "author": {
+    "name": {
+      "hans": "刘过",
+      "hant": "劉過"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "唐多令",
+    "hant": "唐多令"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "芦叶满汀洲。",
+          "hant": "蘆葉滿汀洲。"
+        },
+        {
+          "id": "line-2",
+          "hans": "塞沙带浅流。",
+          "hant": "塞沙帶淺流。"
+        },
+        {
+          "id": "line-3",
+          "hans": "二十年、重过南楼。",
+          "hant": "二十年、重過南樓。"
+        },
+        {
+          "id": "line-4",
+          "hans": "柳下系舟犹未稳，能几日、又中秋。",
+          "hant": "柳下系舟猶未穩，能幾日、又中秋。"
+        },
+        {
+          "id": "line-5",
+          "hans": "黄鹤断矶头。",
+          "hant": "黃鶴斷磯頭。"
+        },
+        {
+          "id": "line-6",
+          "hans": "故人今不在。",
+          "hant": "故人今不在。"
+        },
+        {
+          "id": "line-7",
+          "hans": "旧江山，浑是新愁。",
+          "hant": "舊江山，渾是新愁。"
+        },
+        {
+          "id": "line-8",
+          "hans": "欲买桂花同载酒，终不似、少年游。",
+          "hant": "欲買桂花同載酒，終不似、少年遊。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 120,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

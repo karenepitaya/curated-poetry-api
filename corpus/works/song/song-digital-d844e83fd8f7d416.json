@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-d844e83fd8f7d416",
+  "title": {
+    "hans": "渡江云三犯・渡江云·羞红颦浅恨",
+    "hant": "渡江雲三犯・渡江雲·羞紅顰淺恨"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "渡江云三犯・渡江云",
+    "hant": "渡江雲三犯・渡江雲"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "羞红颦浅恨，晚风为落，片绣点重茵。",
+          "hant": "羞紅顰淺恨，晚風爲落，片繡點重茵。"
+        },
+        {
+          "id": "line-2",
+          "hans": "旧堤分燕尾，桂棹轻鸥，宝勒倚残云。",
+          "hant": "舊堤分燕尾，桂棹輕鷗，寶勒倚殘雲。"
+        },
+        {
+          "id": "line-3",
+          "hans": "千丝怨碧，渐路入、仙坞迷津。",
+          "hant": "千絲怨碧，漸路入、仙塢迷津。"
+        },
+        {
+          "id": "line-4",
+          "hans": "肠漫回，隔花时见，背面楚腰身。",
+          "hant": "腸漫回，隔花時見，背面楚腰身。"
+        },
+        {
+          "id": "line-5",
+          "hans": "逡巡。",
+          "hant": "逡巡。"
+        },
+        {
+          "id": "line-6",
+          "hans": "题门惆怅，堕履牵萦，数幽期难准。",
+          "hant": "題門惆悵，墮履牽縈，數幽期難準。"
+        },
+        {
+          "id": "line-7",
+          "hans": "还始觉、留情缘眼，宽带因春。",
+          "hant": "還始覺、留情緣眼，寬帶因春。"
+        },
+        {
+          "id": "line-8",
+          "hans": "明朝事与孤烟冷，做满湖、风雨愁人。",
+          "hant": "明朝事與孤煙冷，做滿湖、風雨愁人。"
+        },
+        {
+          "id": "line-9",
+          "hans": "山黛暝，尘波澹绿无痕。",
+          "hant": "山黛暝，塵波澹綠無痕。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 2,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

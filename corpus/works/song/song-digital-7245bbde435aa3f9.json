@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-7245bbde435aa3f9",
+  "title": {
+    "hans": "渔家傲·小雨廉纤风细细",
+    "hant": "漁家傲·小雨廉纖風細細"
+  },
+  "author": {
+    "name": {
+      "hans": "朱服",
+      "hant": "朱服"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "渔家傲",
+    "hant": "漁家傲"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "小雨廉纤风细细。",
+          "hant": "小雨廉纖風細細。"
+        },
+        {
+          "id": "line-2",
+          "hans": "万家杨柳轻烟里。",
+          "hant": "萬家楊柳輕煙裏。"
+        },
+        {
+          "id": "line-3",
+          "hans": "恋树湿花飞不起。",
+          "hant": "戀樹溼花飛不起。"
+        },
+        {
+          "id": "line-4",
+          "hans": "愁无比。",
+          "hant": "愁無比。"
+        },
+        {
+          "id": "line-5",
+          "hans": "和春付与西流水。",
+          "hant": "和春付與西流水。"
+        },
+        {
+          "id": "line-6",
+          "hans": "九十光阴能有几。",
+          "hant": "九十光陰能有幾。"
+        },
+        {
+          "id": "line-7",
+          "hans": "金龟解尽留无计。",
+          "hant": "金龜解盡留無計。"
+        },
+        {
+          "id": "line-8",
+          "hans": "寄语东城沽酒市。",
+          "hant": "寄語東城沽酒市。"
+        },
+        {
+          "id": "line-9",
+          "hans": "拼一醉。",
+          "hant": "拼一醉。"
+        },
+        {
+          "id": "line-10",
+          "hans": "而今乐事他年泪。",
+          "hant": "而今樂事他年淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 64,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

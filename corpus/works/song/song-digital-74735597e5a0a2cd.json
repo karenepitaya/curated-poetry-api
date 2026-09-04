@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-74735597e5a0a2cd",
+  "title": {
+    "hans": "瑞鹤仙·晴丝牵绪乱",
+    "hant": "瑞鶴仙·晴絲牽緒亂"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞鹤仙",
+    "hant": "瑞鶴仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "晴丝牵绪乱。",
+          "hant": "晴絲牽緒亂。"
+        },
+        {
+          "id": "line-2",
+          "hans": "对沧江斜日，花飞人远。",
+          "hant": "對滄江斜日，花飛人遠。"
+        },
+        {
+          "id": "line-3",
+          "hans": "垂杨暗吴苑。",
+          "hant": "垂楊暗吳苑。"
+        },
+        {
+          "id": "line-4",
+          "hans": "正旗亭烟冷，河桥风暖。",
+          "hant": "正旗亭煙冷，河橋風暖。"
+        },
+        {
+          "id": "line-5",
+          "hans": "兰情蕙盼。",
+          "hant": "蘭情蕙盼。"
+        },
+        {
+          "id": "line-6",
+          "hans": "惹相思、春根酒畔。",
+          "hant": "惹相思、春根酒畔。"
+        },
+        {
+          "id": "line-7",
+          "hans": "又争知、吟骨萦销，渐把旧衫重翦。",
+          "hant": "又爭知、吟骨縈銷，漸把舊衫重翦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "凄断。",
+          "hant": "悽斷。"
+        },
+        {
+          "id": "line-9",
+          "hans": "流红千浪，缺月孤楼，总难留燕。",
+          "hant": "流紅千浪，缺月孤樓，總難留燕。"
+        },
+        {
+          "id": "line-10",
+          "hans": "歌尘凝扇。",
+          "hant": "歌塵凝扇。"
+        },
+        {
+          "id": "line-11",
+          "hans": "待凭信，拌分钿。",
+          "hant": "待憑信，拌分鈿。"
+        },
+        {
+          "id": "line-12",
+          "hans": "试挑灯欲写，还依不忍，笺幅偷和泪卷。",
+          "hant": "試挑燈欲寫，還依不忍，箋幅偷和淚卷。"
+        },
+        {
+          "id": "line-13",
+          "hans": "寄残云、剩雨蓬莱，也应梦见。",
+          "hant": "寄殘雲、剩雨蓬萊，也應夢見。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 4,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

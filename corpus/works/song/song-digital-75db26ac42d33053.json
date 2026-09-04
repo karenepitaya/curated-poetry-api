@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-75db26ac42d33053",
+  "title": {
+    "hans": "汉宫春·潇洒江梅",
+    "hant": "漢宮春·瀟灑江梅"
+  },
+  "author": {
+    "name": {
+      "hans": "李邴",
+      "hant": "李邴"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "汉宫春",
+    "hant": "漢宮春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "潇洒江梅，向竹梢疏处，横两三枝。",
+          "hant": "瀟灑江梅，向竹梢疏處，橫兩三枝。"
+        },
+        {
+          "id": "line-2",
+          "hans": "东君也不爱惜，雪压霜欺。",
+          "hant": "東君也不愛惜，雪壓霜欺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "无情燕子，怕春寒、轻失花期。",
+          "hant": "無情燕子，怕春寒、輕失花期。"
+        },
+        {
+          "id": "line-4",
+          "hans": "却是有，年年塞雁，归来曾见开时。",
+          "hant": "卻是有，年年塞雁，歸來曾見開時。"
+        },
+        {
+          "id": "line-5",
+          "hans": "清浅小溪如练，问玉堂何似，茅舍疏篱。",
+          "hant": "清淺小溪如練，問玉堂何似，茅舍疏籬。"
+        },
+        {
+          "id": "line-6",
+          "hans": "伤心故人去後，冷落新诗。",
+          "hant": "傷心故人去後，冷落新詩。"
+        },
+        {
+          "id": "line-7",
+          "hans": "微云淡月，对江天、分付他谁。",
+          "hant": "微雲淡月，對江天、分付他誰。"
+        },
+        {
+          "id": "line-8",
+          "hans": "空自忆，清香未减，风流不在人知。",
+          "hant": "空自憶，清香未減，風流不在人知。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 108,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

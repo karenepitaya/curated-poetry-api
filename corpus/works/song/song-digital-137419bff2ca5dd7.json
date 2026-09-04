@@ -1,0 +1,124 @@
+{
+  "id": "song-digital-137419bff2ca5dd7",
+  "title": {
+    "hans": "六丑·似东风老大",
+    "hant": "六醜·似東風老大"
+  },
+  "author": {
+    "name": {
+      "hans": "彭元逊",
+      "hant": "彭元遜"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "六丑",
+    "hant": "六醜"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "似东风老大，那复有、当时风气。",
+          "hant": "似東風老大，那復有、當時風氣。"
+        },
+        {
+          "id": "line-2",
+          "hans": "有情不收，江山身是寄。",
+          "hant": "有情不收，江山身是寄。"
+        },
+        {
+          "id": "line-3",
+          "hans": "浩荡何世。",
+          "hant": "浩蕩何世。"
+        },
+        {
+          "id": "line-4",
+          "hans": "但忆临官道，暂来不住，便出门千里。",
+          "hant": "但憶臨官道，暫來不住，便出門千里。"
+        },
+        {
+          "id": "line-5",
+          "hans": "痴心指望回风坠。",
+          "hant": "癡心指望迴風墜。"
+        },
+        {
+          "id": "line-6",
+          "hans": "扇底相逢，钗头微缀。",
+          "hant": "扇底相逢，釵頭微綴。"
+        },
+        {
+          "id": "line-7",
+          "hans": "他家万条千缕，解遮亭障驿，不隔江水。",
+          "hant": "他家萬條千縷，解遮亭障驛，不隔江水。"
+        },
+        {
+          "id": "line-8",
+          "hans": "瓜洲曾舣，等行人岁岁。",
+          "hant": "瓜洲曾艤，等行人歲歲。"
+        },
+        {
+          "id": "line-9",
+          "hans": "日下长秋，城乌夜起。",
+          "hant": "日下長秋，城烏夜起。"
+        },
+        {
+          "id": "line-10",
+          "hans": "帐庐好在春睡。",
+          "hant": "帳廬好在春睡。"
+        },
+        {
+          "id": "line-11",
+          "hans": "共飞归湖上，草青无地。",
+          "hant": "共飛歸湖上，草青無地。"
+        },
+        {
+          "id": "line-12",
+          "hans": "雨、春心如腻。",
+          "hant": "雨、春心如膩。"
+        },
+        {
+          "id": "line-13",
+          "hans": "欲待化、丰乐楼前，青门都废。",
+          "hant": "欲待化、豐樂樓前，青門都廢。"
+        },
+        {
+          "id": "line-14",
+          "hans": "何人念、流落无几。",
+          "hant": "何人念、流落無幾。"
+        },
+        {
+          "id": "line-15",
+          "hans": "点点抟作，雪绵松润，为君泪。",
+          "hant": "點點摶作，雪綿松潤，爲君淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 100,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

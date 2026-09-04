@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-703d9e8a4ef66d40",
+  "title": {
+    "hans": "关河令・清商怨·秋阴时晴渐向暝",
+    "hant": "關河令・清商怨·秋陰時晴漸向暝"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "关河令・清商怨",
+    "hant": "關河令・清商怨"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "秋阴时晴渐向暝，变一庭凄冷。",
+          "hant": "秋陰時晴漸向暝，變一庭淒冷。"
+        },
+        {
+          "id": "line-2",
+          "hans": "伫听寒声，云深无雁影。",
+          "hant": "佇聽寒聲，雲深無雁影。"
+        },
+        {
+          "id": "line-3",
+          "hans": "更深人去寂静。",
+          "hant": "更深人去寂靜。"
+        },
+        {
+          "id": "line-4",
+          "hans": "但照壁、孤灯相映。",
+          "hant": "但照壁、孤燈相映。"
+        },
+        {
+          "id": "line-5",
+          "hans": "酒已都醒，如何消夜永。",
+          "hant": "酒已都醒，如何消夜永。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 244,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

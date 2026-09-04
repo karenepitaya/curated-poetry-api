@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-9dc9b2d96bcb19e2",
+  "title": {
+    "hans": "绮罗香·做冷欺花",
+    "hant": "綺羅香·做冷欺花"
+  },
+  "author": {
+    "name": {
+      "hans": "史达祖",
+      "hant": "史達祖"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "绮罗香",
+    "hant": "綺羅香"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "做冷欺花，将烟困柳，千里偷催春暮。",
+          "hant": "做冷欺花，將煙困柳，千里偷催春暮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "尽日冥迷，愁里欲飞还住。",
+          "hant": "盡日冥迷，愁裏欲飛還住。"
+        },
+        {
+          "id": "line-3",
+          "hans": "惊粉重、蝶宿西园，喜泥润、燕归南浦。",
+          "hant": "驚粉重、蝶宿西園，喜泥潤、燕歸南浦。"
+        },
+        {
+          "id": "line-4",
+          "hans": "最妨它、佳约风流，钿车不到杜陵路。",
+          "hant": "最妨它、佳約風流，鈿車不到杜陵路。"
+        },
+        {
+          "id": "line-5",
+          "hans": "沈沈江上望极，还被春潮晚急，难寻官渡。",
+          "hant": "沈沈江上望極，還被春潮晚急，難尋官渡。"
+        },
+        {
+          "id": "line-6",
+          "hans": "隐约遥峰，和泪谢娘眉妩。",
+          "hant": "隱約遙峯，和淚謝娘眉嫵。"
+        },
+        {
+          "id": "line-7",
+          "hans": "临断岸、新绿生时，是落红、带愁流处。",
+          "hant": "臨斷岸、新綠生時，是落紅、帶愁流處。"
+        },
+        {
+          "id": "line-8",
+          "hans": "记当日、门掩梨花，翦灯深夜语。",
+          "hant": "記當日、門掩梨花，翦燈深夜語。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 178,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

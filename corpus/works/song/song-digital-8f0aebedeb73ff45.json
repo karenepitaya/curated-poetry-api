@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-8f0aebedeb73ff45",
+  "title": {
+    "hans": "玉楼春·绿杨芳草长亭路",
+    "hant": "玉樓春·綠楊芳草長亭路"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绿杨芳草长亭路。",
+          "hant": "綠楊芳草長亭路。"
+        },
+        {
+          "id": "line-2",
+          "hans": "年少抛人容易去。",
+          "hant": "年少拋人容易去。"
+        },
+        {
+          "id": "line-3",
+          "hans": "楼头残梦五更钟，花底离情三月雨。",
+          "hant": "樓頭殘夢五更鐘，花底離情三月雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "无情不似多情苦。",
+          "hant": "無情不似多情苦。"
+        },
+        {
+          "id": "line-5",
+          "hans": "一寸还成千万缕。",
+          "hant": "一寸還成千萬縷。"
+        },
+        {
+          "id": "line-6",
+          "hans": "天涯地角有穷时，只有相思无尽处。",
+          "hant": "天涯地角有窮時，只有相思無盡處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 167,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

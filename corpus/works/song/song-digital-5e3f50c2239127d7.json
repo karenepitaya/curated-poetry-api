@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-5e3f50c2239127d7",
+  "title": {
+    "hans": "踏莎行·情似游丝",
+    "hant": "踏莎行·情似遊絲"
+  },
+  "author": {
+    "name": {
+      "hans": "周紫芝",
+      "hant": "周紫芝"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "踏莎行",
+    "hant": "踏莎行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "情似游丝，人如飞絮。",
+          "hant": "情似遊絲，人如飛絮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "泪珠阁定空相觑。",
+          "hant": "淚珠閣定空相覷。"
+        },
+        {
+          "id": "line-3",
+          "hans": "一溪烟柳万丝垂，无因系得兰舟住。",
+          "hant": "一溪煙柳萬絲垂，無因系得蘭舟住。"
+        },
+        {
+          "id": "line-4",
+          "hans": "雁过斜阳，草迷烟渚。",
+          "hant": "雁過斜陽，草迷煙渚。"
+        },
+        {
+          "id": "line-5",
+          "hans": "如今已是愁无数。",
+          "hant": "如今已是愁無數。"
+        },
+        {
+          "id": "line-6",
+          "hans": "明朝且做莫思量，如何过得今宵去。",
+          "hant": "明朝且做莫思量，如何過得今宵去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 273,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

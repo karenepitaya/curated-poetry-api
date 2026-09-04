@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-36c5745ae37250a4",
+  "title": {
+    "hans": "高阳台·接叶巢莺",
+    "hant": "高陽臺·接葉巢鶯"
+  },
+  "author": {
+    "name": {
+      "hans": "张炎",
+      "hant": "張炎"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "高阳台",
+    "hant": "高陽臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "接叶巢莺，平波卷絮，断桥斜日归船。",
+          "hant": "接葉巢鶯，平波卷絮，斷橋斜日歸船。"
+        },
+        {
+          "id": "line-2",
+          "hans": "能几番游，看花又是明年。",
+          "hant": "能幾番遊，看花又是明年。"
+        },
+        {
+          "id": "line-3",
+          "hans": "东风且伴蔷薇住，到蔷薇、春已堪怜。",
+          "hant": "東風且伴薔薇住，到薔薇、春已堪憐。"
+        },
+        {
+          "id": "line-4",
+          "hans": "更凄然。",
+          "hant": "更悽然。"
+        },
+        {
+          "id": "line-5",
+          "hans": "万绿西泠，一抹荒烟。",
+          "hant": "萬綠西泠，一抹荒煙。"
+        },
+        {
+          "id": "line-6",
+          "hans": "当年燕子知何处，但苔深韦曲，草暗斜川。",
+          "hant": "當年燕子知何處，但苔深韋曲，草暗斜川。"
+        },
+        {
+          "id": "line-7",
+          "hans": "见说新愁，如今也到鸥边。",
+          "hant": "見說新愁，如今也到鷗邊。"
+        },
+        {
+          "id": "line-8",
+          "hans": "无心再续笙歌梦，掩重门、浅醉闲眠。",
+          "hant": "無心再續笙歌夢，掩重門、淺醉閒眠。"
+        },
+        {
+          "id": "line-9",
+          "hans": "莫开帘。",
+          "hant": "莫開簾。"
+        },
+        {
+          "id": "line-10",
+          "hans": "怕见飞花，怕听啼鹃。",
+          "hant": "怕見飛花，怕聽啼鵑。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 53,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

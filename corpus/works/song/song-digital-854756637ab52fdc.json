@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-854756637ab52fdc",
+  "title": {
+    "hans": "玉京秋·烟水阔",
+    "hant": "玉京秋·煙水闊"
+  },
+  "author": {
+    "name": {
+      "hans": "周密",
+      "hant": "周密"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉京秋",
+    "hant": "玉京秋"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "烟水阔。",
+          "hant": "煙水闊。"
+        },
+        {
+          "id": "line-2",
+          "hans": "高林弄残照，晚蜩凄切。",
+          "hant": "高林弄殘照，晚蜩悽切。"
+        },
+        {
+          "id": "line-3",
+          "hans": "碧砧度韵，银床飘叶。",
+          "hant": "碧砧度韻，銀牀飄葉。"
+        },
+        {
+          "id": "line-4",
+          "hans": "衣湿桐阴露冷，采凉花、时赋秋雪。",
+          "hant": "衣溼桐陰露冷，採涼花、時賦秋雪。"
+        },
+        {
+          "id": "line-5",
+          "hans": "叹轻别。",
+          "hant": "嘆輕別。"
+        },
+        {
+          "id": "line-6",
+          "hans": "一襟幽事，砌蛩能说。",
+          "hant": "一襟幽事，砌蛩能說。"
+        },
+        {
+          "id": "line-7",
+          "hans": "客思吟商还怯。",
+          "hant": "客思吟商還怯。"
+        },
+        {
+          "id": "line-8",
+          "hans": "怨歌长、琼壶暗缺。",
+          "hant": "怨歌長、瓊壺暗缺。"
+        },
+        {
+          "id": "line-9",
+          "hans": "翠扇恩疏，红衣香褪，翻成消歇。",
+          "hant": "翠扇恩疏，紅衣香褪，翻成消歇。"
+        },
+        {
+          "id": "line-10",
+          "hans": "玉骨西风，恨最恨、闲却新凉时节。",
+          "hant": "玉骨西風，恨最恨、閒卻新涼時節。"
+        },
+        {
+          "id": "line-11",
+          "hans": "楚箫咽。",
+          "hant": "楚簫咽。"
+        },
+        {
+          "id": "line-12",
+          "hans": "谁倚西楼淡月。",
+          "hant": "誰倚西樓淡月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 95,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-af11236767f8b639",
+  "title": {
+    "hans": "双双燕·过春社了",
+    "hant": "雙雙燕·過春社了"
+  },
+  "author": {
+    "name": {
+      "hans": "史达祖",
+      "hant": "史達祖"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "双双燕",
+    "hant": "雙雙燕"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "过春社了，度帘幕中间，去年尘冷。",
+          "hant": "過春社了，度簾幕中間，去年塵冷。"
+        },
+        {
+          "id": "line-2",
+          "hans": "差池欲住，试入旧巢相并。",
+          "hant": "差池欲住，試入舊巢相併。"
+        },
+        {
+          "id": "line-3",
+          "hans": "还相雕梁藻井。",
+          "hant": "還相雕樑藻井。"
+        },
+        {
+          "id": "line-4",
+          "hans": "又软语、商量不定。",
+          "hant": "又軟語、商量不定。"
+        },
+        {
+          "id": "line-5",
+          "hans": "飘然快拂花梢，翠尾分开红影。",
+          "hant": "飄然快拂花梢，翠尾分開紅影。"
+        },
+        {
+          "id": "line-6",
+          "hans": "芳径。",
+          "hant": "芳徑。"
+        },
+        {
+          "id": "line-7",
+          "hans": "芹泥雨润。",
+          "hant": "芹泥雨潤。"
+        },
+        {
+          "id": "line-8",
+          "hans": "爱贴地争飞，竞夸轻俊。",
+          "hant": "愛貼地爭飛，競誇輕俊。"
+        },
+        {
+          "id": "line-9",
+          "hans": "红楼归晚，看足柳昏花暝。",
+          "hant": "紅樓歸晚，看足柳昏花暝。"
+        },
+        {
+          "id": "line-10",
+          "hans": "应自栖香正稳。",
+          "hant": "應自棲香正穩。"
+        },
+        {
+          "id": "line-11",
+          "hans": "便忘了、天涯芳信。",
+          "hant": "便忘了、天涯芳信。"
+        },
+        {
+          "id": "line-12",
+          "hans": "愁损翠黛双蛾，日日画阑独凭。",
+          "hant": "愁損翠黛雙蛾，日日畫闌獨憑。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 179,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

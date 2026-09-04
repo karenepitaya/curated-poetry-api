@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-4868b4ce7820481e",
+  "title": {
+    "hans": "宴清都·绣幄鸳鸯柱",
+    "hant": "宴清都·繡幄鴛鴦柱"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "宴清都",
+    "hant": "宴清都"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绣幄鸳鸯柱。",
+          "hant": "繡幄鴛鴦柱。"
+        },
+        {
+          "id": "line-2",
+          "hans": "红情密，腻云低护秦树。",
+          "hant": "紅情密，膩雲低護秦樹。"
+        },
+        {
+          "id": "line-3",
+          "hans": "芳根兼倚，花梢钿合，锦屏人妒。",
+          "hant": "芳根兼倚，花梢鈿合，錦屏人妒。"
+        },
+        {
+          "id": "line-4",
+          "hans": "东风睡足交枝，正梦花、瑶钗燕股。",
+          "hant": "東風睡足交枝，正夢花、瑤釵燕股。"
+        },
+        {
+          "id": "line-5",
+          "hans": "障滟蜡、满照欢丛，嫠蟾冷落羞度。",
+          "hant": "障灩蠟、滿照歡叢，嫠蟾冷落羞度。"
+        },
+        {
+          "id": "line-6",
+          "hans": "人间万感幽单，华清惯浴，春盎风露。",
+          "hant": "人間萬感幽單，華清慣浴，春盎風露。"
+        },
+        {
+          "id": "line-7",
+          "hans": "连鬟并暖，同心共结，向承恩处。",
+          "hant": "連鬟並暖，同心共結，向承恩處。"
+        },
+        {
+          "id": "line-8",
+          "hans": "凭谁为歌长恨，暗殿锁、秋灯夜语。",
+          "hant": "憑誰爲歌長恨，暗殿鎖、秋燈夜語。"
+        },
+        {
+          "id": "line-9",
+          "hans": "叙旧期、不负春盟，红朝翠暮。",
+          "hant": "敘舊期、不負春盟，紅朝翠暮。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 5,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

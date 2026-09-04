@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-b29452491b83f887",
+  "title": {
+    "hans": "石州引・石州慢·薄雨初寒",
+    "hant": "石州引・石州慢·薄雨初寒"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "石州引・石州慢",
+    "hant": "石州引・石州慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "薄雨初寒，斜照弄晴，春意空阔。",
+          "hant": "薄雨初寒，斜照弄晴，春意空闊。"
+        },
+        {
+          "id": "line-2",
+          "hans": "长亭柳色缠黄，远客一枝先折。",
+          "hant": "長亭柳色纏黃，遠客一枝先折。"
+        },
+        {
+          "id": "line-3",
+          "hans": "烟横水际，映带几点归鸦，东风销尽龙沙雪。",
+          "hant": "煙橫水際，映帶幾點歸鴉，東風銷盡龍沙雪。"
+        },
+        {
+          "id": "line-4",
+          "hans": "还记初关来，恰而今时节。",
+          "hant": "還記初關來，恰而今時節。"
+        },
+        {
+          "id": "line-5",
+          "hans": "将发。",
+          "hant": "將發。"
+        },
+        {
+          "id": "line-6",
+          "hans": "画楼芳酒，红泪清歌，顿成清别。",
+          "hant": "畫樓芳酒，紅淚清歌，頓成清別。"
+        },
+        {
+          "id": "line-7",
+          "hans": "已是经年，杳杳音尘多绝。",
+          "hant": "已是經年，杳杳音塵多絕。"
+        },
+        {
+          "id": "line-8",
+          "hans": "欲知方寸，共有几许清愁，芭蕉不展丁香结。",
+          "hant": "欲知方寸，共有幾許清愁，芭蕉不展丁香結。"
+        },
+        {
+          "id": "line-9",
+          "hans": "枉望断天涯，两厌厌风月。",
+          "hant": "枉望斷天涯，兩厭厭風月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 104,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

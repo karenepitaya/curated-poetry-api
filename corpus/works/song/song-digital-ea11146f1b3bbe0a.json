@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-ea11146f1b3bbe0a",
+  "title": {
+    "hans": "临江仙·夜饮东坡醒复醉",
+    "hant": "臨江仙·夜飲東坡醒復醉"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "临江仙",
+    "hant": "臨江仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "夜饮东坡醒复醉，归来仿佛三更。",
+          "hant": "夜飲東坡醒復醉，歸來彷彿三更。"
+        },
+        {
+          "id": "line-2",
+          "hans": "家童鼻息已雷鸣。",
+          "hant": "家童鼻息已雷鳴。"
+        },
+        {
+          "id": "line-3",
+          "hans": "敲门都不应，倚杖听江声。",
+          "hant": "敲門都不應，倚杖聽江聲。"
+        },
+        {
+          "id": "line-4",
+          "hans": "长恨此身非我有，何时忘却营营。",
+          "hant": "長恨此身非我有，何時忘卻營營。"
+        },
+        {
+          "id": "line-5",
+          "hans": "夜阑风静縠纹平。",
+          "hant": "夜闌風靜縠紋平。"
+        },
+        {
+          "id": "line-6",
+          "hans": "小舟从此逝，江海寄馀生。",
+          "hant": "小舟從此逝，江海寄餘生。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 39,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

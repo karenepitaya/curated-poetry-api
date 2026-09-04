@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-532d0dca5621f738",
+  "title": {
+    "hans": "祝英台近·翦红情",
+    "hant": "祝英臺近·翦紅情"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "祝英台近",
+    "hant": "祝英臺近"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "翦红情，裁绿意，花信上钗股。",
+          "hant": "翦紅情，裁綠意，花信上釵股。"
+        },
+        {
+          "id": "line-2",
+          "hans": "残日东风，不放岁华去。",
+          "hant": "殘日東風，不放歲華去。"
+        },
+        {
+          "id": "line-3",
+          "hans": "有人添烛西窗，不眠侵晓，笑声转、新年莺语。",
+          "hant": "有人添燭西窗，不眠侵曉，笑聲轉、新年鶯語。"
+        },
+        {
+          "id": "line-4",
+          "hans": "旧尊俎。",
+          "hant": "舊尊俎。"
+        },
+        {
+          "id": "line-5",
+          "hans": "玉纤曾擘黄柑，柔香系幽素。",
+          "hant": "玉纖曾擘黃柑，柔香系幽素。"
+        },
+        {
+          "id": "line-6",
+          "hans": "归梦湖边，还迷镜中路。",
+          "hant": "歸夢湖邊，還迷鏡中路。"
+        },
+        {
+          "id": "line-7",
+          "hans": "可怜千点吴霜，寒销不尽，又相对、落梅如雨。",
+          "hant": "可憐千點吳霜，寒銷不盡，又相對、落梅如雨。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 196,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

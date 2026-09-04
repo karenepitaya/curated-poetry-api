@@ -1,0 +1,144 @@
+{
+  "id": "song-digital-4a11a792df81ea3f",
+  "title": {
+    "hans": "宝鼎现·红妆春骑",
+    "hant": "寶鼎現·紅妝春騎"
+  },
+  "author": {
+    "name": {
+      "hans": "刘辰翁",
+      "hant": "劉辰翁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "宝鼎现",
+    "hant": "寶鼎現"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "红妆春骑。",
+          "hant": "紅妝春騎。"
+        },
+        {
+          "id": "line-2",
+          "hans": "踏月影、竿旗穿市。",
+          "hant": "踏月影、竿旗穿市。"
+        },
+        {
+          "id": "line-3",
+          "hans": "望不尽、楼台歌舞，习习香尘莲步底。",
+          "hant": "望不盡、樓臺歌舞，習習香塵蓮步底。"
+        },
+        {
+          "id": "line-4",
+          "hans": "箫声断、约彩鸾归去，未怕金吾呵醉。",
+          "hant": "簫聲斷、約綵鸞歸去，未怕金吾呵醉。"
+        },
+        {
+          "id": "line-5",
+          "hans": "甚辇路、喧阗且止。",
+          "hant": "甚輦路、喧闐且止。"
+        },
+        {
+          "id": "line-6",
+          "hans": "听得念奴歌起。",
+          "hant": "聽得念奴歌起。"
+        },
+        {
+          "id": "line-7",
+          "hans": "父老犹记宣和事。",
+          "hant": "父老猶記宣和事。"
+        },
+        {
+          "id": "line-8",
+          "hans": "抱铜仙、清泪如水。",
+          "hant": "抱銅仙、清淚如水。"
+        },
+        {
+          "id": "line-9",
+          "hans": "还转盼、沙河多丽。",
+          "hant": "還轉盼、沙河多麗。"
+        },
+        {
+          "id": "line-10",
+          "hans": "漾明光连邸第。",
+          "hant": "漾明光連邸第。"
+        },
+        {
+          "id": "line-11",
+          "hans": "帘影冻、散红光成绮。",
+          "hant": "簾影凍、散紅光成綺。"
+        },
+        {
+          "id": "line-12",
+          "hans": "月浸葡萄十里。",
+          "hant": "月浸葡萄十里。"
+        },
+        {
+          "id": "line-13",
+          "hans": "看往来、神仙才子。",
+          "hant": "看往來、神仙才子。"
+        },
+        {
+          "id": "line-14",
+          "hans": "肯把菱花扑碎。",
+          "hant": "肯把菱花撲碎。"
+        },
+        {
+          "id": "line-15",
+          "hans": "肠断竹马儿童，空见说、三千乐指。",
+          "hant": "腸斷竹馬兒童，空見說、三千樂指。"
+        },
+        {
+          "id": "line-16",
+          "hans": "等多时春不归来，到春时欲睡。",
+          "hant": "等多時春不歸來，到春時欲睡。"
+        },
+        {
+          "id": "line-17",
+          "hans": "又说向、灯前拥髻。",
+          "hant": "又說向、燈前擁髻。"
+        },
+        {
+          "id": "line-18",
+          "hans": "暗滴鲛珠坠。",
+          "hant": "暗滴鮫珠墜。"
+        },
+        {
+          "id": "line-19",
+          "hans": "便当日、亲见霓裳，天上人间梦里。",
+          "hant": "便當日、親見霓裳，天上人間夢裏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 90,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

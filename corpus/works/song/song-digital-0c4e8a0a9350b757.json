@@ -1,0 +1,199 @@
+{
+  "id": "song-digital-0c4e8a0a9350b757",
+  "title": {
+    "hans": "六州歌头·东风著意",
+    "hant": "六州歌頭·東風著意"
+  },
+  "author": {
+    "name": {
+      "hans": "韩元吉",
+      "hant": "韓元吉"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "六州歌头",
+    "hant": "六州歌頭"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "东风著意。",
+          "hant": "東風著意。"
+        },
+        {
+          "id": "line-2",
+          "hans": "先上小桃枝。",
+          "hant": "先上小桃枝。"
+        },
+        {
+          "id": "line-3",
+          "hans": "红粉腻。",
+          "hant": "紅粉膩。"
+        },
+        {
+          "id": "line-4",
+          "hans": "娇如醉。",
+          "hant": "嬌如醉。"
+        },
+        {
+          "id": "line-5",
+          "hans": "倚朱扉。",
+          "hant": "倚朱扉。"
+        },
+        {
+          "id": "line-6",
+          "hans": "记年时。",
+          "hant": "記年時。"
+        },
+        {
+          "id": "line-7",
+          "hans": "隐映新妆，面临水岸。",
+          "hant": "隱映新妝，面臨水岸。"
+        },
+        {
+          "id": "line-8",
+          "hans": "春将半。",
+          "hant": "春將半。"
+        },
+        {
+          "id": "line-9",
+          "hans": "云日暖。",
+          "hant": "雲日暖。"
+        },
+        {
+          "id": "line-10",
+          "hans": "斜桥转。",
+          "hant": "斜橋轉。"
+        },
+        {
+          "id": "line-11",
+          "hans": "夹城西。",
+          "hant": "夾城西。"
+        },
+        {
+          "id": "line-12",
+          "hans": "草软莎平跋马，垂杨渡、玉勒争嘶。",
+          "hant": "草軟莎平跋馬，垂楊渡、玉勒爭嘶。"
+        },
+        {
+          "id": "line-13",
+          "hans": "认蛾眉凝笑，脸薄拂燕支。",
+          "hant": "認蛾眉凝笑，臉薄拂燕支。"
+        },
+        {
+          "id": "line-14",
+          "hans": "绣户曾窥。",
+          "hant": "繡戶曾窺。"
+        },
+        {
+          "id": "line-15",
+          "hans": "恨依依。",
+          "hant": "恨依依。"
+        },
+        {
+          "id": "line-16",
+          "hans": "共携手处。",
+          "hant": "共攜手處。"
+        },
+        {
+          "id": "line-17",
+          "hans": "香如雾。",
+          "hant": "香如霧。"
+        },
+        {
+          "id": "line-18",
+          "hans": "红随步。",
+          "hant": "紅隨步。"
+        },
+        {
+          "id": "line-19",
+          "hans": "怨春迟。",
+          "hant": "怨春遲。"
+        },
+        {
+          "id": "line-20",
+          "hans": "消瘦损。",
+          "hant": "消瘦損。"
+        },
+        {
+          "id": "line-21",
+          "hans": "凭谁问。",
+          "hant": "憑誰問。"
+        },
+        {
+          "id": "line-22",
+          "hans": "只花知。",
+          "hant": "只花知。"
+        },
+        {
+          "id": "line-23",
+          "hans": "泪空垂。",
+          "hant": "淚空垂。"
+        },
+        {
+          "id": "line-24",
+          "hans": "旧日堂前燕，和烟雨，又双飞。",
+          "hant": "舊日堂前燕，和煙雨，又雙飛。"
+        },
+        {
+          "id": "line-25",
+          "hans": "人自老。",
+          "hant": "人自老。"
+        },
+        {
+          "id": "line-26",
+          "hans": "春长好。",
+          "hant": "春長好。"
+        },
+        {
+          "id": "line-27",
+          "hans": "梦佳期。",
+          "hant": "夢佳期。"
+        },
+        {
+          "id": "line-28",
+          "hans": "前度刘郎，几许风流地，花也应悲。",
+          "hant": "前度劉郎，幾許風流地，花也應悲。"
+        },
+        {
+          "id": "line-29",
+          "hans": "但茫茫暮霭，目断武陵溪。",
+          "hant": "但茫茫暮靄，目斷武陵溪。"
+        },
+        {
+          "id": "line-30",
+          "hans": "往事难追。",
+          "hant": "往事難追。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 58,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

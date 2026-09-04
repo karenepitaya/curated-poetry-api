@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-404084d7dc38d2e3",
+  "title": {
+    "hans": "千秋岁·数声鶗鴂",
+    "hant": "千秋歲·數聲鶗鴂"
+  },
+  "author": {
+    "name": {
+      "hans": "张先",
+      "hant": "張先"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "千秋岁",
+    "hant": "千秋歲"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "数声鶗鴂。",
+          "hant": "數聲鶗鴂。"
+        },
+        {
+          "id": "line-2",
+          "hans": "又报芳菲歇。",
+          "hant": "又報芳菲歇。"
+        },
+        {
+          "id": "line-3",
+          "hans": "惜春更把残红折。",
+          "hant": "惜春更把殘紅折。"
+        },
+        {
+          "id": "line-4",
+          "hans": "雨轻风色暴，梅子青时节。",
+          "hant": "雨輕風色暴，梅子青時節。"
+        },
+        {
+          "id": "line-5",
+          "hans": "永丰柳，无人尽日飞花雪。",
+          "hant": "永豐柳，無人盡日飛花雪。"
+        },
+        {
+          "id": "line-6",
+          "hans": "莫把幺弦拨。",
+          "hant": "莫把幺弦撥。"
+        },
+        {
+          "id": "line-7",
+          "hans": "怨极弦能说。",
+          "hant": "怨極弦能說。"
+        },
+        {
+          "id": "line-8",
+          "hans": "天不老，情难绝。",
+          "hant": "天不老，情難絕。"
+        },
+        {
+          "id": "line-9",
+          "hans": "心似双丝网，中有千千结。",
+          "hant": "心似雙絲網，中有千千結。"
+        },
+        {
+          "id": "line-10",
+          "hans": "夜过也，东窗未白凝残月。",
+          "hant": "夜過也，東窗未白凝殘月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 157,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

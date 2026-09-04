@@ -1,0 +1,134 @@
+{
+  "id": "song-digital-5209ffe4db25f3f1",
+  "title": {
+    "hans": "六丑·正单衣试酒",
+    "hant": "六醜·正單衣試酒"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "六丑",
+    "hant": "六醜"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "正单衣试酒，恨客里、光阴虚掷。",
+          "hant": "正單衣試酒，恨客裏、光陰虛擲。"
+        },
+        {
+          "id": "line-2",
+          "hans": "愿春暂留，春归如过翼。",
+          "hant": "願春暫留，春歸如過翼。"
+        },
+        {
+          "id": "line-3",
+          "hans": "一去无迹。",
+          "hant": "一去無跡。"
+        },
+        {
+          "id": "line-4",
+          "hans": "为问花何在，夜来风雨，葬楚宫倾国。",
+          "hant": "爲問花何在，夜來風雨，葬楚宮傾國。"
+        },
+        {
+          "id": "line-5",
+          "hans": "钗钿堕处遗香泽。",
+          "hant": "釵鈿墮處遺香澤。"
+        },
+        {
+          "id": "line-6",
+          "hans": "乱点桃蹊，轻翻柳陌。",
+          "hant": "亂點桃蹊，輕翻柳陌。"
+        },
+        {
+          "id": "line-7",
+          "hans": "多情为谁追惜。",
+          "hant": "多情爲誰追惜。"
+        },
+        {
+          "id": "line-8",
+          "hans": "但蜂媒蝶使，时叩窗隔。",
+          "hant": "但蜂媒蝶使，時叩窗隔。"
+        },
+        {
+          "id": "line-9",
+          "hans": "东园岑寂。",
+          "hant": "東園岑寂。"
+        },
+        {
+          "id": "line-10",
+          "hans": "渐蒙笼暗碧。",
+          "hant": "漸蒙籠暗碧。"
+        },
+        {
+          "id": "line-11",
+          "hans": "静绕珍丛底，成叹息。",
+          "hant": "靜繞珍叢底，成嘆息。"
+        },
+        {
+          "id": "line-12",
+          "hans": "长条故惹行客。",
+          "hant": "長條故惹行客。"
+        },
+        {
+          "id": "line-13",
+          "hans": "似牵衣待话，别情无极。",
+          "hant": "似牽衣待話，別情無極。"
+        },
+        {
+          "id": "line-14",
+          "hans": "残英小、强簪巾帻。",
+          "hant": "殘英小、強簪巾幘。"
+        },
+        {
+          "id": "line-15",
+          "hans": "终不似一朵，钗头颤袅，向人侧。",
+          "hant": "終不似一朵，釵頭顫嫋，向人側。"
+        },
+        {
+          "id": "line-16",
+          "hans": "漂流处、莫趁潮汐。",
+          "hant": "漂流處、莫趁潮汐。"
+        },
+        {
+          "id": "line-17",
+          "hans": "恐断红、尚有相思字，何由见得。",
+          "hant": "恐斷紅、尚有相思字，何由見得。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 236,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

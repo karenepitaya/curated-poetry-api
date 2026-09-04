@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-2b4021c6804174a1",
+  "title": {
+    "hans": "永遇乐·千古江山",
+    "hant": "永遇樂·千古江山"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "永遇乐",
+    "hant": "永遇樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "千古江山，英雄无觅，孙仲谋处。",
+          "hant": "千古江山，英雄無覓，孫仲謀處。"
+        },
+        {
+          "id": "line-2",
+          "hans": "舞榭歌台，风流总被，雨打风吹去。",
+          "hant": "舞榭歌臺，風流總被，雨打風吹去。"
+        },
+        {
+          "id": "line-3",
+          "hans": "斜阳草树，寻常巷陌，人道寄奴曾住。",
+          "hant": "斜陽草樹，尋常巷陌，人道寄奴曾住。"
+        },
+        {
+          "id": "line-4",
+          "hans": "想当年，金戈铁马，气吞万里如虎。",
+          "hant": "想當年，金戈鐵馬，氣吞萬里如虎。"
+        },
+        {
+          "id": "line-5",
+          "hans": "元嘉草草，封狼居胥，赢得仓皇北顾。",
+          "hant": "元嘉草草，封狼居胥，贏得倉皇北顧。"
+        },
+        {
+          "id": "line-6",
+          "hans": "四十三年，望中犹记，烽火扬州路。",
+          "hant": "四十三年，望中猶記，烽火揚州路。"
+        },
+        {
+          "id": "line-7",
+          "hans": "可堪回首，佛狸祠下，一片神鸦社鼓。",
+          "hant": "可堪回首，佛狸祠下，一片神鴉社鼓。"
+        },
+        {
+          "id": "line-8",
+          "hans": "凭谁问，廉颇老矣，尚能饭否。",
+          "hant": "憑誰問，廉頗老矣，尚能飯否。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 60,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

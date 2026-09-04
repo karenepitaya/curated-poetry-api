@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-807ff8140aca4a9f",
+  "title": {
+    "hans": "解连环·楚江空晚",
+    "hant": "解連環·楚江空晚"
+  },
+  "author": {
+    "name": {
+      "hans": "张炎",
+      "hant": "張炎"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "解连环",
+    "hant": "解連環"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "楚江空晚。",
+          "hant": "楚江空晚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "怅离群万里，恍然惊散。",
+          "hant": "悵離羣萬里，恍然驚散。"
+        },
+        {
+          "id": "line-3",
+          "hans": "自顾影、欲下寒塘，正沙净草枯，水平天远。",
+          "hant": "自顧影、欲下寒塘，正沙淨草枯，水平天遠。"
+        },
+        {
+          "id": "line-4",
+          "hans": "写不成书，只寄得、相思一点。",
+          "hant": "寫不成書，只寄得、相思一點。"
+        },
+        {
+          "id": "line-5",
+          "hans": "料因循误了，残毡拥雪，故人心眼。",
+          "hant": "料因循誤了，殘氈擁雪，故人心眼。"
+        },
+        {
+          "id": "line-6",
+          "hans": "谁怜旅愁荏苒。",
+          "hant": "誰憐旅愁荏苒。"
+        },
+        {
+          "id": "line-7",
+          "hans": "谩长门夜悄，锦筝弹怨。",
+          "hant": "謾長門夜悄，錦箏彈怨。"
+        },
+        {
+          "id": "line-8",
+          "hans": "想伴侣、犹宿芦花，也曾念春前，去程应转。",
+          "hant": "想伴侶、猶宿蘆花，也曾念春前，去程應轉。"
+        },
+        {
+          "id": "line-9",
+          "hans": "暮雨相呼，怕蓦地、玉关重见。",
+          "hant": "暮雨相呼，怕驀地、玉關重見。"
+        },
+        {
+          "id": "line-10",
+          "hans": "未羞他、双燕归来，画帘半卷。",
+          "hant": "未羞他、雙燕歸來，畫簾半卷。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 260,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

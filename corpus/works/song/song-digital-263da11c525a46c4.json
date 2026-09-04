@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-263da11c525a46c4",
+  "title": {
+    "hans": "点绛唇·燕雁无心",
+    "hant": "點絳脣·燕雁無心"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "点绛唇",
+    "hant": "點絳脣"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "燕雁无心，太湖西畔随云去。",
+          "hant": "燕雁無心，太湖西畔隨雲去。"
+        },
+        {
+          "id": "line-2",
+          "hans": "数峰清苦。",
+          "hant": "數峯清苦。"
+        },
+        {
+          "id": "line-3",
+          "hans": "商略黄昏雨。",
+          "hant": "商略黃昏雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "第四桥边，拟共天随住。",
+          "hant": "第四橋邊，擬共天隨住。"
+        },
+        {
+          "id": "line-5",
+          "hans": "今何许。",
+          "hant": "今何許。"
+        },
+        {
+          "id": "line-6",
+          "hans": "凭栏怀古。",
+          "hant": "憑欄懷古。"
+        },
+        {
+          "id": "line-7",
+          "hans": "残柳参差舞。",
+          "hant": "殘柳參差舞。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 121,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -327,3 +327,43 @@ func assertErrorShape(t *testing.T, recorder *httptest.ResponseRecorder, wantCod
 		t.Fatalf("error response = %#v", response)
 	}
 }
+
+func TestEmbeddedSongCiEndpoint(t *testing.T) {
+	catalog, err := poetry.Load()
+	if err != nil {
+		t.Fatal(err)
+	}
+	handler := New(catalog, "test")
+	health := httptest.NewRecorder()
+	handler.ServeHTTP(health, httptest.NewRequest(http.MethodGet, "/healthz", nil))
+	var status struct {
+		Works     int `json:"works"`
+		Dynasties struct {
+			Tang int `json:"tang"`
+			Song int `json:"song"`
+		} `json:"dynasties"`
+	}
+	if err := json.Unmarshal(health.Body.Bytes(), &status); err != nil {
+		t.Fatal(err)
+	}
+	if health.Code != http.StatusOK || status.Works != 326 || status.Dynasties.Tang != 50 || status.Dynasties.Song != 276 {
+		t.Fatalf("health = %s", health.Body.String())
+	}
+	for _, script := range []string{"hans", "hant"} {
+		recorder := httptest.NewRecorder()
+		handler.ServeHTTP(recorder, httptest.NewRequest(http.MethodGet, "/api/v1/works/random?collection=songci-digital-selection&dynasty=song&genre=ci&max_chars=120&script="+script, nil))
+		if recorder.Code != http.StatusOK {
+			t.Fatalf("%s: %d %s", script, recorder.Code, recorder.Body.String())
+		}
+		var response randomWorkResponse
+		if err := json.Unmarshal(recorder.Body.Bytes(), &response); err != nil {
+			t.Fatal(err)
+		}
+		if response.Data.EvidenceLevel != poetry.EvidenceDigitalTextChecked || response.Data.Tune == nil || response.Data.Dynasty.Code != "song" || len(response.Data.Sections) == 0 {
+			t.Fatalf("response = %#v", response)
+		}
+		if recorder.Header().Get("Cache-Control") != "no-store" {
+			t.Fatal("missing no-store")
+		}
+	}
+}

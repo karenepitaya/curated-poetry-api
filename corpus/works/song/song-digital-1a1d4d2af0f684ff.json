@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-1a1d4d2af0f684ff",
+  "title": {
+    "hans": "雨霖铃·寒蝉凄切",
+    "hant": "雨霖鈴·寒蟬悽切"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "雨霖铃",
+    "hant": "雨霖鈴"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "寒蝉凄切。",
+          "hant": "寒蟬悽切。"
+        },
+        {
+          "id": "line-2",
+          "hans": "对长亭晚，骤雨初歇。",
+          "hant": "對長亭晚，驟雨初歇。"
+        },
+        {
+          "id": "line-3",
+          "hans": "都门帐饮无绪，留恋处、兰舟催发。",
+          "hant": "都門帳飲無緒，留戀處、蘭舟催發。"
+        },
+        {
+          "id": "line-4",
+          "hans": "执手相看泪眼，竟无语凝噎。",
+          "hant": "執手相看淚眼，竟無語凝噎。"
+        },
+        {
+          "id": "line-5",
+          "hans": "念去去、千里烟波，暮霭沈沈楚天阔。",
+          "hant": "念去去、千里煙波，暮靄沈沈楚天闊。"
+        },
+        {
+          "id": "line-6",
+          "hans": "多情自古伤离别。",
+          "hant": "多情自古傷離別。"
+        },
+        {
+          "id": "line-7",
+          "hans": "更那堪、冷落清秋节。",
+          "hant": "更那堪、冷落清秋節。"
+        },
+        {
+          "id": "line-8",
+          "hans": "今宵酒醒何处，杨柳岸、晓风残月。",
+          "hant": "今宵酒醒何處，楊柳岸、曉風殘月。"
+        },
+        {
+          "id": "line-9",
+          "hans": "此去经年，应是良辰、好景虚设。",
+          "hant": "此去經年，應是良辰、好景虛設。"
+        },
+        {
+          "id": "line-10",
+          "hans": "便纵有、千种风情，更与何人说。",
+          "hant": "便縱有、千種風情，更與何人說。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 142,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

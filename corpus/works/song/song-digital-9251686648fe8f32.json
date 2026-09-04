@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-9251686648fe8f32",
+  "title": {
+    "hans": "过秦楼·水浴清蟾",
+    "hant": "過秦樓·水浴清蟾"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "过秦楼",
+    "hant": "過秦樓"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "水浴清蟾，叶喧凉吹，巷陌马声初断。",
+          "hant": "水浴清蟾，葉喧涼吹，巷陌馬聲初斷。"
+        },
+        {
+          "id": "line-2",
+          "hans": "闲依露井，笑扑流萤，惹破画罗轻扇。",
+          "hant": "閒依露井，笑撲流螢，惹破畫羅輕扇。"
+        },
+        {
+          "id": "line-3",
+          "hans": "人静夜久凭阑，愁不归眠，立残更箭。",
+          "hant": "人靜夜久憑闌，愁不歸眠，立殘更箭。"
+        },
+        {
+          "id": "line-4",
+          "hans": "叹年华一瞬，人今千里，梦沈书远。",
+          "hant": "嘆年華一瞬，人今千里，夢沈書遠。"
+        },
+        {
+          "id": "line-5",
+          "hans": "空见说、鬓怯琼梳，容销金镜，渐懒趁时匀染。",
+          "hant": "空見說、鬢怯瓊梳，容銷金鏡，漸懶趁時勻染。"
+        },
+        {
+          "id": "line-6",
+          "hans": "梅风地溽，虹雨苔滋，一架舞红都变。",
+          "hant": "梅風地溽，虹雨苔滋，一架舞紅都變。"
+        },
+        {
+          "id": "line-7",
+          "hans": "谁信无，为伊才减江淹，情伤荀倩。",
+          "hant": "誰信無，爲伊才減江淹，情傷荀倩。"
+        },
+        {
+          "id": "line-8",
+          "hans": "但明河影下，还看稀星数点。",
+          "hant": "但明河影下，還看稀星數點。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 231,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

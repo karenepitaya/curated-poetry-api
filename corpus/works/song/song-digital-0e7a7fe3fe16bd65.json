@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-0e7a7fe3fe16bd65",
+  "title": {
+    "hans": "蝶恋花·月皎惊乌栖不定",
+    "hant": "蝶戀花·月皎驚烏棲不定"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蝶恋花",
+    "hant": "蝶戀花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "月皎惊乌栖不定。",
+          "hant": "月皎驚烏棲不定。"
+        },
+        {
+          "id": "line-2",
+          "hans": "更漏将残，辘，牵金井。",
+          "hant": "更漏將殘，轆，牽金井。"
+        },
+        {
+          "id": "line-3",
+          "hans": "唤起两眸清炯炯。",
+          "hant": "喚起兩眸清炯炯。"
+        },
+        {
+          "id": "line-4",
+          "hans": "泪花落枕红棉泠。",
+          "hant": "淚花落枕紅棉泠。"
+        },
+        {
+          "id": "line-5",
+          "hans": "执手霜风吹鬓影。",
+          "hant": "執手霜風吹鬢影。"
+        },
+        {
+          "id": "line-6",
+          "hans": "去意徊徨，别语愁难听。",
+          "hant": "去意徊徨，別語愁難聽。"
+        },
+        {
+          "id": "line-7",
+          "hans": "楼上阑干横斗柄。",
+          "hant": "樓上闌干橫斗柄。"
+        },
+        {
+          "id": "line-8",
+          "hans": "露寒人远鸡相应。",
+          "hant": "露寒人遠雞相應。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 242,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

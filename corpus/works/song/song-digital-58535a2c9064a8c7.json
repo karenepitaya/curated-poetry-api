@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-58535a2c9064a8c7",
+  "title": {
+    "hans": "减字浣溪沙・浣溪沙·楼角初销一缕霞",
+    "hant": "減字浣溪沙・浣溪沙·樓角初銷一縷霞"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "减字浣溪沙・浣溪沙",
+    "hant": "減字浣溪沙・浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "楼角初销一缕霞。",
+          "hant": "樓角初銷一縷霞。"
+        },
+        {
+          "id": "line-2",
+          "hans": "淡黄杨柳暗栖鸦。",
+          "hant": "淡黃楊柳暗棲鴉。"
+        },
+        {
+          "id": "line-3",
+          "hans": "玉人和月摘梅花。",
+          "hant": "玉人和月摘梅花。"
+        },
+        {
+          "id": "line-4",
+          "hans": "笑拈粉香归洞户，更垂帘幕护窗纱。",
+          "hant": "笑拈粉香歸洞戶，更垂簾幕護窗紗。"
+        },
+        {
+          "id": "line-5",
+          "hans": "东风寒似夜来些。",
+          "hant": "東風寒似夜來些。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 102,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

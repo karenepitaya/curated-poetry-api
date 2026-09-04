@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-eb1dfede4bf1443c",
+  "title": {
+    "hans": "风流子·新绿小池塘",
+    "hant": "風流子·新綠小池塘"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "风流子",
+    "hant": "風流子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "新绿小池塘。",
+          "hant": "新綠小池塘。"
+        },
+        {
+          "id": "line-2",
+          "hans": "风帘动，碎影舞斜阳。",
+          "hant": "風簾動，碎影舞斜陽。"
+        },
+        {
+          "id": "line-3",
+          "hans": "羡金屋去来，旧时巢燕，土花缭绕，前度莓墙。",
+          "hant": "羨金屋去來，舊時巢燕，土花繚繞，前度莓牆。"
+        },
+        {
+          "id": "line-4",
+          "hans": "绣阁凤帏深几许，曾听得理丝簧。",
+          "hant": "繡閣鳳幃深幾許，曾聽得理絲簧。"
+        },
+        {
+          "id": "line-5",
+          "hans": "欲说又休，虑乖芳信，未歌先咽，愁近清觞。",
+          "hant": "欲說又休，慮乖芳信，未歌先咽，愁近清觴。"
+        },
+        {
+          "id": "line-6",
+          "hans": "遥知新妆了，开朱户，应自待月西厢。",
+          "hant": "遙知新妝了，開朱戶，應自待月西廂。"
+        },
+        {
+          "id": "line-7",
+          "hans": "最苦梦魂，今宵不到伊行。",
+          "hant": "最苦夢魂，今宵不到伊行。"
+        },
+        {
+          "id": "line-8",
+          "hans": "问甚时说与，佳音密耗，寄将秦镜，偷换韩香。",
+          "hant": "問甚時說與，佳音密耗，寄將秦鏡，偷換韓香。"
+        },
+        {
+          "id": "line-9",
+          "hans": "天便教人，霎时厮见何妨。",
+          "hant": "天便教人，霎時廝見何妨。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 225,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

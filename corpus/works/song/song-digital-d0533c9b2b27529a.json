@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-d0533c9b2b27529a",
+  "title": {
+    "hans": "诉衷情·清晨帘幕卷轻霜",
+    "hant": "訴衷情·清晨簾幕卷輕霜"
+  },
+  "author": {
+    "name": {
+      "hans": "欧阳修",
+      "hant": "歐陽修"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "诉衷情",
+    "hant": "訴衷情"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "清晨帘幕卷轻霜。",
+          "hant": "清晨簾幕卷輕霜。"
+        },
+        {
+          "id": "line-2",
+          "hans": "呵手试梅妆。",
+          "hant": "呵手試梅妝。"
+        },
+        {
+          "id": "line-3",
+          "hans": "都缘自有离恨，故画作远山长。",
+          "hant": "都緣自有離恨，故畫作遠山長。"
+        },
+        {
+          "id": "line-4",
+          "hans": "思往事，惜流芳。",
+          "hant": "思往事，惜流芳。"
+        },
+        {
+          "id": "line-5",
+          "hans": "易成伤。",
+          "hant": "易成傷。"
+        },
+        {
+          "id": "line-6",
+          "hans": "拟歌先敛，欲笑还颦，最断人肠。",
+          "hant": "擬歌先斂，欲笑還顰，最斷人腸。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 170,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

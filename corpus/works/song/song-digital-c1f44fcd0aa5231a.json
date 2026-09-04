@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-c1f44fcd0aa5231a",
+  "title": {
+    "hans": "蝶恋花·几许伤春春复暮",
+    "hant": "蝶戀花·幾許傷春春復暮"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蝶恋花",
+    "hant": "蝶戀花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "几许伤春春复暮。",
+          "hant": "幾許傷春春復暮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "杨柳清阴，偏碍游丝度。",
+          "hant": "楊柳清陰，偏礙遊絲度。"
+        },
+        {
+          "id": "line-3",
+          "hans": "天际小山桃叶步。",
+          "hant": "天際小山桃葉步。"
+        },
+        {
+          "id": "line-4",
+          "hans": "白苹花满湔裙处。",
+          "hant": "白蘋花滿湔裙處。"
+        },
+        {
+          "id": "line-5",
+          "hans": "竟日微吟长短句。",
+          "hant": "竟日微吟長短句。"
+        },
+        {
+          "id": "line-6",
+          "hans": "帘影灯昏，心寄胡琴语。",
+          "hant": "簾影燈昏，心寄胡琴語。"
+        },
+        {
+          "id": "line-7",
+          "hans": "数点雨声风约住。",
+          "hant": "數點雨聲風約住。"
+        },
+        {
+          "id": "line-8",
+          "hans": "朦胧淡月云来去。",
+          "hant": "朦朧淡月雲來去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 106,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

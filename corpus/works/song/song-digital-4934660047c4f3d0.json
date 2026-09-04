@@ -1,0 +1,129 @@
+{
+  "id": "song-digital-4934660047c4f3d0",
+  "title": {
+    "hans": "六州歌头·长怀望断",
+    "hant": "六州歌頭·長懷望斷"
+  },
+  "author": {
+    "name": {
+      "hans": "张孝祥",
+      "hant": "張孝祥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "六州歌头",
+    "hant": "六州歌頭"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "长怀望断，关塞莽然平。",
+          "hant": "長懷望斷，關塞莽然平。"
+        },
+        {
+          "id": "line-2",
+          "hans": "征尘暗，霜风劲，悄边声。",
+          "hant": "征塵暗，霜風勁，悄邊聲。"
+        },
+        {
+          "id": "line-3",
+          "hans": "黯销凝。",
+          "hant": "黯銷凝。"
+        },
+        {
+          "id": "line-4",
+          "hans": "追想当年事，殆天数，非人力，洙泗上，弦歌地，亦膻腥。",
+          "hant": "追想當年事，殆天數，非人力，洙泗上，絃歌地，亦羶腥。"
+        },
+        {
+          "id": "line-5",
+          "hans": "隔水毡乡，落日牛羊下，区脱纵横。",
+          "hant": "隔水氈鄉，落日牛羊下，區脫縱橫。"
+        },
+        {
+          "id": "line-6",
+          "hans": "看名王宵猎，骑火一川明。",
+          "hant": "看名王宵獵，騎火一川明。"
+        },
+        {
+          "id": "line-7",
+          "hans": "笳鼓悲鸣。",
+          "hant": "笳鼓悲鳴。"
+        },
+        {
+          "id": "line-8",
+          "hans": "遣人惊。",
+          "hant": "遣人驚。"
+        },
+        {
+          "id": "line-9",
+          "hans": "念腰间箭，匣中剑，空埃蠹，竟何成。",
+          "hant": "念腰間箭，匣中劍，空埃蠹，竟何成。"
+        },
+        {
+          "id": "line-10",
+          "hans": "时易失，心徒壮，岁将零。",
+          "hant": "時易失，心徒壯，歲將零。"
+        },
+        {
+          "id": "line-11",
+          "hans": "渺神京。",
+          "hant": "渺神京。"
+        },
+        {
+          "id": "line-12",
+          "hans": "干羽方怀远，静烽燧，且休兵。",
+          "hant": "幹羽方懷遠，靜烽燧，且休兵。"
+        },
+        {
+          "id": "line-13",
+          "hans": "冠盖使，纷驰骛，若为情。",
+          "hant": "冠蓋使，紛馳騖，若爲情。"
+        },
+        {
+          "id": "line-14",
+          "hans": "闻道中原遗老，常南望，羽葆霓旌。",
+          "hant": "聞道中原遺老，常南望，羽葆霓旌。"
+        },
+        {
+          "id": "line-15",
+          "hans": "使行人到此，忠愤气填膺。",
+          "hant": "使行人到此，忠憤氣填膺。"
+        },
+        {
+          "id": "line-16",
+          "hans": "有泪如倾。",
+          "hant": "有淚如傾。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 278,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "song-digital-1f90663a4f13298e",
+  "title": {
+    "hans": "青玉案·年年社日停针线",
+    "hant": "青玉案·年年社日停針線"
+  },
+  "author": {
+    "name": {
+      "hans": "无名氏",
+      "hant": "無名氏"
+    },
+    "attributionStatus": "unknown",
+    "attributionNote": "电子来源署名无名氏，未确定作者。"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "青玉案",
+    "hant": "青玉案"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "年年社日停针线。",
+          "hant": "年年社日停針線。"
+        },
+        {
+          "id": "line-2",
+          "hans": "怎忍见、双飞燕。",
+          "hant": "怎忍見、雙飛燕。"
+        },
+        {
+          "id": "line-3",
+          "hans": "今日江城春已半。",
+          "hant": "今日江城春已半。"
+        },
+        {
+          "id": "line-4",
+          "hans": "一身犹在，乱山深处，寂寞溪桥畔。",
+          "hant": "一身猶在，亂山深處，寂寞溪橋畔。"
+        },
+        {
+          "id": "line-5",
+          "hans": "春衫著破谁针线。",
+          "hant": "春衫著破誰針線。"
+        },
+        {
+          "id": "line-6",
+          "hans": "点点行行泪痕满。",
+          "hant": "點點行行淚痕滿。"
+        },
+        {
+          "id": "line-7",
+          "hans": "落日解鞍芳草岸。",
+          "hant": "落日解鞍芳草岸。"
+        },
+        {
+          "id": "line-8",
+          "hans": "花无人戴，酒无人劝，醉也无人管。",
+          "hant": "花無人戴，酒無人勸，醉也無人管。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 274,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

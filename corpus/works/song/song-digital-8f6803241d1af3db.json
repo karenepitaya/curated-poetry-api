@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-8f6803241d1af3db",
+  "title": {
+    "hans": "蹋莎行・踏莎行·润玉笼绡",
+    "hant": "蹋莎行・踏莎行·潤玉籠綃"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蹋莎行・踏莎行",
+    "hant": "蹋莎行・踏莎行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "润玉笼绡，檀樱倚扇。",
+          "hant": "潤玉籠綃，檀櫻倚扇。"
+        },
+        {
+          "id": "line-2",
+          "hans": "绣圈犹带脂香浅。",
+          "hant": "繡圈猶帶脂香淺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "榴心空叠舞裙红，艾枝应压愁鬟乱。",
+          "hant": "榴心空疊舞裙紅，艾枝應壓愁鬟亂。"
+        },
+        {
+          "id": "line-4",
+          "hans": "午梦千山，窗阴一箭。",
+          "hant": "午夢千山，窗陰一箭。"
+        },
+        {
+          "id": "line-5",
+          "hans": "香瘢新褪红丝腕。",
+          "hant": "香瘢新褪紅絲腕。"
+        },
+        {
+          "id": "line-6",
+          "hans": "隔江人在雨声中，晚风菰叶生秋怨。",
+          "hant": "隔江人在雨聲中，晚風菰葉生秋怨。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 83,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

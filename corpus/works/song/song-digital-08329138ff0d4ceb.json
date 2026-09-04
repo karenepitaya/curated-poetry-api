@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-08329138ff0d4ceb",
+  "title": {
+    "hans": "烛影摇红·双阙中天",
+    "hant": "燭影搖紅·雙闕中天"
+  },
+  "author": {
+    "name": {
+      "hans": "张抡",
+      "hant": "張掄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "烛影摇红",
+    "hant": "燭影搖紅"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "双阙中天，凤楼十二春寒浅。",
+          "hant": "雙闕中天，鳳樓十二春寒淺。"
+        },
+        {
+          "id": "line-2",
+          "hans": "去年元夜奉宸游，曾侍瑶池宴。",
+          "hant": "去年元夜奉宸遊，曾侍瑤池宴。"
+        },
+        {
+          "id": "line-3",
+          "hans": "玉殿珠帘尽卷。",
+          "hant": "玉殿珠簾盡卷。"
+        },
+        {
+          "id": "line-4",
+          "hans": "拥群仙、蓬壶阆苑。",
+          "hant": "擁羣仙、蓬壺閬苑。"
+        },
+        {
+          "id": "line-5",
+          "hans": "五云深处，万烛光中，揭天丝管。",
+          "hant": "五雲深處，萬燭光中，揭天絲管。"
+        },
+        {
+          "id": "line-6",
+          "hans": "驰隙流年，恍如一瞬星霜换。",
+          "hant": "馳隙流年，恍如一瞬星霜換。"
+        },
+        {
+          "id": "line-7",
+          "hans": "今宵谁念泣孤臣，回首长安远。",
+          "hant": "今宵誰念泣孤臣，回首長安遠。"
+        },
+        {
+          "id": "line-8",
+          "hans": "可是尘缘未断。",
+          "hant": "可是塵緣未斷。"
+        },
+        {
+          "id": "line-9",
+          "hans": "谩惆怅、华胥梦短。",
+          "hant": "謾惆悵、華胥夢短。"
+        },
+        {
+          "id": "line-10",
+          "hans": "满怀幽恨，数点寒灯，几声归雁。",
+          "hant": "滿懷幽恨，數點寒燈，幾聲歸雁。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 59,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-c0b75b878608b7dc",
+  "title": {
+    "hans": "满庭芳·风老莺雏",
+    "hant": "滿庭芳·風老鶯雛"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "满庭芳",
+    "hant": "滿庭芳"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "风老莺雏，雨肥梅子，午阴嘉树清圆。",
+          "hant": "風老鶯雛，雨肥梅子，午陰嘉樹清圓。"
+        },
+        {
+          "id": "line-2",
+          "hans": "地卑山近，衣润费垆烟。",
+          "hant": "地卑山近，衣潤費壚煙。"
+        },
+        {
+          "id": "line-3",
+          "hans": "人静乌鸢自乐，小桥外、新绿溅溅。",
+          "hant": "人靜烏鳶自樂，小橋外、新綠濺濺。"
+        },
+        {
+          "id": "line-4",
+          "hans": "凭栏久，黄芦苦竹，拟泛九江船。",
+          "hant": "憑欄久，黃蘆苦竹，擬泛九江船。"
+        },
+        {
+          "id": "line-5",
+          "hans": "年年。",
+          "hant": "年年。"
+        },
+        {
+          "id": "line-6",
+          "hans": "如社燕，飘流瀚海，来寄修椽。",
+          "hant": "如社燕，飄流瀚海，來寄修椽。"
+        },
+        {
+          "id": "line-7",
+          "hans": "且莫思身外，长近尊前。",
+          "hant": "且莫思身外，長近尊前。"
+        },
+        {
+          "id": "line-8",
+          "hans": "憔悴江南倦客，不堪听、急管繁弦。",
+          "hant": "憔悴江南倦客，不堪聽、急管繁弦。"
+        },
+        {
+          "id": "line-9",
+          "hans": "歌筵畔，先安簟枕，容我醉时眠。",
+          "hant": "歌筵畔，先安簟枕，容我醉時眠。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 230,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "song-digital-f26e94365d14c7e2",
+  "title": {
+    "hans": "摸鱼儿·更能消",
+    "hant": "摸魚兒·更能消"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "摸鱼儿",
+    "hant": "摸魚兒"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "更能消、几番风雨。",
+          "hant": "更能消、幾番風雨。"
+        },
+        {
+          "id": "line-2",
+          "hans": "匆匆春又归去。",
+          "hant": "匆匆春又歸去。"
+        },
+        {
+          "id": "line-3",
+          "hans": "惜春长恨花开早，何况落红无数。",
+          "hant": "惜春長恨花開早，何況落紅無數。"
+        },
+        {
+          "id": "line-4",
+          "hans": "春且住。",
+          "hant": "春且住。"
+        },
+        {
+          "id": "line-5",
+          "hans": "见说道、天涯芳草迷归路。",
+          "hant": "見說道、天涯芳草迷歸路。"
+        },
+        {
+          "id": "line-6",
+          "hans": "怨春不语。",
+          "hant": "怨春不語。"
+        },
+        {
+          "id": "line-7",
+          "hans": "算只有殷勤，画檐珠网，尽日惹飞絮。",
+          "hant": "算只有殷勤，畫檐珠網，盡日惹飛絮。"
+        },
+        {
+          "id": "line-8",
+          "hans": "长门事，准拟佳期又误。",
+          "hant": "長門事，準擬佳期又誤。"
+        },
+        {
+          "id": "line-9",
+          "hans": "蛾眉曾有人妒。",
+          "hant": "蛾眉曾有人妒。"
+        },
+        {
+          "id": "line-10",
+          "hans": "千金纵买相如赋，脉脉此情谁诉。",
+          "hant": "千金縱買相如賦，脈脈此情誰訴。"
+        },
+        {
+          "id": "line-11",
+          "hans": "君莫舞。",
+          "hant": "君莫舞。"
+        },
+        {
+          "id": "line-12",
+          "hans": "君不见、玉环飞燕皆尘土。",
+          "hant": "君不見、玉環飛燕皆塵土。"
+        },
+        {
+          "id": "line-13",
+          "hans": "闲愁最苦。",
+          "hant": "閒愁最苦。"
+        },
+        {
+          "id": "line-14",
+          "hans": "休去倚危楼，斜阳正在，烟柳断肠处。",
+          "hant": "休去倚危樓，斜陽正在，煙柳斷腸處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 207,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

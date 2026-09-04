@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-6d28005b3d4d5960",
+  "title": {
+    "hans": "苏幕遮·碧云天",
+    "hant": "蘇幕遮·碧雲天"
+  },
+  "author": {
+    "name": {
+      "hans": "范仲淹",
+      "hant": "范仲淹"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "苏幕遮",
+    "hant": "蘇幕遮"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "碧云天，黄叶地。",
+          "hant": "碧雲天，黃葉地。"
+        },
+        {
+          "id": "line-2",
+          "hans": "秋色连波，波上寒烟翠。",
+          "hant": "秋色連波，波上寒煙翠。"
+        },
+        {
+          "id": "line-3",
+          "hans": "山映斜阳天接水。",
+          "hant": "山映斜陽天接水。"
+        },
+        {
+          "id": "line-4",
+          "hans": "芳草无情，更在斜阳外。",
+          "hant": "芳草無情，更在斜陽外。"
+        },
+        {
+          "id": "line-5",
+          "hans": "黯乡魂，追旅思。",
+          "hant": "黯鄉魂，追旅思。"
+        },
+        {
+          "id": "line-6",
+          "hans": "夜夜除非，好梦留人睡。",
+          "hant": "夜夜除非，好夢留人睡。"
+        },
+        {
+          "id": "line-7",
+          "hans": "明月楼高休独倚。",
+          "hant": "明月樓高休獨倚。"
+        },
+        {
+          "id": "line-8",
+          "hans": "酒入愁肠，化作相思泪。",
+          "hant": "酒入愁腸，化作相思淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 139,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

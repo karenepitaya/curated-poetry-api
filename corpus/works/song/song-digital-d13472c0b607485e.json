@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-d13472c0b607485e",
+  "title": {
+    "hans": "点绛唇·新月娟娟",
+    "hant": "點絳脣·新月娟娟"
+  },
+  "author": {
+    "name": {
+      "hans": "苏过",
+      "hant": "蘇過"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "点绛唇",
+    "hant": "點絳脣"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "新月娟娟，夜寒江静山衔斗。",
+          "hant": "新月娟娟，夜寒江靜山銜鬥。"
+        },
+        {
+          "id": "line-2",
+          "hans": "起来搔首。",
+          "hant": "起來搔首。"
+        },
+        {
+          "id": "line-3",
+          "hans": "梅影横窗瘦。",
+          "hant": "梅影橫窗瘦。"
+        },
+        {
+          "id": "line-4",
+          "hans": "好个霜天，闲却传杯手。",
+          "hant": "好個霜天，閒卻傳杯手。"
+        },
+        {
+          "id": "line-5",
+          "hans": "君知否。",
+          "hant": "君知否。"
+        },
+        {
+          "id": "line-6",
+          "hans": "乱鸦啼後。",
+          "hant": "亂鴉啼後。"
+        },
+        {
+          "id": "line-7",
+          "hans": "归兴浓如酒。",
+          "hant": "歸興濃如酒。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 262,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -59,6 +59,9 @@ func validateCorpus(data corpusData, partial bool) error {
 		}
 		workByID[work.ID] = work
 		problems = append(problems, validateWork(label, work, editionByID, collectionByID, data.normalizations)...)
+		if work.Evidence.Level == EvidenceDigitalTextChecked {
+			problems = append(problems, validateDigitalRecord(label, work, data.digitalRecords)...)
+		}
 
 		workKey := work.Author.Name.Hans + "\x00" + work.Title.Hans
 		if other, duplicate := workKeys[workKey]; duplicate {
@@ -118,6 +121,21 @@ func validateCorpus(data corpusData, partial bool) error {
 
 func validateEdition(label string, edition Edition) []string {
 	var problems []string
+	if edition.Kind == "digital-text" {
+		if !validID(edition.ID) || strings.TrimSpace(edition.Title) == "" || strings.TrimSpace(edition.Institution) == "" || strings.TrimSpace(edition.License) == "" {
+			problems = append(problems, label+": incomplete digital source metadata")
+		}
+		if !isHTTPSURL(edition.SourceURL) || !sha256Pattern.MatchString(edition.SHA256) || !validSourcePath(edition.SourcePath) {
+			problems = append(problems, label+": digital source requires HTTPS URL, SHA-256 and source path")
+		}
+		if _, err := time.Parse("2006-01-02", edition.AccessedAt); err != nil {
+			problems = append(problems, label+": accessedAt must be YYYY-MM-DD")
+		}
+		return problems
+	}
+	if edition.Kind != "" && edition.Kind != "scan" {
+		problems = append(problems, label+": unsupported edition kind")
+	}
 	if strings.TrimSpace(edition.ID) == "" {
 		problems = append(problems, label+": missing id")
 	}
@@ -319,19 +337,43 @@ func validateWork(label string, work Work, editions map[string]Edition, collecti
 		if !collectionHasMember(collection, work.ID, membership) {
 			problems = append(problems, membershipLabel+": collection manifest has no matching member")
 		}
-		if !hasWitness(work.Evidence.Witnesses, collection.PrimaryEditionID) {
+		if !hasWitness(work.Evidence.Witnesses, collection.PrimaryEditionID) && !(work.Evidence.DigitalSource != nil && work.Evidence.DigitalSource.EditionID == collection.PrimaryEditionID) {
 			problems = append(problems, membershipLabel+": evidence lacks collection primary edition "+collection.PrimaryEditionID)
 		}
 	}
 
 	problems = append(problems, validateEvidence(label+".evidence", work, lineByID, editions)...)
-	problems = append(problems, validateNormalization(label, work, rules)...)
+	if work.Evidence.Level != EvidenceDigitalTextChecked {
+		problems = append(problems, validateNormalization(label, work, rules)...)
+	}
 	return problems
 }
 
 func validateEvidence(label string, work Work, lines map[string]Line, editions map[string]Edition) []string {
 	var problems []string
 	evidence := work.Evidence
+	if evidence.Level == EvidenceDigitalTextChecked {
+		source := evidence.DigitalSource
+		if evidence.Status != "validated" || source == nil {
+			return []string{label + ": digital text requires validated status and source locator"}
+		}
+		if edition, exists := editions[source.EditionID]; !exists || edition.Kind != "digital-text" || source.RecordIndex < 0 || source.Conversion != "opencc-python-reimplemented@0.1.7:s2t" {
+			problems = append(problems, label+": invalid digital source or conversion")
+		}
+		if len(evidence.Witnesses) != 0 || len(evidence.Variants) != 0 || len(work.NormalizationOverrides) != 0 {
+			problems = append(problems, label+": digital text must not claim scan witnesses or legacy normalization")
+		}
+		if _, err := time.Parse("2006-01-02", evidence.ReviewedAt); err != nil {
+			problems = append(problems, label+": reviewedAt must be YYYY-MM-DD")
+		}
+		if strings.TrimSpace(evidence.ReviewMethod) == "" {
+			problems = append(problems, label+": missing reviewMethod")
+		}
+		return problems
+	}
+	if evidence.DigitalSource != nil {
+		problems = append(problems, label+": scan review must not use digital source evidence")
+	}
 	selectedLines := stanzaLines(work, ScriptHant)
 	if evidence.Level != EvidencePrimaryScanReviewed {
 		problems = append(problems, label+": unsupported evidence level")

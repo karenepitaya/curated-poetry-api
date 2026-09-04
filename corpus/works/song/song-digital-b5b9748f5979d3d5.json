@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-b5b9748f5979d3d5",
+  "title": {
+    "hans": "玉楼春·东风又作无情计",
+    "hant": "玉樓春·東風又作無情計"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "东风又作无情计。",
+          "hant": "東風又作無情計。"
+        },
+        {
+          "id": "line-2",
+          "hans": "艳粉娇红吹满地。",
+          "hant": "豔粉嬌紅吹滿地。"
+        },
+        {
+          "id": "line-3",
+          "hans": "碧楼帘影不遮愁，还似去年今日意。",
+          "hant": "碧樓簾影不遮愁，還似去年今日意。"
+        },
+        {
+          "id": "line-4",
+          "hans": "谁知错管春残事。",
+          "hant": "誰知錯管春殘事。"
+        },
+        {
+          "id": "line-5",
+          "hans": "到处登临曾费泪。",
+          "hant": "到處登臨曾費淚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "此时金盏直须深，看尽落花能几醉。",
+          "hant": "此時金盞直須深，看盡落花能幾醉。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 28,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-581752e605ccb784",
+  "title": {
+    "hans": "花犯·小娉婷",
+    "hant": "花犯·小娉婷"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "花犯",
+    "hant": "花犯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "小娉婷，清铅素靥，蜂黄暗偷晕。",
+          "hant": "小娉婷，清鉛素靨，蜂黃暗偷暈。"
+        },
+        {
+          "id": "line-2",
+          "hans": "翠翘敧鬓。",
+          "hant": "翠翹敧鬢。"
+        },
+        {
+          "id": "line-3",
+          "hans": "昨夜冷中庭，月下相认。",
+          "hant": "昨夜冷中庭，月下相認。"
+        },
+        {
+          "id": "line-4",
+          "hans": "睡浓更苦凄风紧。",
+          "hant": "睡濃更苦悽風緊。"
+        },
+        {
+          "id": "line-5",
+          "hans": "惊回心未稳。",
+          "hant": "驚迴心未穩。"
+        },
+        {
+          "id": "line-6",
+          "hans": "送晓色、一壶葱茜，才知花梦准。",
+          "hant": "送曉色、一壺蔥茜，才知花夢準。"
+        },
+        {
+          "id": "line-7",
+          "hans": "湘娥化作此幽芳，凌波路，古岸云沙遗恨。",
+          "hant": "湘娥化作此幽芳，凌波路，古岸雲沙遺恨。"
+        },
+        {
+          "id": "line-8",
+          "hans": "临砌影，寒香乱、冻梅藏韵。",
+          "hant": "臨砌影，寒香亂、凍梅藏韻。"
+        },
+        {
+          "id": "line-9",
+          "hans": "熏炉畔、旋移傍枕，还又见、玉人垂绀鬒。",
+          "hant": "燻爐畔、旋移傍枕，還又見、玉人垂紺鬒。"
+        },
+        {
+          "id": "line-10",
+          "hans": "料唤赏、清华池馆，台杯须满引。",
+          "hant": "料喚賞、清華池館，臺杯須滿引。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 191,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-5cfd8776d6f2d04e",
+  "title": {
+    "hans": "高阳台·照野旌旗",
+    "hant": "高陽臺·照野旌旗"
+  },
+  "author": {
+    "name": {
+      "hans": "周密",
+      "hant": "周密"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "高阳台",
+    "hant": "高陽臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "照野旌旗，朝天车马，平沙万里天低。",
+          "hant": "照野旌旗，朝天車馬，平沙萬里天低。"
+        },
+        {
+          "id": "line-2",
+          "hans": "宝带金章，尊前茸帽风。",
+          "hant": "寶帶金章，尊前茸帽風。"
+        },
+        {
+          "id": "line-3",
+          "hans": "秦关汴水经行地，想登临、都付新诗。",
+          "hant": "秦關汴水經行地，想登臨、都付新詩。"
+        },
+        {
+          "id": "line-4",
+          "hans": "纵英游，叠鼓清笳，骏马名姬。",
+          "hant": "縱英遊，疊鼓清笳，駿馬名姬。"
+        },
+        {
+          "id": "line-5",
+          "hans": "酒酣应对燕山雪，正冰河月冻，晓陇云飞。",
+          "hant": "酒酣應對燕山雪，正冰河月凍，曉隴雲飛。"
+        },
+        {
+          "id": "line-6",
+          "hans": "投老残年，江南谁念方回。",
+          "hant": "投老殘年，江南誰念方回。"
+        },
+        {
+          "id": "line-7",
+          "hans": "东风渐绿西湖柳，雁已还、人未南归。",
+          "hant": "東風漸綠西湖柳，雁已還、人未南歸。"
+        },
+        {
+          "id": "line-8",
+          "hans": "最关情，折尽梅花，难寄相思。",
+          "hant": "最關情，折盡梅花，難寄相思。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 97,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

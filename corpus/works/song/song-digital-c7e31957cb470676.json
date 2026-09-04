@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-c7e31957cb470676",
+  "title": {
+    "hans": "法曲献仙音·层绿峨峨",
+    "hant": "法曲獻仙音·層綠峨峨"
+  },
+  "author": {
+    "name": {
+      "hans": "王沂孙",
+      "hant": "王沂孫"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "法曲献仙音",
+    "hant": "法曲獻仙音"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "层绿峨峨，纤琼皎皎，倒压波痕清浅。",
+          "hant": "層綠峨峨，纖瓊皎皎，倒壓波痕清淺。"
+        },
+        {
+          "id": "line-2",
+          "hans": "过眼年华，动人幽意，相逢几番春换。",
+          "hant": "過眼年華，動人幽意，相逢幾番春換。"
+        },
+        {
+          "id": "line-3",
+          "hans": "记唤酒寻芳处，盈盈褪妆晚。",
+          "hant": "記喚酒尋芳處，盈盈褪妝晚。"
+        },
+        {
+          "id": "line-4",
+          "hans": "已销黯。",
+          "hant": "已銷黯。"
+        },
+        {
+          "id": "line-5",
+          "hans": "况凄凉、近来离思，应忘却、明月夜深归辇。",
+          "hant": "況淒涼、近來離思，應忘卻、明月夜深歸輦。"
+        },
+        {
+          "id": "line-6",
+          "hans": "荏苒一枝春，恨东风、人似天远。",
+          "hant": "荏苒一枝春，恨東風、人似天遠。"
+        },
+        {
+          "id": "line-7",
+          "hans": "纵有残花，洒征衣、铅泪都满。",
+          "hant": "縱有殘花，灑征衣、鉛淚都滿。"
+        },
+        {
+          "id": "line-8",
+          "hans": "但殷勤折取，自遣一襟幽怨。",
+          "hant": "但殷勤折取，自遣一襟幽怨。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 252,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

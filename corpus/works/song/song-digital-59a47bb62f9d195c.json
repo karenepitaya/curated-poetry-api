@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-59a47bb62f9d195c",
+  "title": {
+    "hans": "瑞鹤仙·湿云黏雁影",
+    "hant": "瑞鶴仙·溼雲黏雁影"
+  },
+  "author": {
+    "name": {
+      "hans": "陆叡",
+      "hant": "陸叡"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞鹤仙",
+    "hant": "瑞鶴仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "湿云黏雁影。",
+          "hant": "溼雲黏雁影。"
+        },
+        {
+          "id": "line-2",
+          "hans": "望征路愁迷，离绪难整。",
+          "hant": "望徵路愁迷，離緒難整。"
+        },
+        {
+          "id": "line-3",
+          "hans": "千金买光景。",
+          "hant": "千金買光景。"
+        },
+        {
+          "id": "line-4",
+          "hans": "但疏钟催晓，乱鸦啼暝。",
+          "hant": "但疏鍾催曉，亂鴉啼暝。"
+        },
+        {
+          "id": "line-5",
+          "hans": "花暗省。",
+          "hant": "花暗省。"
+        },
+        {
+          "id": "line-6",
+          "hans": "许多情、相逢梦境。",
+          "hant": "許多情、相逢夢境。"
+        },
+        {
+          "id": "line-7",
+          "hans": "便行云、都不归来，也合寄将音信。",
+          "hant": "便行雲、都不歸來，也合寄將音信。"
+        },
+        {
+          "id": "line-8",
+          "hans": "孤迥。",
+          "hant": "孤迥。"
+        },
+        {
+          "id": "line-9",
+          "hans": "盟鸾心在，跨鹤程高，後期无准。",
+          "hant": "盟鸞心在，跨鶴程高，後期無準。"
+        },
+        {
+          "id": "line-10",
+          "hans": "情丝待翦。",
+          "hant": "情絲待翦。"
+        },
+        {
+          "id": "line-11",
+          "hans": "翻惹得，旧时恨。",
+          "hant": "翻惹得，舊時恨。"
+        },
+        {
+          "id": "line-12",
+          "hans": "怕天教何处，参差双燕，还染残朱剩粉。",
+          "hant": "怕天教何處，參差雙燕，還染殘朱剩粉。"
+        },
+        {
+          "id": "line-13",
+          "hans": "对菱花、与说相思，看谁瘦损。",
+          "hant": "對菱花、與說相思，看誰瘦損。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 1,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

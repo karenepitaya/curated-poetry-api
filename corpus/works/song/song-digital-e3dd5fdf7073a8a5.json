@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-e3dd5fdf7073a8a5",
+  "title": {
+    "hans": "长亭怨慢·渐吹尽",
+    "hant": "長亭怨慢·漸吹盡"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "长亭怨慢",
+    "hant": "長亭怨慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "渐吹尽、枝头香絮。",
+          "hant": "漸吹盡、枝頭香絮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "是处人家，绿深门户。",
+          "hant": "是處人家，綠深門戶。"
+        },
+        {
+          "id": "line-3",
+          "hans": "远浦萦回，暮帆零乱向何许。",
+          "hant": "遠浦縈迴，暮帆零亂向何許。"
+        },
+        {
+          "id": "line-4",
+          "hans": "阅人多矣，谁得似、长亭树。",
+          "hant": "閱人多矣，誰得似、長亭樹。"
+        },
+        {
+          "id": "line-5",
+          "hans": "树若有情时，不会得、青青如此。",
+          "hant": "樹若有情時，不會得、青青如此。"
+        },
+        {
+          "id": "line-6",
+          "hans": "日暮。",
+          "hant": "日暮。"
+        },
+        {
+          "id": "line-7",
+          "hans": "望高城不见，只见乱山无数。",
+          "hant": "望高城不見，只見亂山無數。"
+        },
+        {
+          "id": "line-8",
+          "hans": "韦郎去也，怎忘得、玉环分付。",
+          "hant": "韋郎去也，怎忘得、玉環分付。"
+        },
+        {
+          "id": "line-9",
+          "hans": "第一是、早早归来，怕红萼、无人为主。",
+          "hant": "第一是、早早歸來，怕紅萼、無人爲主。"
+        },
+        {
+          "id": "line-10",
+          "hans": "算空有并刀，难翦离愁千缕。",
+          "hant": "算空有並刀，難翦離愁千縷。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 133,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

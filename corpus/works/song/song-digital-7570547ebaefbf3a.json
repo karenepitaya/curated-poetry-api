@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-7570547ebaefbf3a",
+  "title": {
+    "hans": "贺新郎·凤尾龙香拨",
+    "hant": "賀新郎·鳳尾龍香撥"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "贺新郎",
+    "hant": "賀新郎"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "凤尾龙香拨。",
+          "hant": "鳳尾龍香撥。"
+        },
+        {
+          "id": "line-2",
+          "hans": "自开元、霓裳曲罢，几番风月。",
+          "hant": "自開元、霓裳曲罷，幾番風月。"
+        },
+        {
+          "id": "line-3",
+          "hans": "最苦浔阳江头客，画舸亭亭待发。",
+          "hant": "最苦潯陽江頭客，畫舸亭亭待發。"
+        },
+        {
+          "id": "line-4",
+          "hans": "记出塞、黄云堆雪。",
+          "hant": "記出塞、黃雲堆雪。"
+        },
+        {
+          "id": "line-5",
+          "hans": "马上离愁三万里，望昭阳、宫殿孤鸿没。",
+          "hant": "馬上離愁三萬裏，望昭陽、宮殿孤鴻沒。"
+        },
+        {
+          "id": "line-6",
+          "hans": "弦解语，恨难说。",
+          "hant": "弦解語，恨難說。"
+        },
+        {
+          "id": "line-7",
+          "hans": "辽阳驿使音尘绝。",
+          "hant": "遼陽驛使音塵絕。"
+        },
+        {
+          "id": "line-8",
+          "hans": "琐窗寒、轻拢慢拈，泪珠盈睫。",
+          "hant": "瑣窗寒、輕攏慢拈，淚珠盈睫。"
+        },
+        {
+          "id": "line-9",
+          "hans": "推手含情还却手，一抹梁州哀彻。",
+          "hant": "推手含情還卻手，一抹梁州哀徹。"
+        },
+        {
+          "id": "line-10",
+          "hans": "千古事、云飞烟灭。",
+          "hant": "千古事、雲飛煙滅。"
+        },
+        {
+          "id": "line-11",
+          "hans": "贺老定场无消息，想沈香亭北繁华歇。",
+          "hant": "賀老定場無消息，想沈香亭北繁華歇。"
+        },
+        {
+          "id": "line-12",
+          "hans": "弹到此，为呜咽。",
+          "hant": "彈到此，爲嗚咽。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 215,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

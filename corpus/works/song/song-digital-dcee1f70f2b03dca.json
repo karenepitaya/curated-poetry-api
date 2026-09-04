@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-dcee1f70f2b03dca",
+  "title": {
+    "hans": "踏莎行·祖席离歌",
+    "hant": "踏莎行·祖席離歌"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "踏莎行",
+    "hant": "踏莎行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "祖席离歌，长亭别宴。",
+          "hant": "祖席離歌，長亭別宴。"
+        },
+        {
+          "id": "line-2",
+          "hans": "香尘已隔犹回面。",
+          "hant": "香塵已隔猶回面。"
+        },
+        {
+          "id": "line-3",
+          "hans": "居人匹马映林嘶，行人去棹依波转。",
+          "hant": "居人匹馬映林嘶，行人去棹依波轉。"
+        },
+        {
+          "id": "line-4",
+          "hans": "画阁魂消，高楼目断。",
+          "hant": "畫閣魂消，高樓目斷。"
+        },
+        {
+          "id": "line-5",
+          "hans": "斜阳只送平波远。",
+          "hant": "斜陽只送平波遠。"
+        },
+        {
+          "id": "line-6",
+          "hans": "无穷无尽是离愁，天涯地角寻思遍。",
+          "hant": "無窮無盡是離愁，天涯地角尋思遍。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 165,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

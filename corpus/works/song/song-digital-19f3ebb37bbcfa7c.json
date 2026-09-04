@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-19f3ebb37bbcfa7c",
+  "title": {
+    "hans": "声声慢·寻寻觅觅",
+    "hant": "聲聲慢·尋尋覓覓"
+  },
+  "author": {
+    "name": {
+      "hans": "李清照",
+      "hant": "李清照"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "声声慢",
+    "hant": "聲聲慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。",
+          "hant": "尋尋覓覓，冷冷清清，悽悽慘慘慼戚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "乍暖还寒时候，最难将息。",
+          "hant": "乍暖還寒時候，最難將息。"
+        },
+        {
+          "id": "line-3",
+          "hans": "三杯两盏淡酒，怎敌他、晚来风急。",
+          "hant": "三杯兩盞淡酒，怎敵他、晚來風急。"
+        },
+        {
+          "id": "line-4",
+          "hans": "雁过也，正伤心，却是旧时相识。",
+          "hant": "雁過也，正傷心，卻是舊時相識。"
+        },
+        {
+          "id": "line-5",
+          "hans": "满地黄花堆积。",
+          "hant": "滿地黃花堆積。"
+        },
+        {
+          "id": "line-6",
+          "hans": "憔悴损，如今有谁摘。",
+          "hant": "憔悴損，如今有誰摘。"
+        },
+        {
+          "id": "line-7",
+          "hans": "守著窗儿，独自怎生得黑。",
+          "hant": "守著窗兒，獨自怎生得黑。"
+        },
+        {
+          "id": "line-8",
+          "hans": "梧桐更兼细雨，到黄昏、点点滴滴。",
+          "hant": "梧桐更兼細雨，到黃昏、點點滴滴。"
+        },
+        {
+          "id": "line-9",
+          "hans": "这次第，怎一个、愁字了得。",
+          "hant": "這次第，怎一個、愁字了得。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 204,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

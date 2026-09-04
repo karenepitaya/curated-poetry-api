@@ -23,6 +23,7 @@ const (
 	MeterMixed = "mixed"
 
 	EvidencePrimaryScanReviewed = "primary-scan-reviewed"
+	EvidenceDigitalTextChecked  = "digital-text-checked"
 )
 
 // LocalizedText stores the curated simplified and traditional renderings.
@@ -98,12 +99,21 @@ type Witness struct {
 }
 
 type WorkEvidence struct {
-	Level        string    `json:"level"`
-	Status       string    `json:"status"`
-	Witnesses    []Witness `json:"witnesses"`
-	Variants     []Variant `json:"variants"`
-	ReviewedAt   string    `json:"reviewedAt"`
-	ReviewMethod string    `json:"reviewMethod"`
+	Level         string         `json:"level"`
+	Status        string         `json:"status"`
+	Witnesses     []Witness      `json:"witnesses"`
+	Variants      []Variant      `json:"variants"`
+	ReviewedAt    string         `json:"reviewedAt"`
+	ReviewMethod  string         `json:"reviewMethod"`
+	DigitalSource *DigitalSource `json:"digitalSource,omitempty"`
+}
+
+// DigitalSource locates an unchanged record in a pinned electronic source.
+// RecordIndex is zero-based; generated traditional text is not a scan reading.
+type DigitalSource struct {
+	EditionID   string `json:"editionId"`
+	RecordIndex int    `json:"recordIndex"`
+	Conversion  string `json:"conversion"`
 }
 
 // Work is the canonical, variable-length corpus record.
@@ -125,6 +135,9 @@ type Work struct {
 }
 
 type Edition struct {
+	Kind           string `json:"kind,omitempty"`
+	SourceURL      string `json:"sourceUrl,omitempty"`
+	SourcePath     string `json:"sourcePath,omitempty"`
 	ID             string `json:"id"`
 	Title          string `json:"title"`
 	Year           int    `json:"year"`

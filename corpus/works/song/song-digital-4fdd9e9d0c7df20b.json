@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-4fdd9e9d0c7df20b",
+  "title": {
+    "hans": "汉宫春·春已归来",
+    "hant": "漢宮春·春已歸來"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "汉宫春",
+    "hant": "漢宮春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "春已归来，看美人头上，袅袅春幡。",
+          "hant": "春已歸來，看美人頭上，嫋嫋春幡。"
+        },
+        {
+          "id": "line-2",
+          "hans": "无端风雨，未肯收尽馀寒。",
+          "hant": "無端風雨，未肯收盡餘寒。"
+        },
+        {
+          "id": "line-3",
+          "hans": "年时燕子，料今宵、梦到西园。",
+          "hant": "年時燕子，料今宵、夢到西園。"
+        },
+        {
+          "id": "line-4",
+          "hans": "浑未办、黄柑荐酒，更传青韭堆盘。",
+          "hant": "渾未辦、黃柑薦酒，更傳青韭堆盤。"
+        },
+        {
+          "id": "line-5",
+          "hans": "却笑东风从此，便薰梅染柳，更没些闲。",
+          "hant": "卻笑東風從此，便薰梅染柳，更沒些閒。"
+        },
+        {
+          "id": "line-6",
+          "hans": "闲时又来镜里，转变朱颜。",
+          "hant": "閒時又來鏡裏，轉變朱顏。"
+        },
+        {
+          "id": "line-7",
+          "hans": "清愁不断，问何人、会解连环。",
+          "hant": "清愁不斷，問何人、會解連環。"
+        },
+        {
+          "id": "line-8",
+          "hans": "生怕见、花开花落，朝来塞雁先还。",
+          "hant": "生怕見、花開花落，朝來塞雁先還。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 217,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

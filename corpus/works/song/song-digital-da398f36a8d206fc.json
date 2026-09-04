@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-da398f36a8d206fc",
+  "title": {
+    "hans": "青玉案·东风夜放花千树",
+    "hant": "青玉案·東風夜放花千樹"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "青玉案",
+    "hant": "青玉案"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "东风夜放花千树。",
+          "hant": "東風夜放花千樹。"
+        },
+        {
+          "id": "line-2",
+          "hans": "更吹落、星如雨。",
+          "hant": "更吹落、星如雨。"
+        },
+        {
+          "id": "line-3",
+          "hans": "宝马雕车香满路。",
+          "hant": "寶馬雕車香滿路。"
+        },
+        {
+          "id": "line-4",
+          "hans": "凤箫声动，玉壶光转，一夜鱼龙舞。",
+          "hant": "鳳簫聲動，玉壺光轉，一夜魚龍舞。"
+        },
+        {
+          "id": "line-5",
+          "hans": "蛾儿雪柳黄金缕。",
+          "hant": "蛾兒雪柳黃金縷。"
+        },
+        {
+          "id": "line-6",
+          "hans": "笑语盈盈暗香去。",
+          "hant": "笑語盈盈暗香去。"
+        },
+        {
+          "id": "line-7",
+          "hans": "众里寻他千百度。",
+          "hant": "衆裏尋他千百度。"
+        },
+        {
+          "id": "line-8",
+          "hans": "蓦然回首，那人却在，灯火阑珊处。",
+          "hant": "驀然回首，那人卻在，燈火闌珊處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 214,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

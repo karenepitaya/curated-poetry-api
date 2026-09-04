@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-291e1264fa6f7c31",
+  "title": {
+    "hans": "谢池春·残寒销尽",
+    "hant": "謝池春·殘寒銷盡"
+  },
+  "author": {
+    "name": {
+      "hans": "李之仪",
+      "hant": "李之儀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "谢池春",
+    "hant": "謝池春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "残寒销尽，疏雨过、清明後。",
+          "hant": "殘寒銷盡，疏雨過、清明後。"
+        },
+        {
+          "id": "line-2",
+          "hans": "花径敛馀红，风沼萦新皱。",
+          "hant": "花徑斂餘紅，風沼縈新皺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "乳燕穿庭户，飞絮沾襟袖。",
+          "hant": "乳燕穿庭戶，飛絮沾襟袖。"
+        },
+        {
+          "id": "line-4",
+          "hans": "正佳时，仍晚昼。",
+          "hant": "正佳時，仍晚晝。"
+        },
+        {
+          "id": "line-5",
+          "hans": "著人滋味，真个浓如酒。",
+          "hant": "著人滋味，真個濃如酒。"
+        },
+        {
+          "id": "line-6",
+          "hans": "频移带眼，空只恁、厌厌瘦。",
+          "hant": "頻移帶眼，空只恁、厭厭瘦。"
+        },
+        {
+          "id": "line-7",
+          "hans": "不见又思量，见了还依旧。",
+          "hant": "不見又思量，見了還依舊。"
+        },
+        {
+          "id": "line-8",
+          "hans": "为问频相见，何似长相守。",
+          "hant": "爲問頻相見，何似長相守。"
+        },
+        {
+          "id": "line-9",
+          "hans": "天不老，人未偶。",
+          "hant": "天不老，人未偶。"
+        },
+        {
+          "id": "line-10",
+          "hans": "且将此恨，分付庭前柳。",
+          "hant": "且將此恨，分付庭前柳。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 47,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

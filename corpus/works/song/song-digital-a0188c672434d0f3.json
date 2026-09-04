@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-a0188c672434d0f3",
+  "title": {
+    "hans": "永遇乐·璧月初晴",
+    "hant": "永遇樂·璧月初晴"
+  },
+  "author": {
+    "name": {
+      "hans": "刘辰翁",
+      "hant": "劉辰翁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "永遇乐",
+    "hant": "永遇樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "璧月初晴，黛云远澹，春事谁主。",
+          "hant": "璧月初晴，黛雲遠澹，春事誰主。"
+        },
+        {
+          "id": "line-2",
+          "hans": "禁苑娇寒，湖堤倦暖，前度遽如许。",
+          "hant": "禁苑嬌寒，湖堤倦暖，前度遽如許。"
+        },
+        {
+          "id": "line-3",
+          "hans": "香尘暗陌，华灯明昼，长是懒携手去。",
+          "hant": "香塵暗陌，華燈明晝，長是懶攜手去。"
+        },
+        {
+          "id": "line-4",
+          "hans": "谁知道，断烟禁夜，满城似愁风雨。",
+          "hant": "誰知道，斷煙禁夜，滿城似愁風雨。"
+        },
+        {
+          "id": "line-5",
+          "hans": "宣和旧日，临安南渡，芳景犹自如故。",
+          "hant": "宣和舊日，臨安南渡，芳景猶自如故。"
+        },
+        {
+          "id": "line-6",
+          "hans": "缃帙流离，风鬟三五，能赋词最苦。",
+          "hant": "緗帙流離，風鬟三五，能賦詞最苦。"
+        },
+        {
+          "id": "line-7",
+          "hans": "江南无路，州今夜，此苦又谁知否。",
+          "hant": "江南無路，州今夜，此苦又誰知否。"
+        },
+        {
+          "id": "line-8",
+          "hans": "空相对，残无寐，满村社鼓。",
+          "hant": "空相對，殘無寐，滿村社鼓。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 91,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-767ecf55e3e8aeaa",
+  "title": {
+    "hans": "千秋岁引·别馆寒砧",
+    "hant": "千秋歲引·別館寒砧"
+  },
+  "author": {
+    "name": {
+      "hans": "王安石",
+      "hant": "王安石"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "千秋岁引",
+    "hant": "千秋歲引"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "别馆寒砧，孤城画角。",
+          "hant": "別館寒砧，孤城畫角。"
+        },
+        {
+          "id": "line-2",
+          "hans": "一派秋声入寥廓。",
+          "hant": "一派秋聲入寥廓。"
+        },
+        {
+          "id": "line-3",
+          "hans": "东归燕从海上去，南来雁向沙头落。",
+          "hant": "東歸燕從海上去，南來雁向沙頭落。"
+        },
+        {
+          "id": "line-4",
+          "hans": "楚台风，庾楼月，宛如昨。",
+          "hant": "楚颱風，庾樓月，宛如昨。"
+        },
+        {
+          "id": "line-5",
+          "hans": "无奈被些名利缚。",
+          "hant": "無奈被些名利縛。"
+        },
+        {
+          "id": "line-6",
+          "hans": "无奈被他情担阁。",
+          "hant": "無奈被他情擔閣。"
+        },
+        {
+          "id": "line-7",
+          "hans": "可惜风流总闲却。",
+          "hant": "可惜風流總閒卻。"
+        },
+        {
+          "id": "line-8",
+          "hans": "当初漫留华表语，而今误我秦楼约。",
+          "hant": "當初漫留華表語，而今誤我秦樓約。"
+        },
+        {
+          "id": "line-9",
+          "hans": "梦阑时，酒醒後，思量著。",
+          "hant": "夢闌時，酒醒後，思量著。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 17,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

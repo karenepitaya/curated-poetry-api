@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-ad39b44f286777ab",
+  "title": {
+    "hans": "天香·孤峤蟠烟",
+    "hant": "天香·孤嶠蟠煙"
+  },
+  "author": {
+    "name": {
+      "hans": "王沂孙",
+      "hant": "王沂孫"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "天香",
+    "hant": "天香"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "孤峤蟠烟，层涛蜕月，骊宫夜采铅水。",
+          "hant": "孤嶠蟠煙，層濤蛻月，驪宮夜採鉛水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "讯远槎风，梦深薇露，化作断魂心字。",
+          "hant": "訊遠槎風，夢深薇露，化作斷魂心字。"
+        },
+        {
+          "id": "line-3",
+          "hans": "红瓷候火，还乍识、冰环玉指。",
+          "hant": "紅瓷候火，還乍識、冰環玉指。"
+        },
+        {
+          "id": "line-4",
+          "hans": "一缕萦帘翠影，依稀海天云气。",
+          "hant": "一縷縈簾翠影，依稀海天雲氣。"
+        },
+        {
+          "id": "line-5",
+          "hans": "几回娇半醉。",
+          "hant": "幾回嬌半醉。"
+        },
+        {
+          "id": "line-6",
+          "hans": "翦春灯、夜寒花碎。",
+          "hant": "翦春燈、夜寒花碎。"
+        },
+        {
+          "id": "line-7",
+          "hans": "更好故溪飞雪，小窗深闭。",
+          "hant": "更好故溪飛雪，小窗深閉。"
+        },
+        {
+          "id": "line-8",
+          "hans": "荀令如今顿老，总忘却、樽前旧风味。",
+          "hant": "荀令如今頓老，總忘卻、樽前舊風味。"
+        },
+        {
+          "id": "line-9",
+          "hans": "谩惜馀熏，空篝素被。",
+          "hant": "謾惜餘燻，空篝素被。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 248,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

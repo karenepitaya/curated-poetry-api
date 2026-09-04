@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-dc8c0ce210556567",
+  "title": {
+    "hans": "永遇乐·明月如霜",
+    "hant": "永遇樂·明月如霜"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "永遇乐",
+    "hant": "永遇樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "明月如霜，好风如水，清景无限。",
+          "hant": "明月如霜，好風如水，清景無限。"
+        },
+        {
+          "id": "line-2",
+          "hans": "曲港跳鱼，圆荷泻露，寂寞无人见。",
+          "hant": "曲港跳魚，圓荷瀉露，寂寞無人見。"
+        },
+        {
+          "id": "line-3",
+          "hans": "如三鼓，铿然一叶，黯黯梦云惊断。",
+          "hant": "如三鼓，鏗然一葉，黯黯夢雲驚斷。"
+        },
+        {
+          "id": "line-4",
+          "hans": "夜茫茫，重寻无处，觉来小园行遍。",
+          "hant": "夜茫茫，重尋無處，覺來小園行遍。"
+        },
+        {
+          "id": "line-5",
+          "hans": "天涯倦客，山中归路，望断故园心眼。",
+          "hant": "天涯倦客，山中歸路，望斷故園心眼。"
+        },
+        {
+          "id": "line-6",
+          "hans": "燕子楼空，佳人何在，空锁楼中燕。",
+          "hant": "燕子樓空，佳人何在，空鎖樓中燕。"
+        },
+        {
+          "id": "line-7",
+          "hans": "古今如梦，何曾梦觉，但有旧欢新怨。",
+          "hant": "古今如夢，何曾夢覺，但有舊歡新怨。"
+        },
+        {
+          "id": "line-8",
+          "hans": "异时对，黄楼夜景，为余浩叹。",
+          "hant": "異時對，黃樓夜景，爲餘浩嘆。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 45,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

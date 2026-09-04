@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-8b2cd69a6758b3d1",
+  "title": {
+    "hans": "眼儿媚·酣酣日脚紫烟浮",
+    "hant": "眼兒媚·酣酣日腳紫煙浮"
+  },
+  "author": {
+    "name": {
+      "hans": "范成大",
+      "hant": "范成大"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "眼儿媚",
+    "hant": "眼兒媚"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "酣酣日脚紫烟浮。",
+          "hant": "酣酣日腳紫煙浮。"
+        },
+        {
+          "id": "line-2",
+          "hans": "妍暖破轻裘。",
+          "hant": "妍暖破輕裘。"
+        },
+        {
+          "id": "line-3",
+          "hans": "困人天色，醉人花气，午梦扶头。",
+          "hant": "困人天色，醉人花氣，午夢扶頭。"
+        },
+        {
+          "id": "line-4",
+          "hans": "春慵恰似春塘水，一片縠纹愁。",
+          "hant": "春慵恰似春塘水，一片縠紋愁。"
+        },
+        {
+          "id": "line-5",
+          "hans": "溶溶泄泄，东风无力，欲皱还休。",
+          "hant": "溶溶泄泄，東風無力，欲皺還休。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 277,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

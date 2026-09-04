@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-91ba72cdd7bb363b",
+  "title": {
+    "hans": "苏武慢·雁落平沙",
+    "hant": "蘇武慢·雁落平沙"
+  },
+  "author": {
+    "name": {
+      "hans": "蔡伸",
+      "hant": "蔡伸"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "苏武慢",
+    "hant": "蘇武慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "雁落平沙，烟笼寒水，古垒鸣笳声断。",
+          "hant": "雁落平沙，煙籠寒水，古壘鳴笳聲斷。"
+        },
+        {
+          "id": "line-2",
+          "hans": "青山隐隐，败叶萧萧，天际暝鸦零乱。",
+          "hant": "青山隱隱，敗葉蕭蕭，天際暝鴉零亂。"
+        },
+        {
+          "id": "line-3",
+          "hans": "楼上黄昏，片帆千里归程，年华将晚。",
+          "hant": "樓上黃昏，片帆千里歸程，年華將晚。"
+        },
+        {
+          "id": "line-4",
+          "hans": "望碧云空暮，佳人何处，梦魂俱远。",
+          "hant": "望碧雲空暮，佳人何處，夢魂俱遠。"
+        },
+        {
+          "id": "line-5",
+          "hans": "忆旧游、邃馆朱扉，小园香径，尚想桃花人面。",
+          "hant": "憶舊遊、邃館朱扉，小園香徑，尚想桃花人面。"
+        },
+        {
+          "id": "line-6",
+          "hans": "书盈锦轴，恨满金徽，难写寸心幽怨。",
+          "hant": "書盈錦軸，恨滿金徽，難寫寸心幽怨。"
+        },
+        {
+          "id": "line-7",
+          "hans": "两地离愁，一尊芳酒，凄凉危阑倚遍。",
+          "hant": "兩地離愁，一尊芳酒，淒涼危闌倚遍。"
+        },
+        {
+          "id": "line-8",
+          "hans": "尽迟留、凭仗西风，吹乾泪眼。",
+          "hant": "盡遲留、憑仗西風，吹乾淚眼。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 205,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

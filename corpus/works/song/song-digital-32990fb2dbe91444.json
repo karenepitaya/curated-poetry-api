@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-32990fb2dbe91444",
+  "title": {
+    "hans": "菩萨蛮·哀筝一弄湘江曲",
+    "hant": "菩薩蠻·哀箏一弄湘江曲"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "菩萨蛮",
+    "hant": "菩薩蠻"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "哀筝一弄湘江曲。",
+          "hant": "哀箏一弄湘江曲。"
+        },
+        {
+          "id": "line-2",
+          "hans": "声声写尽湘波绿。",
+          "hant": "聲聲寫盡湘波綠。"
+        },
+        {
+          "id": "line-3",
+          "hans": "纤指十三弦。",
+          "hant": "纖指十三絃。"
+        },
+        {
+          "id": "line-4",
+          "hans": "细将幽恨传。",
+          "hant": "細將幽恨傳。"
+        },
+        {
+          "id": "line-5",
+          "hans": "当筵秋水慢。",
+          "hant": "當筵秋水慢。"
+        },
+        {
+          "id": "line-6",
+          "hans": "玉柱斜飞雁。",
+          "hant": "玉柱斜飛雁。"
+        },
+        {
+          "id": "line-7",
+          "hans": "弹到断肠时。",
+          "hant": "彈到斷腸時。"
+        },
+        {
+          "id": "line-8",
+          "hans": "春山眉黛低。",
+          "hant": "春山眉黛低。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 27,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

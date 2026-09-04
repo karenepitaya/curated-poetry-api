@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-d53bef81b137e8b9",
+  "title": {
+    "hans": "风入松·听风听雨过清明",
+    "hant": "風入松·聽風聽雨過清明"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "风入松",
+    "hant": "風入松"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "听风听雨过清明。",
+          "hant": "聽風聽雨過清明。"
+        },
+        {
+          "id": "line-2",
+          "hans": "愁草瘗花铭。",
+          "hant": "愁草瘞花銘。"
+        },
+        {
+          "id": "line-3",
+          "hans": "楼前绿暗分携路，一丝柳、一寸柔情。",
+          "hant": "樓前綠暗分攜路，一絲柳、一寸柔情。"
+        },
+        {
+          "id": "line-4",
+          "hans": "料峭春寒中酒，交加晓梦啼莺。",
+          "hant": "料峭春寒中酒，交加曉夢啼鶯。"
+        },
+        {
+          "id": "line-5",
+          "hans": "西园日日扫林亭。",
+          "hant": "西園日日掃林亭。"
+        },
+        {
+          "id": "line-6",
+          "hans": "依旧赏新晴。",
+          "hant": "依舊賞新晴。"
+        },
+        {
+          "id": "line-7",
+          "hans": "黄蜂频扑秋千索，有当时、纤手香凝。",
+          "hant": "黃蜂頻撲鞦韆索，有當時、纖手香凝。"
+        },
+        {
+          "id": "line-8",
+          "hans": "惆怅双鸳不到，幽阶一夜苔生。",
+          "hant": "惆悵雙鴛不到，幽階一夜苔生。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 7,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

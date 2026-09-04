@@ -118,7 +118,7 @@ func parseWorkQuery(r *http.Request) (poetry.Query, error) {
 }
 
 func validatePublicQuery(query poetry.Query) error {
-	if query.Collection != "" && query.Collection != "tangshi-sanbaishou-1933" && query.Collection != "songci-sanbaishou-zhu" && query.Collection != "supplemental-classics" {
+	if query.Collection != "" && query.Collection != "tangshi-sanbaishou-1933" && query.Collection != "songci-sanbaishou-zhu" && query.Collection != "songci-digital-selection" && query.Collection != "supplemental-classics" {
 		return fmt.Errorf("unsupported collection %q", query.Collection)
 	}
 	return poetry.ValidateQuery(query)

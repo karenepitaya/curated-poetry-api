@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-58b3bdb2aec10046",
+  "title": {
+    "hans": "定风波·自春来",
+    "hant": "定風波·自春來"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "定风波",
+    "hant": "定風波"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "自春来、惨绿愁红，芳心是事可可。",
+          "hant": "自春來、慘綠愁紅，芳心是事可可。"
+        },
+        {
+          "id": "line-2",
+          "hans": "日上花梢，莺穿柳带，犹压香衾卧。",
+          "hant": "日上花梢，鶯穿柳帶，猶壓香衾臥。"
+        },
+        {
+          "id": "line-3",
+          "hans": "暖酥消，腻云。",
+          "hant": "暖酥消，膩雲。"
+        },
+        {
+          "id": "line-4",
+          "hans": "终日厌厌倦梳裹。",
+          "hant": "終日厭厭倦梳裹。"
+        },
+        {
+          "id": "line-5",
+          "hans": "无那。",
+          "hant": "無那。"
+        },
+        {
+          "id": "line-6",
+          "hans": "恨薄情一去，音书无个。",
+          "hant": "恨薄情一去，音書無個。"
+        },
+        {
+          "id": "line-7",
+          "hans": "早知恁麽。",
+          "hant": "早知恁麼。"
+        },
+        {
+          "id": "line-8",
+          "hans": "悔当初、不把雕鞍锁。",
+          "hant": "悔當初、不把雕鞍鎖。"
+        },
+        {
+          "id": "line-9",
+          "hans": "向鸡窗、只与蛮笺象管，拘束教吟课。",
+          "hant": "向雞窗、只與蠻箋象管，拘束教吟課。"
+        },
+        {
+          "id": "line-10",
+          "hans": "镇相随，莫抛躲。",
+          "hant": "鎮相隨，莫拋躲。"
+        },
+        {
+          "id": "line-11",
+          "hans": "针线闲拈伴伊坐。",
+          "hant": "針線閒拈伴伊坐。"
+        },
+        {
+          "id": "line-12",
+          "hans": "和我。",
+          "hant": "和我。"
+        },
+        {
+          "id": "line-13",
+          "hans": "免使年少，光阴虚过。",
+          "hant": "免使年少，光陰虛過。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 146,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "digital-text",
+  "id": "chinese-poetry-songci-b8594f8",
+  "title": "chinese-poetry 宋词三百首电子文本（280条）",
+  "institution": "chinese-poetry contributors",
+  "sourceUrl": "https://github.com/chinese-poetry/chinese-poetry/blob/b8594f81a89752241442f2ce267d6f66f96704ee/宋词/宋词三百首.json",
+  "sourcePath": "sources/chinese-poetry-songci/songci-300.json",
+  "sha256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+  "license": "MIT; Copyright (c) 2016 JackeyGao; see sources/chinese-poetry-songci/LICENSE",
+  "accessedAt": "2026-09-05"
+}

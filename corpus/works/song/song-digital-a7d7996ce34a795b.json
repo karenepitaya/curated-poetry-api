@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-a7d7996ce34a795b",
+  "title": {
+    "hans": "洞仙歌·冰肌玉骨",
+    "hant": "洞仙歌·冰肌玉骨"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "洞仙歌",
+    "hant": "洞仙歌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "冰肌玉骨，自清凉无汗。",
+          "hant": "冰肌玉骨，自清涼無汗。"
+        },
+        {
+          "id": "line-2",
+          "hans": "水殿风来暗香满。",
+          "hant": "水殿風來暗香滿。"
+        },
+        {
+          "id": "line-3",
+          "hans": "绣帘开、一点明月窥人，人未寝、枕钗横鬓乱。",
+          "hant": "繡簾開、一點明月窺人，人未寢、枕釵橫鬢亂。"
+        },
+        {
+          "id": "line-4",
+          "hans": "起来携素手，庭户无声，时见疏星渡河汉。",
+          "hant": "起來攜素手，庭戶無聲，時見疏星渡河漢。"
+        },
+        {
+          "id": "line-5",
+          "hans": "试问夜如何，夜已三更，金波淡、玉绳低转。",
+          "hant": "試問夜如何，夜已三更，金波淡、玉繩低轉。"
+        },
+        {
+          "id": "line-6",
+          "hans": "但屈指、西风几时来，又不道、流年暗中偷换。",
+          "hant": "但屈指、西風幾時來，又不道、流年暗中偷換。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 43,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

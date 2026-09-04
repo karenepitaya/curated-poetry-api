@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-70536aef2bc77e65",
+  "title": {
+    "hans": "玉楼春·东城渐觉风光好",
+    "hant": "玉樓春·東城漸覺風光好"
+  },
+  "author": {
+    "name": {
+      "hans": "宋祁",
+      "hant": "宋祁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "东城渐觉风光好。",
+          "hant": "東城漸覺風光好。"
+        },
+        {
+          "id": "line-2",
+          "hans": "皱波纹迎客棹。",
+          "hant": "皺波紋迎客棹。"
+        },
+        {
+          "id": "line-3",
+          "hans": "绿杨烟外晓寒轻，红杏枝头春意闹。",
+          "hant": "綠楊煙外曉寒輕，紅杏枝頭春意鬧。"
+        },
+        {
+          "id": "line-4",
+          "hans": "浮生长恨欢娱少。",
+          "hant": "浮生長恨歡娛少。"
+        },
+        {
+          "id": "line-5",
+          "hans": "肯爱千金轻一笑。",
+          "hant": "肯愛千金輕一笑。"
+        },
+        {
+          "id": "line-6",
+          "hans": "为君持酒劝斜阳，且向花间留晚照。",
+          "hant": "爲君持酒勸斜陽，且向花間留晚照。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 168,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

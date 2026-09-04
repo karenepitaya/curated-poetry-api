@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-2cb6d4acb3eb0822",
+  "title": {
+    "hans": "玉楼春·年年跃马长安市",
+    "hant": "玉樓春·年年躍馬長安市"
+  },
+  "author": {
+    "name": {
+      "hans": "刘克庄",
+      "hant": "劉克莊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "年年跃马长安市。",
+          "hant": "年年躍馬長安市。"
+        },
+        {
+          "id": "line-2",
+          "hans": "客舍似家家似寄。",
+          "hant": "客舍似家家似寄。"
+        },
+        {
+          "id": "line-3",
+          "hans": "青钱换酒日无何，红烛呼庐宵不寐。",
+          "hant": "青錢換酒日無何，紅燭呼廬宵不寐。"
+        },
+        {
+          "id": "line-4",
+          "hans": "易挑锦妇机中字。",
+          "hant": "易挑錦婦機中字。"
+        },
+        {
+          "id": "line-5",
+          "hans": "难得玉人心下事。",
+          "hant": "難得玉人心下事。"
+        },
+        {
+          "id": "line-6",
+          "hans": "男儿西北有神州，莫滴水西桥畔泪。",
+          "hant": "男兒西北有神州，莫滴水西橋畔淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 56,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

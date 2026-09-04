@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-408110092f670da0",
+  "title": {
+    "hans": "琵琶仙・自度曲·双桨来时",
+    "hant": "琵琶仙・自度曲·雙槳來時"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "琵琶仙・自度曲",
+    "hant": "琵琶仙・自度曲"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "双桨来时，有人似、旧曲桃根桃叶。",
+          "hant": "雙槳來時，有人似、舊曲桃根桃葉。"
+        },
+        {
+          "id": "line-2",
+          "hans": "歌扇轻约飞花，蛾眉正奇绝。",
+          "hant": "歌扇輕約飛花，蛾眉正奇絕。"
+        },
+        {
+          "id": "line-3",
+          "hans": "春渐远、汀洲自绿，更添了、几声啼。",
+          "hant": "春漸遠、汀洲自綠，更添了、幾聲啼。"
+        },
+        {
+          "id": "line-4",
+          "hans": "十里扬州，三生杜牧，前事休说。",
+          "hant": "十里揚州，三生杜牧，前事休說。"
+        },
+        {
+          "id": "line-5",
+          "hans": "又还是、宫烛分烟，奈愁里、匆匆换时节。",
+          "hant": "又還是、宮燭分煙，奈愁裏、匆匆換時節。"
+        },
+        {
+          "id": "line-6",
+          "hans": "都把一襟芳思，与空阶榆荚。",
+          "hant": "都把一襟芳思，與空階榆莢。"
+        },
+        {
+          "id": "line-7",
+          "hans": "千万缕、藏鸦细柳，为玉尊、起舞回雪。",
+          "hant": "千萬縷、藏鴉細柳，爲玉尊、起舞迴雪。"
+        },
+        {
+          "id": "line-8",
+          "hans": "想见西出阳关，故人初别。",
+          "hant": "想見西出陽關，故人初別。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 130,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

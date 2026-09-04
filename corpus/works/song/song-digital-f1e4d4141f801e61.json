@@ -1,0 +1,119 @@
+{
+  "id": "song-digital-f1e4d4141f801e61",
+  "title": {
+    "hans": "夜半乐·冻云黯淡天气",
+    "hant": "夜半樂·凍雲黯淡天氣"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "夜半乐",
+    "hant": "夜半樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "冻云黯淡天气，扁舟一叶，乘兴离江渚。",
+          "hant": "凍雲黯淡天氣，扁舟一葉，乘興離江渚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "渡万壑千岩，越溪深处。",
+          "hant": "渡萬壑千巖，越溪深處。"
+        },
+        {
+          "id": "line-3",
+          "hans": "怒涛渐息，樵风乍起，更闻商旅相呼。",
+          "hant": "怒濤漸息，樵風乍起，更聞商旅相呼。"
+        },
+        {
+          "id": "line-4",
+          "hans": "片帆高举。",
+          "hant": "片帆高舉。"
+        },
+        {
+          "id": "line-5",
+          "hans": "泛画鹢、翩翩过南浦。",
+          "hant": "泛畫鷁、翩翩過南浦。"
+        },
+        {
+          "id": "line-6",
+          "hans": "望中酒旆闪闪，一簇烟村，数行霜树。",
+          "hant": "望中酒旆閃閃，一簇煙村，數行霜樹。"
+        },
+        {
+          "id": "line-7",
+          "hans": "残日下，渔人鸣榔归去。",
+          "hant": "殘日下，漁人鳴榔歸去。"
+        },
+        {
+          "id": "line-8",
+          "hans": "败荷零落，衰杨掩映，岸边两两三三，浣沙游女。",
+          "hant": "敗荷零落，衰楊掩映，岸邊兩兩三三，浣沙遊女。"
+        },
+        {
+          "id": "line-9",
+          "hans": "避行客、含羞笑相语。",
+          "hant": "避行客、含羞笑相語。"
+        },
+        {
+          "id": "line-10",
+          "hans": "到此因念，绣阁轻抛，浪萍难驻。",
+          "hant": "到此因念，繡閣輕拋，浪萍難駐。"
+        },
+        {
+          "id": "line-11",
+          "hans": "叹後约丁宁竟何据。",
+          "hant": "嘆後約丁寧竟何據。"
+        },
+        {
+          "id": "line-12",
+          "hans": "惨离怀，空恨岁晚归期阻。",
+          "hant": "慘離懷，空恨歲晚歸期阻。"
+        },
+        {
+          "id": "line-13",
+          "hans": "凝泪眼、杳杳神京路。",
+          "hant": "凝淚眼、杳杳神京路。"
+        },
+        {
+          "id": "line-14",
+          "hans": "断鸿声远长天暮。",
+          "hant": "斷鴻聲遠長天暮。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 149,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

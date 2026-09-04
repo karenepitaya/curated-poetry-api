@@ -4,7 +4,7 @@ Curated Poetry API notices
 Code in this repository is licensed under the MIT License. See LICENSE.
 
 The project's independent transcriptions, structured metadata, variant
-decisions, and simplified/traditional normalization records under corpus/ and
+decisions, and simplified/traditional normalization records for the legacy Tang corpus and
 docs/CURATION.md are dedicated to the public domain under CC0 1.0 Universal.
 See DATA_LICENSE.
 
@@ -14,7 +14,7 @@ pages are linked below with the rights statements supplied by Wikimedia
 Commons. Public-domain status can vary by jurisdiction, so downstream users
 must evaluate those statements for their own use.
 
-Current v0.2.x runtime corpus
+Legacy Tang runtime corpus
 -----------------------------
 
 - 1933 edition of 唐詩三百首, the primary witness for 49 works:
@@ -25,16 +25,16 @@ Current v0.2.x runtime corpus
 - 1705 御定全唐詩 scans, used as secondary witnesses:
   https://commons.wikimedia.org/wiki/Category:%E5%BE%A1%E5%AE%9A%E5%85%A8%E5%94%90%E8%A9%A9
 
-Every work currently in the runtime corpus has two recorded scan witnesses.
+The 50 legacy Tang works have two recorded scan witnesses.
 The corpus is an independently reviewed practical selection, not an
 authoritative scholarly critical edition.
 
 Machine-comparison sources
 --------------------------
 
-Fixed Wikisource revisions are used only for directory parsing and automated
-difference alerts; machine text does not become the project's established text
-without visual scan review. Wikisource page contributions remain subject to
+Fixed Wikisource revisions were used for legacy directory parsing and automated
+difference alerts. They are not the source of the new electronic Song Ci dataset.
+Wikisource page contributions remain subject to
 Wikisource's CC BY-SA terms.
 
 - 唐詩三百首, revision 7911040:
@@ -55,6 +55,41 @@ them here does not mean their full contents are included in the current API.
 - 《宋詞三百首箋》:
   https://commons.wikimedia.org/wiki/File:NLC416-09jh004236-40196_%E5%AE%8B%E8%A9%9E%E4%B8%89%E7%99%BE%E9%A6%96%E7%AE%8B.pdf?oldid=1140359194
 
-Full 唐詩三百首 and 宋詞三百首 collection claims are gated on collection
-manifest completion and per-work visual review as documented in
-docs/CURATION.md.
+Historical-edition completeness has not been established. The electronic
+selection below makes no historical-edition completeness claim. See
+docs/CURATION.md for the distinct evidence levels.
+
+Electronic Song Ci selection (276 imported, 4 quarantined)
+---------------------------------------------------------
+
+Source: chinese-poetry/chinese-poetry, commit
+b8594f81a89752241442f2ce267d6f66f96704ee, file 宋词/宋词三百首.json.
+https://github.com/chinese-poetry/chinese-poetry/blob/b8594f81a89752241442f2ce267d6f66f96704ee/宋词/宋词三百首.json
+
+The 280-record source snapshot is included under sources/chinese-poetry-songci/.
+Imported electronic records and derived text retain the upstream MIT notice
+below; the project's CC0 dedication does not remove these upstream terms.
+This is not a complete transcription of a historical printed edition.
+Traditional display text is generated with OpenCC s2t, not visually collated.
+
+The MIT License (MIT)
+
+Copyright (c) 2016 JackeyGao
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

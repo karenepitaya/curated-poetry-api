@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-3cb11ae26db642b7",
+  "title": {
+    "hans": "伴云来・天香·烟络横林",
+    "hant": "伴雲來・天香·煙絡橫林"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "伴云来・天香",
+    "hant": "伴雲來・天香"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "烟络横林，山沈远照，逦迤黄昏钟鼓。",
+          "hant": "煙絡橫林，山沈遠照，邐迤黃昏鐘鼓。"
+        },
+        {
+          "id": "line-2",
+          "hans": "烛映帘栊，蛩催机杼，共苦清秋风露。",
+          "hant": "燭映簾櫳，蛩催機杼，共苦清秋風露。"
+        },
+        {
+          "id": "line-3",
+          "hans": "不眠思妇，齐应和、几声砧杵。",
+          "hant": "不眠思婦，齊應和、幾聲砧杵。"
+        },
+        {
+          "id": "line-4",
+          "hans": "惊动天涯倦宦，岁华行暮。",
+          "hant": "驚動天涯倦宦，歲華行暮。"
+        },
+        {
+          "id": "line-5",
+          "hans": "当年酒狂自负。",
+          "hant": "當年酒狂自負。"
+        },
+        {
+          "id": "line-6",
+          "hans": "谓东君、已春相付。",
+          "hant": "謂東君、已春相付。"
+        },
+        {
+          "id": "line-7",
+          "hans": "流浪征骖北道，客墙南浦。",
+          "hant": "流浪徵驂北道，客牆南浦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "幽恨无人晤语。",
+          "hant": "幽恨無人晤語。"
+        },
+        {
+          "id": "line-9",
+          "hans": "赖明月曾知旧游处。",
+          "hant": "賴明月曾知舊遊處。"
+        },
+        {
+          "id": "line-10",
+          "hans": "好伴云来，还将梦去。",
+          "hant": "好伴雲來，還將夢去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 76,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

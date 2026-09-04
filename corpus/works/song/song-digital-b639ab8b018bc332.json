@@ -1,0 +1,69 @@
+{
+  "id": "song-digital-b639ab8b018bc332",
+  "title": {
+    "hans": "卜算子·我住长江头",
+    "hant": "卜算子·我住長江頭"
+  },
+  "author": {
+    "name": {
+      "hans": "李之仪",
+      "hant": "李之儀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "卜算子",
+    "hant": "卜算子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "我住长江头，君住长江尾。",
+          "hant": "我住長江頭，君住長江尾。"
+        },
+        {
+          "id": "line-2",
+          "hans": "日日思君不见君，共饮长江水。",
+          "hant": "日日思君不見君，共飲長江水。"
+        },
+        {
+          "id": "line-3",
+          "hans": "此水几时休，此恨何时已。",
+          "hant": "此水幾時休，此恨何時已。"
+        },
+        {
+          "id": "line-4",
+          "hans": "只愿君心似我心，定不负相思意。",
+          "hant": "只願君心似我心，定不負相思意。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 48,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

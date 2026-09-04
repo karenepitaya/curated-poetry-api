@@ -1,7 +1,7 @@
 # HTTP API v1
 
-基础地址：`https://poetry-api.karenepitaya.xyz`。v1 只提供完整作品；不会返回或
-暗中拼接节选，也不保证相邻请求不重复。
+基础地址：`https://poetry-api.karenepitaya.xyz`。以下描述当前代码，线上数量以 `/healthz` 为准。
+接口返回来源中的全部正文，不按长度截断，不保证相邻请求不重复；电子来源可能缺少原题序。
 
 ## 随机作品
 
@@ -13,7 +13,7 @@ GET /api/v1/works/random
 
 | 参数 | 合法值 | 含义 |
 | --- | --- | --- |
-| `collection` | `tangshi-sanbaishou-1933`、`songci-sanbaishou-zhu`、`supplemental-classics` | 选本 |
+| `collection` | `tangshi-sanbaishou-1933`、`songci-sanbaishou-zhu`、`songci-digital-selection`、`supplemental-classics` | 选本 |
 | `dynasty` | `tang`、`song` | 朝代 |
 | `genre` | `shi`、`ci` | 文类 |
 | `form` | `gushi`、`lushi`、`jueju`、`ci` | 体式 |
@@ -27,7 +27,7 @@ GET /api/v1/works/random
 ```json
 {
   "data": {
-    "id": "song-su-shi-shui-diao-ge-tou",
+    "id": "song-digital-2db7f1ca01e18a67",
     "title": "水调歌头·明月几时有",
     "author": { "name": "苏轼" },
     "dynasty": { "code": "song", "name": "宋" },
@@ -35,20 +35,33 @@ GET /api/v1/works/random
     "form": { "code": "ci", "name": "词" },
     "tune": { "name": "水调歌头" },
     "sections": [
-      { "kind": "stanza", "lines": ["……", "……"] },
-      { "kind": "stanza", "lines": ["……", "……"] }
+      { "kind": "stanza", "lines": [
+        "明月几时有，把酒问青天。",
+        "不知天上宫阙，今夕是何年。",
+        "我欲乘风归去，又恐琼楼玉宇，高处不胜寒。",
+        "起舞弄清影，何似在人间。",
+        "转朱阁，低绮户，照无眠。",
+        "不应有恨，何事长向别时圆。",
+        "人有悲欢离合，月有阴晴圆缺，此事古难全。",
+        "但愿人长久，千里共婵娟。"
+      ] }
     ],
     "collections": [
-      { "id": "songci-sanbaishou-zhu", "position": 63 }
+      { "id": "songci-digital-selection" }
     ],
-    "evidenceLevel": "primary-scan-reviewed"
+    "evidenceLevel": "digital-text-checked"
   },
   "lang": "zh-Hans"
 }
 ```
 
 `tune` 只在有词牌时出现。`sections` 可以包含任意数量的序、段或阕，调用方不得假定
-四句、等长诗句或恰好上下两阕。
+四句、等长诗句或恰好上下两阕。电子选集保留上游段落，不重建原书分阕。
+
+`evidenceLevel` 为 `primary-scan-reviewed`（既有扫描核对记录）或
+`digital-text-checked`（固定电子文本机械检查）。后者的 `hans` 保留上游字形，
+`hant` 由 OpenCC s2t 生成，不是扫描定本。`songci-sanbaishou-zhu` 仍没有作品，
+查询返回 404；新增宋词使用 `songci-digital-selection`。
 
 ## 健康检查
 
@@ -59,9 +72,9 @@ GET /healthz
 ```json
 {
   "status": "ok",
-  "version": "v0.2.1",
-  "works": 50,
-  "dynasties": { "tang": 50, "song": 0 },
+  "version": "dev",
+  "works": 326,
+  "dynasties": { "tang": 50, "song": 276 },
   "corpusRevision": "…"
 }
 ```

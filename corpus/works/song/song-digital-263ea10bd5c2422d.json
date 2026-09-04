@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-263ea10bd5c2422d",
+  "title": {
+    "hans": "解连环·怨怀无托",
+    "hant": "解連環·怨懷無託"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "解连环",
+    "hant": "解連環"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "怨怀无托。",
+          "hant": "怨懷無託。"
+        },
+        {
+          "id": "line-2",
+          "hans": "嗟情人断绝，信音辽邈。",
+          "hant": "嗟情人斷絕，信音遼邈。"
+        },
+        {
+          "id": "line-3",
+          "hans": "信妙手、能解连环，似风散雨收，雾轻云薄。",
+          "hant": "信妙手、能解連環，似風散雨收，霧輕雲薄。"
+        },
+        {
+          "id": "line-4",
+          "hans": "燕子楼空，暗尘锁、一床弦索。",
+          "hant": "燕子樓空，暗塵鎖、一牀絃索。"
+        },
+        {
+          "id": "line-5",
+          "hans": "想移根换叶。",
+          "hant": "想移根換葉。"
+        },
+        {
+          "id": "line-6",
+          "hans": "尽是旧时，手种红药。",
+          "hant": "盡是舊時，手種紅藥。"
+        },
+        {
+          "id": "line-7",
+          "hans": "汀洲渐生杜若。",
+          "hant": "汀洲漸生杜若。"
+        },
+        {
+          "id": "line-8",
+          "hans": "料舟依岸曲，人在天角。",
+          "hant": "料舟依岸曲，人在天角。"
+        },
+        {
+          "id": "line-9",
+          "hans": "谩记得、当日音书，把闲语闲言，待总烧却。",
+          "hant": "謾記得、當日音書，把閒語閒言，待總燒卻。"
+        },
+        {
+          "id": "line-10",
+          "hans": "水驿春回，望寄我、江南梅萼。",
+          "hant": "水驛春回，望寄我、江南梅萼。"
+        },
+        {
+          "id": "line-11",
+          "hans": "拚今生，对花对酒，为伊落泪。",
+          "hant": "拚今生，對花對酒，爲伊落淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 227,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

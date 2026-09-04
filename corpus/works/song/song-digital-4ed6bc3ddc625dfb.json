@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-4ed6bc3ddc625dfb",
+  "title": {
+    "hans": "阮郎归·旧香残粉似当初",
+    "hant": "阮郎歸·舊香殘粉似當初"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "阮郎归",
+    "hant": "阮郎歸"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "旧香残粉似当初。",
+          "hant": "舊香殘粉似當初。"
+        },
+        {
+          "id": "line-2",
+          "hans": "人情恨不如。",
+          "hant": "人情恨不如。"
+        },
+        {
+          "id": "line-3",
+          "hans": "一春犹有数行书。",
+          "hant": "一春猶有數行書。"
+        },
+        {
+          "id": "line-4",
+          "hans": "秋来书更疏。",
+          "hant": "秋來書更疏。"
+        },
+        {
+          "id": "line-5",
+          "hans": "衾凤冷，枕鸳孤。",
+          "hant": "衾鳳冷，枕鴛孤。"
+        },
+        {
+          "id": "line-6",
+          "hans": "愁肠待酒舒。",
+          "hant": "愁腸待酒舒。"
+        },
+        {
+          "id": "line-7",
+          "hans": "梦魂纵有也成虚。",
+          "hant": "夢魂縱有也成虛。"
+        },
+        {
+          "id": "line-8",
+          "hans": "那堪和梦无。",
+          "hant": "那堪和夢無。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 29,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

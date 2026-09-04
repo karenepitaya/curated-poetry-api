@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-2e4cd743c1ced82e",
+  "title": {
+    "hans": "生查子·繁灯夺霁华",
+    "hant": "生查子·繁燈奪霽華"
+  },
+  "author": {
+    "name": {
+      "hans": "刘克庄",
+      "hant": "劉克莊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "生查子",
+    "hant": "生查子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "繁灯夺霁华。",
+          "hant": "繁燈奪霽華。"
+        },
+        {
+          "id": "line-2",
+          "hans": "戏鼓侵明发。",
+          "hant": "戲鼓侵明發。"
+        },
+        {
+          "id": "line-3",
+          "hans": "物色旧时同，情味中年别。",
+          "hant": "物色舊時同，情味中年別。"
+        },
+        {
+          "id": "line-4",
+          "hans": "浅画镜中眉，深拜楼西月。",
+          "hant": "淺畫鏡中眉，深拜樓西月。"
+        },
+        {
+          "id": "line-5",
+          "hans": "人散市声收，渐入愁时节。",
+          "hant": "人散市聲收，漸入愁時節。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 52,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

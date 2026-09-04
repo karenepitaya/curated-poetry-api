@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-eb96d954bad25574",
+  "title": {
+    "hans": "望海潮·梅英疏淡",
+    "hant": "望海潮·梅英疏淡"
+  },
+  "author": {
+    "name": {
+      "hans": "秦观",
+      "hant": "秦觀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "望海潮",
+    "hant": "望海潮"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "梅英疏淡，冰澌溶泄，东风暗换年华。",
+          "hant": "梅英疏淡，冰澌溶泄，東風暗換年華。"
+        },
+        {
+          "id": "line-2",
+          "hans": "金谷俊游，铜驼巷陌，新晴细履平沙。",
+          "hant": "金谷俊遊，銅駝巷陌，新晴細履平沙。"
+        },
+        {
+          "id": "line-3",
+          "hans": "长记误随车。",
+          "hant": "長記誤隨車。"
+        },
+        {
+          "id": "line-4",
+          "hans": "正絮翻蝶舞，芳思交加。",
+          "hant": "正絮翻蝶舞，芳思交加。"
+        },
+        {
+          "id": "line-5",
+          "hans": "柳下桃蹊，乱分春色到人家。",
+          "hant": "柳下桃蹊，亂分春色到人家。"
+        },
+        {
+          "id": "line-6",
+          "hans": "西园夜饮鸣笳。",
+          "hant": "西園夜飲鳴笳。"
+        },
+        {
+          "id": "line-7",
+          "hans": "有华灯碍月，飞盖妨花。",
+          "hant": "有華燈礙月，飛蓋妨花。"
+        },
+        {
+          "id": "line-8",
+          "hans": "兰苑未空，行人渐老，重来是事堪嗟。",
+          "hant": "蘭苑未空，行人漸老，重來是事堪嗟。"
+        },
+        {
+          "id": "line-9",
+          "hans": "烟暝酒旗斜。",
+          "hant": "煙暝酒旗斜。"
+        },
+        {
+          "id": "line-10",
+          "hans": "但倚楼极目，时见栖鸦。",
+          "hant": "但倚樓極目，時見棲鴉。"
+        },
+        {
+          "id": "line-11",
+          "hans": "无奈归心。",
+          "hant": "無奈歸心。"
+        },
+        {
+          "id": "line-12",
+          "hans": "暗随流水到天涯。",
+          "hant": "暗隨流水到天涯。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 66,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

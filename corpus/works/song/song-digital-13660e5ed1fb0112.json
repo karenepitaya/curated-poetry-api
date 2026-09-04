@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-13660e5ed1fb0112",
+  "title": {
+    "hans": "湘春夜月·近清明",
+    "hant": "湘春夜月·近清明"
+  },
+  "author": {
+    "name": {
+      "hans": "黄孝迈",
+      "hant": "黃孝邁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "湘春夜月",
+    "hant": "湘春夜月"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "近清明。",
+          "hant": "近清明。"
+        },
+        {
+          "id": "line-2",
+          "hans": "翠禽枝上消魂。",
+          "hant": "翠禽枝上消魂。"
+        },
+        {
+          "id": "line-3",
+          "hans": "可惜一片清歌，都付与黄昏。",
+          "hant": "可惜一片清歌，都付與黃昏。"
+        },
+        {
+          "id": "line-4",
+          "hans": "欲共柳花低诉，怕柳花轻薄，不解伤春。",
+          "hant": "欲共柳花低訴，怕柳花輕薄，不解傷春。"
+        },
+        {
+          "id": "line-5",
+          "hans": "念楚乡旅宿，柔情别绪，谁与温存。",
+          "hant": "念楚鄉旅宿，柔情別緒，誰與溫存。"
+        },
+        {
+          "id": "line-6",
+          "hans": "空樽夜泣，青山不语，残月当门。",
+          "hant": "空樽夜泣，青山不語，殘月當門。"
+        },
+        {
+          "id": "line-7",
+          "hans": "翠玉楼前，惟是有、一波湘水，摇荡湘云。",
+          "hant": "翠玉樓前，惟是有、一波湘水，搖盪湘雲。"
+        },
+        {
+          "id": "line-8",
+          "hans": "天长梦短，问甚时、重见桃根。",
+          "hant": "天長夢短，問甚時、重見桃根。"
+        },
+        {
+          "id": "line-9",
+          "hans": "这次第，算人间没个并刀，翦断心上愁痕。",
+          "hant": "這次第，算人間沒個並刀，翦斷心上愁痕。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 0,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

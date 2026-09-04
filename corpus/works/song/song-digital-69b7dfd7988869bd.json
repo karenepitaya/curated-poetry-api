@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-69b7dfd7988869bd",
+  "title": {
+    "hans": "夜游宫·叶下斜阳照水",
+    "hant": "夜遊宮·葉下斜陽照水"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "夜游宫",
+    "hant": "夜遊宮"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "叶下斜阳照水。",
+          "hant": "葉下斜陽照水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "卷轻浪、沈沈千里。",
+          "hant": "卷輕浪、沈沈千里。"
+        },
+        {
+          "id": "line-3",
+          "hans": "桥上酸风射眸子。",
+          "hant": "橋上酸風射眸子。"
+        },
+        {
+          "id": "line-4",
+          "hans": "立多时，看黄昏，灯火市。",
+          "hant": "立多時，看黃昏，燈火市。"
+        },
+        {
+          "id": "line-5",
+          "hans": "古屋寒窗底。",
+          "hant": "古屋寒窗底。"
+        },
+        {
+          "id": "line-6",
+          "hans": "听几片、井桐飞坠。",
+          "hant": "聽幾片、井桐飛墜。"
+        },
+        {
+          "id": "line-7",
+          "hans": "不恋单衾再三起。",
+          "hant": "不戀單衾再三起。"
+        },
+        {
+          "id": "line-8",
+          "hans": "有谁知，为萧娘，书一纸。",
+          "hant": "有誰知，爲蕭娘，書一紙。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 232,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-1d0853fb5330b6e8",
+  "title": {
+    "hans": "清平乐·金风细细",
+    "hant": "清平樂·金風細細"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "清平乐",
+    "hant": "清平樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "金风细细。",
+          "hant": "金風細細。"
+        },
+        {
+          "id": "line-2",
+          "hans": "叶叶梧桐坠。",
+          "hant": "葉葉梧桐墜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "绿酒初尝人易醉。",
+          "hant": "綠酒初嘗人易醉。"
+        },
+        {
+          "id": "line-4",
+          "hans": "一枕小窗浓睡。",
+          "hant": "一枕小窗濃睡。"
+        },
+        {
+          "id": "line-5",
+          "hans": "紫微朱槿花残。",
+          "hant": "紫微朱槿花殘。"
+        },
+        {
+          "id": "line-6",
+          "hans": "斜阳却照阑干。",
+          "hant": "斜陽卻照闌干。"
+        },
+        {
+          "id": "line-7",
+          "hans": "双燕欲归时节，银屏昨夜微寒。",
+          "hant": "雙燕欲歸時節，銀屏昨夜微寒。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 161,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-913bda85b634df49",
+  "title": {
+    "hans": "齐天乐·烟波桃叶西陵路",
+    "hant": "齊天樂·煙波桃葉西陵路"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "齐天乐",
+    "hant": "齊天樂"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "烟波桃叶西陵路，十年断魂潮尾。",
+          "hant": "煙波桃葉西陵路，十年斷魂潮尾。"
+        },
+        {
+          "id": "line-2",
+          "hans": "古柳重攀，轻鸥聚别，陈迹危亭独倚。",
+          "hant": "古柳重攀，輕鷗聚別，陳跡危亭獨倚。"
+        },
+        {
+          "id": "line-3",
+          "hans": "凉颸乍起。",
+          "hant": "涼颸乍起。"
+        },
+        {
+          "id": "line-4",
+          "hans": "渺烟碛飞帆，暮山横翠。",
+          "hant": "渺煙磧飛帆，暮山橫翠。"
+        },
+        {
+          "id": "line-5",
+          "hans": "但有江花，共临秋镜照憔悴。",
+          "hant": "但有江花，共臨秋鏡照憔悴。"
+        },
+        {
+          "id": "line-6",
+          "hans": "华堂烛暗送客，眼波回盼处，芳艳流水。",
+          "hant": "華堂燭暗送客，眼波回盼處，芳豔流水。"
+        },
+        {
+          "id": "line-7",
+          "hans": "素骨凝冰，柔葱蘸雪，犹忆分瓜深意。",
+          "hant": "素骨凝冰，柔蔥蘸雪，猶憶分瓜深意。"
+        },
+        {
+          "id": "line-8",
+          "hans": "清尊未洗。",
+          "hant": "清尊未洗。"
+        },
+        {
+          "id": "line-9",
+          "hans": "梦不湿行云，漫沾残泪。",
+          "hant": "夢不溼行雲，漫沾殘淚。"
+        },
+        {
+          "id": "line-10",
+          "hans": "可惜秋宵，乱蛩疏雨里。",
+          "hant": "可惜秋宵，亂蛩疏雨裏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 6,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-94d2ae5b74d51efe",
+  "title": {
+    "hans": "玉楼春·别後不知君远近",
+    "hant": "玉樓春·別後不知君遠近"
+  },
+  "author": {
+    "name": {
+      "hans": "欧阳修",
+      "hant": "歐陽修"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "别後不知君远近。",
+          "hant": "別後不知君遠近。"
+        },
+        {
+          "id": "line-2",
+          "hans": "触目凄凉多少闷。",
+          "hant": "觸目淒涼多少悶。"
+        },
+        {
+          "id": "line-3",
+          "hans": "渐行渐远渐无书，水阔鱼沈何处问。",
+          "hant": "漸行漸遠漸無書，水闊魚沈何處問。"
+        },
+        {
+          "id": "line-4",
+          "hans": "夜深风竹敲秋韵。",
+          "hant": "夜深風竹敲秋韻。"
+        },
+        {
+          "id": "line-5",
+          "hans": "万叶千声皆是恨。",
+          "hant": "萬葉千聲皆是恨。"
+        },
+        {
+          "id": "line-6",
+          "hans": "故欹单枕梦中寻，梦又不成灯又尽。",
+          "hant": "故欹單枕夢中尋，夢又不成燈又盡。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 175,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-0c5ed3e460e9b5f2",
+  "title": {
+    "hans": "解佩环・疏影·江空不渡",
+    "hant": "解佩環・疏影·江空不渡"
+  },
+  "author": {
+    "name": {
+      "hans": "彭元逊",
+      "hant": "彭元遜"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "解佩环・疏影",
+    "hant": "解佩環・疏影"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "江空不渡，恨蘼芜杜若，零落无数。",
+          "hant": "江空不渡，恨蘼蕪杜若，零落無數。"
+        },
+        {
+          "id": "line-2",
+          "hans": "远道荒寒，婉娩流年，望望美人迟暮。",
+          "hant": "遠道荒寒，婉娩流年，望望美人遲暮。"
+        },
+        {
+          "id": "line-3",
+          "hans": "风烟雨雪阴晴晚，更何须，春风千树。",
+          "hant": "風煙雨雪陰晴晚，更何須，春風千樹。"
+        },
+        {
+          "id": "line-4",
+          "hans": "尽孤城、落木萧萧，日夜江声流去。",
+          "hant": "盡孤城、落木蕭蕭，日夜江聲流去。"
+        },
+        {
+          "id": "line-5",
+          "hans": "日晏山深闻笛，恐他年流落，与子同赋。",
+          "hant": "日晏山深聞笛，恐他年流落，與子同賦。"
+        },
+        {
+          "id": "line-6",
+          "hans": "事阔心违，交淡媒劳，蔓草沾衣多露。",
+          "hant": "事闊心違，交淡媒勞，蔓草沾衣多露。"
+        },
+        {
+          "id": "line-7",
+          "hans": "汀洲窈窕馀醒寐，遗浮沈沣浦。",
+          "hant": "汀洲窈窕餘醒寐，遺浮沈灃浦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "有白鸥淡月，微波寄语，逍遥容与。",
+          "hant": "有白鷗淡月，微波寄語，逍遙容與。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 99,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

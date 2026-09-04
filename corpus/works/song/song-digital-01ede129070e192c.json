@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-01ede129070e192c",
+  "title": {
+    "hans": "玉楼春·春风只在园西畔",
+    "hant": "玉樓春·春風只在園西畔"
+  },
+  "author": {
+    "name": {
+      "hans": "严仁",
+      "hant": "嚴仁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "春风只在园西畔。",
+          "hant": "春風只在園西畔。"
+        },
+        {
+          "id": "line-2",
+          "hans": "荠菜花繁胡蝶乱。",
+          "hant": "薺菜花繁胡蝶亂。"
+        },
+        {
+          "id": "line-3",
+          "hans": "冰池晴绿照还空，香径落红吹已断。",
+          "hant": "冰池晴綠照還空，香徑落紅吹已斷。"
+        },
+        {
+          "id": "line-4",
+          "hans": "意长翻恨游丝短。",
+          "hant": "意長翻恨遊絲短。"
+        },
+        {
+          "id": "line-5",
+          "hans": "尽日相思罗带缓。",
+          "hant": "盡日相思羅帶緩。"
+        },
+        {
+          "id": "line-6",
+          "hans": "宝奁明月不欺人，明日归来君试看。",
+          "hant": "寶奩明月不欺人，明日歸來君試看。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 51,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

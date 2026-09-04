@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-4ec1de2863d52114",
+  "title": {
+    "hans": "留春令·画屏天畔",
+    "hant": "留春令·畫屏天畔"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "留春令",
+    "hant": "留春令"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "画屏天畔，梦回依约，十洲云水。",
+          "hant": "畫屏天畔，夢迴依約，十洲雲水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "手拈红笺寄人书，写无限、伤春事。",
+          "hant": "手拈紅箋寄人書，寫無限、傷春事。"
+        },
+        {
+          "id": "line-3",
+          "hans": "别浦高楼曾漫倚。",
+          "hant": "別浦高樓曾漫倚。"
+        },
+        {
+          "id": "line-4",
+          "hans": "对江南千里。",
+          "hant": "對江南千里。"
+        },
+        {
+          "id": "line-5",
+          "hans": "楼下分流水声中，有当日、凭高泪。",
+          "hant": "樓下分流水聲中，有當日、憑高淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 34,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

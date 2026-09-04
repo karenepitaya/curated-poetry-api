@@ -1,0 +1,124 @@
+{
+  "id": "song-digital-d25732fe74b7ff0c",
+  "title": {
+    "hans": "瑞龙吟·章台路",
+    "hant": "瑞龍吟·章臺路"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞龙吟",
+    "hant": "瑞龍吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "章台路。",
+          "hant": "章臺路。"
+        },
+        {
+          "id": "line-2",
+          "hans": "还见褪粉梅梢，试花桃树。",
+          "hant": "還見褪粉梅梢，試花桃樹。"
+        },
+        {
+          "id": "line-3",
+          "hans": "坊陌人家，定巢燕子，归来旧处。",
+          "hant": "坊陌人家，定巢燕子，歸來舊處。"
+        },
+        {
+          "id": "line-4",
+          "hans": "暗凝伫。",
+          "hant": "暗凝佇。"
+        },
+        {
+          "id": "line-5",
+          "hans": "因念个人痴小，乍窥门户。",
+          "hant": "因念個人癡小，乍窺門戶。"
+        },
+        {
+          "id": "line-6",
+          "hans": "侵晨浅约宫黄，障风映袖，盈盈笑语。",
+          "hant": "侵晨淺約宮黃，障風映袖，盈盈笑語。"
+        },
+        {
+          "id": "line-7",
+          "hans": "前度刘郎重到，访邻寻里，同时歌舞。",
+          "hant": "前度劉郎重到，訪鄰尋裏，同時歌舞。"
+        },
+        {
+          "id": "line-8",
+          "hans": "唯有旧家秋娘，声价如故。",
+          "hant": "唯有舊家秋娘，聲價如故。"
+        },
+        {
+          "id": "line-9",
+          "hans": "吟笺赋笔，犹记燕台句。",
+          "hant": "吟箋賦筆，猶記燕臺句。"
+        },
+        {
+          "id": "line-10",
+          "hans": "知谁伴，名园露饮，东城闲步。",
+          "hant": "知誰伴，名園露飲，東城閒步。"
+        },
+        {
+          "id": "line-11",
+          "hans": "事与孤鸿去。",
+          "hant": "事與孤鴻去。"
+        },
+        {
+          "id": "line-12",
+          "hans": "探春尽是，伤离意绪。",
+          "hant": "探春盡是，傷離意緒。"
+        },
+        {
+          "id": "line-13",
+          "hans": "官柳低金缕。",
+          "hant": "官柳低金縷。"
+        },
+        {
+          "id": "line-14",
+          "hans": "归骑晚，纤纤池塘飞雨。",
+          "hant": "歸騎晚，纖纖池塘飛雨。"
+        },
+        {
+          "id": "line-15",
+          "hans": "断肠院落，一帘风絮。",
+          "hant": "斷腸院落，一簾風絮。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 223,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-e9e09b7db6b1751b",
+  "title": {
+    "hans": "菩萨蛮·郁孤台下清江水",
+    "hant": "菩薩蠻·鬱孤臺下清江水"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "菩萨蛮",
+    "hant": "菩薩蠻"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "郁孤台下清江水。",
+          "hant": "鬱孤臺下清江水。"
+        },
+        {
+          "id": "line-2",
+          "hans": "中间多少行人泪。",
+          "hant": "中間多少行人淚。"
+        },
+        {
+          "id": "line-3",
+          "hans": "西北是长安。",
+          "hant": "西北是長安。"
+        },
+        {
+          "id": "line-4",
+          "hans": "可怜无数山。",
+          "hant": "可憐無數山。"
+        },
+        {
+          "id": "line-5",
+          "hans": "青山遮不住。",
+          "hant": "青山遮不住。"
+        },
+        {
+          "id": "line-6",
+          "hans": "毕竟江流去。",
+          "hant": "畢竟江流去。"
+        },
+        {
+          "id": "line-7",
+          "hans": "江晚正愁予。",
+          "hant": "江晚正愁予。"
+        },
+        {
+          "id": "line-8",
+          "hans": "山深闻鹧鸪。",
+          "hant": "山深聞鷓鴣。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 211,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

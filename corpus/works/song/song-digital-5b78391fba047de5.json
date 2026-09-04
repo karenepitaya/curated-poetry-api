@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-5b78391fba047de5",
+  "title": {
+    "hans": "人南渡・感皇恩·兰芷满芳洲",
+    "hant": "人南渡・感皇恩·蘭芷滿芳洲"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "人南渡・感皇恩",
+    "hant": "人南渡・感皇恩"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "兰芷满芳洲，游思横路。",
+          "hant": "蘭芷滿芳洲，遊思橫路。"
+        },
+        {
+          "id": "line-2",
+          "hans": "罗袜尘生步。",
+          "hant": "羅襪塵生步。"
+        },
+        {
+          "id": "line-3",
+          "hans": "迎顾。",
+          "hant": "迎顧。"
+        },
+        {
+          "id": "line-4",
+          "hans": "整鬟颦黛，脉脉两情难语。",
+          "hant": "整鬟顰黛，脈脈兩情難語。"
+        },
+        {
+          "id": "line-5",
+          "hans": "细风吹柳絮。",
+          "hant": "細風吹柳絮。"
+        },
+        {
+          "id": "line-6",
+          "hans": "人南渡。",
+          "hant": "人南渡。"
+        },
+        {
+          "id": "line-7",
+          "hans": "回首旧游，山无重数。",
+          "hant": "回首舊遊，山無重數。"
+        },
+        {
+          "id": "line-8",
+          "hans": "花底深朱户。",
+          "hant": "花底深朱戶。"
+        },
+        {
+          "id": "line-9",
+          "hans": "何处。",
+          "hant": "何處。"
+        },
+        {
+          "id": "line-10",
+          "hans": "半黄梅子，向晚一帘疏雨。",
+          "hant": "半黃梅子，向晚一簾疏雨。"
+        },
+        {
+          "id": "line-11",
+          "hans": "断魂分付与。",
+          "hant": "斷魂分付與。"
+        },
+        {
+          "id": "line-12",
+          "hans": "春将去。",
+          "hant": "春將去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 74,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-cb6aead97485c295",
+  "title": {
+    "hans": "天门谣·牛渚天门险",
+    "hant": "天門謠·牛渚天門險"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "天门谣",
+    "hant": "天門謠"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "牛渚天门险。",
+          "hant": "牛渚天門險。"
+        },
+        {
+          "id": "line-2",
+          "hans": "限南北、七雄豪占。",
+          "hant": "限南北、七雄豪佔。"
+        },
+        {
+          "id": "line-3",
+          "hans": "清雾敛。",
+          "hant": "清霧斂。"
+        },
+        {
+          "id": "line-4",
+          "hans": "与闲人登览。",
+          "hant": "與閒人登覽。"
+        },
+        {
+          "id": "line-5",
+          "hans": "待月上潮平波滟滟。",
+          "hant": "待月上潮平波灩灩。"
+        },
+        {
+          "id": "line-6",
+          "hans": "塞管轻吹新《阿滥》。",
+          "hant": "塞管輕吹新《阿濫》。"
+        },
+        {
+          "id": "line-7",
+          "hans": "风满槛。",
+          "hant": "風滿檻。"
+        },
+        {
+          "id": "line-8",
+          "hans": "历历数、西州更点。",
+          "hant": "歷歷數、西州更點。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 103,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

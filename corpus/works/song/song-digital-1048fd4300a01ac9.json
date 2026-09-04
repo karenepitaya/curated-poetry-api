@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-1048fd4300a01ac9",
+  "title": {
+    "hans": "念奴娇·野棠花落",
+    "hant": "念奴嬌·野棠花落"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "念奴娇",
+    "hant": "念奴嬌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "野棠花落，又匆匆、过了青明时节。",
+          "hant": "野棠花落，又匆匆、過了青明時節。"
+        },
+        {
+          "id": "line-2",
+          "hans": "地东风欺客梦，一夜云屏寒怯。",
+          "hant": "地東風欺客夢，一夜雲屏寒怯。"
+        },
+        {
+          "id": "line-3",
+          "hans": "曲岸持觞，垂杨系马，此地曾轻别。",
+          "hant": "曲岸持觴，垂楊繫馬，此地曾輕別。"
+        },
+        {
+          "id": "line-4",
+          "hans": "楼空人去，旧游飞燕能说。",
+          "hant": "樓空人去，舊遊飛燕能說。"
+        },
+        {
+          "id": "line-5",
+          "hans": "闻道绮陌东头，行人长见，帘底纤纤月。",
+          "hant": "聞道綺陌東頭，行人長見，簾底纖纖月。"
+        },
+        {
+          "id": "line-6",
+          "hans": "旧恨春江流未断，新恨云山千叠。",
+          "hant": "舊恨春江流未斷，新恨雲山千疊。"
+        },
+        {
+          "id": "line-7",
+          "hans": "料得明朝，尊前重见，镜里花难折。",
+          "hant": "料得明朝，尊前重見，鏡裏花難折。"
+        },
+        {
+          "id": "line-8",
+          "hans": "也应惊问，近来多少华发。",
+          "hant": "也應驚問，近來多少華髮。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 209,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-59fc603b6e1d5d2e",
+  "title": {
+    "hans": "竹马子・竹马儿·登孤垒荒凉",
+    "hant": "竹馬子・竹馬兒·登孤壘荒涼"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "竹马子・竹马儿",
+    "hant": "竹馬子・竹馬兒"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "登孤垒荒凉，危亭旷望，静临烟渚。",
+          "hant": "登孤壘荒涼，危亭曠望，靜臨煙渚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "对雌霓挂雨，雄风拂槛，微收烦暑。",
+          "hant": "對雌霓掛雨，雄風拂檻，微收煩暑。"
+        },
+        {
+          "id": "line-3",
+          "hans": "渐觉一叶惊秋，残蝉噪晚，素商时序。",
+          "hant": "漸覺一葉驚秋，殘蟬噪晚，素商時序。"
+        },
+        {
+          "id": "line-4",
+          "hans": "览景想前欢，指神京，非雾非烟深处。",
+          "hant": "覽景想前歡，指神京，非霧非煙深處。"
+        },
+        {
+          "id": "line-5",
+          "hans": "向此成追感，新愁易积，故人难聚。",
+          "hant": "向此成追感，新愁易積，故人難聚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "凭高尽日凝伫。",
+          "hant": "憑高盡日凝佇。"
+        },
+        {
+          "id": "line-7",
+          "hans": "赢得消魂无语。",
+          "hant": "贏得消魂無語。"
+        },
+        {
+          "id": "line-8",
+          "hans": "极目霁霭霏微，暝鸦零乱，萧索江城暮。",
+          "hant": "極目霽靄霏微，暝鴉零亂，蕭索江城暮。"
+        },
+        {
+          "id": "line-9",
+          "hans": "南楼画角，又送残阳去。",
+          "hant": "南樓畫角，又送殘陽去。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 152,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

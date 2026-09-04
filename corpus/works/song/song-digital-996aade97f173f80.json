@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-996aade97f173f80",
+  "title": {
+    "hans": "暗香·旧时月色",
+    "hant": "暗香·舊時月色"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "暗香",
+    "hant": "暗香"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "旧时月色。",
+          "hant": "舊時月色。"
+        },
+        {
+          "id": "line-2",
+          "hans": "算几番照我，梅边吹笛。",
+          "hant": "算幾番照我，梅邊吹笛。"
+        },
+        {
+          "id": "line-3",
+          "hans": "唤起玉人，不管清寒与攀摘。",
+          "hant": "喚起玉人，不管清寒與攀摘。"
+        },
+        {
+          "id": "line-4",
+          "hans": "何逊而今渐老，都忘却、春风词笔。",
+          "hant": "何遜而今漸老，都忘卻、春風詞筆。"
+        },
+        {
+          "id": "line-5",
+          "hans": "但怪得、竹外疏花，香冷入瑶席。",
+          "hant": "但怪得、竹外疏花，香冷入瑤席。"
+        },
+        {
+          "id": "line-6",
+          "hans": "江国。",
+          "hant": "江國。"
+        },
+        {
+          "id": "line-7",
+          "hans": "正寂寂。",
+          "hant": "正寂寂。"
+        },
+        {
+          "id": "line-8",
+          "hans": "叹寄与路遥，夜雪初积。",
+          "hant": "嘆寄與路遙，夜雪初積。"
+        },
+        {
+          "id": "line-9",
+          "hans": "翠尊易泣。",
+          "hant": "翠尊易泣。"
+        },
+        {
+          "id": "line-10",
+          "hans": "红萼无言耿相忆。",
+          "hant": "紅萼無言耿相憶。"
+        },
+        {
+          "id": "line-11",
+          "hans": "长记曾携手处，千树压、西湖寒碧。",
+          "hant": "長記曾攜手處，千樹壓、西湖寒碧。"
+        },
+        {
+          "id": "line-12",
+          "hans": "又片片、吹尽也，几时见得。",
+          "hant": "又片片、吹盡也，幾時見得。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 135,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

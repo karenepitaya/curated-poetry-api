@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-05121f14e783a3a7",
+  "title": {
+    "hans": "蓦山溪·洗妆真态",
+    "hant": "驀山溪·洗妝真態"
+  },
+  "author": {
+    "name": {
+      "hans": "曹组",
+      "hant": "曹組"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蓦山溪",
+    "hant": "驀山溪"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "洗妆真态，不作铅华御。",
+          "hant": "洗妝真態，不作鉛華御。"
+        },
+        {
+          "id": "line-2",
+          "hans": "竹外一枝斜，想佳人、天寒日暮。",
+          "hant": "竹外一枝斜，想佳人、天寒日暮。"
+        },
+        {
+          "id": "line-3",
+          "hans": "黄昏小院，无处著清香，风细细，雪垂垂，何况江头路。",
+          "hant": "黃昏小院，無處著清香，風細細，雪垂垂，何況江頭路。"
+        },
+        {
+          "id": "line-4",
+          "hans": "月边疏影，梦到消魂处。",
+          "hant": "月邊疏影，夢到消魂處。"
+        },
+        {
+          "id": "line-5",
+          "hans": "结子欲黄时，又须著、廉纤细雨。",
+          "hant": "結子欲黃時，又須著、廉纖細雨。"
+        },
+        {
+          "id": "line-6",
+          "hans": "孤芳一世，供断有情愁，销瘦却，东阳也，试问花知否。",
+          "hant": "孤芳一世，供斷有情愁，銷瘦卻，東陽也，試問花知否。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 267,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-c7fde9427281c92d",
+  "title": {
+    "hans": "临江仙·忆昔午桥桥上饮",
+    "hant": "臨江仙·憶昔午橋橋上飲"
+  },
+  "author": {
+    "name": {
+      "hans": "陈与义",
+      "hant": "陳與義"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "临江仙",
+    "hant": "臨江仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "忆昔午桥桥上饮，坐中多是豪英。",
+          "hant": "憶昔午橋橋上飲，坐中多是豪英。"
+        },
+        {
+          "id": "line-2",
+          "hans": "长沟流月去无声。",
+          "hant": "長溝流月去無聲。"
+        },
+        {
+          "id": "line-3",
+          "hans": "杏花疏影里，吹笛到天明。",
+          "hant": "杏花疏影裏，吹笛到天明。"
+        },
+        {
+          "id": "line-4",
+          "hans": "二十馀年如一梦，此身虽在堪惊。",
+          "hant": "二十餘年如一夢，此身雖在堪驚。"
+        },
+        {
+          "id": "line-5",
+          "hans": "闲登小阁看新晴。",
+          "hant": "閒登小閣看新晴。"
+        },
+        {
+          "id": "line-6",
+          "hans": "古今多少事，渔唱起三更。",
+          "hant": "古今多少事，漁唱起三更。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 113,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

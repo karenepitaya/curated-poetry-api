@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-69eb37fcfcfd5e22",
+  "title": {
+    "hans": "江神子慢・江城子慢·玉台挂秋月",
+    "hant": "江神子慢・江城子慢·玉臺掛秋月"
+  },
+  "author": {
+    "name": {
+      "hans": "田为",
+      "hant": "田爲"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "江神子慢・江城子慢",
+    "hant": "江神子慢・江城子慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "玉台挂秋月。",
+          "hant": "玉臺掛秋月。"
+        },
+        {
+          "id": "line-2",
+          "hans": "铅素浅，梅花傅香雪。",
+          "hant": "鉛素淺，梅花傅香雪。"
+        },
+        {
+          "id": "line-3",
+          "hans": "冰姿洁。",
+          "hant": "冰姿潔。"
+        },
+        {
+          "id": "line-4",
+          "hans": "金莲衬、小小凌波罗袜。",
+          "hant": "金蓮襯、小小凌波羅襪。"
+        },
+        {
+          "id": "line-5",
+          "hans": "雨初歇。",
+          "hant": "雨初歇。"
+        },
+        {
+          "id": "line-6",
+          "hans": "楼外孤鸿声渐远，远山外、行人音信绝。",
+          "hant": "樓外孤鴻聲漸遠，遠山外、行人音信絕。"
+        },
+        {
+          "id": "line-7",
+          "hans": "此恨对语犹难，那堪更寄书说。",
+          "hant": "此恨對語猶難，那堪更寄書說。"
+        },
+        {
+          "id": "line-8",
+          "hans": "教人红销翠减，觉衣宽金缕，都为轻别。",
+          "hant": "教人紅銷翠減，覺衣寬金縷，都爲輕別。"
+        },
+        {
+          "id": "line-9",
+          "hans": "太情切。",
+          "hant": "太情切。"
+        },
+        {
+          "id": "line-10",
+          "hans": "消魂处、画角黄昏时节。",
+          "hant": "消魂處、畫角黃昏時節。"
+        },
+        {
+          "id": "line-11",
+          "hans": "声呜咽。",
+          "hant": "聲嗚咽。"
+        },
+        {
+          "id": "line-12",
+          "hans": "落尽庭花春去也，银蟾迥、无情圆又缺。",
+          "hant": "落盡庭花春去也，銀蟾迥、無情圓又缺。"
+        },
+        {
+          "id": "line-13",
+          "hans": "恨伊不似馀香，惹鸳鸯结。",
+          "hant": "恨伊不似餘香，惹鴛鴦結。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 269,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

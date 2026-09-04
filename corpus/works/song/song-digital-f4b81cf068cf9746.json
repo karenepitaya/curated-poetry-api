@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-f4b81cf068cf9746",
+  "title": {
+    "hans": "锁窗寒・琐寒窗·暗柳啼鸦",
+    "hant": "鎖窗寒・瑣寒窗·暗柳啼鴉"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "锁窗寒・琐寒窗",
+    "hant": "鎖窗寒・瑣寒窗"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "暗柳啼鸦，单衣伫立，小帘朱户。",
+          "hant": "暗柳啼鴉，單衣佇立，小簾朱戶。"
+        },
+        {
+          "id": "line-2",
+          "hans": "桐花半亩，静锁一庭愁雨。",
+          "hant": "桐花半畝，靜鎖一庭愁雨。"
+        },
+        {
+          "id": "line-3",
+          "hans": "洒空阶，夜阑未休，故人剪烛西窗语。",
+          "hant": "灑空階，夜闌未休，故人剪燭西窗語。"
+        },
+        {
+          "id": "line-4",
+          "hans": "似楚江暝宿，风灯零乱，少年羁旅。",
+          "hant": "似楚江暝宿，風燈零亂，少年羈旅。"
+        },
+        {
+          "id": "line-5",
+          "hans": "迟暮。",
+          "hant": "遲暮。"
+        },
+        {
+          "id": "line-6",
+          "hans": "嬉游处。",
+          "hant": "嬉遊處。"
+        },
+        {
+          "id": "line-7",
+          "hans": "正店舍无烟，禁城百五。",
+          "hant": "正店舍無煙，禁城百五。"
+        },
+        {
+          "id": "line-8",
+          "hans": "旗亭唤酒，付与高阳俦侣。",
+          "hant": "旗亭喚酒，付與高陽儔侶。"
+        },
+        {
+          "id": "line-9",
+          "hans": "想东园，桃李自春，小唇秀靥今在否。",
+          "hant": "想東園，桃李自春，小脣秀靨今在否。"
+        },
+        {
+          "id": "line-10",
+          "hans": "到归时，定有残英，待客携尊俎。",
+          "hant": "到歸時，定有殘英，待客攜尊俎。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 224,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

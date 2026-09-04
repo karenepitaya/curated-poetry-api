@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-08268e5e7fc0ce86",
+  "title": {
+    "hans": "点绛唇·卷尽愁云",
+    "hant": "點絳脣·卷盡愁雲"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "点绛唇",
+    "hant": "點絳脣"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "卷尽愁云，素娥临夜新梳洗。",
+          "hant": "卷盡愁雲，素娥臨夜新梳洗。"
+        },
+        {
+          "id": "line-2",
+          "hans": "暗尘不起。",
+          "hant": "暗塵不起。"
+        },
+        {
+          "id": "line-3",
+          "hans": "酥润凌波地。",
+          "hant": "酥潤凌波地。"
+        },
+        {
+          "id": "line-4",
+          "hans": "辇路重来，仿佛灯前事。",
+          "hant": "輦路重來，彷彿燈前事。"
+        },
+        {
+          "id": "line-5",
+          "hans": "情如水。",
+          "hant": "情如水。"
+        },
+        {
+          "id": "line-6",
+          "hans": "小楼熏被。",
+          "hant": "小樓燻被。"
+        },
+        {
+          "id": "line-7",
+          "hans": "春梦笙歌里。",
+          "hant": "春夢笙歌裏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 194,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

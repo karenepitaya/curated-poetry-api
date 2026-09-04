@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-137e30389d451e86",
+  "title": {
+    "hans": "水龙吟·闹花深处层楼",
+    "hant": "水龍吟·鬧花深處層樓"
+  },
+  "author": {
+    "name": {
+      "hans": "陈亮",
+      "hant": "陳亮"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "水龙吟",
+    "hant": "水龍吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "闹花深处层楼，画帘半卷东风软。",
+          "hant": "鬧花深處層樓，畫簾半卷東風軟。"
+        },
+        {
+          "id": "line-2",
+          "hans": "春归翠陌，平莎茸嫩，垂杨金浅。",
+          "hant": "春歸翠陌，平莎茸嫩，垂楊金淺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "迟日催花，淡云阁雨，轻寒轻暖。",
+          "hant": "遲日催花，淡雲閣雨，輕寒輕暖。"
+        },
+        {
+          "id": "line-4",
+          "hans": "恨芳菲世界，游人未赏，都付与、莺和燕。",
+          "hant": "恨芳菲世界，遊人未賞，都付與、鶯和燕。"
+        },
+        {
+          "id": "line-5",
+          "hans": "寂寞凭高念远。",
+          "hant": "寂寞憑高念遠。"
+        },
+        {
+          "id": "line-6",
+          "hans": "向南楼、一声归雁。",
+          "hant": "向南樓、一聲歸雁。"
+        },
+        {
+          "id": "line-7",
+          "hans": "金钗斗草，青丝勒马，风流云散。",
+          "hant": "金釵鬥草，青絲勒馬，風流雲散。"
+        },
+        {
+          "id": "line-8",
+          "hans": "罗绶分香，翠绡封泪，几多幽怨。",
+          "hant": "羅綬分香，翠綃封淚，幾多幽怨。"
+        },
+        {
+          "id": "line-9",
+          "hans": "正销魂，又是疏烟淡月，子规声断。",
+          "hant": "正銷魂，又是疏煙淡月，子規聲斷。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 118,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

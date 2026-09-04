@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-6f1c21f550610121",
+  "title": {
+    "hans": "高阳台·修竹凝妆",
+    "hant": "高陽臺·修竹凝妝"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "高阳台",
+    "hant": "高陽臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "修竹凝妆，垂杨驻马，凭阑浅画成图。",
+          "hant": "修竹凝妝，垂楊駐馬，憑闌淺畫成圖。"
+        },
+        {
+          "id": "line-2",
+          "hans": "山色谁题，楼前有雁斜书。",
+          "hant": "山色誰題，樓前有雁斜書。"
+        },
+        {
+          "id": "line-3",
+          "hans": "东风紧送斜阳下，弄旧寒、晚酒醒馀。",
+          "hant": "東風緊送斜陽下，弄舊寒、晚酒醒餘。"
+        },
+        {
+          "id": "line-4",
+          "hans": "自销凝，能几花前，顿老相如。",
+          "hant": "自銷凝，能幾花前，頓老相如。"
+        },
+        {
+          "id": "line-5",
+          "hans": "伤春不在高楼上，在灯前攲枕，雨外熏炉。",
+          "hant": "傷春不在高樓上，在燈前攲枕，雨外燻爐。"
+        },
+        {
+          "id": "line-6",
+          "hans": "怕舣游船，临流可奈清臞。",
+          "hant": "怕艤遊船，臨流可奈清臞。"
+        },
+        {
+          "id": "line-7",
+          "hans": "飞红若到西湖底，搅翠澜、总是愁鱼。",
+          "hant": "飛紅若到西湖底，攪翠瀾、總是愁魚。"
+        },
+        {
+          "id": "line-8",
+          "hans": "莫重来，吹尽香绵，泪满平芜。",
+          "hant": "莫重來，吹盡香綿，淚滿平蕪。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 78,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-1135a075a378d204",
+  "title": {
+    "hans": "鹧鸪天·肥水东流无尽期",
+    "hant": "鷓鴣天·肥水東流無盡期"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "鹧鸪天",
+    "hant": "鷓鴣天"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "肥水东流无尽期。",
+          "hant": "肥水東流無盡期。"
+        },
+        {
+          "id": "line-2",
+          "hans": "当初不合种相思。",
+          "hant": "當初不合種相思。"
+        },
+        {
+          "id": "line-3",
+          "hans": "梦中未比丹青见，暗里忽惊山鸟啼。",
+          "hant": "夢中未比丹青見，暗裏忽驚山鳥啼。"
+        },
+        {
+          "id": "line-4",
+          "hans": "春未绿，鬓先丝。",
+          "hant": "春未綠，鬢先絲。"
+        },
+        {
+          "id": "line-5",
+          "hans": "人间别久不成悲。",
+          "hant": "人間別久不成悲。"
+        },
+        {
+          "id": "line-6",
+          "hans": "谁教岁岁红莲夜，两处沈吟各自知。",
+          "hant": "誰教歲歲紅蓮夜，兩處沈吟各自知。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 122,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

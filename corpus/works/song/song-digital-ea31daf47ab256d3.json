@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-ea31daf47ab256d3",
+  "title": {
+    "hans": "望湘人·厌莺声到枕",
+    "hant": "望湘人·厭鶯聲到枕"
+  },
+  "author": {
+    "name": {
+      "hans": "贺铸",
+      "hant": "賀鑄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "望湘人",
+    "hant": "望湘人"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "厌莺声到枕，花气动帘，醉魂愁梦相半。",
+          "hant": "厭鶯聲到枕，花氣動簾，醉魂愁夢相半。"
+        },
+        {
+          "id": "line-2",
+          "hans": "被惜馀薰，带惊剩眼。",
+          "hant": "被惜餘薰，帶驚剩眼。"
+        },
+        {
+          "id": "line-3",
+          "hans": "几许伤春春晚。",
+          "hant": "幾許傷春春晚。"
+        },
+        {
+          "id": "line-4",
+          "hans": "泪竹痕鲜，佩兰香老，湘天浓暖。",
+          "hant": "淚竹痕鮮，佩蘭香老，湘天濃暖。"
+        },
+        {
+          "id": "line-5",
+          "hans": "记小江、风月佳时，屡约非烟游伴。",
+          "hant": "記小江、風月佳時，屢約非煙遊伴。"
+        },
+        {
+          "id": "line-6",
+          "hans": "须信鸾弦易断。",
+          "hant": "須信鸞弦易斷。"
+        },
+        {
+          "id": "line-7",
+          "hans": "奈云和再鼓，曲终人远。",
+          "hant": "奈雲和再鼓，曲終人遠。"
+        },
+        {
+          "id": "line-8",
+          "hans": "认罗袜无踪，旧处弄波清浅。",
+          "hant": "認羅襪無蹤，舊處弄波清淺。"
+        },
+        {
+          "id": "line-9",
+          "hans": "青翰棹舣，白苹洲畔。",
+          "hant": "青翰棹艤，白蘋洲畔。"
+        },
+        {
+          "id": "line-10",
+          "hans": "尽木临皋飞观。",
+          "hant": "盡木臨皋飛觀。"
+        },
+        {
+          "id": "line-11",
+          "hans": "不解寄、一字相思，幸有归来双燕。",
+          "hant": "不解寄、一字相思，幸有歸來雙燕。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 105,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

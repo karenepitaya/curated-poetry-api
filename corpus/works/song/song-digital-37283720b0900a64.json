@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-37283720b0900a64",
+  "title": {
+    "hans": "摸鱼儿·怎知他",
+    "hant": "摸魚兒·怎知他"
+  },
+  "author": {
+    "name": {
+      "hans": "刘辰翁",
+      "hant": "劉辰翁"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "摸鱼儿",
+    "hant": "摸魚兒"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "怎知他、春归何处，相逢且尽尊酒。",
+          "hant": "怎知他、春歸何處，相逢且盡尊酒。"
+        },
+        {
+          "id": "line-2",
+          "hans": "少年袅袅天涯恨，长结西湖烟柳。",
+          "hant": "少年嫋嫋天涯恨，長結西湖煙柳。"
+        },
+        {
+          "id": "line-3",
+          "hans": "休回首。",
+          "hant": "休回首。"
+        },
+        {
+          "id": "line-4",
+          "hans": "但细雨断桥，憔悴人归後。",
+          "hant": "但細雨斷橋，憔悴人歸後。"
+        },
+        {
+          "id": "line-5",
+          "hans": "东风似旧。",
+          "hant": "東風似舊。"
+        },
+        {
+          "id": "line-6",
+          "hans": "问前度桃花，刘郎能记，花复认郎否。",
+          "hant": "問前度桃花，劉郎能記，花復認郎否。"
+        },
+        {
+          "id": "line-7",
+          "hans": "君且住，草草留君翦韭。",
+          "hant": "君且住，草草留君翦韭。"
+        },
+        {
+          "id": "line-8",
+          "hans": "前宵更恁时候。",
+          "hant": "前宵更恁時候。"
+        },
+        {
+          "id": "line-9",
+          "hans": "深杯欲共歌声滑，翻湿春衫半袖。",
+          "hant": "深杯欲共歌聲滑，翻溼春衫半袖。"
+        },
+        {
+          "id": "line-10",
+          "hans": "空眉皱。",
+          "hant": "空眉皺。"
+        },
+        {
+          "id": "line-11",
+          "hans": "看白发尊前，已似人人有。",
+          "hant": "看白髮尊前，已似人人有。"
+        },
+        {
+          "id": "line-12",
+          "hans": "临分把手。",
+          "hant": "臨分把手。"
+        },
+        {
+          "id": "line-13",
+          "hans": "叹一笑论文，清狂顾曲，此会几时又。",
+          "hant": "嘆一笑論文，清狂顧曲，此會幾時又。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 92,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

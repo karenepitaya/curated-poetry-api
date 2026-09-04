@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-8aef83c02592f403",
+  "title": {
+    "hans": "女冠子·蕙花香也",
+    "hant": "女冠子·蕙花香也"
+  },
+  "author": {
+    "name": {
+      "hans": "蒋捷",
+      "hant": "蔣捷"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "女冠子",
+    "hant": "女冠子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "蕙花香也。",
+          "hant": "蕙花香也。"
+        },
+        {
+          "id": "line-2",
+          "hans": "雪晴池馆如画。",
+          "hant": "雪晴池館如畫。"
+        },
+        {
+          "id": "line-3",
+          "hans": "春风飞到，宝钗楼上，一片笙箫，琉璃光射。",
+          "hant": "春風飛到，寶釵樓上，一片笙簫，琉璃光射。"
+        },
+        {
+          "id": "line-4",
+          "hans": "而今灯漫挂。",
+          "hant": "而今燈漫掛。"
+        },
+        {
+          "id": "line-5",
+          "hans": "不是暗尘明月，那时元夜。",
+          "hant": "不是暗塵明月，那時元夜。"
+        },
+        {
+          "id": "line-6",
+          "hans": "况年来、心懒意怯，羞与蛾儿争要。",
+          "hant": "況年來、心懶意怯，羞與蛾兒爭要。"
+        },
+        {
+          "id": "line-7",
+          "hans": "江城人悄初更打。",
+          "hant": "江城人悄初更打。"
+        },
+        {
+          "id": "line-8",
+          "hans": "问繁华谁解，再向天公借。",
+          "hant": "問繁華誰解，再向天公借。"
+        },
+        {
+          "id": "line-9",
+          "hans": "剔残红灺。",
+          "hant": "剔殘紅灺。"
+        },
+        {
+          "id": "line-10",
+          "hans": "但梦里隐隐，钿车罗帕。",
+          "hant": "但夢裏隱隱，鈿車羅帕。"
+        },
+        {
+          "id": "line-11",
+          "hans": "吴笺银粉砑。",
+          "hant": "吳箋銀粉砑。"
+        },
+        {
+          "id": "line-12",
+          "hans": "待把旧家风景，写成闲话。",
+          "hant": "待把舊家風景，寫成閒話。"
+        },
+        {
+          "id": "line-13",
+          "hans": "笑绿鬟邻女，倚窗犹唱，夕阳西下。",
+          "hant": "笑綠鬟鄰女，倚窗猶唱，夕陽西下。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 256,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

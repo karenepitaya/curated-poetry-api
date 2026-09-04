@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-611c48796d3aa481",
+  "title": {
+    "hans": "洞仙歌·青烟幂处",
+    "hant": "洞仙歌·青煙冪處"
+  },
+  "author": {
+    "name": {
+      "hans": "晁补之",
+      "hant": "晁補之"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "洞仙歌",
+    "hant": "洞仙歌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "青烟幂处，碧海飞金镜。",
+          "hant": "青煙冪處，碧海飛金鏡。"
+        },
+        {
+          "id": "line-2",
+          "hans": "永夜闲阶卧桂影。",
+          "hant": "永夜閒階臥桂影。"
+        },
+        {
+          "id": "line-3",
+          "hans": "露凉时、零乱多少寒，神京远，惟有蓝桥路近。",
+          "hant": "露涼時、零亂多少寒，神京遠，惟有藍橋路近。"
+        },
+        {
+          "id": "line-4",
+          "hans": "水晶帘不下，云母屏开，冷浸佳人淡脂粉。",
+          "hant": "水晶簾不下，雲母屏開，冷浸佳人淡脂粉。"
+        },
+        {
+          "id": "line-5",
+          "hans": "待都将许多明，付与金尊，投晓共、流霞倾尽。",
+          "hant": "待都將許多明，付與金尊，投曉共、流霞傾盡。"
+        },
+        {
+          "id": "line-6",
+          "hans": "更携取、胡床上南楼，看玉做人间，素秋千倾。",
+          "hant": "更攜取、胡牀上南樓，看玉做人間，素鞦韆傾。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 222,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

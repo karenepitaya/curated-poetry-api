@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-12bdb132f22a92a8",
+  "title": {
+    "hans": "绣鸾凤花犯・花犯·楚江湄",
+    "hant": "繡鸞鳳花犯・花犯·楚江湄"
+  },
+  "author": {
+    "name": {
+      "hans": "周密",
+      "hant": "周密"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "绣鸾凤花犯・花犯",
+    "hant": "繡鸞鳳花犯・花犯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "楚江湄，湘娥乍见，无言洒清泪。",
+          "hant": "楚江湄，湘娥乍見，無言灑清淚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "淡然春意。",
+          "hant": "淡然春意。"
+        },
+        {
+          "id": "line-3",
+          "hans": "空独倚东风，芳思谁寄。",
+          "hant": "空獨倚東風，芳思誰寄。"
+        },
+        {
+          "id": "line-4",
+          "hans": "凌波路冷秋无际。",
+          "hant": "凌波路冷秋無際。"
+        },
+        {
+          "id": "line-5",
+          "hans": "香云随步起。",
+          "hant": "香雲隨步起。"
+        },
+        {
+          "id": "line-6",
+          "hans": "谩记得，汉宫仙掌，亭亭明月底。",
+          "hant": "謾記得，漢宮仙掌，亭亭明月底。"
+        },
+        {
+          "id": "line-7",
+          "hans": "冰弦写怨更多情，骚人恨，枉赋芳兰幽芷。",
+          "hant": "冰弦寫怨更多情，騷人恨，枉賦芳蘭幽芷。"
+        },
+        {
+          "id": "line-8",
+          "hans": "春思远，谁叹赏、国香风味。",
+          "hant": "春思遠，誰歎賞、國香風味。"
+        },
+        {
+          "id": "line-9",
+          "hans": "相将共、岁寒伴侣。",
+          "hant": "相將共、歲寒伴侶。"
+        },
+        {
+          "id": "line-10",
+          "hans": "小窗净、沈烟熏翠袂。",
+          "hant": "小窗淨、沈煙燻翠袂。"
+        },
+        {
+          "id": "line-11",
+          "hans": "幽梦觉，涓涓清露，一枝灯影里。",
+          "hant": "幽夢覺，涓涓清露，一枝燈影裏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 93,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

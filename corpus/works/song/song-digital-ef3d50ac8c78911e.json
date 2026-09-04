@@ -1,0 +1,124 @@
+{
+  "id": "song-digital-ef3d50ac8c78911e",
+  "title": {
+    "hans": "三台·见梨花初带夜月",
+    "hant": "三臺·見梨花初帶夜月"
+  },
+  "author": {
+    "name": {
+      "hans": "万俟咏",
+      "hant": "万俟詠"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "三台",
+    "hant": "三臺"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "见梨花初带夜月，海棠半含朝雨。",
+          "hant": "見梨花初帶夜月，海棠半含朝雨。"
+        },
+        {
+          "id": "line-2",
+          "hans": "内苑春、不禁过青门，御沟涨、潜通南浦。",
+          "hant": "內苑春、不禁過青門，御溝漲、潛通南浦。"
+        },
+        {
+          "id": "line-3",
+          "hans": "东风静、细柳垂金缕。",
+          "hant": "東風靜、細柳垂金縷。"
+        },
+        {
+          "id": "line-4",
+          "hans": "望凤阙、非烟非雾。",
+          "hant": "望鳳闕、非煙非霧。"
+        },
+        {
+          "id": "line-5",
+          "hans": "好时代、朝野多欢，遍九陌、太平箫鼓。",
+          "hant": "好時代、朝野多歡，遍九陌、太平簫鼓。"
+        },
+        {
+          "id": "line-6",
+          "hans": "乍莺儿百啭断续，燕子飞来飞去。",
+          "hant": "乍鶯兒百囀斷續，燕子飛來飛去。"
+        },
+        {
+          "id": "line-7",
+          "hans": "近绿水、台榭映秋千，斗草聚、双双游女。",
+          "hant": "近綠水、臺榭映鞦韆，鬥草聚、雙雙遊女。"
+        },
+        {
+          "id": "line-8",
+          "hans": "饧香更、酒冷踏青路。",
+          "hant": "餳香更、酒冷踏青路。"
+        },
+        {
+          "id": "line-9",
+          "hans": "会暗识、夭桃朱户。",
+          "hant": "會暗識、夭桃朱戶。"
+        },
+        {
+          "id": "line-10",
+          "hans": "向晚骤、宝马雕鞍，醉襟惹、乱花飞絮。",
+          "hant": "向晚驟、寶馬雕鞍，醉襟惹、亂花飛絮。"
+        },
+        {
+          "id": "line-11",
+          "hans": "正轻寒轻暖漏永，半阴半晴云暮。",
+          "hant": "正輕寒輕暖漏永，半陰半晴雲暮。"
+        },
+        {
+          "id": "line-12",
+          "hans": "禁火天、已是试新妆，岁华到、三分佳处。",
+          "hant": "禁火天、已是試新妝，歲華到、三分佳處。"
+        },
+        {
+          "id": "line-13",
+          "hans": "清明看、汉宫传蜡炬。",
+          "hant": "清明看、漢宮傳蠟炬。"
+        },
+        {
+          "id": "line-14",
+          "hans": "散翠烟、飞入槐府。",
+          "hant": "散翠煙、飛入槐府。"
+        },
+        {
+          "id": "line-15",
+          "hans": "敛兵卫、阊阖门开，住传宣、又还休务。",
+          "hant": "斂兵衛、閶闔門開，住傳宣、又還休務。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 268,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

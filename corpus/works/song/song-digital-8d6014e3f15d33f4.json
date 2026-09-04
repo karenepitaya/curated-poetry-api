@@ -1,0 +1,84 @@
+{
+  "id": "song-digital-8d6014e3f15d33f4",
+  "title": {
+    "hans": "霜天晓角·晚晴风歇",
+    "hant": "霜天曉角·晚晴風歇"
+  },
+  "author": {
+    "name": {
+      "hans": "范成大",
+      "hant": "范成大"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "霜天晓角",
+    "hant": "霜天曉角"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "晚晴风歇。",
+          "hant": "晚晴風歇。"
+        },
+        {
+          "id": "line-2",
+          "hans": "一夜春折威。",
+          "hant": "一夜春折威。"
+        },
+        {
+          "id": "line-3",
+          "hans": "脉脉花疏天淡，云来去、数枝雪。",
+          "hant": "脈脈花疏天淡，雲來去、數枝雪。"
+        },
+        {
+          "id": "line-4",
+          "hans": "胜绝。",
+          "hant": "勝絕。"
+        },
+        {
+          "id": "line-5",
+          "hans": "愁亦绝。",
+          "hant": "愁亦絕。"
+        },
+        {
+          "id": "line-6",
+          "hans": "此情谁共说。",
+          "hant": "此情誰共說。"
+        },
+        {
+          "id": "line-7",
+          "hans": "惟有两行低雁，知人倚、画楼月。",
+          "hant": "惟有兩行低雁，知人倚、畫樓月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 276,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

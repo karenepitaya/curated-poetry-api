@@ -1,0 +1,38 @@
+{
+  "sourceSHA256": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+  "sourceRecords": 280,
+  "imported": 276,
+  "quarantined": 4,
+  "rejected": [
+    {
+      "recordIndex": 50,
+      "author": "韩",
+      "tune": "高阳台",
+      "reason": "incomplete or invalid author name; requires source clarification"
+    },
+    {
+      "recordIndex": 72,
+      "author": "赵令",
+      "tune": "蝶恋花",
+      "reason": "incomplete or invalid author name; requires source clarification"
+    },
+    {
+      "recordIndex": 119,
+      "author": "张",
+      "tune": "宴山亭・燕山亭",
+      "reason": "incomplete or invalid author name; requires source clarification"
+    },
+    {
+      "recordIndex": 190,
+      "author": "张",
+      "tune": "满庭芳",
+      "reason": "incomplete or invalid author name; requires source clarification"
+    }
+  ],
+  "limitations": [
+    "Not a complete historical edition; upstream file contains 280 records.",
+    "Source paragraphs retained; original prefaces and stanza boundaries are not reconstructed.",
+    "Hans retains source spellings, including mixed traditional forms; Hant is generated with OpenCC s2t.",
+    "Mechanical validation does not prove historical textual accuracy."
+  ]
+}

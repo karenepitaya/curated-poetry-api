@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-712f97e7d496bc61",
+  "title": {
+    "hans": "少年游·长安古道马迟迟",
+    "hant": "少年遊·長安古道馬遲遲"
+  },
+  "author": {
+    "name": {
+      "hans": "柳永",
+      "hant": "柳永"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "少年游",
+    "hant": "少年遊"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "长安古道马迟迟。",
+          "hant": "長安古道馬遲遲。"
+        },
+        {
+          "id": "line-2",
+          "hans": "高柳乱蝉栖。",
+          "hant": "高柳亂蟬棲。"
+        },
+        {
+          "id": "line-3",
+          "hans": "夕阳岛外，秋风原上，目断四天垂。",
+          "hant": "夕陽島外，秋風原上，目斷四天垂。"
+        },
+        {
+          "id": "line-4",
+          "hans": "归云一去无踪迹，何处是前期。",
+          "hant": "歸雲一去無蹤跡，何處是前期。"
+        },
+        {
+          "id": "line-5",
+          "hans": "狎兴生疏，酒徒萧索，不似去年时。",
+          "hant": "狎興生疏，酒徒蕭索，不似去年時。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 147,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-151615be18c254dc",
+  "title": {
+    "hans": "念奴娇·萧条庭院",
+    "hant": "念奴嬌·蕭條庭院"
+  },
+  "author": {
+    "name": {
+      "hans": "李清照",
+      "hant": "李清照"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "念奴娇",
+    "hant": "念奴嬌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "萧条庭院，有斜风细雨，重门须闭。",
+          "hant": "蕭條庭院，有斜風細雨，重門須閉。"
+        },
+        {
+          "id": "line-2",
+          "hans": "宠柳娇花寒食近，种种恼人天气。",
+          "hant": "寵柳嬌花寒食近，種種惱人天氣。"
+        },
+        {
+          "id": "line-3",
+          "hans": "险韵诗成，扶头酒醒，别是闲滋味。",
+          "hant": "險韻詩成，扶頭酒醒，別是閒滋味。"
+        },
+        {
+          "id": "line-4",
+          "hans": "征鸿过尽，万千心事难寄。",
+          "hant": "徵鴻過盡，萬千心事難寄。"
+        },
+        {
+          "id": "line-5",
+          "hans": "楼上几日春寒，帘垂四面，玉阑干慵倚。",
+          "hant": "樓上幾日春寒，簾垂四面，玉闌干慵倚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "被冷香消新梦觉，不许愁人不起。",
+          "hant": "被冷香消新夢覺，不許愁人不起。"
+        },
+        {
+          "id": "line-7",
+          "hans": "清露晨流，新桐初引，多少游春意。",
+          "hant": "清露晨流，新桐初引，多少遊春意。"
+        },
+        {
+          "id": "line-8",
+          "hans": "日高烟敛，更看今日晴未。",
+          "hant": "日高煙斂，更看今日晴未。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 202,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

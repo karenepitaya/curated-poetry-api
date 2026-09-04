@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-2bea2205c5a8282e",
+  "title": {
+    "hans": "踏莎行·小径红稀",
+    "hant": "踏莎行·小徑紅稀"
+  },
+  "author": {
+    "name": {
+      "hans": "晏殊",
+      "hant": "晏殊"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "踏莎行",
+    "hant": "踏莎行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "小径红稀，芳郊绿遍。",
+          "hant": "小徑紅稀，芳郊綠遍。"
+        },
+        {
+          "id": "line-2",
+          "hans": "高台树色阴阴见。",
+          "hant": "高臺樹色陰陰見。"
+        },
+        {
+          "id": "line-3",
+          "hans": "春风不解禁杨花，乱扑行人面。",
+          "hant": "春風不解禁楊花，亂撲行人面。"
+        },
+        {
+          "id": "line-4",
+          "hans": "翠叶藏莺，朱帘隔燕。",
+          "hant": "翠葉藏鶯，朱簾隔燕。"
+        },
+        {
+          "id": "line-5",
+          "hans": "炉香静逐游丝转。",
+          "hant": "爐香靜逐遊絲轉。"
+        },
+        {
+          "id": "line-6",
+          "hans": "一场愁梦酒醒时，斜阳却照深深院。",
+          "hant": "一場愁夢酒醒時，斜陽卻照深深院。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 166,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

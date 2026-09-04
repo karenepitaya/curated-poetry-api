@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-fe872fe6ad8176ac",
+  "title": {
+    "hans": "绿意・疏影·碧圆自洁",
+    "hant": "綠意・疏影·碧圓自潔"
+  },
+  "author": {
+    "name": {
+      "hans": "张炎",
+      "hant": "張炎"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "绿意・疏影",
+    "hant": "綠意・疏影"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "碧圆自洁。",
+          "hant": "碧圓自潔。"
+        },
+        {
+          "id": "line-2",
+          "hans": "向浅洲远渚，亭亭清绝。",
+          "hant": "向淺洲遠渚，亭亭清絕。"
+        },
+        {
+          "id": "line-3",
+          "hans": "犹有遗簪，不展秋心，能卷几多炎热。",
+          "hant": "猶有遺簪，不展秋心，能卷幾多炎熱。"
+        },
+        {
+          "id": "line-4",
+          "hans": "鸳鸯密语同倾盖，且莫与、浣纱人说。",
+          "hant": "鴛鴦密語同傾蓋，且莫與、浣紗人說。"
+        },
+        {
+          "id": "line-5",
+          "hans": "恐怨歌、忽断花风，碎却翠云千叠。",
+          "hant": "恐怨歌、忽斷花風，碎卻翠雲千疊。"
+        },
+        {
+          "id": "line-6",
+          "hans": "回首当年汉舞，怕飞去、谩皱留仙裙摺。",
+          "hant": "回首當年漢舞，怕飛去、謾皺留仙裙摺。"
+        },
+        {
+          "id": "line-7",
+          "hans": "恋恋青衫，犹染枯香，还叹鬓丝飘雪。",
+          "hant": "戀戀青衫，猶染枯香，還嘆鬢絲飄雪。"
+        },
+        {
+          "id": "line-8",
+          "hans": "盘心清露如铅水，又一夜、西风吹折。",
+          "hant": "盤心清露如鉛水，又一夜、西風吹折。"
+        },
+        {
+          "id": "line-9",
+          "hans": "喜静看、匹练秋光，倒泻半湖明月。",
+          "hant": "喜靜看、匹練秋光，倒瀉半湖明月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 61,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

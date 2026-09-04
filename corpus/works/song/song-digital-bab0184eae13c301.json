@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-bab0184eae13c301",
+  "title": {
+    "hans": "夜游宫·人去西楼雁杳",
+    "hant": "夜遊宮·人去西樓雁杳"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "夜游宫",
+    "hant": "夜遊宮"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "人去西楼雁杳。",
+          "hant": "人去西樓雁杳。"
+        },
+        {
+          "id": "line-2",
+          "hans": "叙别梦、扬州一觉。",
+          "hant": "敘別夢、揚州一覺。"
+        },
+        {
+          "id": "line-3",
+          "hans": "云澹星疏楚山晓。",
+          "hant": "雲澹星疏楚山曉。"
+        },
+        {
+          "id": "line-4",
+          "hans": "听啼乌，立河桥，话未了。",
+          "hant": "聽啼烏，立河橋，話未了。"
+        },
+        {
+          "id": "line-5",
+          "hans": "雨外蛩声早。",
+          "hant": "雨外蛩聲早。"
+        },
+        {
+          "id": "line-6",
+          "hans": "细织就、霜丝多少。",
+          "hant": "細織就、霜絲多少。"
+        },
+        {
+          "id": "line-7",
+          "hans": "说与萧娘未知道。",
+          "hant": "說與蕭娘未知道。"
+        },
+        {
+          "id": "line-8",
+          "hans": "向长安，对秋灯，几人老。",
+          "hant": "向長安，對秋燈，幾人老。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 84,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

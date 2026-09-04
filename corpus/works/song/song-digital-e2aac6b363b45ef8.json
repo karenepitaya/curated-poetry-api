@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-e2aac6b363b45ef8",
+  "title": {
+    "hans": "鹧鸪天·一点残红欲尽时",
+    "hant": "鷓鴣天·一點殘紅欲盡時"
+  },
+  "author": {
+    "name": {
+      "hans": "周紫芝",
+      "hant": "周紫芝"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "鹧鸪天",
+    "hant": "鷓鴣天"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "一点残红欲尽时。",
+          "hant": "一點殘紅欲盡時。"
+        },
+        {
+          "id": "line-2",
+          "hans": "乍凉秋气满屏帏。",
+          "hant": "乍涼秋氣滿屏幃。"
+        },
+        {
+          "id": "line-3",
+          "hans": "梧桐叶上三更雨，叶叶声声是别离。",
+          "hant": "梧桐葉上三更雨，葉葉聲聲是別離。"
+        },
+        {
+          "id": "line-4",
+          "hans": "调宝瑟，拨金猊。",
+          "hant": "調寶瑟，撥金猊。"
+        },
+        {
+          "id": "line-5",
+          "hans": "那时同唱鹧鸪词。",
+          "hant": "那時同唱鷓鴣詞。"
+        },
+        {
+          "id": "line-6",
+          "hans": "如今风雨西楼夜，不听清歌也泪垂。",
+          "hant": "如今風雨西樓夜，不聽清歌也淚垂。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 272,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-297f9dddb3e42788",
+  "title": {
+    "hans": "念奴娇·闹红一舸",
+    "hant": "念奴嬌·鬧紅一舸"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "念奴娇",
+    "hant": "念奴嬌"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "闹红一舸，记来时、尝与鸳鸯为侣。",
+          "hant": "鬧紅一舸，記來時、嘗與鴛鴦爲侶。"
+        },
+        {
+          "id": "line-2",
+          "hans": "三十六陂人未到，水佩风裳无数。",
+          "hant": "三十六陂人未到，水佩風裳無數。"
+        },
+        {
+          "id": "line-3",
+          "hans": "翠叶吹凉，玉容销酒，更洒菰蒲雨。",
+          "hant": "翠葉吹涼，玉容銷酒，更灑菰蒲雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "嫣然摇动，冷香飞上诗句。",
+          "hant": "嫣然搖動，冷香飛上詩句。"
+        },
+        {
+          "id": "line-5",
+          "hans": "日暮。",
+          "hant": "日暮。"
+        },
+        {
+          "id": "line-6",
+          "hans": "青盖亭亭，情人不见，争忍凌波去。",
+          "hant": "青蓋亭亭，情人不見，爭忍凌波去。"
+        },
+        {
+          "id": "line-7",
+          "hans": "只恐舞衣寒易落，愁入西风南浦。",
+          "hant": "只恐舞衣寒易落，愁入西風南浦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "高柳垂阴，老鱼吹浪，留我花间住。",
+          "hant": "高柳垂陰，老魚吹浪，留我花間住。"
+        },
+        {
+          "id": "line-9",
+          "hans": "田田多少，几回沙际归路。",
+          "hant": "田田多少，幾回沙際歸路。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 129,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

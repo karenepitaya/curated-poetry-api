@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-aaaa6662a98ecb72",
+  "title": {
+    "hans": "木兰花・玉楼春·城上风光莺语乱",
+    "hant": "木蘭花・玉樓春·城上風光鶯語亂"
+  },
+  "author": {
+    "name": {
+      "hans": "钱惟演",
+      "hant": "錢惟演"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "木兰花・玉楼春",
+    "hant": "木蘭花・玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "城上风光莺语乱。",
+          "hant": "城上風光鶯語亂。"
+        },
+        {
+          "id": "line-2",
+          "hans": "城下烟波春拍岸。",
+          "hant": "城下煙波春拍岸。"
+        },
+        {
+          "id": "line-3",
+          "hans": "绿杨芳草几时休，泪眼愁肠先已断。",
+          "hant": "綠楊芳草幾時休，淚眼愁腸先已斷。"
+        },
+        {
+          "id": "line-4",
+          "hans": "情怀渐变成衰晚。",
+          "hant": "情懷漸變成衰晚。"
+        },
+        {
+          "id": "line-5",
+          "hans": "鸾鉴朱颜惊暗换。",
+          "hant": "鸞鑑朱顏驚暗換。"
+        },
+        {
+          "id": "line-6",
+          "hans": "昔年多病厌芳尊，今日芳尊惟恐浅。",
+          "hant": "昔年多病厭芳尊，今日芳尊惟恐淺。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 138,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

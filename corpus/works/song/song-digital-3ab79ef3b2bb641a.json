@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-3ab79ef3b2bb641a",
+  "title": {
+    "hans": "瑞鹤仙·悄郊原带郭",
+    "hant": "瑞鶴仙·悄郊原帶郭"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞鹤仙",
+    "hant": "瑞鶴仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "悄郊原带郭。",
+          "hant": "悄郊原帶郭。"
+        },
+        {
+          "id": "line-2",
+          "hans": "行路永，客去车尘漠漠。",
+          "hant": "行路永，客去車塵漠漠。"
+        },
+        {
+          "id": "line-3",
+          "hans": "斜阳映山落。",
+          "hant": "斜陽映山落。"
+        },
+        {
+          "id": "line-4",
+          "hans": "敛馀红、犹恋孤城栏角。",
+          "hant": "斂餘紅、猶戀孤城欄角。"
+        },
+        {
+          "id": "line-5",
+          "hans": "凌波步弱。",
+          "hant": "凌波步弱。"
+        },
+        {
+          "id": "line-6",
+          "hans": "过短亭、何用素约。",
+          "hant": "過短亭、何用素約。"
+        },
+        {
+          "id": "line-7",
+          "hans": "有流莺劝我，重解绣鞍，缓引春酌。",
+          "hant": "有流鶯勸我，重解繡鞍，緩引春酌。"
+        },
+        {
+          "id": "line-8",
+          "hans": "不记归时早暮，上马谁扶，醒眠朱阁。",
+          "hant": "不記歸時早暮，上馬誰扶，醒眠朱閣。"
+        },
+        {
+          "id": "line-9",
+          "hans": "惊飙动幕。",
+          "hant": "驚飆動幕。"
+        },
+        {
+          "id": "line-10",
+          "hans": "扶残醉，绕红药。",
+          "hant": "扶殘醉，繞紅藥。"
+        },
+        {
+          "id": "line-11",
+          "hans": "叹西园、已是花深无地，东风何事又恶。",
+          "hant": "嘆西園、已是花深無地，東風何事又惡。"
+        },
+        {
+          "id": "line-12",
+          "hans": "任流光过却。",
+          "hant": "任流光過卻。"
+        },
+        {
+          "id": "line-13",
+          "hans": "犹喜洞天自乐。",
+          "hant": "猶喜洞天自樂。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 228,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-393321ee93b74aca",
+  "title": {
+    "hans": "菩萨蛮·绿芜墙绕青苔院",
+    "hant": "菩薩蠻·綠蕪牆繞青苔院"
+  },
+  "author": {
+    "name": {
+      "hans": "陈克",
+      "hant": "陳克"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "菩萨蛮",
+    "hant": "菩薩蠻"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绿芜墙绕青苔院。",
+          "hant": "綠蕪牆繞青苔院。"
+        },
+        {
+          "id": "line-2",
+          "hans": "中庭日淡芭蕉卷。",
+          "hant": "中庭日淡芭蕉卷。"
+        },
+        {
+          "id": "line-3",
+          "hans": "蝴蝶上阶飞。",
+          "hant": "蝴蝶上階飛。"
+        },
+        {
+          "id": "line-4",
+          "hans": "烘帘自在垂。",
+          "hant": "烘簾自在垂。"
+        },
+        {
+          "id": "line-5",
+          "hans": "玉钩双语燕。",
+          "hant": "玉鉤雙語燕。"
+        },
+        {
+          "id": "line-6",
+          "hans": "宝甃杨花转。",
+          "hant": "寶甃楊花轉。"
+        },
+        {
+          "id": "line-7",
+          "hans": "几处簸钱声。",
+          "hant": "幾處簸錢聲。"
+        },
+        {
+          "id": "line-8",
+          "hans": "绿窗春睡轻。",
+          "hant": "綠窗春睡輕。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 271,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

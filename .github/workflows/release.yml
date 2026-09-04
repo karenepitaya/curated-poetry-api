@@ -17,6 +17,12 @@ jobs:
         with:
           go-version-file: go.mod
           cache: true
+      - uses: astral-sh/setup-uv@v6
+      - name: Verify electronic corpus generation
+        run: |
+          uv sync --locked --project tools/songci
+          uv run --locked --project tools/songci tools/songci/import_songci.py --check
+          uv run --locked --project tools/songci python -m unittest discover -s tools/songci
       - name: Test
         run: go test ./...
       - name: Vet

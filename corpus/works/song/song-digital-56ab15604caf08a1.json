@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-56ab15604caf08a1",
+  "title": {
+    "hans": "醉花阴·薄雾浓云愁永昼",
+    "hant": "醉花陰·薄霧濃雲愁永晝"
+  },
+  "author": {
+    "name": {
+      "hans": "李清照",
+      "hant": "李清照"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "醉花阴",
+    "hant": "醉花陰"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "薄雾浓云愁永昼。",
+          "hant": "薄霧濃雲愁永晝。"
+        },
+        {
+          "id": "line-2",
+          "hans": "瑞脑消金兽。",
+          "hant": "瑞腦消金獸。"
+        },
+        {
+          "id": "line-3",
+          "hans": "佳节又重阳，玉枕纱厨，半夜凉初透。",
+          "hant": "佳節又重陽，玉枕紗廚，半夜涼初透。"
+        },
+        {
+          "id": "line-4",
+          "hans": "东篱把洒黄昏後，有暗香盈袖。",
+          "hant": "東籬把灑黃昏後，有暗香盈袖。"
+        },
+        {
+          "id": "line-5",
+          "hans": "莫道不消魂，帘卷西风，人似黄花瘦。",
+          "hant": "莫道不消魂，簾卷西風，人似黃花瘦。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 201,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

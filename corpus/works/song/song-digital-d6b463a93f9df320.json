@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-d6b463a93f9df320",
+  "title": {
+    "hans": "霜叶飞·断烟离绪",
+    "hant": "霜葉飛·斷煙離緒"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "霜叶飞",
+    "hant": "霜葉飛"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "断烟离绪。",
+          "hant": "斷煙離緒。"
+        },
+        {
+          "id": "line-2",
+          "hans": "关心事，斜阳红隐霜树。",
+          "hant": "關心事，斜陽紅隱霜樹。"
+        },
+        {
+          "id": "line-3",
+          "hans": "半壶秋水荐黄花，香西风雨。",
+          "hant": "半壺秋水薦黃花，香西風雨。"
+        },
+        {
+          "id": "line-4",
+          "hans": "纵玉勒、轻飞迅羽。",
+          "hant": "縱玉勒、輕飛迅羽。"
+        },
+        {
+          "id": "line-5",
+          "hans": "凄凉谁吊荒台古。",
+          "hant": "淒涼誰吊荒臺古。"
+        },
+        {
+          "id": "line-6",
+          "hans": "记醉蹋南屏，彩扇咽、寒蝉倦梦，不知蛮素。",
+          "hant": "記醉蹋南屏，彩扇咽、寒蟬倦夢，不知蠻素。"
+        },
+        {
+          "id": "line-7",
+          "hans": "聊对旧节传杯，尘笺蠹管，断阕经岁慵赋。",
+          "hant": "聊對舊節傳杯，塵箋蠹管，斷闋經歲慵賦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "小蟾斜影转东篱，夜冷残蛩语。",
+          "hant": "小蟾斜影轉東籬，夜冷殘蛩語。"
+        },
+        {
+          "id": "line-9",
+          "hans": "早白发、缘愁万缕。",
+          "hant": "早白髮、緣愁萬縷。"
+        },
+        {
+          "id": "line-10",
+          "hans": "惊飙从卷乌纱去。",
+          "hant": "驚飆從卷烏紗去。"
+        },
+        {
+          "id": "line-11",
+          "hans": "漫细将、茱萸看，但约明年，翠微高处。",
+          "hant": "漫細將、茱萸看，但約明年，翠微高處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 3,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-f8b79492819738b2",
+  "title": {
+    "hans": "六么令·绿阴春尽",
+    "hant": "六麼令·綠陰春盡"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "六么令",
+    "hant": "六麼令"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绿阴春尽，飞絮绕香阁。",
+          "hant": "綠陰春盡，飛絮繞香閣。"
+        },
+        {
+          "id": "line-2",
+          "hans": "晚来翠眉宫样，巧把远山学。",
+          "hant": "晚來翠眉宮樣，巧把遠山學。"
+        },
+        {
+          "id": "line-3",
+          "hans": "一寸狂心未说，已向横波觉。",
+          "hant": "一寸狂心未說，已向橫波覺。"
+        },
+        {
+          "id": "line-4",
+          "hans": "画帘遮币。",
+          "hant": "畫簾遮幣。"
+        },
+        {
+          "id": "line-5",
+          "hans": "新翻曲妙，暗许闲人带偷掏。",
+          "hant": "新翻曲妙，暗許閒人帶偷掏。"
+        },
+        {
+          "id": "line-6",
+          "hans": "前度书多隐语，意浅愁难答。",
+          "hant": "前度書多隱語，意淺愁難答。"
+        },
+        {
+          "id": "line-7",
+          "hans": "昨夜诗有回纹，韵险还慵押。",
+          "hant": "昨夜詩有回紋，韻險還慵押。"
+        },
+        {
+          "id": "line-8",
+          "hans": "都待笙歌散了，记取留时霎。",
+          "hant": "都待笙歌散了，記取留時霎。"
+        },
+        {
+          "id": "line-9",
+          "hans": "不消红蜡。",
+          "hant": "不消紅蠟。"
+        },
+        {
+          "id": "line-10",
+          "hans": "闲云归後，月在庭花旧阑角。",
+          "hant": "閒雲歸後，月在庭花舊闌角。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 31,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

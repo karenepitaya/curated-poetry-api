@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-01ddf156dc0115e7",
+  "title": {
+    "hans": "水龙吟·似花还似非花",
+    "hant": "水龍吟·似花還似非花"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "水龙吟",
+    "hant": "水龍吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "似花还似非花，也无人惜从教坠。",
+          "hant": "似花還似非花，也無人惜從教墜。"
+        },
+        {
+          "id": "line-2",
+          "hans": "抛家傍路，思量却是，无情有思。",
+          "hant": "拋家傍路，思量卻是，無情有思。"
+        },
+        {
+          "id": "line-3",
+          "hans": "萦损柔肠，困酣娇眼，欲开还闭。",
+          "hant": "縈損柔腸，困酣嬌眼，欲開還閉。"
+        },
+        {
+          "id": "line-4",
+          "hans": "梦随风万里，寻郎去处，又还被、莺呼起。",
+          "hant": "夢隨風萬里，尋郎去處，又還被、鶯呼起。"
+        },
+        {
+          "id": "line-5",
+          "hans": "不恨此花飞尽，恨西园、落红难缀。",
+          "hant": "不恨此花飛盡，恨西園、落紅難綴。"
+        },
+        {
+          "id": "line-6",
+          "hans": "晓来雨过，遗踪何在，一池萍碎。",
+          "hant": "曉來雨過，遺蹤何在，一池萍碎。"
+        },
+        {
+          "id": "line-7",
+          "hans": "春色三分，二分尘土，一分流水。",
+          "hant": "春色三分，二分塵土，一分流水。"
+        },
+        {
+          "id": "line-8",
+          "hans": "细看来，不是杨花点点，是离人泪。",
+          "hant": "細看來，不是楊花點點，是離人淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 37,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

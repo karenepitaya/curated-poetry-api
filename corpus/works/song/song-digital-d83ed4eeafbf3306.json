@@ -1,0 +1,114 @@
+{
+  "id": "song-digital-d83ed4eeafbf3306",
+  "title": {
+    "hans": "瑞鹤仙·脸霞红印枕",
+    "hant": "瑞鶴仙·臉霞紅印枕"
+  },
+  "author": {
+    "name": {
+      "hans": "陆淞",
+      "hant": "陸淞"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑞鹤仙",
+    "hant": "瑞鶴仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "脸霞红印枕。",
+          "hant": "臉霞紅印枕。"
+        },
+        {
+          "id": "line-2",
+          "hans": "睡觉来、冠儿还是不整。",
+          "hant": "睡覺來、冠兒還是不整。"
+        },
+        {
+          "id": "line-3",
+          "hans": "屏间麝煤冷。",
+          "hant": "屏間麝煤冷。"
+        },
+        {
+          "id": "line-4",
+          "hans": "但眉峰压翠，泪珠弹粉。",
+          "hant": "但眉峯壓翠，淚珠彈粉。"
+        },
+        {
+          "id": "line-5",
+          "hans": "堂深昼永。",
+          "hant": "堂深晝永。"
+        },
+        {
+          "id": "line-6",
+          "hans": "燕交飞、风帘露井。",
+          "hant": "燕交飛、風簾露井。"
+        },
+        {
+          "id": "line-7",
+          "hans": "恨无人，与说相思，近日带围宽尽。",
+          "hant": "恨無人，與說相思，近日帶圍寬盡。"
+        },
+        {
+          "id": "line-8",
+          "hans": "重省。",
+          "hant": "重省。"
+        },
+        {
+          "id": "line-9",
+          "hans": "残灯朱幌，淡月纱窗，那时风景。",
+          "hant": "殘燈朱幌，淡月紗窗，那時風景。"
+        },
+        {
+          "id": "line-10",
+          "hans": "阳台路迥。",
+          "hant": "陽臺路迥。"
+        },
+        {
+          "id": "line-11",
+          "hans": "云雨梦，便无准。",
+          "hant": "雲雨夢，便無準。"
+        },
+        {
+          "id": "line-12",
+          "hans": "待归来，先指花梢教看，却把心期细问。",
+          "hant": "待歸來，先指花梢教看，卻把心期細問。"
+        },
+        {
+          "id": "line-13",
+          "hans": "问因循、过了青春，怎生意稳。",
+          "hant": "問因循、過了青春，怎生意穩。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 101,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

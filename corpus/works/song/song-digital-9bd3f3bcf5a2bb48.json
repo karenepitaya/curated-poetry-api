@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-9bd3f3bcf5a2bb48",
+  "title": {
+    "hans": "玉楼春·池塘水绿春微暖",
+    "hant": "玉樓春·池塘水綠春微暖"
+  },
+  "author": {
+    "name": {
+      "hans": "欧阳修",
+      "hant": "歐陽修"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "玉楼春",
+    "hant": "玉樓春"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "池塘水绿春微暖。",
+          "hant": "池塘水綠春微暖。"
+        },
+        {
+          "id": "line-2",
+          "hans": "记得玉真初见面。",
+          "hant": "記得玉真初見面。"
+        },
+        {
+          "id": "line-3",
+          "hans": "从头歌韵响铮鏦，入破舞腰红乱旋。",
+          "hant": "從頭歌韻響錚鏦，入破舞腰紅亂旋。"
+        },
+        {
+          "id": "line-4",
+          "hans": "玉钩帘下香阶畔。",
+          "hant": "玉鉤簾下香階畔。"
+        },
+        {
+          "id": "line-5",
+          "hans": "醉後不知红日晚。",
+          "hant": "醉後不知紅日晚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "当时共我赏花人，点检如今无一半。",
+          "hant": "當時共我賞花人，點檢如今無一半。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 173,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

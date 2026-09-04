@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-c6e9ff9fa2905b91",
+  "title": {
+    "hans": "拜星月・拜星月慢·夜色催更",
+    "hant": "拜星月・拜星月慢·夜色催更"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "拜星月・拜星月慢",
+    "hant": "拜星月・拜星月慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "夜色催更，清尘收露，小曲幽坊月暗。",
+          "hant": "夜色催更，清塵收露，小曲幽坊月暗。"
+        },
+        {
+          "id": "line-2",
+          "hans": "竹槛灯窗，识秋娘庭院。",
+          "hant": "竹檻燈窗，識秋娘庭院。"
+        },
+        {
+          "id": "line-3",
+          "hans": "笑相遇，似觉琼枝玉树相倚，暖日明霞光烂。",
+          "hant": "笑相遇，似覺瓊枝玉樹相倚，暖日明霞光爛。"
+        },
+        {
+          "id": "line-4",
+          "hans": "水眄兰情，总平生稀见。",
+          "hant": "水眄蘭情，總平生稀見。"
+        },
+        {
+          "id": "line-5",
+          "hans": "画图中、旧识春风面。",
+          "hant": "畫圖中、舊識春風面。"
+        },
+        {
+          "id": "line-6",
+          "hans": "谁知道、自到瑶台畔。",
+          "hant": "誰知道、自到瑤臺畔。"
+        },
+        {
+          "id": "line-7",
+          "hans": "眷恋雨润云温，苦惊风吹散。",
+          "hant": "眷戀雨潤雲溫，苦驚風吹散。"
+        },
+        {
+          "id": "line-8",
+          "hans": "念荒寒、寄宿无人馆。",
+          "hant": "念荒寒、寄宿無人館。"
+        },
+        {
+          "id": "line-9",
+          "hans": "重门闭、败壁秋虫叹。",
+          "hant": "重門閉、敗壁秋蟲嘆。"
+        },
+        {
+          "id": "line-10",
+          "hans": "怎奈向、一缕相思，隔溪山不断。",
+          "hant": "怎奈向、一縷相思，隔溪山不斷。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 240,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

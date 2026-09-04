@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-0f9110983b749760",
+  "title": {
+    "hans": "虞美人·落花已作风前舞",
+    "hant": "虞美人·落花已作風前舞"
+  },
+  "author": {
+    "name": {
+      "hans": "叶梦得",
+      "hant": "葉夢得"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "虞美人",
+    "hant": "虞美人"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "落花已作风前舞。",
+          "hant": "落花已作風前舞。"
+        },
+        {
+          "id": "line-2",
+          "hans": "又送黄昏雨。",
+          "hant": "又送黃昏雨。"
+        },
+        {
+          "id": "line-3",
+          "hans": "晓来庭院半残红。",
+          "hant": "曉來庭院半殘紅。"
+        },
+        {
+          "id": "line-4",
+          "hans": "惟有游丝千丈、晴空。",
+          "hant": "惟有遊絲千丈、晴空。"
+        },
+        {
+          "id": "line-5",
+          "hans": "殷勤花下同携手。",
+          "hant": "殷勤花下同攜手。"
+        },
+        {
+          "id": "line-6",
+          "hans": "更尽杯中酒。",
+          "hant": "更盡杯中酒。"
+        },
+        {
+          "id": "line-7",
+          "hans": "美人不用敛蛾眉。",
+          "hant": "美人不用斂蛾眉。"
+        },
+        {
+          "id": "line-8",
+          "hans": "我亦多情、无奈酒阑时。",
+          "hant": "我亦多情、無奈酒闌時。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 264,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

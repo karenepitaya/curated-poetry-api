@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-76c76049bac2714f",
+  "title": {
+    "hans": "蝶恋花·醉别西楼醒不记",
+    "hant": "蝶戀花·醉別西樓醒不記"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蝶恋花",
+    "hant": "蝶戀花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "醉别西楼醒不记。",
+          "hant": "醉別西樓醒不記。"
+        },
+        {
+          "id": "line-2",
+          "hans": "春梦秋云，聚散真容易。",
+          "hant": "春夢秋雲，聚散真容易。"
+        },
+        {
+          "id": "line-3",
+          "hans": "斜月半窗还少睡。",
+          "hant": "斜月半窗還少睡。"
+        },
+        {
+          "id": "line-4",
+          "hans": "画屏闲展吴山翠。",
+          "hant": "畫屏閒展吳山翠。"
+        },
+        {
+          "id": "line-5",
+          "hans": "衣上酒痕诗里字。",
+          "hant": "衣上酒痕詩裏字。"
+        },
+        {
+          "id": "line-6",
+          "hans": "点点行行，总是凄凉意。",
+          "hant": "點點行行，總是淒涼意。"
+        },
+        {
+          "id": "line-7",
+          "hans": "红烛自怜无好计。",
+          "hant": "紅燭自憐無好計。"
+        },
+        {
+          "id": "line-8",
+          "hans": "夜寒空替人垂泪。",
+          "hant": "夜寒空替人垂淚。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 21,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

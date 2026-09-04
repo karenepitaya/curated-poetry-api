@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-7b3ec6cbb8fdfcc5",
+  "title": {
+    "hans": "蝶恋花·梦入江南烟水路",
+    "hant": "蝶戀花·夢入江南煙水路"
+  },
+  "author": {
+    "name": {
+      "hans": "晏几道",
+      "hant": "晏幾道"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "蝶恋花",
+    "hant": "蝶戀花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "梦入江南烟水路。",
+          "hant": "夢入江南煙水路。"
+        },
+        {
+          "id": "line-2",
+          "hans": "行尽江南，不与离人遇。",
+          "hant": "行盡江南，不與離人遇。"
+        },
+        {
+          "id": "line-3",
+          "hans": "睡里消魂无说处。",
+          "hant": "睡裏消魂無說處。"
+        },
+        {
+          "id": "line-4",
+          "hans": "觉来惆怅消魂误。",
+          "hant": "覺來惆悵消魂誤。"
+        },
+        {
+          "id": "line-5",
+          "hans": "欲尽此情书尺素。",
+          "hant": "欲盡此情書尺素。"
+        },
+        {
+          "id": "line-6",
+          "hans": "浮雁沈鱼，终了无凭据。",
+          "hant": "浮雁沈魚，終了無憑據。"
+        },
+        {
+          "id": "line-7",
+          "hans": "却倚缓弦歌别绪。",
+          "hant": "卻倚緩絃歌別緒。"
+        },
+        {
+          "id": "line-8",
+          "hans": "断肠移破秦筝柱。",
+          "hant": "斷腸移破秦箏柱。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 22,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

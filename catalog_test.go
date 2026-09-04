@@ -15,18 +15,18 @@ func TestEmbeddedCatalogLoadsMigratedCorpus(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Load() error = %v", err)
 	}
-	if catalog.Count() != 50 {
-		t.Fatalf("Count() = %d, want 50", catalog.Count())
+	if catalog.Count() != 326 {
+		t.Fatalf("Count() = %d, want 326", catalog.Count())
 	}
 	stats := catalog.Stats()
-	if stats.Works != 50 || stats.ByDynasty[DynastyTang] != 50 || stats.ByDynasty[DynastySong] != 0 {
+	if stats.Works != 326 || stats.ByDynasty[DynastyTang] != 50 || stats.ByDynasty[DynastySong] != 276 {
 		t.Fatalf("Stats() = %#v", stats)
 	}
 	if len(stats.CorpusRevision) != 64 {
 		t.Fatalf("corpus revision length = %d, want 64", len(stats.CorpusRevision))
 	}
-	if len(catalog.editions) != 32 {
-		t.Fatalf("edition count = %d, want 32", len(catalog.editions))
+	if len(catalog.editions) != 33 {
+		t.Fatalf("edition count = %d, want 33", len(catalog.editions))
 	}
 	for _, edition := range catalog.editions {
 		if edition.ID == "nlc-tang300-1933" && edition.RevisionID != "845982203" {
@@ -216,6 +216,7 @@ func TestValidateCorpusRejectsMissingVariant(t *testing.T) {
 			editions:       catalog.editions,
 			collections:    catalog.collections,
 			normalizations: catalog.normalizations,
+			digitalRecords: mustDigitalRecords(t),
 		}, false)
 		if err == nil || !strings.Contains(err.Error(), "variants reconstruct") {
 			t.Fatalf("validateCorpus() error = %v, want witness reconstruction failure", err)
@@ -228,12 +229,18 @@ func TestValidateCorpusRejectsMissingVariant(t *testing.T) {
 func TestValidateCorpusRejectsUntrackedNormalization(t *testing.T) {
 	catalog := mustLoad(t)
 	works := catalog.Works()
-	works[0].Sections[0].Lines[0].Hans = "不一致。"
+	for i := range works {
+		if works[i].Dynasty == DynastyTang {
+			works[i].Sections[0].Lines[0].Hans = "不一致。"
+			break
+		}
+	}
 	err := validateCorpus(corpusData{
 		works:          works,
 		editions:       catalog.editions,
 		collections:    catalog.collections,
 		normalizations: catalog.normalizations,
+		digitalRecords: mustDigitalRecords(t),
 	}, false)
 	if err == nil || !strings.Contains(err.Error(), "normalization produced") {
 		t.Fatalf("validateCorpus() error = %v, want normalization mismatch", err)
@@ -250,6 +257,7 @@ func TestCompleteCollectionRequiresExpectedCount(t *testing.T) {
 		editions:       catalog.editions,
 		collections:    collections,
 		normalizations: catalog.normalizations,
+		digitalRecords: mustDigitalRecords(t),
 	}, false)
 	if err == nil || !strings.Contains(err.Error(), "complete collection requires expectedCount") {
 		t.Fatalf("validateCorpus() error = %v", err)
@@ -279,6 +287,7 @@ func TestCollectionRejectsNegativeExpectedCount(t *testing.T) {
 		editions:       catalog.editions,
 		collections:    collections,
 		normalizations: catalog.normalizations,
+		digitalRecords: mustDigitalRecords(t),
 	}, false)
 	if err == nil || !strings.Contains(err.Error(), "expectedCount must not be negative") {
 		t.Fatalf("validateCorpus() error = %v", err)
@@ -294,6 +303,7 @@ func TestWorkRejectsDuplicateSectionID(t *testing.T) {
 		editions:       catalog.editions,
 		collections:    catalog.collections,
 		normalizations: catalog.normalizations,
+		digitalRecords: mustDigitalRecords(t),
 	}, false)
 	if err == nil || !strings.Contains(err.Error(), "duplicate section id") {
 		t.Fatalf("validateCorpus() error = %v", err)
@@ -572,4 +582,13 @@ func (o overlayFS) Open(name string) (fs.File, error) {
 		return o.files.Open(name)
 	}
 	return o.base.Open(name)
+}
+
+func mustDigitalRecords(t *testing.T) map[string][]digitalRecord {
+	t.Helper()
+	data, err := loadCorpus(embeddedCorpus, nil)
+	if err != nil {
+		t.Fatal(err)
+	}
+	return data.digitalRecords
 }

@@ -1,0 +1,74 @@
+{
+  "id": "song-digital-bf41f9cc65682c51",
+  "title": {
+    "hans": "浣溪沙·波面铜花冷不收",
+    "hant": "浣溪沙·波面銅花冷不收"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "浣溪沙",
+    "hant": "浣溪沙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "波面铜花冷不收。",
+          "hant": "波面銅花冷不收。"
+        },
+        {
+          "id": "line-2",
+          "hans": "玉人垂钓理纤钩。",
+          "hant": "玉人垂釣理纖鉤。"
+        },
+        {
+          "id": "line-3",
+          "hans": "月明池阁夜来秋。",
+          "hant": "月明池閣夜來秋。"
+        },
+        {
+          "id": "line-4",
+          "hans": "江燕话归成晓别，水花红减似春休。",
+          "hant": "江燕話歸成曉別，水花紅減似春休。"
+        },
+        {
+          "id": "line-5",
+          "hans": "西风梧井叶先愁。",
+          "hant": "西風梧井葉先愁。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 193,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

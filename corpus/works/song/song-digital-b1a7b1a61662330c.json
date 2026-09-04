@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-b1a7b1a61662330c",
+  "title": {
+    "hans": "夜合花·柳暝河桥",
+    "hant": "夜合花·柳暝河橋"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "夜合花",
+    "hant": "夜合花"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "柳暝河桥，莺晴台苑，短策频惹春香。",
+          "hant": "柳暝河橋，鶯晴臺苑，短策頻惹春香。"
+        },
+        {
+          "id": "line-2",
+          "hans": "当时夜泊，温柔便入深乡。",
+          "hant": "當時夜泊，溫柔便入深鄉。"
+        },
+        {
+          "id": "line-3",
+          "hans": "词韵窄，酒杯长。",
+          "hant": "詞韻窄，酒杯長。"
+        },
+        {
+          "id": "line-4",
+          "hans": "翦蜡花、壶箭催忙。",
+          "hant": "翦蠟花、壺箭催忙。"
+        },
+        {
+          "id": "line-5",
+          "hans": "共追游处，凌波翠陌，连棹横塘。",
+          "hant": "共追遊處，凌波翠陌，連棹橫塘。"
+        },
+        {
+          "id": "line-6",
+          "hans": "十年一梦凄凉。",
+          "hant": "十年一夢淒涼。"
+        },
+        {
+          "id": "line-7",
+          "hans": "似西湖燕去，吴馆巢荒。",
+          "hant": "似西湖燕去，吳館巢荒。"
+        },
+        {
+          "id": "line-8",
+          "hans": "重来万感，依前唤酒银罂。",
+          "hant": "重來萬感，依前喚酒銀罌。"
+        },
+        {
+          "id": "line-9",
+          "hans": "溪雨急，岸花狂。",
+          "hant": "溪雨急，岸花狂。"
+        },
+        {
+          "id": "line-10",
+          "hans": "趁残鸦、飞过苍茫。",
+          "hant": "趁殘鴉、飛過蒼茫。"
+        },
+        {
+          "id": "line-11",
+          "hans": "故人楼上，凭谁指与，芳草斜阳。",
+          "hant": "故人樓上，憑誰指與，芳草斜陽。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 82,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

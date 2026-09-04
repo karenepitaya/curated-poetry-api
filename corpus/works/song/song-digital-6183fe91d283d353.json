@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-6183fe91d283d353",
+  "title": {
+    "hans": "烛影摇红·霭霭春空",
+    "hant": "燭影搖紅·靄靄春空"
+  },
+  "author": {
+    "name": {
+      "hans": "廖世美",
+      "hant": "廖世美"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "烛影摇红",
+    "hant": "燭影搖紅"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "霭霭春空，画楼森耸凌云渚。",
+          "hant": "靄靄春空，畫樓森聳凌雲渚。"
+        },
+        {
+          "id": "line-2",
+          "hans": "紫薇登览最关情，绝妙夸能赋。",
+          "hant": "紫薇登覽最關情，絕妙誇能賦。"
+        },
+        {
+          "id": "line-3",
+          "hans": "惆怅相思迟暮。",
+          "hant": "惆悵相思遲暮。"
+        },
+        {
+          "id": "line-4",
+          "hans": "记当日、朱阑共语。",
+          "hant": "記當日、朱闌共語。"
+        },
+        {
+          "id": "line-5",
+          "hans": "塞鸿难问，岸柳何穷，别愁纷絮。",
+          "hant": "塞鴻難問，岸柳何窮，別愁紛絮。"
+        },
+        {
+          "id": "line-6",
+          "hans": "催促年光，旧来流水知何处。",
+          "hant": "催促年光，舊來流水知何處。"
+        },
+        {
+          "id": "line-7",
+          "hans": "断肠何必更残阳，极目伤平楚。",
+          "hant": "斷腸何必更殘陽，極目傷平楚。"
+        },
+        {
+          "id": "line-8",
+          "hans": "晚霁波声带雨。",
+          "hant": "晚霽波聲帶雨。"
+        },
+        {
+          "id": "line-9",
+          "hans": "悄无人、舟横野渡。",
+          "hant": "悄無人、舟橫野渡。"
+        },
+        {
+          "id": "line-10",
+          "hans": "数峰江上，芳草天涯，参差烟树。",
+          "hant": "數峯江上，芳草天涯，參差煙樹。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 199,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

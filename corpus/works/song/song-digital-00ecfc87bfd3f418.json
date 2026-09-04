@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-00ecfc87bfd3f418",
+  "title": {
+    "hans": "八声甘州·渺空烟四远",
+    "hant": "八聲甘州·渺空煙四遠"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "八声甘州",
+    "hant": "八聲甘州"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "渺空烟四远，是何年、青天坠长星。",
+          "hant": "渺空煙四遠，是何年、青天墜長星。"
+        },
+        {
+          "id": "line-2",
+          "hans": "幻苍崖云树，名娃金屋，残霸宫城。",
+          "hant": "幻蒼崖雲樹，名娃金屋，殘霸宮城。"
+        },
+        {
+          "id": "line-3",
+          "hans": "箭径酸风射眼，腻水染花腥。",
+          "hant": "箭徑酸風射眼，膩水染花腥。"
+        },
+        {
+          "id": "line-4",
+          "hans": "时靸双鸳响，廊叶秋声。",
+          "hant": "時靸雙鴛響，廊葉秋聲。"
+        },
+        {
+          "id": "line-5",
+          "hans": "宫里吴王沈醉，倩五湖倦客，独钓醒醒。",
+          "hant": "宮裏吳王沈醉，倩五湖倦客，獨釣醒醒。"
+        },
+        {
+          "id": "line-6",
+          "hans": "问苍波无语，华发奈山青。",
+          "hant": "問蒼波無語，華髮奈山青。"
+        },
+        {
+          "id": "line-7",
+          "hans": "水涵空、阑干高处，送乱鸦、斜日落渔汀。",
+          "hant": "水涵空、闌干高處，送亂鴉、斜日落漁汀。"
+        },
+        {
+          "id": "line-8",
+          "hans": "连呼酒，上琴台去，秋与云平。",
+          "hant": "連呼酒，上琴臺去，秋與雲平。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 81,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

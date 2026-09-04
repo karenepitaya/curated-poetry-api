@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-0b7da43be8ae4175",
+  "title": {
+    "hans": "踏莎行·燕燕轻盈",
+    "hant": "踏莎行·燕燕輕盈"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "踏莎行",
+    "hant": "踏莎行"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "燕燕轻盈，莺莺娇软。",
+          "hant": "燕燕輕盈，鶯鶯嬌軟。"
+        },
+        {
+          "id": "line-2",
+          "hans": "分明又向华胥见。",
+          "hant": "分明又向華胥見。"
+        },
+        {
+          "id": "line-3",
+          "hans": "夜长争得薄情知，春初早被相思染。",
+          "hant": "夜長爭得薄情知，春初早被相思染。"
+        },
+        {
+          "id": "line-4",
+          "hans": "别後书辞，别时针线。",
+          "hant": "別後書辭，別時針線。"
+        },
+        {
+          "id": "line-5",
+          "hans": "离魂暗逐郎行远。",
+          "hant": "離魂暗逐郎行遠。"
+        },
+        {
+          "id": "line-6",
+          "hans": "淮南皓月冷千山，冥冥归去无人管。",
+          "hant": "淮南皓月冷千山，冥冥歸去無人管。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 124,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

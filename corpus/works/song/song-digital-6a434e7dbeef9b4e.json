@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-6a434e7dbeef9b4e",
+  "title": {
+    "hans": "金缕歌・贺新郎·乔木生云气",
+    "hant": "金縷歌・賀新郎·喬木生雲氣"
+  },
+  "author": {
+    "name": {
+      "hans": "吴文英",
+      "hant": "吳文英"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "金缕歌・贺新郎",
+    "hant": "金縷歌・賀新郎"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "乔木生云气。",
+          "hant": "喬木生雲氣。"
+        },
+        {
+          "id": "line-2",
+          "hans": "访中兴、英雄陈迹，暗追前事。",
+          "hant": "訪中興、英雄陳跡，暗追前事。"
+        },
+        {
+          "id": "line-3",
+          "hans": "战舰东风悭借便，梦断神州故里。",
+          "hant": "戰艦東風慳借便，夢斷神州故里。"
+        },
+        {
+          "id": "line-4",
+          "hans": "旋小筑、吴宫闲地。",
+          "hant": "旋小築、吳宮閒地。"
+        },
+        {
+          "id": "line-5",
+          "hans": "华表月明归夜鹤，叹当时、花竹今如此。",
+          "hant": "華表月明歸夜鶴，嘆當時、花竹今如此。"
+        },
+        {
+          "id": "line-6",
+          "hans": "枝上露，溅清泪。",
+          "hant": "枝上露，濺清淚。"
+        },
+        {
+          "id": "line-7",
+          "hans": "遨头小簇行春队。",
+          "hant": "遨頭小簇行春隊。"
+        },
+        {
+          "id": "line-8",
+          "hans": "步苍苔、寻幽别坞，问梅开未。",
+          "hant": "步蒼苔、尋幽別塢，問梅開未。"
+        },
+        {
+          "id": "line-9",
+          "hans": "重唱梅边吸度曲，催发寒梢冻蕊。",
+          "hant": "重唱梅邊吸度曲，催發寒梢凍蕊。"
+        },
+        {
+          "id": "line-10",
+          "hans": "此心与、东君同意。",
+          "hant": "此心與、東君同意。"
+        },
+        {
+          "id": "line-11",
+          "hans": "後不如今非昔，两无言、相对沧浪水。",
+          "hant": "後不如今非昔，兩無言、相對滄浪水。"
+        },
+        {
+          "id": "line-12",
+          "hans": "怀此恨，寄残醉。",
+          "hant": "懷此恨，寄殘醉。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 87,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

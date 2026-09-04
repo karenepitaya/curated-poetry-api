@@ -1,0 +1,104 @@
+{
+  "id": "song-digital-38180b21f486f096",
+  "title": {
+    "hans": "定风波·莫听穿林打叶声",
+    "hant": "定風波·莫聽穿林打葉聲"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "定风波",
+    "hant": "定風波"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "莫听穿林打叶声。",
+          "hant": "莫聽穿林打葉聲。"
+        },
+        {
+          "id": "line-2",
+          "hans": "何妨吟啸且徐行。",
+          "hant": "何妨吟嘯且徐行。"
+        },
+        {
+          "id": "line-3",
+          "hans": "竹杖芒鞋轻胜马。",
+          "hant": "竹杖芒鞋輕勝馬。"
+        },
+        {
+          "id": "line-4",
+          "hans": "谁怕。",
+          "hant": "誰怕。"
+        },
+        {
+          "id": "line-5",
+          "hans": "一蓑烟雨任平生。",
+          "hant": "一蓑煙雨任平生。"
+        },
+        {
+          "id": "line-6",
+          "hans": "料峭春风吹酒醒。",
+          "hant": "料峭春風吹酒醒。"
+        },
+        {
+          "id": "line-7",
+          "hans": "微冷。",
+          "hant": "微冷。"
+        },
+        {
+          "id": "line-8",
+          "hans": "山头斜照却相迎。",
+          "hant": "山頭斜照卻相迎。"
+        },
+        {
+          "id": "line-9",
+          "hans": "回首向来萧瑟处。",
+          "hant": "回首向來蕭瑟處。"
+        },
+        {
+          "id": "line-10",
+          "hans": "归去。",
+          "hant": "歸去。"
+        },
+        {
+          "id": "line-11",
+          "hans": "也无风雨也无晴。",
+          "hant": "也無風雨也無晴。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 40,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

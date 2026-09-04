@@ -1,0 +1,109 @@
+{
+  "id": "song-digital-b29a21b66e8ed5bb",
+  "title": {
+    "hans": "贺新郎·篆缕销金鼎",
+    "hant": "賀新郎·篆縷銷金鼎"
+  },
+  "author": {
+    "name": {
+      "hans": "李玉",
+      "hant": "李玉"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "贺新郎",
+    "hant": "賀新郎"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "篆缕销金鼎。",
+          "hant": "篆縷銷金鼎。"
+        },
+        {
+          "id": "line-2",
+          "hans": "醉沈沈、庭阴转午，画堂人静。",
+          "hant": "醉沈沈、庭陰轉午，畫堂人靜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "芳草王孙知何处，惟有杨花糁径。",
+          "hant": "芳草王孫知何處，惟有楊花糝徑。"
+        },
+        {
+          "id": "line-4",
+          "hans": "渐玉枕、腾腾春醒。",
+          "hant": "漸玉枕、騰騰春醒。"
+        },
+        {
+          "id": "line-5",
+          "hans": "帘外残红春已透，镇无聊、酒厌厌病。",
+          "hant": "簾外殘紅春已透，鎮無聊、酒厭厭病。"
+        },
+        {
+          "id": "line-6",
+          "hans": "云鬓乱，未整。",
+          "hant": "雲鬢亂，未整。"
+        },
+        {
+          "id": "line-7",
+          "hans": "江南旧事休重省。",
+          "hant": "江南舊事休重省。"
+        },
+        {
+          "id": "line-8",
+          "hans": "遍天涯、寻消问息，断鸿难倩。",
+          "hant": "遍天涯、尋消問息，斷鴻難倩。"
+        },
+        {
+          "id": "line-9",
+          "hans": "月满西楼凭栏久，依旧归期未定。",
+          "hant": "月滿西樓憑欄久，依舊歸期未定。"
+        },
+        {
+          "id": "line-10",
+          "hans": "又只恐、瓶沈金井。",
+          "hant": "又只恐、瓶沈金井。"
+        },
+        {
+          "id": "line-11",
+          "hans": "嘶骑不来银烛暗，枉教人、立尽梧桐影。",
+          "hant": "嘶騎不來銀燭暗，枉教人、立盡梧桐影。"
+        },
+        {
+          "id": "line-12",
+          "hans": "谁伴我，对鸾镜。",
+          "hant": "誰伴我，對鸞鏡。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 111,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

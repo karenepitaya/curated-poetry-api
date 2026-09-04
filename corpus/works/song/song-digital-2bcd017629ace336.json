@@ -1,0 +1,79 @@
+{
+  "id": "song-digital-2bcd017629ace336",
+  "title": {
+    "hans": "临江仙·高咏楚词酬午日",
+    "hant": "臨江仙·高詠楚詞酬午日"
+  },
+  "author": {
+    "name": {
+      "hans": "陈与义",
+      "hant": "陳與義"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "临江仙",
+    "hant": "臨江仙"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "高咏楚词酬午日，天涯节序匆匆。",
+          "hant": "高詠楚詞酬午日，天涯節序匆匆。"
+        },
+        {
+          "id": "line-2",
+          "hans": "榴花不似舞裙红。",
+          "hant": "榴花不似舞裙紅。"
+        },
+        {
+          "id": "line-3",
+          "hans": "无人知此意，歌罢满帘风。",
+          "hant": "無人知此意，歌罷滿簾風。"
+        },
+        {
+          "id": "line-4",
+          "hans": "万事一身伤老矣，戌葵凝笑墙东。",
+          "hant": "萬事一身傷老矣，戌葵凝笑牆東。"
+        },
+        {
+          "id": "line-5",
+          "hans": "酒杯深浅去年同。",
+          "hant": "酒杯深淺去年同。"
+        },
+        {
+          "id": "line-6",
+          "hans": "试浇桥下水，今夕到湘中。",
+          "hant": "試澆橋下水，今夕到湘中。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 112,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

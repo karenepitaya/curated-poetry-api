@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-4550eee04964c203",
+  "title": {
+    "hans": "扬州慢·淮左名都",
+    "hant": "揚州慢·淮左名都"
+  },
+  "author": {
+    "name": {
+      "hans": "姜夔",
+      "hant": "姜夔"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "扬州慢",
+    "hant": "揚州慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "淮左名都，竹西佳处，解鞍少驻初程。",
+          "hant": "淮左名都，竹西佳處，解鞍少駐初程。"
+        },
+        {
+          "id": "line-2",
+          "hans": "过春风十里，尽荠麦青青。",
+          "hant": "過春風十里，盡薺麥青青。"
+        },
+        {
+          "id": "line-3",
+          "hans": "自胡马窥江去後，废池乔木，犹厌言兵。",
+          "hant": "自胡馬窺江去後，廢池喬木，猶厭言兵。"
+        },
+        {
+          "id": "line-4",
+          "hans": "渐黄昏，清角吹寒，都在空城。",
+          "hant": "漸黃昏，清角吹寒，都在空城。"
+        },
+        {
+          "id": "line-5",
+          "hans": "杜郎俊赏，算而今，重到须惊。",
+          "hant": "杜郎俊賞，算而今，重到須驚。"
+        },
+        {
+          "id": "line-6",
+          "hans": "纵豆蔻词工，青楼梦好，难赋深情。",
+          "hant": "縱豆蔻詞工，青樓夢好，難賦深情。"
+        },
+        {
+          "id": "line-7",
+          "hans": "二十四桥仍在，波心荡、冷月无声。",
+          "hant": "二十四橋仍在，波心蕩、冷月無聲。"
+        },
+        {
+          "id": "line-8",
+          "hans": "念桥边红药，年年知为谁生。",
+          "hant": "念橋邊紅藥，年年知爲誰生。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 132,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

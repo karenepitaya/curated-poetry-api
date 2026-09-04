@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-7142366ed6843c3a",
+  "title": {
+    "hans": "江神子・江城子·十年生死两茫茫",
+    "hant": "江神子・江城子·十年生死兩茫茫"
+  },
+  "author": {
+    "name": {
+      "hans": "苏轼",
+      "hant": "蘇軾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "江神子・江城子",
+    "hant": "江神子・江城子"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "十年生死两茫茫。",
+          "hant": "十年生死兩茫茫。"
+        },
+        {
+          "id": "line-2",
+          "hans": "不思量。",
+          "hant": "不思量。"
+        },
+        {
+          "id": "line-3",
+          "hans": "自难忘。",
+          "hant": "自難忘。"
+        },
+        {
+          "id": "line-4",
+          "hans": "千里孤坟，无处话凄凉。",
+          "hant": "千里孤墳，無處話淒涼。"
+        },
+        {
+          "id": "line-5",
+          "hans": "纵使相逢应不识，尘满面，鬓如霜。",
+          "hant": "縱使相逢應不識，塵滿面，鬢如霜。"
+        },
+        {
+          "id": "line-6",
+          "hans": "夜来幽梦忽还乡。",
+          "hant": "夜來幽夢忽還鄉。"
+        },
+        {
+          "id": "line-7",
+          "hans": "小轩窗。",
+          "hant": "小軒窗。"
+        },
+        {
+          "id": "line-8",
+          "hans": "正梳妆。",
+          "hant": "正梳妝。"
+        },
+        {
+          "id": "line-9",
+          "hans": "相顾无言，惟有泪千行。",
+          "hant": "相顧無言，惟有淚千行。"
+        },
+        {
+          "id": "line-10",
+          "hans": "料得年年断肠处，明月夜，短松冈。",
+          "hant": "料得年年斷腸處，明月夜，短松岡。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 44,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

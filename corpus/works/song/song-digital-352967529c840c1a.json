@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-352967529c840c1a",
+  "title": {
+    "hans": "花犯·粉墙低",
+    "hant": "花犯·粉牆低"
+  },
+  "author": {
+    "name": {
+      "hans": "周邦彦",
+      "hant": "周邦彥"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "花犯",
+    "hant": "花犯"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "粉墙低，梅花照眼，依然旧风味。",
+          "hant": "粉牆低，梅花照眼，依然舊風味。"
+        },
+        {
+          "id": "line-2",
+          "hans": "露痕轻缀。",
+          "hant": "露痕輕綴。"
+        },
+        {
+          "id": "line-3",
+          "hans": "疑净洗铅华，无限佳丽。",
+          "hant": "疑淨洗鉛華，無限佳麗。"
+        },
+        {
+          "id": "line-4",
+          "hans": "去年胜赏曾孤倚。",
+          "hant": "去年勝賞曾孤倚。"
+        },
+        {
+          "id": "line-5",
+          "hans": "冰盘同宴喜。",
+          "hant": "冰盤同宴喜。"
+        },
+        {
+          "id": "line-6",
+          "hans": "更可惜，雪中高树，香篝熏素被。",
+          "hant": "更可惜，雪中高樹，香篝燻素被。"
+        },
+        {
+          "id": "line-7",
+          "hans": "今年对花最匆匆，相逢似有恨，依依愁悴。",
+          "hant": "今年對花最匆匆，相逢似有恨，依依愁悴。"
+        },
+        {
+          "id": "line-8",
+          "hans": "吟望久，青苔上、旋看飞坠。",
+          "hant": "吟望久，青苔上、旋看飛墜。"
+        },
+        {
+          "id": "line-9",
+          "hans": "相将见、脆丸荐酒，人正在、空江烟浪里。",
+          "hant": "相將見、脆丸薦酒，人正在、空江煙浪裏。"
+        },
+        {
+          "id": "line-10",
+          "hans": "但梦想、一枝潇洒，黄昏斜照水。",
+          "hant": "但夢想、一枝瀟灑，黃昏斜照水。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 235,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

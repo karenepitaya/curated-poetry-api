@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-a02307cd60229e9d",
+  "title": {
+    "hans": "水龙吟·问春何苦匆匆",
+    "hant": "水龍吟·問春何苦匆匆"
+  },
+  "author": {
+    "name": {
+      "hans": "晁补之",
+      "hant": "晁補之"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "水龙吟",
+    "hant": "水龍吟"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "问春何苦匆匆，带风伴雨如驰骤。",
+          "hant": "問春何苦匆匆，帶風伴雨如馳驟。"
+        },
+        {
+          "id": "line-2",
+          "hans": "幽葩细萼，小园低槛，壅培未就。",
+          "hant": "幽葩細萼，小園低檻，壅培未就。"
+        },
+        {
+          "id": "line-3",
+          "hans": "吹尽繁红，占春长久，不如垂柳。",
+          "hant": "吹盡繁紅，佔春長久，不如垂柳。"
+        },
+        {
+          "id": "line-4",
+          "hans": "算春常不老，人愁春老，愁只是、人间有。",
+          "hant": "算春常不老，人愁春老，愁只是、人間有。"
+        },
+        {
+          "id": "line-5",
+          "hans": "春恨十常八九。",
+          "hant": "春恨十常八九。"
+        },
+        {
+          "id": "line-6",
+          "hans": "忍轻辜、芳醪经口。",
+          "hant": "忍輕辜、芳醪經口。"
+        },
+        {
+          "id": "line-7",
+          "hans": "那知自是，桃花结子，不因春瘦。",
+          "hant": "那知自是，桃花結子，不因春瘦。"
+        },
+        {
+          "id": "line-8",
+          "hans": "世上功名，老来风味，春归时候。",
+          "hant": "世上功名，老來風味，春歸時候。"
+        },
+        {
+          "id": "line-9",
+          "hans": "纵樽前痛饮，狂歌似旧，情难依旧。",
+          "hant": "縱樽前痛飲，狂歌似舊，情難依舊。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 220,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

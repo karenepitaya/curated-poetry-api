@@ -1,0 +1,89 @@
+{
+  "id": "song-digital-0f8bf6866589cb95",
+  "title": {
+    "hans": "小重山·柳暗花明春事深",
+    "hant": "小重山·柳暗花明春事深"
+  },
+  "author": {
+    "name": {
+      "hans": "章良能",
+      "hant": "章良能"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "小重山",
+    "hant": "小重山"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "柳暗花明春事深。",
+          "hant": "柳暗花明春事深。"
+        },
+        {
+          "id": "line-2",
+          "hans": "小阑红芍药，已抽簪。",
+          "hant": "小闌紅芍藥，已抽簪。"
+        },
+        {
+          "id": "line-3",
+          "hans": "雨馀风软碎鸣禽。",
+          "hant": "雨餘風軟碎鳴禽。"
+        },
+        {
+          "id": "line-4",
+          "hans": "迟迟日，犹带一分阴。",
+          "hant": "遲遲日，猶帶一分陰。"
+        },
+        {
+          "id": "line-5",
+          "hans": "往事莫沈吟。",
+          "hant": "往事莫沈吟。"
+        },
+        {
+          "id": "line-6",
+          "hans": "身闲时序好，且登临。",
+          "hant": "身閒時序好，且登臨。"
+        },
+        {
+          "id": "line-7",
+          "hans": "旧游无处不堪寻。",
+          "hant": "舊遊無處不堪尋。"
+        },
+        {
+          "id": "line-8",
+          "hans": "无寻处，惟有少年心。",
+          "hant": "無尋處，惟有少年心。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 189,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

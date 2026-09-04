@@ -1,0 +1,99 @@
+{
+  "id": "song-digital-bc779e64a252ce46",
+  "title": {
+    "hans": "木兰花慢·老来情味减",
+    "hant": "木蘭花慢·老來情味減"
+  },
+  "author": {
+    "name": {
+      "hans": "辛弃疾",
+      "hant": "辛棄疾"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "木兰花慢",
+    "hant": "木蘭花慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "老来情味减，对别酒、怯流年。",
+          "hant": "老來情味減，對別酒、怯流年。"
+        },
+        {
+          "id": "line-2",
+          "hans": "况屈指中秋，十分好月，不照人圆。",
+          "hant": "況屈指中秋，十分好月，不照人圓。"
+        },
+        {
+          "id": "line-3",
+          "hans": "无情水、都不管，共西风、只等送归船。",
+          "hant": "無情水、都不管，共西風、只等送歸船。"
+        },
+        {
+          "id": "line-4",
+          "hans": "秋晚莼鲈江上，夜深儿女灯前。",
+          "hant": "秋晚蓴鱸江上，夜深兒女燈前。"
+        },
+        {
+          "id": "line-5",
+          "hans": "征衫。",
+          "hant": "征衫。"
+        },
+        {
+          "id": "line-6",
+          "hans": "便好去朝天。",
+          "hant": "便好去朝天。"
+        },
+        {
+          "id": "line-7",
+          "hans": "玉殿正思贤。",
+          "hant": "玉殿正思賢。"
+        },
+        {
+          "id": "line-8",
+          "hans": "想夜半承明，留教视草，却遣筹边。",
+          "hant": "想夜半承明，留教視草，卻遣籌邊。"
+        },
+        {
+          "id": "line-9",
+          "hans": "长安故人问我，道寻常、泥酒只依然。",
+          "hant": "長安故人問我，道尋常、泥酒只依然。"
+        },
+        {
+          "id": "line-10",
+          "hans": "目断秋霄落雁，醉来时响空弦。",
+          "hant": "目斷秋霄落雁，醉來時響空弦。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 212,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

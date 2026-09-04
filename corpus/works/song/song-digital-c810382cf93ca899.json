@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-c810382cf93ca899",
+  "title": {
+    "hans": "瑶花慢·朱钿宝",
+    "hant": "瑤花慢·朱鈿寶"
+  },
+  "author": {
+    "name": {
+      "hans": "周密",
+      "hant": "周密"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "瑶花慢",
+    "hant": "瑤花慢"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "朱钿宝。",
+          "hant": "朱鈿寶。"
+        },
+        {
+          "id": "line-2",
+          "hans": "天上飞琼，比人间春别。",
+          "hant": "天上飛瓊，比人間春別。"
+        },
+        {
+          "id": "line-3",
+          "hans": "江南江北，曾未见，谩拟梨云梅雪。",
+          "hant": "江南江北，曾未見，謾擬梨雲梅雪。"
+        },
+        {
+          "id": "line-4",
+          "hans": "淮山春晚，问谁识、芳心高洁。",
+          "hant": "淮山春晚，問誰識、芳心高潔。"
+        },
+        {
+          "id": "line-5",
+          "hans": "消几番、花落花开，老了玉关豪杰。",
+          "hant": "消幾番、花落花開，老了玉關豪傑。"
+        },
+        {
+          "id": "line-6",
+          "hans": "金壶翦送琼枝，看一骑红尘，香度瑶阙。",
+          "hant": "金壺翦送瓊枝，看一騎紅塵，香度瑤闕。"
+        },
+        {
+          "id": "line-7",
+          "hans": "韶华正好，应自喜、初识长安蜂蝶。",
+          "hant": "韶華正好，應自喜、初識長安蜂蝶。"
+        },
+        {
+          "id": "line-8",
+          "hans": "杜郎老矣，想旧事、花须能说。",
+          "hant": "杜郎老矣，想舊事、花須能說。"
+        },
+        {
+          "id": "line-9",
+          "hans": "记少年，一梦扬州，二十四桥明月。",
+          "hant": "記少年，一夢揚州，二十四橋明月。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 94,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}

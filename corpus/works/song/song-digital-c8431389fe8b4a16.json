@@ -1,0 +1,94 @@
+{
+  "id": "song-digital-c8431389fe8b4a16",
+  "title": {
+    "hans": "满庭芳·晓色云开",
+    "hant": "滿庭芳·曉色雲開"
+  },
+  "author": {
+    "name": {
+      "hans": "秦观",
+      "hant": "秦觀"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "song",
+  "genre": "ci",
+  "form": "ci",
+  "meter": "mixed",
+  "tune": {
+    "hans": "满庭芳",
+    "hant": "滿庭芳"
+  },
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "晓色云开，春随人意，骤雨才过还晴。",
+          "hant": "曉色雲開，春隨人意，驟雨才過還晴。"
+        },
+        {
+          "id": "line-2",
+          "hans": "古台芳榭，飞燕蹴红英。",
+          "hant": "古臺芳榭，飛燕蹴紅英。"
+        },
+        {
+          "id": "line-3",
+          "hans": "舞困榆钱自落，秋千外、绿水桥平。",
+          "hant": "舞困榆錢自落，鞦韆外、綠水橋平。"
+        },
+        {
+          "id": "line-4",
+          "hans": "东风里，朱门映柳，低底按小秦筝。",
+          "hant": "東風裏，朱門映柳，低底按小秦箏。"
+        },
+        {
+          "id": "line-5",
+          "hans": "多情。",
+          "hant": "多情。"
+        },
+        {
+          "id": "line-6",
+          "hans": "行乐处，珠钿翠盖，玉辔红缨。",
+          "hant": "行樂處，珠鈿翠蓋，玉轡紅纓。"
+        },
+        {
+          "id": "line-7",
+          "hans": "渐酒空金，花困蓬瀛。",
+          "hant": "漸酒空金，花困蓬瀛。"
+        },
+        {
+          "id": "line-8",
+          "hans": "豆蔻梢头旧恨，十年梦，屈指堪惊。",
+          "hant": "豆蔻梢頭舊恨，十年夢，屈指堪驚。"
+        },
+        {
+          "id": "line-9",
+          "hans": "凭阑久，疏烟淡日，寂寞下芜城。",
+          "hant": "憑闌久，疏煙淡日，寂寞下蕪城。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "songci-digital-selection",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "digital-text-checked",
+    "status": "validated",
+    "witnesses": [],
+    "variants": [],
+    "reviewedAt": "2026-09-05",
+    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "digitalSource": {
+      "editionId": "chinese-poetry-songci-b8594f8",
+      "recordIndex": 70,
+      "conversion": "opencc-python-reimplemented@0.1.7:s2t"
+    }
+  }
+}
