@@ -1,0 +1,83 @@
+{
+  "id": "tang-zhang-hu-ji-ling-tai-qi-yi",
+  "title": {
+    "hans": "集灵台二首其一",
+    "hant": "集靈臺二首其一"
+  },
+  "author": {
+    "name": {
+      "hans": "张祜",
+      "hant": "张祜"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "日光斜照集灵台，",
+          "hant": "日光斜照集靈臺，"
+        },
+        {
+          "id": "line-2",
+          "hans": "红树花迎晓露开。",
+          "hant": "紅樹花迎曉露開。"
+        },
+        {
+          "id": "line-3",
+          "hans": "昨夜上皇新授箓，",
+          "hant": "昨夜上皇新授籙，"
+        },
+        {
+          "id": "line-4",
+          "hans": "太真含笑入帘来。",
+          "hant": "太真含笑入簾來。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "580",
+        "printedFolio": "卷六下·36",
+        "verses": [
+          "日光斜照集靈臺",
+          "紅樹花迎曉露開",
+          "昨夜上皇新授籙",
+          "太真含笑入簾來"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060067",
+        "scanPage": "120",
+        "printedFolio": "卷511·24b",
+        "verses": [
+          "日光斜照集靈臺",
+          "紅樹花迎曉露開",
+          "昨夜上皇新授籙",
+          "太真含笑入簾來"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

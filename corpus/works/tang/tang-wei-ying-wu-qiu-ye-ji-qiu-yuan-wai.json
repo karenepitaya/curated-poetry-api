@@ -1,0 +1,122 @@
+{
+  "id": "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai",
+  "title": {
+    "hans": "秋夜寄邱员外",
+    "hant": "秋夜寄邱員外"
+  },
+  "author": {
+    "name": {
+      "hans": "韦应物",
+      "hant": "韦应物"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "怀君属秋夜，",
+          "hant": "懷君屬秋夜，"
+        },
+        {
+          "id": "line-2",
+          "hans": "散步咏凉天。",
+          "hant": "散步詠涼天。"
+        },
+        {
+          "id": "line-3",
+          "hans": "空山松子落，",
+          "hant": "空山松子落，"
+        },
+        {
+          "id": "line-4",
+          "hans": "幽人应未眠。",
+          "hant": "幽人應未眠。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "516",
+        "printedFolio": "卷六上·18",
+        "verses": [
+          "懷君屬秋夜",
+          "散步詠涼天",
+          "空山松子落",
+          "幽人應未眠"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063909",
+        "scanPage": "138",
+        "printedFolio": "卷188·13b",
+        "verses": [
+          "懷君屬秋夜",
+          "散步詠涼天",
+          "山空松子落",
+          "幽人應未眠"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "空"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063909",
+            "text": "山"
+          }
+        ],
+        "chosen": "空",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "山"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063909",
+            "text": "空"
+          }
+        ],
+        "chosen": "山",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

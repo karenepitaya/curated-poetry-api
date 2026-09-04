@@ -1,0 +1,141 @@
+{
+  "id": "tang-li-bai-jing-ye-si",
+  "title": {
+    "hans": "静夜思",
+    "hant": "靜夜思"
+  },
+  "author": {
+    "name": {
+      "hans": "李白",
+      "hant": "李白"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "床前明月光，",
+          "hant": "床前明月光，"
+        },
+        {
+          "id": "line-2",
+          "hans": "疑是地上霜。",
+          "hant": "疑是地上霜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "举头望明月，",
+          "hant": "舉頭望明月，"
+        },
+        {
+          "id": "line-4",
+          "hans": "低头思故乡。",
+          "hant": "低頭思故鄉。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "508",
+        "printedFolio": "卷六上·10",
+        "verses": [
+          "牀前明月光",
+          "疑是地上霜",
+          "舉頭望明月",
+          "低頭思故鄉"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063905",
+        "scanPage": "124",
+        "printedFolio": "卷165·6a",
+        "verses": [
+          "牀前看月光",
+          "疑是地上霜",
+          "舉頭望山月",
+          "低頭思故鄉"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "牀"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063905",
+            "text": "牀"
+          }
+        ],
+        "chosen": "床",
+        "rationale": "采用现代规范字形；两底本原字形均完整保留"
+      },
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "明"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063905",
+            "text": "看"
+          }
+        ],
+        "chosen": "明",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "明"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063905",
+            "text": "山"
+          }
+        ],
+        "chosen": "明",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

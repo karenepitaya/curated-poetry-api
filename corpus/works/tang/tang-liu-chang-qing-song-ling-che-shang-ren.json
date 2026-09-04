@@ -1,0 +1,103 @@
+{
+  "id": "tang-liu-chang-qing-song-ling-che-shang-ren",
+  "title": {
+    "hans": "送灵澈上人",
+    "hant": "送靈澈上人"
+  },
+  "author": {
+    "name": {
+      "hans": "刘长卿",
+      "hant": "刘长卿"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "苍苍竹林寺，",
+          "hant": "蒼蒼竹林寺，"
+        },
+        {
+          "id": "line-2",
+          "hans": "杳杳钟声晚。",
+          "hant": "杳杳鐘聲晚。"
+        },
+        {
+          "id": "line-3",
+          "hans": "荷笠带斜阳，",
+          "hant": "荷笠帶斜陽，"
+        },
+        {
+          "id": "line-4",
+          "hans": "青山独归远。",
+          "hant": "青山獨歸遠。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "512",
+        "printedFolio": "卷六上·14",
+        "verses": [
+          "蒼蒼竹林寺",
+          "杳杳鐘聲晚",
+          "荷笠帶斜陽",
+          "青山獨歸遠"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063901",
+        "scanPage": "115",
+        "printedFolio": "卷147·4a",
+        "verses": [
+          "蒼蒼竹林寺",
+          "杳杳鐘聲晚",
+          "荷笠帶夕陽",
+          "青山獨歸遠"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "斜"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063901",
+            "text": "夕"
+          }
+        ],
+        "chosen": "斜",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

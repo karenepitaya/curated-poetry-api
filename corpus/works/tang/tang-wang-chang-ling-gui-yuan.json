@@ -1,0 +1,103 @@
+{
+  "id": "tang-wang-chang-ling-gui-yuan",
+  "title": {
+    "hans": "闺怨",
+    "hant": "閨怨"
+  },
+  "author": {
+    "name": {
+      "hans": "王昌龄",
+      "hant": "王昌龄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "闺中少妇不知愁，",
+          "hant": "閨中少婦不知愁，"
+        },
+        {
+          "id": "line-2",
+          "hans": "春日凝妆上翠楼。",
+          "hant": "春日凝妝上翠樓。"
+        },
+        {
+          "id": "line-3",
+          "hans": "忽见陌头杨柳色，",
+          "hant": "忽見陌頭楊柳色，"
+        },
+        {
+          "id": "line-4",
+          "hans": "悔教夫婿觅封侯。",
+          "hant": "悔教夫婿覓封侯。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "550",
+        "printedFolio": "卷六下·6",
+        "verses": [
+          "閨中少婦不知愁",
+          "春日凝妝上翠樓",
+          "忽見陌頭楊柳色",
+          "悔教夫婿覓封侯"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063901",
+        "scanPage": "23",
+        "printedFolio": "卷143·6b",
+        "verses": [
+          "閨中少婦不曾愁",
+          "春日凝妝上翠樓",
+          "忽見陌頭楊柳色",
+          "悔教夫婿覓封侯"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 5,
+          "end": 6
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "知"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063901",
+            "text": "曾"
+          }
+        ],
+        "chosen": "知",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

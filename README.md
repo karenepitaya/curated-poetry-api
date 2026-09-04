@@ -1,105 +1,114 @@
-# 精选古诗 API
+# 精选诗词 API
 
-一个小而克制的唐诗随机接口：50 首绝句、纯 Go 标准库、单个静态二进制，
-不需要数据库、Docker 或运行时依赖。
+一个面向完整古典诗词的只读随机 API：纯 Go 标准库、内存目录、`crypto/rand`、
+单个静态二进制，不需要数据库、Docker 或运行时依赖。
 
-这里的“精选”指独立转录后做过双版本核对：其中 49 首以国家图书馆藏 1933 年版
-[《唐詩三百首》扫描本](https://commons.wikimedia.org/wiki/File:NLC416-17jh000616-101322_%E5%94%90%E8%A9%A9%E4%B8%89%E7%99%BE%E9%A6%96.pdf)
-为主底本，并用 1705 年
-[《御定全唐詩》扫描本](https://commons.wikimedia.org/wiki/Category:%E5%BE%A1%E5%AE%9A%E5%85%A8%E5%94%90%E8%A9%A9)
-核对。《题都城南庄》是保留博客原有备用诗的唯一例外：指定的《唐诗三百首》
-不收此诗，因此改用同为 1933 年、国家图书馆藏《本事詩》作主见证，再与
-[1705 年《御定全唐詩》](https://commons.wikimedia.org/wiki/Category:%E5%BE%A1%E5%AE%9A%E5%85%A8%E5%94%90%E8%A9%A9)
-核对。所用《本事詩》[扫描本在此](https://commons.wikimedia.org/wiki/File:NLC511-027032013010163-20835_%E6%9C%AC%E4%BA%8B%E8%A9%A9.pdf)。
-项目不会为凑齐统一来源而伪造页码。
+项目把“运行时可用”和“整本收录完成”分开。`v0.2.x` 先完成通用数据模型和 API
+迁移，运行池仍是已经核对的 50 首唐代绝句；只有指定的 1933 年版
+《唐诗三百首》目录全部通过门禁后才发布 `v0.3.0`，朱孝臧本《宋词三百首》同理
+在 `v0.4.0` 才宣称完整。未解决的缺字、归属或作品身份问题只留在工作区，不进入
+线上随机池。
 
-它是一份适合博客展示的有限选本，不宣称学术权威校勘；选目、页码、
-异文判断与简繁转换见 [`data/`](data/) 和
-[`docs/CURATION.md`](docs/CURATION.md)。
-
-## 接口
+## API
 
 ```http
-GET /api/poems/random
-GET /api/poems/random?type=五言绝句
-GET /api/poems/random?type=七言绝句
+GET /api/v1/works/random
 GET /healthz
 ```
 
-随机接口使用 `crypto/rand`，返回 `Cache-Control: no-store`，并开放仅包含
-`GET`/`OPTIONS` 的只读 CORS。非法体裁返回 `400`，不支持的业务方法返回
-`405`。
+随机接口支持 `collection`、`dynasty`、`genre`、`form`、`meter`、`max_chars`
+和 `script` 单值参数，多个条件取交集。例如：
 
-```json
-{
-  "data": {
-    "id": "tang-li-bai-jing-ye-si",
-    "title": "静夜思",
-    "content": [
-      "床前明月光，疑是地上霜。",
-      "举头望明月，低头思故乡。"
-    ],
-    "author": { "name": "李白" },
-    "dynasty": { "name": "唐" },
-    "type": { "name": "五言绝句" }
-  },
-  "lang": "zh-Hans"
-}
+```bash
+curl 'http://127.0.0.1:8787/api/v1/works/random?max_chars=120&script=hans'
+curl 'http://127.0.0.1:8787/api/v1/works/random?genre=shi&form=jueju&meter=5&script=hant'
 ```
 
-## 本地运行
+服务始终返回完整作品。候选作品等概率随机，不做唐诗/宋词权重，不保证不同请求间
+不重复。随机响应使用 `Cache-Control: no-store`，并开放仅含 `GET`/`OPTIONS` 的
+只读 CORS。参数重复或非法返回 400，无匹配作品返回 404。
+
+完整参数、响应和错误契约见 [`docs/API.md`](docs/API.md)。`v0.2.0` 为博客迁移
+暂留旧的 `/api/poems/random`；生产迁移通过后由 `v0.2.1` 删除。
+
+## 本地开发
 
 需要 Go 1.23 或更高版本：
 
 ```bash
 go test ./...
 go vet ./...
+go run ./cmd/corpuscheck
 go run ./cmd/server
 ```
 
-服务默认只监听 `127.0.0.1:8787`。如需修改，可显式设置
-`POETRY_API_ADDR`；正式部署仍建议只监听回环地址，由 Nginx 反向代理。
+服务默认只监听 `127.0.0.1:8787`。可用 `POETRY_API_ADDR` 显式修改；生产环境仍
+只监听回环地址，由 Nginx 反向代理。
+
+只改少量作品时可先做增量检查：
 
 ```bash
-curl http://127.0.0.1:8787/healthz
-curl 'http://127.0.0.1:8787/api/poems/random?type=五言绝句'
+go run ./cmd/corpuscheck --files \
+  corpus/works/tang/tang-li-bai-jing-ye-si.json \
+  corpus/collections/tangshi-sanbaishou-1933.json
 ```
 
-## 数据门禁
+增量检查缩短本地反馈，不替代 CI、标签发布前的全库一致性检查。
+如果变更列表包含已删除或重命名的作品文件，须显式允许缺失路径；命令会改做并明确
+报告全库检查，普通拼写错误仍会失败：
 
-服务启动前会校验嵌入数据，任一错误都会拒绝启动，包括：
+```bash
+go run ./cmd/corpuscheck --allow-missing --files \
+  corpus/works/tang/<deleted-work-id>.json
+```
 
-- 总数恰好 50 首，五言绝句、七言绝句各 25 首；
-- 每位作者最多 4 首，博客原有的 8 首备用诗全部在库；
-- 每首恰好四句，每句只含五个或七个汉字；
-- ID、作者与题目、正文没有重复；
-- 49 首必须同时有指定 1933《唐诗三百首》和 1705《御定全唐诗》见证；
-- 《题都城南庄》必须有指定 1933《本事诗》和 1705《御定全唐诗》见证；
-- 异文决定、简繁转换和版本元数据结构完整。
+## 数据结构
 
-因此未解决的缺字、作者归属或作品身份问题不能进入运行数据。
+```text
+corpus/
+├── works/<dynasty>/<work-id>.json
+├── editions/<edition-id>.json
+├── collections/<collection-id>.json
+└── normalization.json
+```
+
+每个作品文件同时保存正文、稳定行 ID、体裁、可选词牌、作者归属状态、审核状态、
+扫描定位、异文和语境相关的简繁覆盖。通用机械简繁规则集中在
+`normalization.json`。collection manifest 保存所选版本的目录、原书顺序和整理
+进度；只有每个成员均通过校验后才允许标记 `complete`。
+
+程序用 `go:embed` 嵌入整个 `corpus`，按路径稳定加载。启动时全库校验失败会拒绝
+提供服务。校验可以证明结构、引用和记录彼此一致，但不能替代对扫描文字的人工
+判读。
+
+## 整理原则
+
+- 唐诗主本：国家图书馆藏 1933 年版《唐诗三百首》；固定版本的维基文库文本只做
+  机器差异检测，疑义再查《御定全唐诗》等第二扫描。
+- 宋词主本：朱孝臧《宋词三百首》上下册扫描；固定版本的维基文库文本用于交叉
+  检查，疑义再查《宋词三百首笺》。
+- “完整”是所选版本目录中的全部作品和原书顺序，不强行解释为恰好 300 首。
+- 《题都城南庄》等不在主本目录的现有作品归入 `supplemental-classics`，不冒充
+  选本成员。
+- 繁体主文本与简体展示文本并存；不确定或有争议的作者归属保留选本署名，并显式
+  标记状态。
+- 机器文本只负责定位和报警；每首进入运行池前仍须目视核对主扫描。
+
+具体来源、页码口径、审核等级和维护流程见
+[`docs/CURATION.md`](docs/CURATION.md) 与 [`NOTICE`](NOTICE)。
 
 ## 构建与部署
 
-构建 Linux amd64 静态二进制：
+普通提交运行测试、`go vet`、全库校验和 Linux amd64 构建。推送 `v*` 标签会创建
+带 SHA-256、许可和变更说明的 GitHub Release。生产机通过明确 tag 的受控脚本
+下载、校验、原子切换并在失败时回滚，不在 GitHub Actions 保存 SSH 密钥。
 
-```bash
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
-  go build -trimpath -ldflags='-s -w -X main.version=v0.1.0' \
-  -o dist/curated-poetry-api ./cmd/server
-(cd dist && sha256sum curated-poetry-api > curated-poetry-api.sha256)
-```
-
-[`deploy/poetry-api.service`](deploy/poetry-api.service) 与
-[`deploy/poetry-api.nginx.conf`](deploy/poetry-api.nginx.conf) 是生产模板。
-推荐把版本放在 `/opt/poetry-api/releases/<version>`，再让
-`/opt/poetry-api/current` 软链接指向当前版本，以便原子切换和回滚。
-完整的首次安装、升级、TLS 和回滚命令见
+systemd、Nginx、Release 部署、Cloudflare 限流和 Better Stack 外部监控说明见
 [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)。
 
 ## 许可
 
 - 程序代码：MIT，见 [`LICENSE`](LICENSE)。
-- 本项目独立整理的选目、转录和结构化数据：CC0-1.0，见
+- 本项目独立整理的转录、结构化数据与异文记录：CC0-1.0，见
   [`DATA_LICENSE`](DATA_LICENSE)。
-- 来源与边界说明：[`NOTICE`](NOTICE)。
+- 古代原作、扫描来源、维基比较文本和项目边界：[`NOTICE`](NOTICE)。

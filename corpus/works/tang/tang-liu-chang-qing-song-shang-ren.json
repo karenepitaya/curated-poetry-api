@@ -1,0 +1,83 @@
+{
+  "id": "tang-liu-chang-qing-song-shang-ren",
+  "title": {
+    "hans": "送上人",
+    "hant": "送上人"
+  },
+  "author": {
+    "name": {
+      "hans": "刘长卿",
+      "hant": "刘长卿"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "孤云将野鹤，",
+          "hant": "孤雲將野鶴，"
+        },
+        {
+          "id": "line-2",
+          "hans": "岂向人间住。",
+          "hant": "豈向人間住。"
+        },
+        {
+          "id": "line-3",
+          "hans": "莫买沃洲山，",
+          "hant": "莫買沃洲山，"
+        },
+        {
+          "id": "line-4",
+          "hans": "时人已知处。",
+          "hant": "時人已知處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "515",
+        "printedFolio": "卷六上·17",
+        "verses": [
+          "孤雲將野鶴",
+          "豈向人間住",
+          "莫買沃洲山",
+          "時人已知處"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063901",
+        "scanPage": "115",
+        "printedFolio": "卷147·4a",
+        "verses": [
+          "孤雲將野鶴",
+          "豈向人間住",
+          "莫買沃洲山",
+          "時人已知處"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

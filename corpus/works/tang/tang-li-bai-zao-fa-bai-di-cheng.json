@@ -1,0 +1,141 @@
+{
+  "id": "tang-li-bai-zao-fa-bai-di-cheng",
+  "title": {
+    "hans": "早发白帝城",
+    "hant": "早發白帝城"
+  },
+  "author": {
+    "name": {
+      "hans": "李白",
+      "hant": "李白"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "朝辞白帝彩云间，",
+          "hant": "朝辭白帝彩雲間，"
+        },
+        {
+          "id": "line-2",
+          "hans": "千里江陵一日还。",
+          "hant": "千里江陵一日還。"
+        },
+        {
+          "id": "line-3",
+          "hans": "两岸猿声啼不住，",
+          "hant": "兩岸猿聲啼不住，"
+        },
+        {
+          "id": "line-4",
+          "hans": "轻舟已过万重山。",
+          "hant": "輕舟已過萬重山。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "558",
+        "printedFolio": "卷六下·14",
+        "verses": [
+          "朝辭白帝彩雲間",
+          "千里江陵一日還",
+          "兩岸猿聲啼不住",
+          "輕舟已過萬重山"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063908",
+        "scanPage": "66",
+        "printedFolio": "卷181·5b",
+        "verses": [
+          "朝辭白帝彩雲間",
+          "千里江陵一日還",
+          "兩岸猨聲啼不盡",
+          "輕舟巳過萬重山"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "猿"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063908",
+            "text": "猨"
+          }
+        ],
+        "chosen": "猿",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 6,
+          "end": 7
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "住"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063908",
+            "text": "盡"
+          }
+        ],
+        "chosen": "住",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "已"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063908",
+            "text": "巳"
+          }
+        ],
+        "chosen": "已",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

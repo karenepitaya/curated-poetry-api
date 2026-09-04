@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-wei-lu-zhai",
+  "title": {
+    "hans": "鹿柴",
+    "hant": "鹿柴"
+  },
+  "author": {
+    "name": {
+      "hans": "王维",
+      "hant": "王维"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "空山不见人，",
+          "hant": "空山不見人，"
+        },
+        {
+          "id": "line-2",
+          "hans": "但闻人语响。",
+          "hant": "但聞人語響。"
+        },
+        {
+          "id": "line-3",
+          "hans": "返景入深林，",
+          "hant": "返景入深林，"
+        },
+        {
+          "id": "line-4",
+          "hans": "复照青苔上。",
+          "hant": "復照青苔上。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "499",
+        "printedFolio": "卷六上·1",
+        "verses": [
+          "空山不見人",
+          "但聞人語響",
+          "返景入深林",
+          "復照青苔上"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063898",
+        "scanPage": "48",
+        "printedFolio": "卷128·8a",
+        "verses": [
+          "空山不見人",
+          "但聞人語響",
+          "返景入深林",
+          "復照青苔上"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tang-wang-wei-xiang-si",
+  "title": {
+    "hans": "相思",
+    "hant": "相思"
+  },
+  "author": {
+    "name": {
+      "hans": "王维",
+      "hant": "王维"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "红豆生南国，",
+          "hant": "紅豆生南國，"
+        },
+        {
+          "id": "line-2",
+          "hans": "春来发几枝。",
+          "hant": "春來發幾枝。"
+        },
+        {
+          "id": "line-3",
+          "hans": "愿君多采撷，",
+          "hant": "願君多采擷，"
+        },
+        {
+          "id": "line-4",
+          "hans": "此物最相思。",
+          "hant": "此物最相思。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "501",
+        "printedFolio": "卷六上·3",
+        "verses": [
+          "紅豆生南國",
+          "春來發幾枝",
+          "願君多采擷",
+          "此物最相思"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063898",
+        "scanPage": "59",
+        "printedFolio": "卷128·13b",
+        "verses": [
+          "紅豆生南國",
+          "秋來發故枝",
+          "願君多采擷",
+          "此物最相思"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "春"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063898",
+            "text": "秋"
+          }
+        ],
+        "chosen": "春",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "幾"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063898",
+            "text": "故"
+          }
+        ],
+        "chosen": "幾",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

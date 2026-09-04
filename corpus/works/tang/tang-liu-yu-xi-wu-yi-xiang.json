@@ -1,0 +1,83 @@
+{
+  "id": "tang-liu-yu-xi-wu-yi-xiang",
+  "title": {
+    "hans": "乌衣巷",
+    "hant": "烏衣巷"
+  },
+  "author": {
+    "name": {
+      "hans": "刘禹锡",
+      "hant": "刘禹锡"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "朱雀桥边野草花，",
+          "hant": "朱雀橋邊野草花，"
+        },
+        {
+          "id": "line-2",
+          "hans": "乌衣巷口夕阳斜。",
+          "hant": "烏衣巷口夕陽斜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "旧时王谢堂前燕，",
+          "hant": "舊時王謝堂前燕，"
+        },
+        {
+          "id": "line-4",
+          "hans": "飞入寻常百姓家。",
+          "hant": "飛入尋常百姓家。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "575",
+        "printedFolio": "卷六下·31",
+        "verses": [
+          "朱雀橋邊野草花",
+          "烏衣巷口夕陽斜",
+          "舊時王謝堂前燕",
+          "飛入尋常百姓家"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060035",
+        "scanPage": "28",
+        "printedFolio": "卷365·14a",
+        "verses": [
+          "朱雀橋邊野草花",
+          "烏衣巷口夕陽斜",
+          "舊時王謝堂前燕",
+          "飛入尋常百姓家"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

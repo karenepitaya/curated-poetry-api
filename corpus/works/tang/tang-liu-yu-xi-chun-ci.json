@@ -1,0 +1,122 @@
+{
+  "id": "tang-liu-yu-xi-chun-ci",
+  "title": {
+    "hans": "春词",
+    "hant": "春詞"
+  },
+  "author": {
+    "name": {
+      "hans": "刘禹锡",
+      "hant": "刘禹锡"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "新妆宜面下朱楼，",
+          "hant": "新妝宜面下朱樓，"
+        },
+        {
+          "id": "line-2",
+          "hans": "深锁春光一院愁。",
+          "hant": "深鎖春光一院愁。"
+        },
+        {
+          "id": "line-3",
+          "hans": "行到中庭数花朵，",
+          "hant": "行到中庭數花朵，"
+        },
+        {
+          "id": "line-4",
+          "hans": "蜻蜓飞上玉搔头。",
+          "hant": "蜻蜓飛上玉搔頭。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "576",
+        "printedFolio": "卷六下·32",
+        "verses": [
+          "新妝宜面下朱樓",
+          "深鎖春光一院愁",
+          "行到中庭數花朵",
+          "蜻蜓飛上玉搔頭"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060035",
+        "scanPage": "41",
+        "printedFolio": "卷365·20b-21a",
+        "verses": [
+          "新妝面面下朱樓",
+          "深鎖春光一院愁",
+          "行到中庭數花朶",
+          "蜻蜓飛上玉搔頭"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "宜"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060035",
+            "text": "面"
+          }
+        ],
+        "chosen": "宜",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 6,
+          "end": 7
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "朵"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060035",
+            "text": "朶"
+          }
+        ],
+        "chosen": "朵",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

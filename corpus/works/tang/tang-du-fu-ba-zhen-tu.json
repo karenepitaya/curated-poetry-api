@@ -1,0 +1,103 @@
+{
+  "id": "tang-du-fu-ba-zhen-tu",
+  "title": {
+    "hans": "八阵图",
+    "hant": "八陣圖"
+  },
+  "author": {
+    "name": {
+      "hans": "杜甫",
+      "hant": "杜甫"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "功盖三分国，",
+          "hant": "功蓋三分國，"
+        },
+        {
+          "id": "line-2",
+          "hans": "名成八阵图。",
+          "hant": "名成八陣圖。"
+        },
+        {
+          "id": "line-3",
+          "hans": "江流石不转，",
+          "hant": "江流石不轉，"
+        },
+        {
+          "id": "line-4",
+          "hans": "遗恨失吞吴。",
+          "hant": "遺恨失吞吳。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "509",
+        "printedFolio": "卷六上·11",
+        "verses": [
+          "功蓋三分國",
+          "名成八陣圖",
+          "江流石不轉",
+          "遺恨失吞吳"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060005",
+        "scanPage": "44",
+        "printedFolio": "卷229·22a",
+        "verses": [
+          "功蓋三分國",
+          "名高八陣圖",
+          "江流石不轉",
+          "遺恨失吞吳"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "成"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060005",
+            "text": "高"
+          }
+        ],
+        "chosen": "成",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

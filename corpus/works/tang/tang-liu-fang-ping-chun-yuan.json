@@ -1,0 +1,103 @@
+{
+  "id": "tang-liu-fang-ping-chun-yuan",
+  "title": {
+    "hans": "春怨",
+    "hant": "春怨"
+  },
+  "author": {
+    "name": {
+      "hans": "刘方平",
+      "hant": "刘方平"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "纱窗日落渐黄昏，",
+          "hant": "紗窗日落漸黃昏，"
+        },
+        {
+          "id": "line-2",
+          "hans": "金屋无人见泪痕。",
+          "hant": "金屋無人見淚痕。"
+        },
+        {
+          "id": "line-3",
+          "hans": "寂寞空庭春欲晚，",
+          "hant": "寂寞空庭春欲晚，"
+        },
+        {
+          "id": "line-4",
+          "hans": "梨花满地不开门。",
+          "hant": "梨花滿地不開門。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "568",
+        "printedFolio": "卷六下·24",
+        "verses": [
+          "紗窗日落漸黃昏",
+          "金屋無人見淚痕",
+          "寂寞空庭春欲晚",
+          "梨花滿地不開門"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060011",
+        "scanPage": "126",
+        "printedFolio": "卷251·6a",
+        "verses": [
+          "紗窗日落漸黄昏",
+          "金屋無人見淚痕",
+          "寂寞空庭春欲晚",
+          "梨花滿地不開門"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 5,
+          "end": 6
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "黃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060011",
+            "text": "黄"
+          }
+        ],
+        "chosen": "黃",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

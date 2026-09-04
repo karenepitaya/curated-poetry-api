@@ -1,0 +1,122 @@
+{
+  "id": "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di",
+  "title": {
+    "hans": "夜上受降城闻笛",
+    "hant": "夜上受降城聞笛"
+  },
+  "author": {
+    "name": {
+      "hans": "李益",
+      "hant": "李益"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "回乐峰前沙似雪，",
+          "hant": "回樂峯前沙似雪，"
+        },
+        {
+          "id": "line-2",
+          "hans": "受降城外月如霜。",
+          "hant": "受降城外月如霜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "不知何处吹芦管，",
+          "hant": "不知何處吹蘆管，"
+        },
+        {
+          "id": "line-4",
+          "hans": "一夜征人尽望乡。",
+          "hant": "一夜征人盡望鄉。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "573",
+        "printedFolio": "卷六下·29",
+        "verses": [
+          "回樂峯前沙似雪",
+          "受降城外月如霜",
+          "不知何處吹蘆管",
+          "一夜征人盡望鄉"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060018",
+        "scanPage": "129",
+        "printedFolio": "卷283·20a-20b",
+        "verses": [
+          "回樂峰前沙似雪",
+          "受降城下月如霜",
+          "不知何處吹蘆管",
+          "一夜征人盡望鄉"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "峯"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060018",
+            "text": "峰"
+          }
+        ],
+        "chosen": "峯",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "外"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060018",
+            "text": "下"
+          }
+        ],
+        "chosen": "外",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

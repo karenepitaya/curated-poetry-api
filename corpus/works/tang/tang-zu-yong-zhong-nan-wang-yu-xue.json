@@ -1,0 +1,83 @@
+{
+  "id": "tang-zu-yong-zhong-nan-wang-yu-xue",
+  "title": {
+    "hans": "终南望余雪",
+    "hant": "終南望餘雪"
+  },
+  "author": {
+    "name": {
+      "hans": "祖咏",
+      "hant": "祖咏"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "终南阴岭秀，",
+          "hant": "終南陰嶺秀，"
+        },
+        {
+          "id": "line-2",
+          "hans": "积雪浮云端。",
+          "hant": "積雪浮雲端。"
+        },
+        {
+          "id": "line-3",
+          "hans": "林表明霁色，",
+          "hant": "林表明霽色，"
+        },
+        {
+          "id": "line-4",
+          "hans": "城中增暮寒。",
+          "hant": "城中增暮寒。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "504",
+        "printedFolio": "卷六上·6",
+        "verses": [
+          "終南陰嶺秀",
+          "積雪浮雲端",
+          "林表明霽色",
+          "城中增暮寒"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063899",
+        "scanPage": "18",
+        "printedFolio": "卷131·9a",
+        "verses": [
+          "終南陰嶺秀",
+          "積雪浮雲端",
+          "林表明霽色",
+          "城中增暮寒"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

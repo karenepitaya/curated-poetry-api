@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-chang-ling-fu-rong-lou-song-xin-jian",
+  "title": {
+    "hans": "芙蓉楼送辛渐",
+    "hant": "芙蓉樓送辛漸"
+  },
+  "author": {
+    "name": {
+      "hans": "王昌龄",
+      "hant": "王昌龄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "寒雨连江夜入吴，",
+          "hant": "寒雨連江夜入吳，"
+        },
+        {
+          "id": "line-2",
+          "hans": "平明送客楚山孤。",
+          "hant": "平明送客楚山孤。"
+        },
+        {
+          "id": "line-3",
+          "hans": "洛阳亲友如相问，",
+          "hant": "洛陽親友如相問，"
+        },
+        {
+          "id": "line-4",
+          "hans": "一片冰心在玉壶。",
+          "hant": "一片冰心在玉壺。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "549",
+        "printedFolio": "卷六下·5",
+        "verses": [
+          "寒雨連江夜入吳",
+          "平明送客楚山孤",
+          "洛陽親友如相問",
+          "一片冰心在玉壺"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063901",
+        "scanPage": "30",
+        "printedFolio": "卷143·10a",
+        "verses": [
+          "寒雨連江夜入吳",
+          "平明送客楚山孤",
+          "洛陽親友如相問",
+          "一片冰心在玉壺"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

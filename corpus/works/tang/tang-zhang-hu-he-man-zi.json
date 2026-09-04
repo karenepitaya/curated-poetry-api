@@ -1,0 +1,122 @@
+{
+  "id": "tang-zhang-hu-he-man-zi",
+  "title": {
+    "hans": "何满子",
+    "hant": "何滿子"
+  },
+  "author": {
+    "name": {
+      "hans": "张祜",
+      "hant": "张祜"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "故国三千里，",
+          "hant": "故國三千里，"
+        },
+        {
+          "id": "line-2",
+          "hans": "深宫二十年。",
+          "hant": "深宮二十年。"
+        },
+        {
+          "id": "line-3",
+          "hans": "一声何满子，",
+          "hant": "一聲何滿子，"
+        },
+        {
+          "id": "line-4",
+          "hans": "双泪落君前。",
+          "hant": "雙淚落君前。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "524",
+        "printedFolio": "卷六上·26",
+        "verses": [
+          "故國三千里",
+          "深宮二十年",
+          "一聲何滿子",
+          "雙淚落君前"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060067",
+        "scanPage": "95",
+        "printedFolio": "卷511·12a",
+        "verses": [
+          "故國三千里",
+          "深宫二十年",
+          "一聲河滿子",
+          "雙淚落君前"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "宮"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "宫"
+          }
+        ],
+        "chosen": "宮",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "何"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "河"
+          }
+        ],
+        "chosen": "何",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

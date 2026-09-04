@@ -1,0 +1,122 @@
+{
+  "id": "tang-liu-zhong-yong-zheng-ren-yuan",
+  "title": {
+    "hans": "征人怨",
+    "hant": "征人怨"
+  },
+  "author": {
+    "name": {
+      "hans": "柳中庸",
+      "hant": "柳中庸"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "岁岁金河复玉关，",
+          "hant": "歲歲金河復玉關，"
+        },
+        {
+          "id": "line-2",
+          "hans": "朝朝马策与刀环。",
+          "hant": "朝朝馬策與刀環。"
+        },
+        {
+          "id": "line-3",
+          "hans": "三春白雪归青冢，",
+          "hant": "三春白雪歸青塚，"
+        },
+        {
+          "id": "line-4",
+          "hans": "万里黄河绕黑山。",
+          "hant": "萬里黃河繞黑山。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "570",
+        "printedFolio": "卷六下·26",
+        "verses": [
+          "歲歲金河復玉關",
+          "朝朝馬策與刀環",
+          "三春白雪歸青塚",
+          "萬里黃河繞黑山"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060012",
+        "scanPage": "98-99",
+        "printedFolio": "卷257·6b-7a",
+        "verses": [
+          "歲歲金河復玉關",
+          "朝朝馬策與刀環",
+          "三春白雪歸青塚",
+          "萬里黄河遶黑山"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "黃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060012",
+            "text": "黄"
+          }
+        ],
+        "chosen": "黃",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 4,
+          "end": 5
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "繞"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060012",
+            "text": "遶"
+          }
+        ],
+        "chosen": "繞",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,2002 @@
+{
+  "rules": [
+    {
+      "from": "識",
+      "to": "识",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu"
+      ]
+    },
+    {
+      "from": "楓",
+      "to": "枫",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "裏",
+      "to": "里",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-pei-di-song-cui-jiu",
+        "tang-wang-wei-zhu-li-guan"
+      ]
+    },
+    {
+      "from": "蘇",
+      "to": "苏",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "須",
+      "to": "须",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-pei-di-song-cui-jiu"
+      ]
+    },
+    {
+      "from": "書",
+      "to": "书",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu"
+      ]
+    },
+    {
+      "from": "磯",
+      "to": "矶",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "學",
+      "to": "学",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-pei-di-song-cui-jiu"
+      ]
+    },
+    {
+      "from": "報",
+      "to": "报",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "鳥",
+      "to": "鸟",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zong-yuan-jiang-xue",
+        "tang-meng-hao-ran-chun-xiao"
+      ]
+    },
+    {
+      "from": "誰",
+      "to": "谁",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-yuan-qing"
+      ]
+    },
+    {
+      "from": "場",
+      "to": "场",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-han-liang-zhou-ci"
+      ]
+    },
+    {
+      "from": "問",
+      "to": "问",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu",
+        "tang-he-zhi-zhang-hui-xiang-ou-shu",
+        "tang-jia-dao-xun-yin-zhe-bu-yu",
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "彈",
+      "to": "弹",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-tan-qin",
+        "tang-wang-wei-zhu-li-guan"
+      ]
+    },
+    {
+      "from": "嘯",
+      "to": "啸",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-zhu-li-guan"
+      ]
+    },
+    {
+      "from": "峯",
+      "to": "峰",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di"
+      ]
+    },
+    {
+      "from": "鎖",
+      "to": "锁",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-chun-ci"
+      ]
+    },
+    {
+      "from": "際",
+      "to": "际",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling"
+      ]
+    },
+    {
+      "from": "連",
+      "to": "连",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian"
+      ]
+    },
+    {
+      "from": "陣",
+      "to": "阵",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu"
+      ]
+    },
+    {
+      "from": "曉",
+      "to": "晓",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-meng-hao-ran-chun-xiao",
+        "tang-zhang-hu-ji-ling-tai-qi-yi"
+      ]
+    },
+    {
+      "from": "親",
+      "to": "亲",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian"
+      ]
+    },
+    {
+      "from": "乾",
+      "to": "干",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "蒼",
+      "to": "苍",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-ling-che-shang-ren"
+      ]
+    },
+    {
+      "from": "夢",
+      "to": "梦",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci"
+      ]
+    },
+    {
+      "from": "吳",
+      "to": "吴",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu",
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian"
+      ]
+    },
+    {
+      "from": "處",
+      "to": "处",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cui-hu-ti-du-cheng-nan-zhuang",
+        "tang-han-hong-han-shi",
+        "tang-he-zhi-zhang-hui-xiang-ou-shu",
+        "tang-jia-dao-xun-yin-zhe-bu-yu",
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di",
+        "tang-liu-chang-qing-song-shang-ren",
+        "tang-meng-hao-ran-chun-xiao",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "頭",
+      "to": "头",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-jing-ye-si",
+        "tang-liu-yu-xi-chun-ci",
+        "tang-wang-chang-ling-gui-yuan",
+        "tang-yuan-zhen-xing-gong"
+      ]
+    },
+    {
+      "from": "願",
+      "to": "愿",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-xiang-si"
+      ]
+    },
+    {
+      "from": "還",
+      "to": "还",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-zao-fa-bai-di-cheng"
+      ]
+    },
+    {
+      "from": "層",
+      "to": "层",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-zhi-huan-deng-guan-que-lou"
+      ]
+    },
+    {
+      "from": "鄉",
+      "to": "乡",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu",
+        "tang-li-bai-jing-ye-si",
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di"
+      ]
+    },
+    {
+      "from": "卻",
+      "to": "却",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-ji-ling-tai-qi-er"
+      ]
+    },
+    {
+      "from": "湯",
+      "to": "汤",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-jian-xin-jia-niang-ci"
+      ]
+    },
+    {
+      "from": "澗",
+      "to": "涧",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "傳",
+      "to": "传",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-han-hong-han-shi"
+      ]
+    },
+    {
+      "from": "臺",
+      "to": "台",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-quan-de-yu-yu-tai-ti",
+        "tang-zhang-hu-ji-ling-tai-qi-er",
+        "tang-zhang-hu-ji-ling-tai-qi-yi"
+      ]
+    },
+    {
+      "from": "舊",
+      "to": "旧",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cui-hu-ti-du-cheng-nan-zhuang",
+        "tang-liu-yu-xi-wu-yi-xiang"
+      ]
+    },
+    {
+      "from": "體",
+      "to": "体",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-quan-de-yu-yu-tai-ti"
+      ]
+    },
+    {
+      "from": "孫",
+      "to": "孙",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-song-bie"
+      ]
+    },
+    {
+      "from": "揚",
+      "to": "扬",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling"
+      ]
+    },
+    {
+      "from": "龜",
+      "to": "龟",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian"
+      ]
+    },
+    {
+      "from": "開",
+      "to": "开",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-gu-kuang-gong-ci",
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-wang-chang-ling-chun-gong-qu",
+        "tang-zhang-hu-ji-ling-tai-qi-yi",
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "長",
+      "to": "长",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-wang-wei-zhu-li-guan"
+      ]
+    },
+    {
+      "from": "蘆",
+      "to": "芦",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di"
+      ]
+    },
+    {
+      "from": "圖",
+      "to": "图",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu"
+      ]
+    },
+    {
+      "from": "復",
+      "to": "复",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan",
+        "tang-wang-wei-lu-zhai",
+        "tang-wang-wei-zhu-li-guan"
+      ]
+    },
+    {
+      "from": "楊",
+      "to": "杨",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-gui-yuan"
+      ]
+    },
+    {
+      "from": "氣",
+      "to": "气",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-fang-ping-yue-ye"
+      ]
+    },
+    {
+      "from": "蠟",
+      "to": "蜡",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-han-hong-han-shi"
+      ]
+    },
+    {
+      "from": "賜",
+      "to": "赐",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-chun-gong-qu"
+      ]
+    },
+    {
+      "from": "陽",
+      "to": "阳",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-shang-yin-deng-le-you-yuan",
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-liu-yu-xi-wu-yi-xiang",
+        "tang-wang-chang-ling-chun-gong-qu",
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian"
+      ]
+    },
+    {
+      "from": "別",
+      "to": "别",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-song-bie"
+      ]
+    },
+    {
+      "from": "兩",
+      "to": "两",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-zao-fa-bai-di-cheng"
+      ]
+    },
+    {
+      "from": "涼",
+      "to": "凉",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-han-liang-zhou-ci",
+        "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai"
+      ]
+    },
+    {
+      "from": "寵",
+      "to": "宠",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-chun-gong-qu"
+      ]
+    },
+    {
+      "from": "雲",
+      "to": "云",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-jia-dao-xun-yin-zhe-bu-yu",
+        "tang-li-bai-zao-fa-bai-di-cheng",
+        "tang-liu-chang-qing-song-shang-ren",
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "題",
+      "to": "题",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cui-hu-ti-du-cheng-nan-zhuang"
+      ]
+    },
+    {
+      "from": "獨",
+      "to": "独",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-liu-zong-yuan-jiang-xue",
+        "tang-wang-wei-zhu-li-guan",
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "盡",
+      "to": "尽",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di",
+        "tang-pei-di-song-cui-jiu",
+        "tang-wang-zhi-huan-deng-guan-que-lou",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "終",
+      "to": "终",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "數",
+      "to": "数",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-chun-ci"
+      ]
+    },
+    {
+      "from": "愛",
+      "to": "爱",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-tan-qin"
+      ]
+    },
+    {
+      "from": "鍾",
+      "to": "钟",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "滅",
+      "to": "灭",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zong-yuan-jiang-xue"
+      ]
+    },
+    {
+      "from": "嶺",
+      "to": "岭",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "風",
+      "to": "风",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cui-hu-ti-du-cheng-nan-zhuang",
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-gu-kuang-gong-ci",
+        "tang-han-hong-han-shi",
+        "tang-liu-chang-qing-tan-qin",
+        "tang-meng-hao-ran-chun-xiao",
+        "tang-wang-chang-ling-chun-gong-qu"
+      ]
+    },
+    {
+      "from": "紗",
+      "to": "纱",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-liu-fang-ping-yue-ye"
+      ]
+    },
+    {
+      "from": "聽",
+      "to": "听",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-duan-ting-zheng",
+        "tang-liu-chang-qing-tan-qin"
+      ]
+    },
+    {
+      "from": "聲",
+      "to": "声",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-li-bai-zao-fa-bai-di-cheng",
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-liu-fang-ping-yue-ye",
+        "tang-meng-hao-ran-chun-xiao",
+        "tang-zhang-hu-he-man-zi",
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "適",
+      "to": "适",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-shang-yin-deng-le-you-yuan"
+      ]
+    },
+    {
+      "from": "蟻",
+      "to": "蚁",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu"
+      ]
+    },
+    {
+      "from": "雙",
+      "to": "双",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-zhang-hu-he-man-zi"
+      ]
+    },
+    {
+      "from": "絕",
+      "to": "绝",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zong-yuan-jiang-xue"
+      ]
+    },
+    {
+      "from": "館",
+      "to": "馆",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-zhu-li-guan"
+      ]
+    },
+    {
+      "from": "宮",
+      "to": "宫",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-gu-kuang-gong-ci",
+        "tang-han-hong-han-shi",
+        "tang-wang-chang-ling-chun-gong-qu",
+        "tang-yuan-zhen-xing-gong",
+        "tang-zhang-hu-he-man-zi",
+        "tang-zhang-hu-ji-ling-tai-qi-er",
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "淺",
+      "to": "浅",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-pei-di-song-cui-jiu"
+      ]
+    },
+    {
+      "from": "採",
+      "to": "采",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-jia-dao-xun-yin-zhe-bu-yu"
+      ]
+    },
+    {
+      "from": "節",
+      "to": "节",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian"
+      ]
+    },
+    {
+      "from": "覓",
+      "to": "觅",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-gui-yuan"
+      ]
+    },
+    {
+      "from": "陰",
+      "to": "阴",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "萬",
+      "to": "万",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-zao-fa-bai-di-cheng",
+        "tang-liu-zhong-yong-zheng-ren-yuan",
+        "tang-liu-zong-yuan-jiang-xue"
+      ]
+    },
+    {
+      "from": "谿",
+      "to": "溪",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "暫",
+      "to": "暂",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-pei-di-song-cui-jiu"
+      ]
+    },
+    {
+      "from": "華",
+      "to": "华",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-quan-de-yu-yu-tai-ti"
+      ]
+    },
+    {
+      "from": "鉛",
+      "to": "铅",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-quan-de-yu-yu-tai-ti"
+      ]
+    },
+    {
+      "from": "閨",
+      "to": "闺",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-gui-yuan"
+      ]
+    },
+    {
+      "from": "籙",
+      "to": "箓",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-ji-ling-tai-qi-yi"
+      ]
+    },
+    {
+      "from": "箏",
+      "to": "筝",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-duan-ting-zheng"
+      ]
+    },
+    {
+      "from": "帶",
+      "to": "带",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-quan-de-yu-yu-tai-ti",
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "婦",
+      "to": "妇",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-gui-yuan"
+      ]
+    },
+    {
+      "from": "對",
+      "to": "对",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "屬",
+      "to": "属",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai"
+      ]
+    },
+    {
+      "from": "將",
+      "to": "将",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-shang-ren"
+      ]
+    },
+    {
+      "from": "積",
+      "to": "积",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "園",
+      "to": "园",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "顏",
+      "to": "颜",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-zhang-hu-ji-ling-tai-qi-er"
+      ]
+    },
+    {
+      "from": "顰",
+      "to": "颦",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-yuan-qing"
+      ]
+    },
+    {
+      "from": "聞",
+      "to": "闻",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-gu-kuang-gong-ci",
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di",
+        "tang-meng-hao-ran-chun-xiao",
+        "tang-wang-wei-lu-zhai"
+      ]
+    },
+    {
+      "from": "幾",
+      "to": "几",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-wang-han-liang-zhou-ci",
+        "tang-wang-wei-xiang-si"
+      ]
+    },
+    {
+      "from": "鷺",
+      "to": "鹭",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "過",
+      "to": "过",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-zao-fa-bai-di-cheng",
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "飛",
+      "to": "飞",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-han-hong-han-shi",
+        "tang-liu-yu-xi-chun-ci",
+        "tang-liu-yu-xi-wu-yi-xiang",
+        "tang-liu-zong-yuan-jiang-xue",
+        "tang-quan-de-yu-yu-tai-ti",
+        "tang-zhang-hu-zeng-nei-ren",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "與",
+      "to": "与",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan"
+      ]
+    },
+    {
+      "from": "隨",
+      "to": "随",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "斷",
+      "to": "断",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci"
+      ]
+    },
+    {
+      "from": "輪",
+      "to": "轮",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-chun-gong-qu"
+      ]
+    },
+    {
+      "from": "擷",
+      "to": "撷",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-xiang-si"
+      ]
+    },
+    {
+      "from": "歸",
+      "to": "归",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-liu-zhong-yong-zheng-ren-yuan",
+        "tang-pei-di-song-cui-jiu",
+        "tang-quan-de-yu-yu-tai-ti",
+        "tang-wang-wei-song-bie"
+      ]
+    },
+    {
+      "from": "霽",
+      "to": "霁",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "應",
+      "to": "应",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai"
+      ]
+    },
+    {
+      "from": "輕",
+      "to": "轻",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-han-hong-han-shi",
+        "tang-li-bai-zao-fa-bai-di-cheng"
+      ]
+    },
+    {
+      "from": "闌",
+      "to": "阑",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-fang-ping-yue-ye"
+      ]
+    },
+    {
+      "from": "從",
+      "to": "从",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu"
+      ]
+    },
+    {
+      "from": "詠",
+      "to": "咏",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai"
+      ]
+    },
+    {
+      "from": "舉",
+      "to": "举",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-jing-ye-si"
+      ]
+    },
+    {
+      "from": "烏",
+      "to": "乌",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-wu-yi-xiang",
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "塚",
+      "to": "冢",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan"
+      ]
+    },
+    {
+      "from": "謝",
+      "to": "谢",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-wu-yi-xiang"
+      ]
+    },
+    {
+      "from": "憐",
+      "to": "怜",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "捲",
+      "to": "卷",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-gu-kuang-gong-ci",
+        "tang-li-bai-yuan-qing"
+      ]
+    },
+    {
+      "from": "車",
+      "to": "车",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-shang-yin-deng-le-you-yuan"
+      ]
+    },
+    {
+      "from": "樂",
+      "to": "乐",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-shang-yin-deng-le-you-yuan",
+        "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di"
+      ]
+    },
+    {
+      "from": "蓋",
+      "to": "盖",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu"
+      ]
+    },
+    {
+      "from": "濕",
+      "to": "湿",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-yuan-qing"
+      ]
+    },
+    {
+      "from": "國",
+      "to": "国",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu",
+        "tang-wang-wei-xiang-si",
+        "tang-zhang-hu-he-man-zi",
+        "tang-zhang-hu-ji-ling-tai-qi-er"
+      ]
+    },
+    {
+      "from": "爐",
+      "to": "炉",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu"
+      ]
+    },
+    {
+      "from": "廚",
+      "to": "厨",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-jian-xin-jia-niang-ci"
+      ]
+    },
+    {
+      "from": "廣",
+      "to": "广",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling"
+      ]
+    },
+    {
+      "from": "隱",
+      "to": "隐",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-jia-dao-xun-yin-zhe-bu-yu",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "豈",
+      "to": "岂",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-shang-ren"
+      ]
+    },
+    {
+      "from": "辭",
+      "to": "辞",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-li-bai-zao-fa-bai-di-cheng"
+      ]
+    },
+    {
+      "from": "懷",
+      "to": "怀",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai"
+      ]
+    },
+    {
+      "from": "橫",
+      "to": "横",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "綠",
+      "to": "绿",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu",
+        "tang-liu-fang-ping-yue-ye",
+        "tang-wang-wei-song-bie"
+      ]
+    },
+    {
+      "from": "贈",
+      "to": "赠",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "尋",
+      "to": "寻",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-jia-dao-xun-yin-zhe-bu-yu",
+        "tang-liu-yu-xi-wu-yi-xiang"
+      ]
+    },
+    {
+      "from": "來",
+      "to": "来",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu",
+        "tang-he-zhi-zhang-hui-xiang-ou-shu",
+        "tang-meng-hao-ran-chun-xiao",
+        "tang-wang-han-liang-zhou-ci",
+        "tang-wang-wei-xiang-si",
+        "tang-wang-wei-zhu-li-guan",
+        "tang-wei-ying-wu-chu-zhou-xi-jian",
+        "tang-zhang-hu-ji-ling-tai-qi-yi"
+      ]
+    },
+    {
+      "from": "罷",
+      "to": "罢",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-song-bie"
+      ]
+    },
+    {
+      "from": "師",
+      "to": "师",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-jia-dao-xun-yin-zhe-bu-yu"
+      ]
+    },
+    {
+      "from": "樓",
+      "to": "楼",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-gu-kuang-gong-ci",
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-liu-yu-xi-chun-ci",
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian",
+        "tang-wang-chang-ling-gui-yuan",
+        "tang-wang-zhi-huan-deng-guan-que-lou"
+      ]
+    },
+    {
+      "from": "臥",
+      "to": "卧",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-han-liang-zhou-ci"
+      ]
+    },
+    {
+      "from": "調",
+      "to": "调",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-tan-qin"
+      ]
+    },
+    {
+      "from": "曠",
+      "to": "旷",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-meng-hao-ran-su-jian-de-jiang"
+      ]
+    },
+    {
+      "from": "藥",
+      "to": "药",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-jia-dao-xun-yin-zhe-bu-yu"
+      ]
+    },
+    {
+      "from": "內",
+      "to": "内",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "鐘",
+      "to": "钟",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "轉",
+      "to": "转",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu"
+      ]
+    },
+    {
+      "from": "絃",
+      "to": "弦",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-tan-qin"
+      ]
+    },
+    {
+      "from": "紅",
+      "to": "红",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-bai-ju-yi-wen-liu-shi-jiu",
+        "tang-cui-hu-ti-du-cheng-nan-zhuang",
+        "tang-wang-wei-xiang-si",
+        "tang-yuan-zhen-xing-gong",
+        "tang-zhang-hu-ji-ling-tai-qi-yi",
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "覺",
+      "to": "觉",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-meng-hao-ran-chun-xiao"
+      ]
+    },
+    {
+      "from": "筆",
+      "to": "笔",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "徑",
+      "to": "径",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zong-yuan-jiang-xue"
+      ]
+    },
+    {
+      "from": "橋",
+      "to": "桥",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-wu-yi-xiang",
+        "tang-zhang-ji-feng-qiao-ye-bo",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "詞",
+      "to": "词",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-gu-kuang-gong-ci",
+        "tang-liu-yu-xi-chun-ci",
+        "tang-wang-han-liang-zhou-ci",
+        "tang-wang-jian-xin-jia-niang-ci"
+      ]
+    },
+    {
+      "from": "歲",
+      "to": "岁",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan"
+      ]
+    },
+    {
+      "from": "窮",
+      "to": "穷",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-zhi-huan-deng-guan-que-lou"
+      ]
+    },
+    {
+      "from": "劉",
+      "to": "刘",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu"
+      ]
+    },
+    {
+      "from": "鸛",
+      "to": "鹳",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-zhi-huan-deng-guan-que-lou"
+      ]
+    },
+    {
+      "from": "說",
+      "to": "说",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-yuan-zhen-xing-gong"
+      ]
+    },
+    {
+      "from": "雖",
+      "to": "虽",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-tan-qin"
+      ]
+    },
+    {
+      "from": "繞",
+      "to": "绕",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan"
+      ]
+    },
+    {
+      "from": "燈",
+      "to": "灯",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "響",
+      "to": "响",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-wei-lu-zhai"
+      ]
+    },
+    {
+      "from": "騎",
+      "to": "骑",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-ji-ling-tai-qi-er"
+      ]
+    },
+    {
+      "from": "淚",
+      "to": "泪",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci",
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-li-bai-yuan-qing",
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-zhang-hu-he-man-zi"
+      ]
+    },
+    {
+      "from": "黃",
+      "to": "黄",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-li-shang-yin-deng-le-you-yuan",
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-liu-zhong-yong-zheng-ren-yuan",
+        "tang-wang-zhi-huan-deng-guan-que-lou",
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "環",
+      "to": "环",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan"
+      ]
+    },
+    {
+      "from": "漁",
+      "to": "渔",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-ji-feng-qiao-ye-bo",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "漸",
+      "to": "渐",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian"
+      ]
+    },
+    {
+      "from": "戰",
+      "to": "战",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-han-liang-zhou-ci"
+      ]
+    },
+    {
+      "from": "閒",
+      "to": "闲",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-yuan-zhen-xing-gong"
+      ]
+    },
+    {
+      "from": "飲",
+      "to": "饮",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu",
+        "tang-wang-han-liang-zhou-ci"
+      ]
+    },
+    {
+      "from": "買",
+      "to": "买",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-shang-ren"
+      ]
+    },
+    {
+      "from": "離",
+      "to": "离",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu"
+      ]
+    },
+    {
+      "from": "語",
+      "to": "语",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-gu-kuang-gong-ci",
+        "tang-wang-wei-lu-zhai"
+      ]
+    },
+    {
+      "from": "鶴",
+      "to": "鹤",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-liu-chang-qing-song-shang-ren"
+      ]
+    },
+    {
+      "from": "燄",
+      "to": "焰",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "滿",
+      "to": "满",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-zhang-hu-he-man-zi",
+        "tang-zhang-ji-feng-qiao-ye-bo"
+      ]
+    },
+    {
+      "from": "餘",
+      "to": "余",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zu-yong-zhong-nan-wang-yu-xue"
+      ]
+    },
+    {
+      "from": "釵",
+      "to": "钗",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "蟲",
+      "to": "虫",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-fang-ping-yue-ye"
+      ]
+    },
+    {
+      "from": "關",
+      "to": "关",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zhong-yong-zheng-ren-yuan"
+      ]
+    },
+    {
+      "from": "諳",
+      "to": "谙",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-jian-xin-jia-niang-ci"
+      ]
+    },
+    {
+      "from": "棄",
+      "to": "弃",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-quan-de-yu-yu-tai-ti"
+      ]
+    },
+    {
+      "from": "羅",
+      "to": "罗",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci"
+      ]
+    },
+    {
+      "from": "嬪",
+      "to": "嫔",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-gu-kuang-gong-ci"
+      ]
+    },
+    {
+      "from": "靈",
+      "to": "灵",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-chang-qing-song-ling-che-shang-ren",
+        "tang-zhang-hu-ji-ling-tai-qi-er",
+        "tang-zhang-hu-ji-ling-tai-qi-yi"
+      ]
+    },
+    {
+      "from": "鬢",
+      "to": "鬓",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu"
+      ]
+    },
+    {
+      "from": "靜",
+      "to": "静",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-jing-ye-si",
+        "tang-liu-chang-qing-tan-qin"
+      ]
+    },
+    {
+      "from": "鸝",
+      "to": "鹂",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "間",
+      "to": "间",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-zao-fa-bai-di-cheng",
+        "tang-liu-chang-qing-song-shang-ren"
+      ]
+    },
+    {
+      "from": "兒",
+      "to": "儿",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-he-zhi-zhang-hui-xiang-ou-shu"
+      ]
+    },
+    {
+      "from": "見",
+      "to": "见",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-he-zhi-zhang-hui-xiang-ou-shu",
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-li-bai-yuan-qing",
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-wang-chang-ling-gui-yuan",
+        "tang-wang-wei-lu-zhai"
+      ]
+    },
+    {
+      "from": "遠",
+      "to": "远",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-liu-chang-qing-song-ling-che-shang-ren"
+      ]
+    },
+    {
+      "from": "馬",
+      "to": "马",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-liu-zhong-yong-zheng-ren-yuan",
+        "tang-wang-han-liang-zhou-ci",
+        "tang-zhang-hu-ji-ling-tai-qi-er"
+      ]
+    },
+    {
+      "from": "時",
+      "to": "时",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-jiang-nan-feng-li-gui-nian",
+        "tang-li-duan-ting-zheng",
+        "tang-liu-chang-qing-song-shang-ren",
+        "tang-liu-yu-xi-wu-yi-xiang"
+      ]
+    },
+    {
+      "from": "發",
+      "to": "发",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-bai-zao-fa-bai-di-cheng",
+        "tang-wang-wei-xiang-si"
+      ]
+    },
+    {
+      "from": "遊",
+      "to": "游",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-shang-yin-deng-le-you-yuan",
+        "tang-pei-di-song-cui-jiu"
+      ]
+    },
+    {
+      "from": "憑",
+      "to": "凭",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "誤",
+      "to": "误",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-duan-ting-zheng"
+      ]
+    },
+    {
+      "from": "壺",
+      "to": "壶",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-fu-rong-lou-song-xin-jian"
+      ]
+    },
+    {
+      "from": "掃",
+      "to": "扫",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-zhang-hu-ji-ling-tai-qi-er"
+      ]
+    },
+    {
+      "from": "龍",
+      "to": "龙",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "紙",
+      "to": "纸",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi"
+      ]
+    },
+    {
+      "from": "門",
+      "to": "门",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cui-hu-ti-du-cheng-nan-zhuang",
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-zhang-hu-ji-ling-tai-qi-er",
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "蹤",
+      "to": "踪",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zong-yuan-jiang-xue"
+      ]
+    },
+    {
+      "from": "錦",
+      "to": "锦",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-chang-ling-chun-gong-qu"
+      ]
+    },
+    {
+      "from": "煙",
+      "to": "烟",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-han-hong-han-shi",
+        "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+        "tang-meng-hao-ran-su-jian-de-jiang",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "燭",
+      "to": "烛",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-han-hong-han-shi"
+      ]
+    },
+    {
+      "from": "東",
+      "to": "东",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-han-hong-han-shi"
+      ]
+    },
+    {
+      "from": "員",
+      "to": "员",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai"
+      ]
+    },
+    {
+      "from": "釣",
+      "to": "钓",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-zong-yuan-jiang-xue"
+      ]
+    },
+    {
+      "from": "邊",
+      "to": "边",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-wu-yi-xiang",
+        "tang-wei-ying-wu-chu-zhou-xi-jian",
+        "tang-zhang-xu-tao-hua-xi"
+      ]
+    },
+    {
+      "from": "籠",
+      "to": "笼",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-gong-ci"
+      ]
+    },
+    {
+      "from": "無",
+      "to": "无",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-bai-ju-yi-wen-liu-shi-jiu",
+        "tang-cen-shen-feng-ru-jing-shi",
+        "tang-han-hong-han-shi",
+        "tang-he-zhi-zhang-hui-xiang-ou-shu",
+        "tang-li-shang-yin-deng-le-you-yuan",
+        "tang-liu-fang-ping-chun-yuan",
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "莊",
+      "to": "庄",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-cui-hu-ti-du-cheng-nan-zhuang"
+      ]
+    },
+    {
+      "from": "遺",
+      "to": "遗",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-du-fu-ba-zhen-tu"
+      ]
+    },
+    {
+      "from": "漢",
+      "to": "汉",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-han-hong-han-shi"
+      ]
+    },
+    {
+      "from": "妝",
+      "to": "妆",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-liu-yu-xi-chun-ci",
+        "tang-wang-chang-ling-gui-yuan"
+      ]
+    },
+    {
+      "from": "簾",
+      "to": "帘",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-gu-kuang-gong-ci",
+        "tang-li-bai-yuan-qing",
+        "tang-wang-chang-ling-chun-gong-qu",
+        "tang-zhang-hu-ji-ling-tai-qi-yi"
+      ]
+    },
+    {
+      "from": "鳴",
+      "to": "鸣",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-duan-ting-zheng",
+        "tang-wei-ying-wu-chu-zhou-xi-jian"
+      ]
+    },
+    {
+      "from": "驅",
+      "to": "驱",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-shang-yin-deng-le-you-yuan"
+      ]
+    },
+    {
+      "from": "嘗",
+      "to": "尝",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-wang-jian-xin-jia-niang-ci"
+      ]
+    },
+    {
+      "from": "樹",
+      "to": "树",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-meng-hao-ran-su-jian-de-jiang",
+        "tang-wei-ying-wu-chu-zhou-xi-jian",
+        "tang-zhang-hu-ji-ling-tai-qi-yi",
+        "tang-zhang-hu-zeng-nei-ren"
+      ]
+    },
+    {
+      "from": "顧",
+      "to": "顾",
+      "reason": "繁体见证转为网站简体字形",
+      "auditedWorkIds": [
+        "tang-li-duan-ting-zheng"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+  "title": {
+    "hans": "黄鹤楼送孟浩然之广陵",
+    "hant": "黃鶴樓送孟浩然之廣陵"
+  },
+  "author": {
+    "name": {
+      "hans": "李白",
+      "hant": "李白"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "故人西辞黄鹤楼，",
+          "hant": "故人西辭黃鶴樓，"
+        },
+        {
+          "id": "line-2",
+          "hans": "烟花三月下扬州。",
+          "hant": "煙花三月下揚州。"
+        },
+        {
+          "id": "line-3",
+          "hans": "孤帆远影碧山尽，",
+          "hant": "孤帆遠影碧山盡，"
+        },
+        {
+          "id": "line-4",
+          "hans": "惟见长江天际流。",
+          "hant": "惟見長江天際流。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "556",
+        "printedFolio": "卷六下·12",
+        "verses": [
+          "故人西辭黃鶴樓",
+          "煙花三月下揚州",
+          "孤帆遠影碧山盡",
+          "惟見長江天際流"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063907",
+        "scanPage": "59",
+        "printedFolio": "卷174·10a",
+        "verses": [
+          "故人西辭黄鶴樓",
+          "煙花三月下揚州",
+          "孤帆遠影碧山盡",
+          "唯見長江天際流"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 4,
+          "end": 5
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "黃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063907",
+            "text": "黄"
+          }
+        ],
+        "chosen": "黃",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "惟"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063907",
+            "text": "唯"
+          }
+        ],
+        "chosen": "惟",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

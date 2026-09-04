@@ -1,0 +1,83 @@
+{
+  "id": "tang-quan-de-yu-yu-tai-ti",
+  "title": {
+    "hans": "玉台体",
+    "hant": "玉臺體"
+  },
+  "author": {
+    "name": {
+      "hans": "权德舆",
+      "hant": "权德舆"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "昨夜裙带解，",
+          "hant": "昨夜裙帶解，"
+        },
+        {
+          "id": "line-2",
+          "hans": "今朝蟢子飞。",
+          "hant": "今朝蟢子飛。"
+        },
+        {
+          "id": "line-3",
+          "hans": "铅华不可弃，",
+          "hant": "鉛華不可棄，"
+        },
+        {
+          "id": "line-4",
+          "hans": "莫是藁砧归。",
+          "hant": "莫是藁砧歸。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "519",
+        "printedFolio": "卷六上·21",
+        "verses": [
+          "昨夜裙帶解",
+          "今朝蟢子飛",
+          "鉛華不可棄",
+          "莫是藁砧歸"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060026",
+        "scanPage": "98",
+        "printedFolio": "卷328·8b",
+        "verses": [
+          "昨夜裙帶解",
+          "今朝蟢子飛",
+          "鉛華不可棄",
+          "莫是藁砧歸"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

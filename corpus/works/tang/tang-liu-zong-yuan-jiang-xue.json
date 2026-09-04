@@ -1,0 +1,122 @@
+{
+  "id": "tang-liu-zong-yuan-jiang-xue",
+  "title": {
+    "hans": "江雪",
+    "hant": "江雪"
+  },
+  "author": {
+    "name": {
+      "hans": "柳宗元",
+      "hant": "柳宗元"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "千山鸟飞绝，",
+          "hant": "千山鳥飛絕，"
+        },
+        {
+          "id": "line-2",
+          "hans": "万径人踪灭。",
+          "hant": "萬徑人蹤滅。"
+        },
+        {
+          "id": "line-3",
+          "hans": "孤舟蓑笠翁，",
+          "hant": "孤舟蓑笠翁，"
+        },
+        {
+          "id": "line-4",
+          "hans": "独钓寒江雪。",
+          "hant": "獨釣寒江雪。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "521",
+        "printedFolio": "卷六上·23",
+        "verses": [
+          "千山鳥飛絕",
+          "萬徑人蹤滅",
+          "孤舟蓑笠翁",
+          "獨釣寒江雪"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060031",
+        "scanPage": "112",
+        "printedFolio": "卷352·20a",
+        "verses": [
+          "千山鳥飛絶",
+          "萬逕人蹤滅",
+          "孤舟蓑笠翁",
+          "獨釣寒江雪"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 4,
+          "end": 5
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "絕"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060031",
+            "text": "絶"
+          }
+        ],
+        "chosen": "絕",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "徑"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060031",
+            "text": "逕"
+          }
+        ],
+        "chosen": "徑",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

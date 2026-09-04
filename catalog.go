@@ -2,170 +2,252 @@ package poetryapi
 
 import (
 	"crypto/rand"
+	"crypto/sha256"
 	"embed"
+	"encoding/hex"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"io/fs"
 	"math/big"
-	"net/url"
-	"regexp"
+	"path"
 	"sort"
-	"strconv"
 	"strings"
-	"time"
 	"unicode"
-	"unicode/utf8"
 )
 
-const (
-	TypeFiveCharacter  = "五言绝句"
-	TypeSevenCharacter = "七言绝句"
+var ErrNoMatchingWorks = errors.New("no works match the query")
 
-	defaultBaseEditionID   = "nlc-tang300-1933"
-	alternateBasePoemID    = "tang-cui-hu-ti-du-cheng-nan-zhuang"
-	alternateBaseEditionID = "benshi-shi-1933"
-)
+//go:embed corpus
+var embeddedCorpus embed.FS
 
-var (
-	idPattern              = regexp.MustCompile(`^[a-z0-9]+(?:-[a-z0-9]+)*$`)
-	scanPagePattern        = regexp.MustCompile(`^[1-9][0-9]*(?:-[1-9][0-9]*)?$`)
-	revisionPattern        = regexp.MustCompile(`^[1-9][0-9]*$`)
-	sha256Pattern          = regexp.MustCompile(`^[0-9a-f]{64}$`)
-	variantLocationPattern = regexp.MustCompile(`^line-[1-4]-char-[1-7]$`)
-)
-
-var requiredFallbackWorks = map[string]string{
-	"李白\x00静夜思":   "床前明月光\x00疑是地上霜\x00举头望明月\x00低头思故乡",
-	"王之涣\x00登鹳雀楼": "白日依山尽\x00黄河入海流\x00欲穷千里目\x00更上一层楼",
-	"孟浩然\x00春晓":   "春眠不觉晓\x00处处闻啼鸟\x00夜来风雨声\x00花落知多少",
-	"王维\x00相思":    "红豆生南国\x00春来发几枝\x00愿君多采撷\x00此物最相思",
-	"柳宗元\x00江雪":   "千山鸟飞绝\x00万径人踪灭\x00孤舟蓑笠翁\x00独钓寒江雪",
-	"王维\x00竹里馆":   "独坐幽篁里\x00弹琴复长啸\x00深林人不知\x00明月来相照",
-	"贾岛\x00寻隐者不遇": "松下问童子\x00言师采药去\x00只在此山中\x00云深不知处",
-	"崔护\x00题都城南庄": "去年今日此门中\x00人面桃花相映红\x00人面不知何处去\x00桃花依旧笑春风",
-}
-
-//go:embed data/poems.json data/evidence.json data/editions.json
-var embeddedData embed.FS
-
-type Poem struct {
-	ID                string   `json:"id"`
-	Title             string   `json:"title"`
-	TitleTraditional  string   `json:"titleTraditional"`
-	Author            string   `json:"author"`
-	Dynasty           string   `json:"dynasty"`
-	Type              string   `json:"type"`
-	Verses            []string `json:"verses"`
-	VersesTraditional []string `json:"versesTraditional"`
-}
-
-type Edition struct {
-	ID             string `json:"id"`
-	Title          string `json:"title"`
-	Year           int    `json:"year"`
-	Institution    string `json:"institution"`
-	ScanURL        string `json:"scanUrl"`
-	CommonsPageURL string `json:"commonsPageUrl"`
-	RevisionID     string `json:"revisionId"`
-	SHA256         string `json:"sha256"`
-	License        string `json:"license"`
-	AccessedAt     string `json:"accessedAt"`
-}
-
-type Witness struct {
-	EditionID    string   `json:"editionId"`
-	ScanPage     string   `json:"scanPage"`
-	PrintedFolio string   `json:"printedFolio"`
-	Verses       []string `json:"verses"`
-}
-
-type VariantReading struct {
-	EditionID string `json:"editionId"`
-	Text      string `json:"text"`
-}
-
-type Variant struct {
-	Location  string           `json:"location"`
-	Readings  []VariantReading `json:"readings"`
-	Chosen    string           `json:"chosen"`
-	Rationale string           `json:"rationale"`
-}
-
-type Normalization struct {
-	From   string `json:"from"`
-	To     string `json:"to"`
-	Reason string `json:"reason"`
-}
-
-type PoemEvidence struct {
-	PoemID         string          `json:"poemId"`
-	Status         string          `json:"status"`
-	Witnesses      []Witness       `json:"witnesses"`
-	Variants       []Variant       `json:"variants"`
-	Normalizations []Normalization `json:"normalizations"`
-	ReviewedAt     string          `json:"reviewedAt"`
-	ReviewMethod   string          `json:"reviewMethod"`
-}
-
-type poemFile struct {
-	Poems []Poem `json:"poems"`
-}
-
-type evidenceFile struct {
-	Poems []PoemEvidence `json:"poems"`
-}
-
-type editionFile struct {
-	Editions []Edition `json:"editions"`
-}
-
-// Catalog is immutable after loading and is safe for concurrent use.
+// Catalog is immutable after loading and safe for concurrent use. The random
+// reader is only replaceable by package tests before concurrent access begins.
 type Catalog struct {
-	poems    []Poem
-	byType   map[string][]int
-	evidence []PoemEvidence
-	editions []Edition
+	works          []Work
+	legacy         []Poem
+	legacyByType   map[string][]int
+	editions       []Edition
+	collections    []Collection
+	normalizations []NormalizationRule
+	stats          CorpusStats
+	randomReader   io.Reader
 }
 
-// Load validates and loads the data embedded in the executable. Invalid or
-// incomplete curation data is returned as an error so callers can fail closed.
+// Load validates and loads the corpus embedded in the executable.
 func Load() (*Catalog, error) {
-	return LoadFS(embeddedData)
+	return LoadFS(embeddedCorpus)
 }
 
-// LoadFS exists to make the complete load-and-validation path testable.
+// LoadFS exposes the complete loading and validation path for tests and tools.
+// dataFS must contain the corpus directory at its root.
 func LoadFS(dataFS fs.FS) (*Catalog, error) {
-	var poems poemFile
-	if err := decodeJSONFile(dataFS, "data/poems.json", &poems); err != nil {
+	data, err := loadCorpus(dataFS, nil)
+	if err != nil {
 		return nil, err
 	}
-	var evidence evidenceFile
-	if err := decodeJSONFile(dataFS, "data/evidence.json", &evidence); err != nil {
-		return nil, err
+	if err := validateCorpus(data, false); err != nil {
+		return nil, fmt.Errorf("validate poetry corpus: %w", err)
 	}
-	var editions editionFile
-	if err := decodeJSONFile(dataFS, "data/editions.json", &editions); err != nil {
-		return nil, err
-	}
-	if err := validate(poems.Poems, evidence.Poems, editions.Editions); err != nil {
-		return nil, fmt.Errorf("validate poetry data: %w", err)
+	return newCatalog(data), nil
+}
+
+// CheckFilesFS validates only the listed work records while still loading the
+// shared editions, collections and normalization rules they depend on. A change
+// to shared metadata deliberately falls back to full validation. Missing paths
+// are errors; callers handling deleted files must explicitly request a full check.
+func CheckFilesFS(dataFS fs.FS, files []string) error {
+	if len(files) == 0 {
+		_, err := LoadFS(dataFS)
+		return err
 	}
 
-	byType := map[string][]int{
-		TypeFiveCharacter:  make([]int, 0, 25),
-		TypeSevenCharacter: make([]int, 0, 25),
+	workPaths := make([]string, 0, len(files))
+	seen := make(map[string]struct{}, len(files))
+	for _, name := range files {
+		name = strings.TrimPrefix(path.Clean(strings.ReplaceAll(name, "\\", "/")), "./")
+		if _, duplicate := seen[name]; duplicate {
+			continue
+		}
+		seen[name] = struct{}{}
+		if _, err := fs.Stat(dataFS, name); err != nil {
+			return fmt.Errorf("stat %s: %w", name, err)
+		}
+		if !strings.HasPrefix(name, "corpus/works/") || path.Ext(name) != ".json" {
+			_, err := LoadFS(dataFS)
+			return err
+		}
+		workPaths = append(workPaths, name)
 	}
-	for i := range poems.Poems {
-		byType[poems.Poems[i].Type] = append(byType[poems.Poems[i].Type], i)
+	if len(workPaths) == 0 {
+		_, err := LoadFS(dataFS)
+		return err
 	}
-	return &Catalog{
-		poems:    append([]Poem(nil), poems.Poems...),
-		byType:   byType,
-		evidence: append([]PoemEvidence(nil), evidence.Poems...),
-		editions: append([]Edition(nil), editions.Editions...),
-	}, nil
+
+	data, err := loadCorpus(dataFS, workPaths)
+	if err != nil {
+		return err
+	}
+	if err := validateCorpus(data, true); err != nil {
+		return fmt.Errorf("validate poetry corpus files: %w", err)
+	}
+	if err := validateSelectedUniqueness(dataFS, workPaths); err != nil {
+		return fmt.Errorf("validate poetry corpus uniqueness: %w", err)
+	}
+	return nil
+}
+
+func validateSelectedUniqueness(dataFS fs.FS, selectedPaths []string) error {
+	allPaths, err := jsonPaths(dataFS, "corpus/works")
+	if err != nil {
+		return err
+	}
+	selected := make(map[string]struct{}, len(selectedPaths))
+	for _, name := range selectedPaths {
+		selected[name] = struct{}{}
+	}
+	ids := make(map[string]string, len(allPaths))
+	workKeys := make(map[string]string, len(allPaths))
+	contentKeys := make(map[string]string, len(allPaths))
+	var problems []string
+	for _, name := range allPaths {
+		var work Work
+		if err := decodeJSONFile(dataFS, name, &work); err != nil {
+			return err
+		}
+		problems = appendSelectedDuplicate(problems, "id "+work.ID, ids[work.ID], name, selected)
+		ids[work.ID] = name
+		workKey := work.Author.Name.Hans + "\x00" + work.Title.Hans
+		problems = appendSelectedDuplicate(problems, "author/title", workKeys[workKey], name, selected)
+		workKeys[workKey] = name
+		contentKey := workContentKey(work, ScriptHans)
+		problems = appendSelectedDuplicate(problems, "content", contentKeys[contentKey], name, selected)
+		contentKeys[contentKey] = name
+	}
+	if len(problems) == 0 {
+		return nil
+	}
+	sort.Strings(problems)
+	return errors.New(strings.Join(problems, "; "))
+}
+
+func appendSelectedDuplicate(problems []string, kind, previous, current string, selected map[string]struct{}) []string {
+	_, previousSelected := selected[previous]
+	_, currentSelected := selected[current]
+	if previous != "" && (previousSelected || currentSelected) {
+		return append(problems, fmt.Sprintf("%s duplicates between %s and %s", kind, previous, current))
+	}
+	return problems
+}
+
+type corpusData struct {
+	works          []Work
+	workPaths      []string
+	editions       []Edition
+	collections    []Collection
+	normalizations []NormalizationRule
+	revision       string
+}
+
+type normalizationFile struct {
+	Rules []NormalizationRule `json:"rules"`
+}
+
+func loadCorpus(dataFS fs.FS, selectedWorkPaths []string) (corpusData, error) {
+	var data corpusData
+	var err error
+
+	if selectedWorkPaths == nil {
+		data.workPaths, err = jsonPaths(dataFS, "corpus/works")
+		if err != nil {
+			return data, err
+		}
+	} else {
+		data.workPaths = append([]string(nil), selectedWorkPaths...)
+		sort.Strings(data.workPaths)
+	}
+	if len(data.workPaths) == 0 {
+		return data, errors.New("corpus/works contains no JSON files")
+	}
+	for _, name := range data.workPaths {
+		var work Work
+		if err := decodeJSONFile(dataFS, name, &work); err != nil {
+			return data, err
+		}
+		data.works = append(data.works, work)
+	}
+
+	editionPaths, err := jsonPaths(dataFS, "corpus/editions")
+	if err != nil {
+		return data, err
+	}
+	if len(editionPaths) == 0 {
+		return data, errors.New("corpus/editions contains no JSON files")
+	}
+	for _, name := range editionPaths {
+		var edition Edition
+		if err := decodeJSONFile(dataFS, name, &edition); err != nil {
+			return data, err
+		}
+		data.editions = append(data.editions, edition)
+	}
+
+	collectionPaths, err := jsonPaths(dataFS, "corpus/collections")
+	if err != nil {
+		return data, err
+	}
+	if len(collectionPaths) == 0 {
+		return data, errors.New("corpus/collections contains no JSON files")
+	}
+	for _, name := range collectionPaths {
+		var collection Collection
+		if err := decodeJSONFile(dataFS, name, &collection); err != nil {
+			return data, err
+		}
+		data.collections = append(data.collections, collection)
+	}
+
+	var normalizations normalizationFile
+	if err := decodeJSONFile(dataFS, "corpus/normalization.json", &normalizations); err != nil {
+		return data, err
+	}
+	data.normalizations = normalizations.Rules
+
+	if selectedWorkPaths == nil {
+		allPaths := make([]string, 0, len(data.workPaths)+len(editionPaths)+len(collectionPaths)+1)
+		allPaths = append(allPaths, data.workPaths...)
+		allPaths = append(allPaths, editionPaths...)
+		allPaths = append(allPaths, collectionPaths...)
+		allPaths = append(allPaths, "corpus/normalization.json")
+		data.revision, err = corpusRevision(dataFS, allPaths)
+		if err != nil {
+			return data, err
+		}
+	}
+	return data, nil
+}
+
+func jsonPaths(dataFS fs.FS, root string) ([]string, error) {
+	var names []string
+	err := fs.WalkDir(dataFS, root, func(name string, entry fs.DirEntry, walkErr error) error {
+		if walkErr != nil {
+			return walkErr
+		}
+		if entry.IsDir() {
+			return nil
+		}
+		if path.Ext(name) != ".json" {
+			return fmt.Errorf("unexpected non-JSON corpus file %s", name)
+		}
+		names = append(names, name)
+		return nil
+	})
+	if err != nil {
+		return nil, fmt.Errorf("walk %s: %w", root, err)
+	}
+	sort.Strings(names)
+	return names, nil
 }
 
 func decodeJSONFile(dataFS fs.FS, name string, target any) error {
@@ -190,446 +272,290 @@ func decodeJSONFile(dataFS fs.FS, name string, target any) error {
 	return nil
 }
 
-func (c *Catalog) Count() int {
-	return len(c.poems)
-}
-
-func (c *Catalog) Poems() []Poem {
-	result := make([]Poem, len(c.poems))
-	for i := range c.poems {
-		result[i] = clonePoem(c.poems[i])
-	}
-	return result
-}
-
-func clonePoem(p Poem) Poem {
-	p.Verses = append([]string(nil), p.Verses...)
-	p.VersesTraditional = append([]string(nil), p.VersesTraditional...)
-	return p
-}
-
-func (c *Catalog) Random(typeName string) (Poem, error) {
-	if typeName == "" {
-		index, err := randomIndex(len(c.poems))
+func corpusRevision(dataFS fs.FS, names []string) (string, error) {
+	sort.Strings(names)
+	hash := sha256.New()
+	for _, name := range names {
+		content, err := fs.ReadFile(dataFS, name)
 		if err != nil {
-			return Poem{}, err
+			return "", fmt.Errorf("hash %s: %w", name, err)
 		}
-		return clonePoem(c.poems[index]), nil
+		_, _ = io.WriteString(hash, name)
+		_, _ = hash.Write([]byte{0})
+		_, _ = hash.Write(content)
+		_, _ = hash.Write([]byte{0})
 	}
-	indices, ok := c.byType[typeName]
-	if !ok {
-		return Poem{}, fmt.Errorf("unsupported poem type %q", typeName)
-	}
-	index, err := randomIndex(len(indices))
-	if err != nil {
-		return Poem{}, err
-	}
-	return clonePoem(c.poems[indices[index]]), nil
+	return hex.EncodeToString(hash.Sum(nil)), nil
 }
 
-func randomIndex(length int) (int, error) {
-	if length <= 0 {
-		return 0, errors.New("no poems available")
+func newCatalog(data corpusData) *Catalog {
+	catalog := &Catalog{
+		works:          cloneWorks(data.works),
+		legacyByType:   map[string][]int{TypeFiveCharacter: {}, TypeSevenCharacter: {}},
+		editions:       append([]Edition(nil), data.editions...),
+		collections:    cloneCollections(data.collections),
+		normalizations: cloneNormalizations(data.normalizations),
+		randomReader:   rand.Reader,
+		stats: CorpusStats{
+			Works:          len(data.works),
+			ByDynasty:      map[string]int{DynastyTang: 0, DynastySong: 0},
+			CorpusRevision: data.revision,
+		},
 	}
-	n, err := rand.Int(rand.Reader, big.NewInt(int64(length)))
-	if err != nil {
-		return 0, fmt.Errorf("choose random poem: %w", err)
-	}
-	return int(n.Int64()), nil
-}
-
-func validate(poems []Poem, evidence []PoemEvidence, editions []Edition) error {
-	var problems []string
-	if len(poems) != 50 {
-		problems = append(problems, fmt.Sprintf("expected exactly 50 poems, got %d", len(poems)))
-	}
-
-	typeCounts := map[string]int{}
-	authorCounts := map[string]int{}
-	ids := map[string]struct{}{}
-	works := map[string]struct{}{}
-	contents := map[string]struct{}{}
-	poemByID := map[string]Poem{}
-	for i, poem := range poems {
-		label := fmt.Sprintf("poem[%d]", i)
-		if poem.ID == "" || !idPattern.MatchString(poem.ID) {
-			problems = append(problems, label+": invalid id")
-		}
-		if _, exists := ids[poem.ID]; exists {
-			problems = append(problems, label+": duplicate id "+poem.ID)
-		}
-		ids[poem.ID] = struct{}{}
-		poemByID[poem.ID] = poem
-		if !isHanText(poem.Title) || !isHanText(poem.TitleTraditional) {
-			problems = append(problems, label+": title must contain only Han characters")
-		}
-		if titleLength := utf8.RuneCountInString(poem.Title); titleLength < 2 || titleLength > 11 || poem.Title == "句" {
-			problems = append(problems, label+": title does not satisfy blog layout constraints")
-		}
-		if traditionalTitleLength := utf8.RuneCountInString(poem.TitleTraditional); traditionalTitleLength < 2 || traditionalTitleLength > 11 || poem.TitleTraditional == "句" {
-			problems = append(problems, label+": traditional title does not satisfy layout constraints")
-		}
-		if !isHanText(poem.Author) || poem.Author == "佚名" {
-			problems = append(problems, label+": missing or anonymous author")
-		}
-		if poem.Dynasty != "唐" {
-			problems = append(problems, label+": dynasty must be 唐")
-		}
-		expectedCharacters := 0
-		switch poem.Type {
-		case TypeFiveCharacter:
-			expectedCharacters = 5
-		case TypeSevenCharacter:
-			expectedCharacters = 7
-		default:
-			problems = append(problems, label+": unsupported type "+poem.Type)
-		}
-		typeCounts[poem.Type]++
-		authorCounts[poem.Author]++
-		problems = append(problems, validateVerses(label+".verses", poem.Verses, expectedCharacters)...)
-		problems = append(problems, validateVerses(label+".versesTraditional", poem.VersesTraditional, expectedCharacters)...)
-
-		workKey := poem.Author + "\x00" + poem.Title
-		if _, exists := works[workKey]; exists {
-			problems = append(problems, label+": duplicate author/title")
-		}
-		works[workKey] = struct{}{}
-		contentKey := strings.Join(poem.Verses, "\x00")
-		if _, exists := contents[contentKey]; exists {
-			problems = append(problems, label+": duplicate content")
-		}
-		contents[contentKey] = struct{}{}
-	}
-	for _, typeName := range []string{TypeFiveCharacter, TypeSevenCharacter} {
-		if typeCounts[typeName] != 25 {
-			problems = append(problems, fmt.Sprintf("expected 25 %s poems, got %d", typeName, typeCounts[typeName]))
-		}
-	}
-	for author, count := range authorCounts {
-		if count > 4 {
-			problems = append(problems, fmt.Sprintf("author %s exceeds limit: %d", author, count))
-		}
-	}
-	for workKey, expectedContent := range requiredFallbackWorks {
-		if _, ok := works[workKey]; !ok {
-			problems = append(problems, "missing required blog fallback poem "+strings.ReplaceAll(workKey, "\x00", "/"))
+	for _, work := range catalog.works {
+		catalog.stats.ByDynasty[work.Dynasty]++
+		poem, ok := legacyPoem(work)
+		if !ok {
 			continue
 		}
-		parts := strings.SplitN(workKey, "\x00", 2)
-		for _, poem := range poems {
-			if poem.Author == parts[0] && poem.Title == parts[1] && strings.Join(poem.Verses, "\x00") != expectedContent {
-				problems = append(problems, "required blog fallback text differs for "+parts[0]+"/"+parts[1])
-			}
-		}
+		index := len(catalog.legacy)
+		catalog.legacy = append(catalog.legacy, poem)
+		catalog.legacyByType[poem.Type] = append(catalog.legacyByType[poem.Type], index)
 	}
-
-	editionByID := map[string]Edition{}
-	for i, edition := range editions {
-		label := fmt.Sprintf("edition[%d]", i)
-		if strings.TrimSpace(edition.ID) == "" {
-			problems = append(problems, label+": missing id")
-		}
-		if _, exists := editionByID[edition.ID]; exists {
-			problems = append(problems, label+": duplicate id "+edition.ID)
-		}
-		editionByID[edition.ID] = edition
-		if strings.TrimSpace(edition.Title) == "" || edition.Year <= 0 || strings.TrimSpace(edition.Institution) == "" {
-			problems = append(problems, label+": incomplete bibliographic metadata")
-		}
-		if !isHTTPSURL(edition.ScanURL) || !isHTTPSURL(edition.CommonsPageURL) || strings.TrimSpace(edition.License) == "" {
-			problems = append(problems, label+": missing or invalid scan URL, Commons page URL, or license")
-		}
-		if _, err := time.Parse("2006-01-02", edition.AccessedAt); err != nil {
-			problems = append(problems, label+": accessedAt must be YYYY-MM-DD")
-		}
-		if strings.TrimSpace(edition.RevisionID) == "" && strings.TrimSpace(edition.SHA256) == "" {
-			problems = append(problems, label+": revisionId or sha256 is required")
-		}
-		if edition.RevisionID != "" && !revisionPattern.MatchString(edition.RevisionID) {
-			problems = append(problems, label+": revisionId must be a positive numeric MediaWiki revision")
-		}
-		if edition.SHA256 != "" && !sha256Pattern.MatchString(edition.SHA256) {
-			problems = append(problems, label+": sha256 must be 64 lowercase hexadecimal characters")
-		}
-	}
-
-	evidenceByPoem := map[string]PoemEvidence{}
-	for i, item := range evidence {
-		label := fmt.Sprintf("evidence[%d]", i)
-		if _, exists := evidenceByPoem[item.PoemID]; exists {
-			problems = append(problems, label+": duplicate poemId "+item.PoemID)
-		}
-		evidenceByPoem[item.PoemID] = item
-		poem, exists := poemByID[item.PoemID]
-		if !exists {
-			problems = append(problems, label+": unknown poemId "+item.PoemID)
-		}
-		if item.Status != "verified" {
-			problems = append(problems, label+": status must be verified")
-		}
-		if item.Variants == nil || item.Normalizations == nil {
-			problems = append(problems, label+": variants and normalizations must be explicit arrays")
-		}
-		if len(item.Witnesses) < 2 {
-			problems = append(problems, label+": at least two witnesses are required")
-		}
-		witnessEditions := map[string]struct{}{}
-		hasCorroboratingWitness := false
-		for j, witness := range item.Witnesses {
-			wlabel := fmt.Sprintf("%s.witnesses[%d]", label, j)
-			edition, ok := editionByID[witness.EditionID]
-			if !ok {
-				problems = append(problems, wlabel+": unknown editionId "+witness.EditionID)
-			} else if edition.Year == 1705 && strings.HasPrefix(edition.ID, "qts-1705-") {
-				hasCorroboratingWitness = true
-			}
-			if _, exists := witnessEditions[witness.EditionID]; exists {
-				problems = append(problems, wlabel+": repeated editionId "+witness.EditionID)
-			}
-			witnessEditions[witness.EditionID] = struct{}{}
-			if !isValidScanPage(witness.ScanPage) {
-				problems = append(problems, wlabel+": scanPage must be a positive 1-based page or ascending page range")
-			}
-			if strings.TrimSpace(witness.PrintedFolio) == "" {
-				problems = append(problems, wlabel+": missing printedFolio")
-			}
-			expectedCharacters := 0
-			if poem.Type == TypeFiveCharacter {
-				expectedCharacters = 5
-			} else if poem.Type == TypeSevenCharacter {
-				expectedCharacters = 7
-			}
-			problems = append(problems, validateVerses(wlabel+".verses", witness.Verses, expectedCharacters)...)
-		}
-		baseEditionID := requiredBaseEditionID(item.PoemID)
-		if _, ok := witnessEditions[baseEditionID]; !ok {
-			problems = append(problems, fmt.Sprintf("%s: missing required base edition %s", label, baseEditionID))
-		}
-		if !hasCorroboratingWitness {
-			problems = append(problems, label+": missing 1705 corroborating witness")
-		}
-		variantByLocation := map[string]Variant{}
-		witnessEditionIDs := map[string]struct{}{}
-		for _, witness := range item.Witnesses {
-			witnessEditionIDs[witness.EditionID] = struct{}{}
-		}
-		for j, variant := range item.Variants {
-			vlabel := fmt.Sprintf("%s.variants[%d]", label, j)
-			if _, duplicate := variantByLocation[variant.Location]; duplicate {
-				problems = append(problems, vlabel+": duplicate location "+variant.Location)
-			}
-			variantByLocation[variant.Location] = variant
-			if strings.TrimSpace(variant.Location) == "" || strings.TrimSpace(variant.Chosen) == "" || strings.TrimSpace(variant.Rationale) == "" {
-				problems = append(problems, vlabel+": incomplete variant decision")
-			}
-			if !variantLocationPattern.MatchString(variant.Location) {
-				problems = append(problems, vlabel+": location must be line-N-char-M")
-			}
-			if utf8.RuneCountInString(variant.Chosen) != 1 || !isHanText(variant.Chosen) {
-				problems = append(problems, vlabel+": chosen must be one Han character")
-			}
-			if len(variant.Readings) < 2 {
-				problems = append(problems, vlabel+": at least two readings are required")
-			}
-			seenReadings := map[string]struct{}{}
-			for k, reading := range variant.Readings {
-				if _, ok := editionByID[reading.EditionID]; !ok || strings.TrimSpace(reading.Text) == "" {
-					problems = append(problems, fmt.Sprintf("%s.readings[%d]: invalid edition or empty text", vlabel, k))
-				}
-				if _, ok := witnessEditionIDs[reading.EditionID]; !ok {
-					problems = append(problems, fmt.Sprintf("%s.readings[%d]: edition is not a witness for this poem", vlabel, k))
-				}
-				if _, duplicate := seenReadings[reading.EditionID]; duplicate {
-					problems = append(problems, fmt.Sprintf("%s.readings[%d]: duplicate editionId", vlabel, k))
-				}
-				seenReadings[reading.EditionID] = struct{}{}
-				if utf8.RuneCountInString(reading.Text) != 1 || !isHanText(reading.Text) {
-					problems = append(problems, fmt.Sprintf("%s.readings[%d]: text must be one Han character", vlabel, k))
-				}
-			}
-		}
-		for j, normalization := range item.Normalizations {
-			if strings.TrimSpace(normalization.From) == "" || strings.TrimSpace(normalization.To) == "" || strings.TrimSpace(normalization.Reason) == "" {
-				problems = append(problems, fmt.Sprintf("%s.normalizations[%d]: incomplete normalization", label, j))
-			}
-			if normalization.From == normalization.To {
-				problems = append(problems, fmt.Sprintf("%s.normalizations[%d]: from and to must differ", label, j))
-			}
-			if utf8.RuneCountInString(normalization.From) != 1 || utf8.RuneCountInString(normalization.To) != 1 || !isHanText(normalization.From) || !isHanText(normalization.To) {
-				problems = append(problems, fmt.Sprintf("%s.normalizations[%d]: from and to must each be one Han character", label, j))
-			}
-		}
-		if exists {
-			problems = append(problems, validateVariantCoverage(label, poem, item.Witnesses, variantByLocation)...)
-			problems = append(problems, validateNormalizationCoverage(label, poem, item.Normalizations)...)
-		}
-		if _, err := time.Parse("2006-01-02", item.ReviewedAt); err != nil {
-			problems = append(problems, label+": reviewedAt must be YYYY-MM-DD")
-		}
-		if strings.TrimSpace(item.ReviewMethod) == "" {
-			problems = append(problems, label+": missing reviewMethod")
-		}
-	}
-	for id := range poemByID {
-		if _, ok := evidenceByPoem[id]; !ok {
-			problems = append(problems, "missing evidence for "+id)
-		}
-	}
-	if len(problems) == 0 {
-		return nil
-	}
-	sort.Strings(problems)
-	return errors.New(strings.Join(problems, "; "))
+	return catalog
 }
 
-func validateVariantCoverage(label string, poem Poem, witnesses []Witness, variants map[string]Variant) []string {
-	var problems []string
-	if len(poem.VersesTraditional) != 4 {
-		return problems
+func (c *Catalog) Count() int { return len(c.works) }
+
+func (c *Catalog) Stats() CorpusStats {
+	return CorpusStats{
+		Works:          c.stats.Works,
+		ByDynasty:      cloneCounts(c.stats.ByDynasty),
+		CorpusRevision: c.stats.CorpusRevision,
 	}
-	for lineIndex, selectedVerse := range poem.VersesTraditional {
-		selectedRunes := []rune(selectedVerse)
-		for characterIndex, selected := range selectedRunes {
-			readings := map[string]string{}
-			differs := false
-			complete := true
-			for _, witness := range witnesses {
-				if len(witness.Verses) != 4 {
-					complete = false
-					continue
-				}
-				witnessRunes := []rune(witness.Verses[lineIndex])
-				if len(witnessRunes) != len(selectedRunes) {
-					complete = false
-					continue
-				}
-				reading := string(witnessRunes[characterIndex])
-				readings[witness.EditionID] = reading
-				if witnessRunes[characterIndex] != selected {
-					differs = true
-				}
-			}
-			if !complete || !differs {
-				continue
-			}
-			location := fmt.Sprintf("line-%d-char-%d", lineIndex+1, characterIndex+1)
-			variant, ok := variants[location]
-			if !ok {
-				problems = append(problems, label+": missing variant decision for "+location)
-				continue
-			}
-			if variant.Chosen != string(selected) {
-				problems = append(problems, label+": variant "+location+" chosen text does not match versesTraditional")
-			}
-			recorded := map[string]string{}
-			for _, reading := range variant.Readings {
-				recorded[reading.EditionID] = reading.Text
-			}
-			for editionID, reading := range readings {
-				if recorded[editionID] != reading {
-					problems = append(problems, fmt.Sprintf("%s: variant %s does not record %s reading %q", label, location, editionID, reading))
-				}
-			}
-		}
-	}
-	return problems
 }
 
-func requiredBaseEditionID(poemID string) string {
-	if poemID == alternateBasePoemID {
-		return alternateBaseEditionID
+func (c *Catalog) Works() []Work { return cloneWorks(c.works) }
+
+func (c *Catalog) RandomWork(query Query) (Work, error) {
+	if err := ValidateQuery(query); err != nil {
+		return Work{}, err
 	}
-	return defaultBaseEditionID
+	indices := make([]int, 0, len(c.works))
+	for i := range c.works {
+		if matchesQuery(c.works[i], query) {
+			indices = append(indices, i)
+		}
+	}
+	if len(indices) == 0 {
+		return Work{}, ErrNoMatchingWorks
+	}
+	selected, err := randomIndexFrom(c.randomReader, len(indices))
+	if err != nil {
+		return Work{}, err
+	}
+	return cloneWork(c.works[indices[selected]]), nil
 }
 
-func validateNormalizationCoverage(label string, poem Poem, normalizations []Normalization) []string {
-	var problems []string
-	if len(poem.Verses) != 4 || len(poem.VersesTraditional) != 4 {
-		return problems
+func ValidateQuery(query Query) error {
+	if query.Collection != "" && !validID(query.Collection) {
+		return fmt.Errorf("invalid collection %q", query.Collection)
 	}
-	recorded := map[string]struct{}{}
-	for _, normalization := range normalizations {
-		recorded[normalization.From+"\x00"+normalization.To] = struct{}{}
+	if query.Dynasty != "" && query.Dynasty != DynastyTang && query.Dynasty != DynastySong {
+		return fmt.Errorf("invalid dynasty %q", query.Dynasty)
 	}
-	for lineIndex := range poem.Verses {
-		simplified := []rune(poem.Verses[lineIndex])
-		traditional := []rune(poem.VersesTraditional[lineIndex])
-		if len(simplified) != len(traditional) {
-			continue
-		}
-		for characterIndex := range simplified {
-			if simplified[characterIndex] == traditional[characterIndex] {
-				continue
-			}
-			key := string(traditional[characterIndex]) + "\x00" + string(simplified[characterIndex])
-			if _, ok := recorded[key]; !ok {
-				problems = append(problems, fmt.Sprintf("%s: missing normalization %q to %q at line-%d-char-%d", label, traditional[characterIndex], simplified[characterIndex], lineIndex+1, characterIndex+1))
-			}
-		}
+	if query.Genre != "" && query.Genre != GenreShi && query.Genre != GenreCi {
+		return fmt.Errorf("invalid genre %q", query.Genre)
 	}
-	if simplifiedTitle, traditionalTitle := []rune(poem.Title), []rune(poem.TitleTraditional); len(simplifiedTitle) == len(traditionalTitle) {
-		for characterIndex := range simplifiedTitle {
-			if simplifiedTitle[characterIndex] == traditionalTitle[characterIndex] {
-				continue
-			}
-			key := string(traditionalTitle[characterIndex]) + "\x00" + string(simplifiedTitle[characterIndex])
-			if _, ok := recorded[key]; !ok {
-				problems = append(problems, fmt.Sprintf("%s: missing title normalization %q to %q at title-char-%d", label, traditionalTitle[characterIndex], simplifiedTitle[characterIndex], characterIndex+1))
-			}
-		}
+	if query.Form != "" && query.Form != FormGushi && query.Form != FormLushi && query.Form != FormJueju && query.Form != FormCi {
+		return fmt.Errorf("invalid form %q", query.Form)
 	}
-	return problems
+	if query.Meter != "" && query.Meter != MeterFive && query.Meter != MeterSeven && query.Meter != MeterMixed {
+		return fmt.Errorf("invalid meter %q", query.Meter)
+	}
+	if query.MaxChars < 0 || query.MaxChars > 5000 {
+		return fmt.Errorf("max_chars must be between 1 and 5000")
+	}
+	if query.Script != "" && query.Script != ScriptHans && query.Script != ScriptHant {
+		return fmt.Errorf("invalid script %q", query.Script)
+	}
+	return nil
 }
 
-func isHanText(value string) bool {
-	if value == "" || !utf8.ValidString(value) {
+func matchesQuery(work Work, query Query) bool {
+	if query.Collection != "" && !workInCollection(work, query.Collection) {
 		return false
 	}
-	for _, r := range value {
-		if r == utf8.RuneError || !unicode.Is(unicode.Han, r) || unicode.IsControl(r) || unicode.IsSpace(r) || unicode.Is(unicode.Co, r) {
-			return false
-		}
+	if query.Dynasty != "" && work.Dynasty != query.Dynasty {
+		return false
+	}
+	if query.Genre != "" && work.Genre != query.Genre {
+		return false
+	}
+	if query.Form != "" && work.Form != query.Form {
+		return false
+	}
+	if query.Meter != "" && work.Meter != query.Meter {
+		return false
+	}
+	if query.MaxChars > 0 && workCharacterCount(work, query.Script) > query.MaxChars {
+		return false
 	}
 	return true
 }
 
-func isHTTPSURL(value string) bool {
-	parsed, err := url.ParseRequestURI(value)
-	return err == nil && parsed.Scheme == "https" && parsed.Host != ""
+func workInCollection(work Work, collectionID string) bool {
+	for _, membership := range work.Collections {
+		if membership.ID == collectionID {
+			return true
+		}
+	}
+	return false
 }
 
-func isValidScanPage(value string) bool {
-	if !scanPagePattern.MatchString(value) {
-		return false
-	}
-	parts := strings.Split(value, "-")
-	if len(parts) == 1 {
-		return true
-	}
-	start, startErr := strconv.Atoi(parts[0])
-	end, endErr := strconv.Atoi(parts[1])
-	return startErr == nil && endErr == nil && end > start
-}
-
-func validateVerses(label string, verses []string, expectedCharacters int) []string {
-	var problems []string
-	if len(verses) != 4 {
-		return []string{fmt.Sprintf("%s: expected 4 verses, got %d", label, len(verses))}
-	}
-	for i, verse := range verses {
-		vlabel := fmt.Sprintf("%s[%d]", label, i)
-		if !utf8.ValidString(verse) {
-			problems = append(problems, vlabel+": invalid UTF-8")
-			continue
-		}
-		if utf8.RuneCountInString(verse) != expectedCharacters {
-			problems = append(problems, fmt.Sprintf("%s: expected %d characters, got %d", vlabel, expectedCharacters, utf8.RuneCountInString(verse)))
-		}
-		for _, r := range verse {
-			if r == utf8.RuneError || !unicode.Is(unicode.Han, r) || unicode.IsControl(r) || unicode.IsSpace(r) || unicode.Is(unicode.Co, r) {
-				problems = append(problems, fmt.Sprintf("%s: invalid character %q", vlabel, r))
+func workCharacterCount(work Work, script Script) int {
+	count := 0
+	for _, section := range work.Sections {
+		for _, line := range section.Lines {
+			for _, r := range line.Text(script) {
+				if !unicode.IsPunct(r) && !unicode.IsSpace(r) {
+					count++
+				}
 			}
 		}
 	}
-	return problems
+	return count
+}
+
+// Random serves only records representable by the deprecated four-line API.
+func (c *Catalog) Random(typeName string) (Poem, error) {
+	var indices []int
+	if typeName == "" {
+		indices = make([]int, len(c.legacy))
+		for i := range c.legacy {
+			indices[i] = i
+		}
+	} else {
+		var ok bool
+		indices, ok = c.legacyByType[typeName]
+		if !ok {
+			return Poem{}, fmt.Errorf("unsupported poem type %q", typeName)
+		}
+	}
+	if len(indices) == 0 {
+		return Poem{}, ErrNoMatchingWorks
+	}
+	selected, err := randomIndexFrom(c.randomReader, len(indices))
+	if err != nil {
+		return Poem{}, err
+	}
+	return clonePoem(c.legacy[indices[selected]]), nil
+}
+
+func legacyPoem(work Work) (Poem, bool) {
+	if work.Dynasty != DynastyTang || work.Genre != GenreShi || work.Form != FormJueju || len(work.Sections) != 1 || len(work.Sections[0].Lines) != 4 {
+		return Poem{}, false
+	}
+	typeName := TypeFiveCharacter
+	if work.Meter == MeterSeven {
+		typeName = TypeSevenCharacter
+	} else if work.Meter != MeterFive {
+		return Poem{}, false
+	}
+	poem := Poem{
+		ID:               work.ID,
+		Title:            work.Title.Hans,
+		TitleTraditional: work.Title.Hant,
+		Author:           work.Author.Name.Hans,
+		Dynasty:          "唐",
+		Type:             typeName,
+	}
+	for _, line := range work.Sections[0].Lines {
+		poem.Verses = append(poem.Verses, trimTerminalPunctuation(line.Hans))
+		poem.VersesTraditional = append(poem.VersesTraditional, trimTerminalPunctuation(line.Hant))
+	}
+	return poem, true
+}
+
+func randomIndexFrom(reader io.Reader, length int) (int, error) {
+	if length <= 0 {
+		return 0, errors.New("no works available")
+	}
+	n, err := rand.Int(reader, big.NewInt(int64(length)))
+	if err != nil {
+		return 0, fmt.Errorf("choose random work: %w", err)
+	}
+	return int(n.Int64()), nil
+}
+
+func cloneWork(work Work) Work {
+	if work.Tune != nil {
+		tune := *work.Tune
+		work.Tune = &tune
+	}
+	sections := work.Sections
+	work.Sections = make([]Section, len(sections))
+	for i, section := range sections {
+		work.Sections[i] = section
+		work.Sections[i].Lines = append([]Line(nil), section.Lines...)
+	}
+	work.Collections = append([]WorkCollection(nil), work.Collections...)
+	for i := range work.Collections {
+		work.Collections[i].Position = cloneInt(work.Collections[i].Position)
+	}
+	work.NormalizationOverrides = append([]NormalizationOverride(nil), work.NormalizationOverrides...)
+	witnesses := work.Evidence.Witnesses
+	work.Evidence.Witnesses = make([]Witness, len(witnesses))
+	for i, witness := range witnesses {
+		work.Evidence.Witnesses[i] = witness
+		work.Evidence.Witnesses[i].Verses = append([]string(nil), witness.Verses...)
+	}
+	variants := work.Evidence.Variants
+	work.Evidence.Variants = make([]Variant, len(variants))
+	for i, variant := range variants {
+		work.Evidence.Variants[i] = variant
+		work.Evidence.Variants[i].Readings = append([]VariantReading(nil), variant.Readings...)
+	}
+	return work
+}
+
+func cloneWorks(works []Work) []Work {
+	result := make([]Work, len(works))
+	for i := range works {
+		result[i] = cloneWork(works[i])
+	}
+	return result
+}
+
+func clonePoem(poem Poem) Poem {
+	poem.Verses = append([]string(nil), poem.Verses...)
+	poem.VersesTraditional = append([]string(nil), poem.VersesTraditional...)
+	return poem
+}
+
+func cloneCollections(collections []Collection) []Collection {
+	result := make([]Collection, len(collections))
+	for i, collection := range collections {
+		result[i] = collection
+		result[i].Members = append([]CollectionMember(nil), collection.Members...)
+		for j := range result[i].Members {
+			result[i].Members[j].Position = cloneInt(result[i].Members[j].Position)
+		}
+	}
+	return result
+}
+
+func cloneInt(value *int) *int {
+	if value == nil {
+		return nil
+	}
+	copy := *value
+	return &copy
+}
+
+func cloneNormalizations(rules []NormalizationRule) []NormalizationRule {
+	result := make([]NormalizationRule, len(rules))
+	for i, rule := range rules {
+		result[i] = rule
+		result[i].AuditedWorkIDs = append([]string(nil), rule.AuditedWorkIDs...)
+	}
+	return result
+}
+
+func cloneCounts(counts map[string]int) map[string]int {
+	result := make(map[string]int, len(counts))
+	for key, value := range counts {
+		result[key] = value
+	}
+	return result
 }

@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-jian-xin-jia-niang-ci",
+  "title": {
+    "hans": "新嫁娘词",
+    "hant": "新嫁娘詞"
+  },
+  "author": {
+    "name": {
+      "hans": "王建",
+      "hant": "王建"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "三日入厨下，",
+          "hant": "三日入廚下，"
+        },
+        {
+          "id": "line-2",
+          "hans": "洗手作羹汤。",
+          "hant": "洗手作羹湯。"
+        },
+        {
+          "id": "line-3",
+          "hans": "未谙姑食性，",
+          "hant": "未諳姑食性，"
+        },
+        {
+          "id": "line-4",
+          "hans": "先遣小姑尝。",
+          "hant": "先遣小姑嘗。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "518",
+        "printedFolio": "卷六上·20",
+        "verses": [
+          "三日入廚下",
+          "洗手作羹湯",
+          "未諳姑食性",
+          "先遣小姑嘗"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060022",
+        "scanPage": "10",
+        "printedFolio": "卷301·4b",
+        "verses": [
+          "三日入廚下",
+          "洗手作羹湯",
+          "未諳姑食性",
+          "先遣小姑嘗"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

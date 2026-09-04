@@ -1,0 +1,103 @@
+{
+  "id": "tang-pei-di-song-cui-jiu",
+  "title": {
+    "hans": "送崔九",
+    "hant": "送崔九"
+  },
+  "author": {
+    "name": {
+      "hans": "裴迪",
+      "hant": "裴迪"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "归山深浅去，",
+          "hant": "歸山深淺去，"
+        },
+        {
+          "id": "line-2",
+          "hans": "须尽丘壑美。",
+          "hant": "須盡丘壑美。"
+        },
+        {
+          "id": "line-3",
+          "hans": "莫学武陵人，",
+          "hant": "莫學武陵人，"
+        },
+        {
+          "id": "line-4",
+          "hans": "暂游桃源里。",
+          "hant": "暫遊桃源裏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "503",
+        "printedFolio": "卷六上·5",
+        "verses": [
+          "歸山深淺去",
+          "須盡邱壑美",
+          "莫學武陵人",
+          "暫遊桃源裏"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063898",
+        "scanPage": "88",
+        "printedFolio": "卷129·7b",
+        "verses": [
+          "歸山深淺去",
+          "須盡丘壑美",
+          "莫學武陵人",
+          "暫遊桃源裏"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "邱"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063898",
+            "text": "丘"
+          }
+        ],
+        "chosen": "丘",
+        "rationale": "采用通行规范字形，并由1705核对本支持；1933主底本异体作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-wei-song-bie",
+  "title": {
+    "hans": "送别",
+    "hant": "送別"
+  },
+  "author": {
+    "name": {
+      "hans": "王维",
+      "hant": "王维"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "山中相送罢，",
+          "hant": "山中相送罷，"
+        },
+        {
+          "id": "line-2",
+          "hans": "日暮掩柴扉。",
+          "hant": "日暮掩柴扉。"
+        },
+        {
+          "id": "line-3",
+          "hans": "春草明年绿，",
+          "hant": "春草明年綠，"
+        },
+        {
+          "id": "line-4",
+          "hans": "王孙归不归。",
+          "hant": "王孫歸不歸。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "500",
+        "printedFolio": "卷六上·2",
+        "verses": [
+          "山中相送罷",
+          "日暮掩柴扉",
+          "春草明年綠",
+          "王孫歸不歸"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063898",
+        "scanPage": "56",
+        "printedFolio": "卷128·12a",
+        "verses": [
+          "山中相送罷",
+          "日暮掩柴扉",
+          "春草明年綠",
+          "王孫歸不歸"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

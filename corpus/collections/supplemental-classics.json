@@ -1,0 +1,16 @@
+{
+  "id": "supplemental-classics",
+  "title": {
+    "hans": "古典诗词补录",
+    "hant": "古典詩詞補錄"
+  },
+  "status": "in-progress",
+  "primaryEditionId": "benshi-shi-1933",
+  "members": [
+    {
+      "workId": "tang-cui-hu-ti-du-cheng-nan-zhuang",
+      "position": 1,
+      "positionStatus": "confirmed"
+    }
+  ]
+}

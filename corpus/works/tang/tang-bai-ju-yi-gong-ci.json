@@ -1,0 +1,141 @@
+{
+  "id": "tang-bai-ju-yi-gong-ci",
+  "title": {
+    "hans": "宫词",
+    "hant": "宮詞"
+  },
+  "author": {
+    "name": {
+      "hans": "白居易",
+      "hant": "白居易"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "泪尽罗巾梦不成，",
+          "hant": "淚盡羅巾夢不成，"
+        },
+        {
+          "id": "line-2",
+          "hans": "夜深前殿按歌声。",
+          "hant": "夜深前殿按歌聲。"
+        },
+        {
+          "id": "line-3",
+          "hans": "红颜未老恩先断，",
+          "hant": "紅顏未老恩先斷，"
+        },
+        {
+          "id": "line-4",
+          "hans": "斜倚熏笼坐到明。",
+          "hant": "斜倚熏籠坐到明。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "578",
+        "printedFolio": "卷六下·34",
+        "verses": [
+          "淚盡羅巾夢不成",
+          "夜深前殿按歌聲",
+          "紅顏未老恩先斷",
+          "斜倚熏籠坐到明"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060050",
+        "scanPage": "97",
+        "printedFolio": "卷441·21a",
+        "verses": [
+          "淚濕羅巾夢不成",
+          "夜深前殿按歌聲",
+          "紅顔未老恩先斷",
+          "斜倚薰籠坐到明"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "盡"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060050",
+            "text": "濕"
+          }
+        ],
+        "chosen": "盡",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "顏"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060050",
+            "text": "顔"
+          }
+        ],
+        "chosen": "顏",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "熏"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060050",
+            "text": "薰"
+          }
+        ],
+        "chosen": "熏",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tang-meng-hao-ran-su-jian-de-jiang",
+  "title": {
+    "hans": "宿建德江",
+    "hant": "宿建德江"
+  },
+  "author": {
+    "name": {
+      "hans": "孟浩然",
+      "hant": "孟浩然"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "移舟泊烟渚，",
+          "hant": "移舟泊煙渚，"
+        },
+        {
+          "id": "line-2",
+          "hans": "日暮客愁新。",
+          "hant": "日暮客愁新。"
+        },
+        {
+          "id": "line-3",
+          "hans": "野旷天低树，",
+          "hant": "野曠天低樹，"
+        },
+        {
+          "id": "line-4",
+          "hans": "江清月近人。",
+          "hant": "江清月近人。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "506",
+        "printedFolio": "卷六上·8",
+        "verses": [
+          "移舟泊煙渚",
+          "日暮客愁新",
+          "野曠天低樹",
+          "江清月近人"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063904",
+        "scanPage": "152",
+        "printedFolio": "卷160·45b",
+        "verses": [
+          "移舟泊煙渚",
+          "日暮客愁新",
+          "野曠天低樹",
+          "江清月近人"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

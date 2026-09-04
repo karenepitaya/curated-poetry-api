@@ -1,0 +1,83 @@
+{
+  "id": "tang-yuan-zhen-xing-gong",
+  "title": {
+    "hans": "行宫",
+    "hant": "行宮"
+  },
+  "author": {
+    "name": {
+      "hans": "元稹",
+      "hant": "元稹"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "寥落古行宫，",
+          "hant": "寥落古行宮，"
+        },
+        {
+          "id": "line-2",
+          "hans": "宫花寂寞红。",
+          "hant": "宮花寂寞紅。"
+        },
+        {
+          "id": "line-3",
+          "hans": "白头宫女在，",
+          "hant": "白頭宮女在，"
+        },
+        {
+          "id": "line-4",
+          "hans": "闲坐说玄宗。",
+          "hant": "閒坐說玄宗。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "522",
+        "printedFolio": "卷六上·24",
+        "verses": [
+          "寥落古行宮",
+          "宮花寂寞紅",
+          "白頭宮女在",
+          "閒坐說玄宗"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060043",
+        "scanPage": "47",
+        "printedFolio": "卷410·3a",
+        "verses": [
+          "寥落古行宮",
+          "宮花寂寞紅",
+          "白頭宮女在",
+          "閒坐說玄宗"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

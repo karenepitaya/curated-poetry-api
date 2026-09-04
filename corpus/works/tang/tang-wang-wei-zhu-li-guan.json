@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-wei-zhu-li-guan",
+  "title": {
+    "hans": "竹里馆",
+    "hant": "竹里館"
+  },
+  "author": {
+    "name": {
+      "hans": "王维",
+      "hant": "王维"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "独坐幽篁里，",
+          "hant": "獨坐幽篁裏，"
+        },
+        {
+          "id": "line-2",
+          "hans": "弹琴复长啸。",
+          "hant": "彈琴復長嘯。"
+        },
+        {
+          "id": "line-3",
+          "hans": "深林人不知，",
+          "hant": "深林人不知，"
+        },
+        {
+          "id": "line-4",
+          "hans": "明月来相照。",
+          "hant": "明月來相照。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "500",
+        "printedFolio": "卷六上·2",
+        "verses": [
+          "獨坐幽篁裏",
+          "彈琴復長嘯",
+          "深林人不知",
+          "明月來相照"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063898",
+        "scanPage": "52",
+        "printedFolio": "卷128·10a",
+        "verses": [
+          "獨坐幽篁裏",
+          "彈琴復長嘯",
+          "深林人不知",
+          "明月來相照"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

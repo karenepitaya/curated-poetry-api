@@ -1,5 +1,5 @@
 [Unit]
-Description=Curated Tang Poetry API
+Description=Curated Poetry API
 After=network.target
 StartLimitIntervalSec=60
 StartLimitBurst=5

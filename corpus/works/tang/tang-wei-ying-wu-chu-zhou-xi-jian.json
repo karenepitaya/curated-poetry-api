@@ -1,0 +1,122 @@
+{
+  "id": "tang-wei-ying-wu-chu-zhou-xi-jian",
+  "title": {
+    "hans": "滁州西涧",
+    "hant": "滁州西澗"
+  },
+  "author": {
+    "name": {
+      "hans": "韦应物",
+      "hant": "韦应物"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "独怜幽草涧边生，",
+          "hant": "獨憐幽草澗邊生，"
+        },
+        {
+          "id": "line-2",
+          "hans": "上有黄鹂深树鸣。",
+          "hant": "上有黃鸝深樹鳴。"
+        },
+        {
+          "id": "line-3",
+          "hans": "春潮带雨晚来急，",
+          "hant": "春潮帶雨晚來急，"
+        },
+        {
+          "id": "line-4",
+          "hans": "野渡无人舟自横。",
+          "hant": "野渡無人舟自橫。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "563",
+        "printedFolio": "卷六下·19",
+        "verses": [
+          "獨憐幽草澗邊生",
+          "上有黃鸝深樹鳴",
+          "春潮帶雨晚來急",
+          "野渡無人舟自橫"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063911",
+        "scanPage": "26",
+        "printedFolio": "卷193·13a",
+        "verses": [
+          "獨憐幽草澗邊生",
+          "上有黄鸝深樹鳴",
+          "春潮帶雨晚來急",
+          "野渡無人舟自横"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "黃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063911",
+            "text": "黄"
+          }
+        ],
+        "chosen": "黃",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 6,
+          "end": 7
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "橫"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063911",
+            "text": "横"
+          }
+        ],
+        "chosen": "橫",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

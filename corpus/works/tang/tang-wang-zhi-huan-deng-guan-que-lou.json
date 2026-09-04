@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-zhi-huan-deng-guan-que-lou",
+  "title": {
+    "hans": "登鹳雀楼",
+    "hant": "登鸛雀樓"
+  },
+  "author": {
+    "name": {
+      "hans": "王之涣",
+      "hant": "王之涣"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "白日依山尽，",
+          "hant": "白日依山盡，"
+        },
+        {
+          "id": "line-2",
+          "hans": "黄河入海流。",
+          "hant": "黃河入海流。"
+        },
+        {
+          "id": "line-3",
+          "hans": "欲穷千里目，",
+          "hant": "欲窮千里目，"
+        },
+        {
+          "id": "line-4",
+          "hans": "更上一层楼。",
+          "hant": "更上一層樓。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "511",
+        "printedFolio": "卷六上·13",
+        "verses": [
+          "白日依山盡",
+          "黃河入海流",
+          "欲窮千里目",
+          "更上一層樓"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060012",
+        "scanPage": "22",
+        "printedFolio": "卷253·1a",
+        "verses": [
+          "白日依山盡",
+          "黃河入海流",
+          "欲窮千里目",
+          "更上一層樓"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

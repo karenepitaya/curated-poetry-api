@@ -1,0 +1,160 @@
+{
+  "id": "tang-zhang-hu-ji-ling-tai-qi-er",
+  "title": {
+    "hans": "集灵台二首其二",
+    "hant": "集靈臺二首其二"
+  },
+  "author": {
+    "name": {
+      "hans": "张祜",
+      "hant": "张祜"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "虢国夫人承主恩，",
+          "hant": "虢國夫人承主恩，"
+        },
+        {
+          "id": "line-2",
+          "hans": "平明骑马入宫门。",
+          "hant": "平明騎馬入宮門。"
+        },
+        {
+          "id": "line-3",
+          "hans": "却嫌脂粉污颜色，",
+          "hant": "卻嫌脂粉污顏色，"
+        },
+        {
+          "id": "line-4",
+          "hans": "淡扫蛾眉朝至尊。",
+          "hant": "淡掃蛾眉朝至尊。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "581",
+        "printedFolio": "卷六下·37",
+        "verses": [
+          "虢國夫人承主恩",
+          "平明騎馬入宮門",
+          "卻嫌脂粉污顏色",
+          "淡掃蛾眉朝至尊"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060067",
+        "scanPage": "120",
+        "printedFolio": "卷511·24b",
+        "verses": [
+          "虢國夫人承主恩",
+          "平明騎馬入宫門",
+          "却嫌脂粉汚顔色",
+          "淡掃蛾眉朝至尊"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 5,
+          "end": 6
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "宮"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "宫"
+          }
+        ],
+        "chosen": "宮",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "卻"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "却"
+          }
+        ],
+        "chosen": "卻",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 4,
+          "end": 5
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "污"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "汚"
+          }
+        ],
+        "chosen": "污",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 5,
+          "end": 6
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "顏"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "顔"
+          }
+        ],
+        "chosen": "顏",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

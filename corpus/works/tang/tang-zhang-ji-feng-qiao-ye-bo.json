@@ -1,0 +1,103 @@
+{
+  "id": "tang-zhang-ji-feng-qiao-ye-bo",
+  "title": {
+    "hans": "枫桥夜泊",
+    "hant": "楓橋夜泊"
+  },
+  "author": {
+    "name": {
+      "hans": "张继",
+      "hant": "张继"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "月落乌啼霜满天，",
+          "hant": "月落烏啼霜滿天，"
+        },
+        {
+          "id": "line-2",
+          "hans": "江枫渔火对愁眠。",
+          "hant": "江楓漁火對愁眠。"
+        },
+        {
+          "id": "line-3",
+          "hans": "姑苏城外寒山寺，",
+          "hant": "姑蘇城外寒山寺，"
+        },
+        {
+          "id": "line-4",
+          "hans": "夜半钟声到客船。",
+          "hant": "夜半鐘聲到客船。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "564",
+        "printedFolio": "卷六下·20",
+        "verses": [
+          "月落烏啼霜滿天",
+          "江楓漁火對愁眠",
+          "姑蘇城外寒山寺",
+          "夜半鐘聲到客船"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060009",
+        "scanPage": "52",
+        "printedFolio": "卷242·5b",
+        "verses": [
+          "月落烏啼霜滿天",
+          "江楓漁父對愁眠",
+          "姑蘇城外寒山寺",
+          "夜半鐘聲到客船"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "火"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060009",
+            "text": "父"
+          }
+        ],
+        "chosen": "火",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

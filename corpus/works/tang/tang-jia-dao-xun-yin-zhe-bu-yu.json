@@ -1,0 +1,83 @@
+{
+  "id": "tang-jia-dao-xun-yin-zhe-bu-yu",
+  "title": {
+    "hans": "寻隐者不遇",
+    "hant": "尋隱者不遇"
+  },
+  "author": {
+    "name": {
+      "hans": "贾岛",
+      "hant": "贾岛"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "松下问童子，",
+          "hant": "松下問童子，"
+        },
+        {
+          "id": "line-2",
+          "hans": "言师采药去。",
+          "hant": "言師採藥去。"
+        },
+        {
+          "id": "line-3",
+          "hans": "只在此山中，",
+          "hant": "只在此山中，"
+        },
+        {
+          "id": "line-4",
+          "hans": "云深不知处。",
+          "hant": "雲深不知處。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "527",
+        "printedFolio": "卷六上·29",
+        "verses": [
+          "松下問童子",
+          "言師採藥去",
+          "只在此山中",
+          "雲深不知處"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060082",
+        "scanPage": "45",
+        "printedFolio": "卷574·22b",
+        "verses": [
+          "松下問童子",
+          "言師採藥去",
+          "只在此山中",
+          "雲深不知處"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "tang-gu-kuang-gong-ci",
+  "title": {
+    "hans": "宫词",
+    "hant": "宮詞"
+  },
+  "author": {
+    "name": {
+      "hans": "顾况",
+      "hant": "顾况"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "玉楼天半起笙歌，",
+          "hant": "玉樓天半起笙歌，"
+        },
+        {
+          "id": "line-2",
+          "hans": "风送宫嫔笑语和。",
+          "hant": "風送宮嬪笑語和。"
+        },
+        {
+          "id": "line-3",
+          "hans": "月殿影开闻夜漏，",
+          "hant": "月殿影開聞夜漏，"
+        },
+        {
+          "id": "line-4",
+          "hans": "水精帘卷近秋河。",
+          "hant": "水精簾捲近秋河。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "571",
+        "printedFolio": "卷六下·27",
+        "verses": [
+          "玉樓天半起笙歌",
+          "風送宮嬪笑語和",
+          "月殿影開聞夜漏",
+          "水精簾捲近秋河"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060014",
+        "scanPage": "38",
+        "printedFolio": "卷267·10a",
+        "verses": [
+          "玉樓天半起笙歌",
+          "風送宫嬪笑語和",
+          "月殿影開聞夜漏",
+          "水精簾卷近銀河"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "宮"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060014",
+            "text": "宫"
+          }
+        ],
+        "chosen": "宮",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "捲"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060014",
+            "text": "卷"
+          }
+        ],
+        "chosen": "捲",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 5,
+          "end": 6
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "秋"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060014",
+            "text": "銀"
+          }
+        ],
+        "chosen": "秋",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "tangshi-sanbaishou-1933",
+  "title": {
+    "hans": "唐诗三百首",
+    "hant": "唐詩三百首"
+  },
+  "status": "in-progress",
+  "primaryEditionId": "nlc-tang300-1933",
+  "members": [
+    {
+      "workId": "tang-wang-wei-lu-zhai",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-wei-zhu-li-guan",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-wei-song-bie",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-wei-xiang-si",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-pei-di-song-cui-jiu",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zu-yong-zhong-nan-wang-yu-xue",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-meng-hao-ran-su-jian-de-jiang",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-meng-hao-ran-chun-xiao",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-bai-jing-ye-si",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-bai-yuan-qing",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-du-fu-ba-zhen-tu",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-zhi-huan-deng-guan-que-lou",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-chang-qing-song-ling-che-shang-ren",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-chang-qing-tan-qin",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-chang-qing-song-shang-ren",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wei-ying-wu-qiu-ye-ji-qiu-yuan-wai",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-duan-ting-zheng",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-jian-xin-jia-niang-ci",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-quan-de-yu-yu-tai-ti",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-zong-yuan-jiang-xue",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-yuan-zhen-xing-gong",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-bai-ju-yi-wen-liu-shi-jiu",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zhang-hu-he-man-zi",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-shang-yin-deng-le-you-yuan",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-jia-dao-xun-yin-zhe-bu-yu",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-he-zhi-zhang-hui-xiang-ou-shu",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zhang-xu-tao-hua-xi",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-chang-ling-fu-rong-lou-song-xin-jian",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-chang-ling-gui-yuan",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-chang-ling-chun-gong-qu",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wang-han-liang-zhou-ci",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-bai-huang-he-lou-song-meng-hao-ran-zhi-guang-ling",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-bai-zao-fa-bai-di-cheng",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-cen-shen-feng-ru-jing-shi",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-du-fu-jiang-nan-feng-li-gui-nian",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-wei-ying-wu-chu-zhou-xi-jian",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zhang-ji-feng-qiao-ye-bo",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-han-hong-han-shi",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-fang-ping-yue-ye",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-fang-ping-chun-yuan",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-zhong-yong-zheng-ren-yuan",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-gu-kuang-gong-ci",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-li-yi-ye-shang-shou-xiang-cheng-wen-di",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-yu-xi-wu-yi-xiang",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-liu-yu-xi-chun-ci",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-bai-ju-yi-gong-ci",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zhang-hu-zeng-nei-ren",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zhang-hu-ji-ling-tai-qi-yi",
+      "positionStatus": "pending"
+    },
+    {
+      "workId": "tang-zhang-hu-ji-ling-tai-qi-er",
+      "positionStatus": "pending"
+    }
+  ]
+}

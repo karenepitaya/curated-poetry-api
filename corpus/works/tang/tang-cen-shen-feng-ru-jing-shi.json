@@ -1,0 +1,83 @@
+{
+  "id": "tang-cen-shen-feng-ru-jing-shi",
+  "title": {
+    "hans": "逢入京使",
+    "hant": "逢入京使"
+  },
+  "author": {
+    "name": {
+      "hans": "岑参",
+      "hant": "岑参"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "故园东望路漫漫，",
+          "hant": "故園東望路漫漫，"
+        },
+        {
+          "id": "line-2",
+          "hans": "双袖龙钟泪不干。",
+          "hant": "雙袖龍鍾淚不乾。"
+        },
+        {
+          "id": "line-3",
+          "hans": "马上相逢无纸笔，",
+          "hant": "馬上相逢無紙筆，"
+        },
+        {
+          "id": "line-4",
+          "hans": "凭君传语报平安。",
+          "hant": "憑君傳語報平安。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "559",
+        "printedFolio": "卷六下·15",
+        "verses": [
+          "故園東望路漫漫",
+          "雙袖龍鍾淚不乾",
+          "馬上相逢無紙筆",
+          "憑君傳語報平安"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063913",
+        "scanPage": "95",
+        "printedFolio": "卷201·14b",
+        "verses": [
+          "故園東望路漫漫",
+          "雙袖龍鍾淚不乾",
+          "馬上相逢無紙筆",
+          "憑君傳語報平安"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

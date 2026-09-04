@@ -20,6 +20,8 @@ jobs:
         run: go test ./...
       - name: Vet
         run: go vet ./...
+      - name: Validate full corpus
+        run: go run ./cmd/corpuscheck
 
   linux-amd64:
     runs-on: ubuntu-latest
@@ -34,7 +36,9 @@ jobs:
           CGO_ENABLED: "0"
           GOOS: linux
           GOARCH: amd64
-        run: go build -trimpath -ldflags="-s -w -X main.version=${GITHUB_SHA}" -o dist/curated-poetry-api ./cmd/server
+        run: |
+          mkdir -p dist
+          go build -trimpath -ldflags="-s -w -X main.version=${GITHUB_SHA}" -o dist/curated-poetry-api ./cmd/server
       - name: Record SHA-256
         working-directory: dist
         run: sha256sum curated-poetry-api > curated-poetry-api.sha256

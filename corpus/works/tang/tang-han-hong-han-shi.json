@@ -1,0 +1,103 @@
+{
+  "id": "tang-han-hong-han-shi",
+  "title": {
+    "hans": "寒食",
+    "hant": "寒食"
+  },
+  "author": {
+    "name": {
+      "hans": "韩翃",
+      "hant": "韩翃"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "春城无处不飞花，",
+          "hant": "春城無處不飛花，"
+        },
+        {
+          "id": "line-2",
+          "hans": "寒食东风御柳斜。",
+          "hant": "寒食東風御柳斜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "日暮汉宫传蜡烛，",
+          "hant": "日暮漢宮傳蠟燭，"
+        },
+        {
+          "id": "line-4",
+          "hans": "轻烟散入五侯家。",
+          "hant": "輕煙散入五侯家。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "566",
+        "printedFolio": "卷六下·22",
+        "verses": [
+          "春城無處不飛花",
+          "寒食東風御柳斜",
+          "日暮漢宮傳蠟燭",
+          "輕煙散入五侯家"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060010",
+        "scanPage": "25",
+        "printedFolio": "卷245·12b",
+        "verses": [
+          "春城無處不飛花",
+          "寒食東風御柳斜",
+          "日暮漢宫傳蠟燭",
+          "輕煙散入五侯家"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "宮"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060010",
+            "text": "宫"
+          }
+        ],
+        "chosen": "宮",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

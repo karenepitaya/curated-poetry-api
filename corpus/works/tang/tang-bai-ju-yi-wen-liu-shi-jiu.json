@@ -1,0 +1,103 @@
+{
+  "id": "tang-bai-ju-yi-wen-liu-shi-jiu",
+  "title": {
+    "hans": "问刘十九",
+    "hant": "問劉十九"
+  },
+  "author": {
+    "name": {
+      "hans": "白居易",
+      "hant": "白居易"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "绿蚁新醅酒，",
+          "hant": "綠蟻新醅酒，"
+        },
+        {
+          "id": "line-2",
+          "hans": "红泥小火炉。",
+          "hant": "紅泥小火爐。"
+        },
+        {
+          "id": "line-3",
+          "hans": "晚来天欲雪，",
+          "hant": "晚來天欲雪，"
+        },
+        {
+          "id": "line-4",
+          "hans": "能饮一杯无。",
+          "hant": "能飲一杯無。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "524",
+        "printedFolio": "卷六上·26",
+        "verses": [
+          "綠蟻新醅酒",
+          "紅泥小火爐",
+          "晚來天欲雪",
+          "能飲一杯無"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060050",
+        "scanPage": "14",
+        "printedFolio": "卷440·6b",
+        "verses": [
+          "綠蟻新醅酒",
+          "紅泥小火壚",
+          "晚來天欲雪",
+          "能飲一杯無"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 4,
+          "end": 5
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "爐"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060050",
+            "text": "壚"
+          }
+        ],
+        "chosen": "爐",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

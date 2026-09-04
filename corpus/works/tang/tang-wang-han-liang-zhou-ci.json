@@ -1,0 +1,103 @@
+{
+  "id": "tang-wang-han-liang-zhou-ci",
+  "title": {
+    "hans": "凉州词",
+    "hant": "涼州詞"
+  },
+  "author": {
+    "name": {
+      "hans": "王翰",
+      "hant": "王翰"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "葡萄美酒夜光杯，",
+          "hant": "葡萄美酒夜光杯，"
+        },
+        {
+          "id": "line-2",
+          "hans": "欲饮琵琶马上催。",
+          "hant": "欲飲琵琶馬上催。"
+        },
+        {
+          "id": "line-3",
+          "hans": "醉卧沙场君莫笑，",
+          "hant": "醉臥沙場君莫笑，"
+        },
+        {
+          "id": "line-4",
+          "hans": "古来征战几人回。",
+          "hant": "古來征戰幾人回。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "554",
+        "printedFolio": "卷六下·10",
+        "verses": [
+          "葡萄美酒夜光杯",
+          "欲飲琵琶馬上催",
+          "醉臥沙場君莫笑",
+          "古來征戰幾人回"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063903",
+        "scanPage": "135-136",
+        "printedFolio": "卷156·6a-6b",
+        "verses": [
+          "蒲萄美酒夜光杯",
+          "欲飲琵琶馬上催",
+          "醉臥沙場君莫笑",
+          "古來征戰幾人回"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "葡"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063903",
+            "text": "蒲"
+          }
+        ],
+        "chosen": "葡",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -47,7 +47,7 @@ func main() {
 		}
 	}()
 
-	log.Printf("curated-poetry-api version=%s poems=%d listening=%s", version, catalog.Count(), address)
+	log.Printf("curated-poetry-api version=%s works=%d listening=%s", version, catalog.Count(), address)
 	if err := server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 		log.Fatalf("serve: %v", err)
 	}

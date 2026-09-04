@@ -1,0 +1,141 @@
+{
+  "id": "tang-he-zhi-zhang-hui-xiang-ou-shu",
+  "title": {
+    "hans": "回乡偶书",
+    "hant": "回鄉偶書"
+  },
+  "author": {
+    "name": {
+      "hans": "贺知章",
+      "hant": "贺知章"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "少小离家老大回，",
+          "hant": "少小離家老大回，"
+        },
+        {
+          "id": "line-2",
+          "hans": "乡音无改鬓毛催。",
+          "hant": "鄉音無改鬢毛催。"
+        },
+        {
+          "id": "line-3",
+          "hans": "儿童相见不相识，",
+          "hant": "兒童相見不相識，"
+        },
+        {
+          "id": "line-4",
+          "hans": "笑问客从何处来。",
+          "hant": "笑問客從何處來。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "545",
+        "printedFolio": "卷六下·1",
+        "verses": [
+          "少小離家老大回",
+          "鄉音無改鬢毛催",
+          "兒童相見不相識",
+          "笑問客從何處來"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063895",
+        "scanPage": "44",
+        "printedFolio": "卷112·6a",
+        "verses": [
+          "少小離鄉老大回",
+          "鄉音難改鬢毛衰",
+          "兒童相見不相識",
+          "笑問客從何處來"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "家"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063895",
+            "text": "鄉"
+          }
+        ],
+        "chosen": "家",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "無"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063895",
+            "text": "難"
+          }
+        ],
+        "chosen": "無",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 6,
+          "end": 7
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "催"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063895",
+            "text": "衰"
+          }
+        ],
+        "chosen": "催",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

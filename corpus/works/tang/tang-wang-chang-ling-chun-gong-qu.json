@@ -1,0 +1,83 @@
+{
+  "id": "tang-wang-chang-ling-chun-gong-qu",
+  "title": {
+    "hans": "春宫曲",
+    "hant": "春宮曲"
+  },
+  "author": {
+    "name": {
+      "hans": "王昌龄",
+      "hant": "王昌龄"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "昨夜风开露井桃，",
+          "hant": "昨夜風開露井桃，"
+        },
+        {
+          "id": "line-2",
+          "hans": "未央前殿月轮高。",
+          "hant": "未央前殿月輪高。"
+        },
+        {
+          "id": "line-3",
+          "hans": "平阳歌舞新承宠，",
+          "hant": "平陽歌舞新承寵，"
+        },
+        {
+          "id": "line-4",
+          "hans": "帘外春寒赐锦袍。",
+          "hant": "簾外春寒賜錦袍。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "552",
+        "printedFolio": "卷六下·8",
+        "verses": [
+          "昨夜風開露井桃",
+          "未央前殿月輪高",
+          "平陽歌舞新承寵",
+          "簾外春寒賜錦袍"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063901",
+        "scanPage": "19",
+        "printedFolio": "卷143·4b",
+        "verses": [
+          "昨夜風開露井桃",
+          "未央前殿月輪高",
+          "平陽歌舞新承寵",
+          "簾外春寒賜錦袍"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "tang-meng-hao-ran-chun-xiao",
+  "title": {
+    "hans": "春晓",
+    "hant": "春曉"
+  },
+  "author": {
+    "name": {
+      "hans": "孟浩然",
+      "hant": "孟浩然"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "春眠不觉晓，",
+          "hant": "春眠不覺曉，"
+        },
+        {
+          "id": "line-2",
+          "hans": "处处闻啼鸟。",
+          "hant": "處處聞啼鳥。"
+        },
+        {
+          "id": "line-3",
+          "hans": "夜来风雨声，",
+          "hant": "夜來風雨聲，"
+        },
+        {
+          "id": "line-4",
+          "hans": "花落知多少。",
+          "hant": "花落知多少。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "507",
+        "printedFolio": "卷六上·9",
+        "verses": [
+          "春眠不覺曉",
+          "處處聞啼鳥",
+          "夜來風雨聲",
+          "花落知多少"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063904",
+        "scanPage": "150",
+        "printedFolio": "卷160·44b",
+        "verses": [
+          "春眠不覺曉",
+          "處處聞啼鳥",
+          "夜來風雨聲",
+          "花落知多少"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

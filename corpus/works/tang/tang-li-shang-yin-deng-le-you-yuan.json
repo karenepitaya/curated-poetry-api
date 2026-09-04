@@ -1,0 +1,103 @@
+{
+  "id": "tang-li-shang-yin-deng-le-you-yuan",
+  "title": {
+    "hans": "登乐游原",
+    "hant": "登樂遊原"
+  },
+  "author": {
+    "name": {
+      "hans": "李商隐",
+      "hant": "李商隐"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "向晚意不适，",
+          "hant": "向晚意不適，"
+        },
+        {
+          "id": "line-2",
+          "hans": "驱车登古原。",
+          "hant": "驅車登古原。"
+        },
+        {
+          "id": "line-3",
+          "hans": "夕阳无限好，",
+          "hant": "夕陽無限好，"
+        },
+        {
+          "id": "line-4",
+          "hans": "只是近黄昏。",
+          "hant": "只是近黃昏。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "525",
+        "printedFolio": "卷六上·27",
+        "verses": [
+          "向晚意不適",
+          "驅車登古原",
+          "夕陽無限好",
+          "只是近黃昏"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060073",
+        "scanPage": "59",
+        "printedFolio": "卷539·7a",
+        "verses": [
+          "向晚意不適",
+          "驅車登古原",
+          "夕陽無限好",
+          "只是近黄昏"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "黃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060073",
+            "text": "黄"
+          }
+        ],
+        "chosen": "黃",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

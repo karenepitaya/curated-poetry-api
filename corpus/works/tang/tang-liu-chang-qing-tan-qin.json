@@ -1,0 +1,141 @@
+{
+  "id": "tang-liu-chang-qing-tan-qin",
+  "title": {
+    "hans": "弹琴",
+    "hant": "彈琴"
+  },
+  "author": {
+    "name": {
+      "hans": "刘长卿",
+      "hant": "刘长卿"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "泠泠七弦上，",
+          "hant": "泠泠七絃上，"
+        },
+        {
+          "id": "line-2",
+          "hans": "静听松风寒。",
+          "hant": "靜聽松風寒。"
+        },
+        {
+          "id": "line-3",
+          "hans": "古调虽自爱，",
+          "hant": "古調雖自愛，"
+        },
+        {
+          "id": "line-4",
+          "hans": "今人多不弹。",
+          "hant": "今人多不彈。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "514",
+        "printedFolio": "卷六上·16",
+        "verses": [
+          "泠泠七絃上",
+          "靜聽松風寒",
+          "古調雖自愛",
+          "今人多不彈"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063901",
+        "scanPage": "113",
+        "printedFolio": "卷147·3a",
+        "verses": [
+          "冷冷七絲上",
+          "靜聽松風寒",
+          "古調雖自愛",
+          "今人多不彈"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 0,
+          "end": 1
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "泠"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063901",
+            "text": "冷"
+          }
+        ],
+        "chosen": "泠",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 1,
+          "end": 2
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "泠"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063901",
+            "text": "冷"
+          }
+        ],
+        "chosen": "泠",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "絃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06063901",
+            "text": "絲"
+          }
+        ],
+        "chosen": "絃",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

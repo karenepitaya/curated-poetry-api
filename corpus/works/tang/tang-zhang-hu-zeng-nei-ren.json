@@ -1,0 +1,160 @@
+{
+  "id": "tang-zhang-hu-zeng-nei-ren",
+  "title": {
+    "hans": "赠内人",
+    "hant": "贈內人"
+  },
+  "author": {
+    "name": {
+      "hans": "张祜",
+      "hant": "张祜"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "禁门宫树月痕过，",
+          "hant": "禁門宮樹月痕過，"
+        },
+        {
+          "id": "line-2",
+          "hans": "媚眼惟看宿鹭窠。",
+          "hant": "媚眼惟看宿鷺窠。"
+        },
+        {
+          "id": "line-3",
+          "hans": "斜拔玉钗灯影畔，",
+          "hant": "斜拔玉釵燈影畔，"
+        },
+        {
+          "id": "line-4",
+          "hans": "剔开红焰救飞蛾。",
+          "hant": "剔開紅燄救飛蛾。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "579",
+        "printedFolio": "卷六下·35",
+        "verses": [
+          "禁門宮樹月痕過",
+          "媚眼惟看宿鷺窠",
+          "斜拔玉釵燈影畔",
+          "剔開紅燄救飛蛾"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060067",
+        "scanPage": "113",
+        "printedFolio": "卷511·21a",
+        "verses": [
+          "禁門宫樹月痕過",
+          "媚眼唯看宿燕窠",
+          "斜拔玉釵燈影畔",
+          "剔開紅焰救飛蛾"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-1",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "宮"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "宫"
+          }
+        ],
+        "chosen": "宮",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "惟"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "唯"
+          }
+        ],
+        "chosen": "惟",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-2",
+          "start": 5,
+          "end": 6
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "鷺"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "燕"
+          }
+        ],
+        "chosen": "鷺",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      },
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "燄"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060067",
+            "text": "焰"
+          }
+        ],
+        "chosen": "燄",
+        "rationale": "采用1933主底本文字；1705读法作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

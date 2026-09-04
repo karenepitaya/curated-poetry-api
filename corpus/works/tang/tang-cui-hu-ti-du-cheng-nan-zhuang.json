@@ -1,0 +1,142 @@
+{
+  "id": "tang-cui-hu-ti-du-cheng-nan-zhuang",
+  "title": {
+    "hans": "题都城南庄",
+    "hant": "題都城南莊"
+  },
+  "author": {
+    "name": {
+      "hans": "崔护",
+      "hant": "崔护"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "去年今日此门中，",
+          "hant": "去年今日此門中，"
+        },
+        {
+          "id": "line-2",
+          "hans": "人面桃花相映红。",
+          "hant": "人面桃花相映紅。"
+        },
+        {
+          "id": "line-3",
+          "hans": "人面不知何处去，",
+          "hant": "人面不知何處去，"
+        },
+        {
+          "id": "line-4",
+          "hans": "桃花依旧笑春风。",
+          "hant": "桃花依舊笑春風。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "supplemental-classics",
+      "position": 1,
+      "positionStatus": "confirmed"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "benshi-shi-1933",
+        "scanPage": "31-32",
+        "printedFolio": "26-27",
+        "verses": [
+          "去年今日此門中",
+          "人面桃花相映紅",
+          "人面祗今何處去",
+          "桃花依舊笑春風"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060035",
+        "scanPage": "111",
+        "printedFolio": "卷368·11a",
+        "verses": [
+          "去年今日此門中",
+          "人面桃花相映紅",
+          "人面不知何處在",
+          "桃花依舊笑春風"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 2,
+          "end": 3
+        },
+        "readings": [
+          {
+            "editionId": "benshi-shi-1933",
+            "text": "祗"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060035",
+            "text": "不"
+          }
+        ],
+        "chosen": "不",
+        "rationale": "为保留博客既有备用诗读法，逐字取1705正文“不知”的首字；不宣称任一见证含有完整选定句"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 3,
+          "end": 4
+        },
+        "readings": [
+          {
+            "editionId": "benshi-shi-1933",
+            "text": "今"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060035",
+            "text": "知"
+          }
+        ],
+        "chosen": "知",
+        "rationale": "为保留博客既有备用诗读法，逐字取1705正文“不知”的次字；不宣称任一见证含有完整选定句"
+      },
+      {
+        "location": {
+          "lineId": "line-3",
+          "start": 6,
+          "end": 7
+        },
+        "readings": [
+          {
+            "editionId": "benshi-shi-1933",
+            "text": "去"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060035",
+            "text": "在"
+          }
+        ],
+        "chosen": "去",
+        "rationale": "为保留博客既有备用诗读法，逐字取1933替代底本的句末“去”；不宣称任一见证含有完整选定句"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描目视核对：1933《本事詩》印刷页26记崔護故事、页27载完整诗；1705《御定全唐詩》卷368·11a核对题名、作者与正文。"
+  }
+}

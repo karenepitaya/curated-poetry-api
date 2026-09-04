@@ -1,0 +1,103 @@
+{
+  "id": "tang-li-duan-ting-zheng",
+  "title": {
+    "hans": "听筝",
+    "hant": "聽箏"
+  },
+  "author": {
+    "name": {
+      "hans": "李端",
+      "hant": "李端"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "鸣筝金粟柱，",
+          "hant": "鳴箏金粟柱，"
+        },
+        {
+          "id": "line-2",
+          "hans": "素手玉房前。",
+          "hant": "素手玉房前。"
+        },
+        {
+          "id": "line-3",
+          "hans": "欲得周郎顾，",
+          "hant": "欲得周郎顧，"
+        },
+        {
+          "id": "line-4",
+          "hans": "时时误拂弦。",
+          "hant": "時時誤拂弦。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "517",
+        "printedFolio": "卷六上·19",
+        "verses": [
+          "鳴箏金粟柱",
+          "素手玉房前",
+          "欲得周郎顧",
+          "時時誤拂絃"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060019",
+        "scanPage": "121",
+        "printedFolio": "卷286·16a",
+        "verses": [
+          "鳴箏金粟柱",
+          "素手玉房前",
+          "欲得周郎顧",
+          "時時誤拂弦"
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "location": {
+          "lineId": "line-4",
+          "start": 4,
+          "end": 5
+        },
+        "readings": [
+          {
+            "editionId": "nlc-tang300-1933",
+            "text": "絃"
+          },
+          {
+            "editionId": "qts-1705-CADAL06060019",
+            "text": "弦"
+          }
+        ],
+        "chosen": "弦",
+        "rationale": "采用通行规范字形，并由1705核对本支持；1933主底本异体作为异文保留"
+      }
+    ],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

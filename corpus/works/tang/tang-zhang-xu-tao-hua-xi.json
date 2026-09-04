@@ -1,0 +1,83 @@
+{
+  "id": "tang-zhang-xu-tao-hua-xi",
+  "title": {
+    "hans": "桃花溪",
+    "hant": "桃花谿"
+  },
+  "author": {
+    "name": {
+      "hans": "张旭",
+      "hant": "张旭"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "隐隐飞桥隔野烟，",
+          "hant": "隱隱飛橋隔野煙，"
+        },
+        {
+          "id": "line-2",
+          "hans": "石矶西畔问渔船。",
+          "hant": "石磯西畔問漁船。"
+        },
+        {
+          "id": "line-3",
+          "hans": "桃花尽日随流水，",
+          "hant": "桃花盡日隨流水，"
+        },
+        {
+          "id": "line-4",
+          "hans": "洞在清溪何处边。",
+          "hant": "洞在清谿何處邊。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "546",
+        "printedFolio": "卷六下·2",
+        "verses": [
+          "隱隱飛橋隔野煙",
+          "石磯西畔問漁船",
+          "桃花盡日隨流水",
+          "洞在清谿何處邊"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063895",
+        "scanPage": "122",
+        "printedFolio": "卷117·1b",
+        "verses": [
+          "隱隱飛橋隔野煙",
+          "石磯西畔問漁船",
+          "桃花盡日隨流水",
+          "洞在清谿何處邊"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

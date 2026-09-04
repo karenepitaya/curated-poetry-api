@@ -1,0 +1,83 @@
+{
+  "id": "tang-li-bai-yuan-qing",
+  "title": {
+    "hans": "怨情",
+    "hant": "怨情"
+  },
+  "author": {
+    "name": {
+      "hans": "李白",
+      "hant": "李白"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "5",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "美人卷珠帘，",
+          "hant": "美人捲珠簾，"
+        },
+        {
+          "id": "line-2",
+          "hans": "深坐颦蛾眉。",
+          "hant": "深坐顰蛾眉。"
+        },
+        {
+          "id": "line-3",
+          "hans": "但见泪痕湿，",
+          "hant": "但見淚痕濕，"
+        },
+        {
+          "id": "line-4",
+          "hans": "不知心恨谁。",
+          "hant": "不知心恨誰。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "508",
+        "printedFolio": "卷六上·10",
+        "verses": [
+          "美人捲珠簾",
+          "深坐顰蛾眉",
+          "但見淚痕濕",
+          "不知心恨誰"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06063909",
+        "scanPage": "26",
+        "printedFolio": "卷184·13a",
+        "verses": [
+          "美人捲珠簾",
+          "深坐顰蛾眉",
+          "但見淚痕濕",
+          "不知心恨誰"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}

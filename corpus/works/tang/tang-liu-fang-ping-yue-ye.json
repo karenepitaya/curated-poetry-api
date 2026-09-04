@@ -1,0 +1,83 @@
+{
+  "id": "tang-liu-fang-ping-yue-ye",
+  "title": {
+    "hans": "月夜",
+    "hant": "月夜"
+  },
+  "author": {
+    "name": {
+      "hans": "刘方平",
+      "hant": "刘方平"
+    },
+    "attributionStatus": "selected-edition"
+  },
+  "dynasty": "tang",
+  "genre": "shi",
+  "form": "jueju",
+  "meter": "7",
+  "sections": [
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "lines": [
+        {
+          "id": "line-1",
+          "hans": "更深月色半人家，",
+          "hant": "更深月色半人家，"
+        },
+        {
+          "id": "line-2",
+          "hans": "北斗阑干南斗斜。",
+          "hant": "北斗闌干南斗斜。"
+        },
+        {
+          "id": "line-3",
+          "hans": "今夜偏知春气暖，",
+          "hant": "今夜偏知春氣暖，"
+        },
+        {
+          "id": "line-4",
+          "hans": "虫声新透绿窗纱。",
+          "hant": "蟲聲新透綠窗紗。"
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "tangshi-sanbaishou-1933",
+      "positionStatus": "pending"
+    }
+  ],
+  "evidence": {
+    "level": "primary-scan-reviewed",
+    "status": "verified",
+    "witnesses": [
+      {
+        "editionId": "nlc-tang300-1933",
+        "scanPage": "568",
+        "printedFolio": "卷六下·24",
+        "verses": [
+          "更深月色半人家",
+          "北斗闌干南斗斜",
+          "今夜偏知春氣暖",
+          "蟲聲新透綠窗紗"
+        ]
+      },
+      {
+        "editionId": "qts-1705-CADAL06060011",
+        "scanPage": "126",
+        "printedFolio": "卷251·6a",
+        "verses": [
+          "更深月色半人家",
+          "北斗闌干南斗斜",
+          "今夜偏知春氣暖",
+          "蟲聲新透綠窗紗"
+        ]
+      }
+    ],
+    "variants": [],
+    "reviewedAt": "2026-09-03",
+    "reviewMethod": "逐页打开 Wikimedia Commons 公版扫描，目视核对题名、作者、四句正文与卷叶；机器索引仅用于定位。"
+  }
+}
