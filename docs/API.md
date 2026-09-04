@@ -59,7 +59,7 @@ GET /healthz
 ```json
 {
   "status": "ok",
-  "version": "v0.2.0",
+  "version": "v0.2.1",
   "works": 50,
   "dynasties": { "tang": 50, "song": 0 },
   "corpusRevision": "…"
@@ -75,7 +75,5 @@ GET /healthz
 - Cloudflare 对 `/api/v1/` 按来源 IP 执行边缘限流；边缘返回的 429 不属于源站
   JSON 错误契约，调用方应首先按 HTTP 状态处理并退避。
 
-## 兼容窗口
-
-`v0.2.0` 暂时保留旧的 `GET /api/poems/random`，只用于博客迁移。博客切换并完成
-一次真实生产构建后，`v0.2.1` 删除旧路由。新客户端不得再依赖旧接口。
+旧的 `GET /api/poems/random` 已在 `v0.2.1` 删除；该路径返回 404，客户端只应
+使用版本化接口。

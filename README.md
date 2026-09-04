@@ -28,8 +28,8 @@ curl 'http://127.0.0.1:8787/api/v1/works/random?genre=shi&form=jueju&meter=5&scr
 不重复。随机响应使用 `Cache-Control: no-store`，并开放仅含 `GET`/`OPTIONS` 的
 只读 CORS。参数重复或非法返回 400，无匹配作品返回 404。
 
-完整参数、响应和错误契约见 [`docs/API.md`](docs/API.md)。`v0.2.0` 为博客迁移
-暂留旧的 `/api/poems/random`；生产迁移通过后由 `v0.2.1` 删除。
+完整参数、响应和错误契约见 [`docs/API.md`](docs/API.md)。旧的
+`/api/poems/random` 已在 `v0.2.1` 删除。
 
 ## 本地开发
 

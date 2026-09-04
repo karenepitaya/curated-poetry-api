@@ -13,10 +13,8 @@ import (
 )
 
 type WorkSource interface {
-	Count() int
 	Stats() poetry.CorpusStats
 	RandomWork(query poetry.Query) (poetry.Work, error)
-	Random(typeName string) (poetry.Poem, error)
 }
 
 type Handler struct {
@@ -28,7 +26,6 @@ type Handler struct {
 func New(source WorkSource, version string) http.Handler {
 	h := &Handler{source: source, version: version, mux: http.NewServeMux()}
 	h.mux.HandleFunc("/api/v1/works/random", h.randomWork)
-	h.mux.HandleFunc("/api/poems/random", h.randomPoem)
 	h.mux.HandleFunc("/healthz", h.health)
 	return h
 }
@@ -222,64 +219,6 @@ func languageTag(script poetry.Script) string {
 	return "zh-Hans"
 }
 
-func (h *Handler) randomPoem(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Cache-Control", "no-store")
-	if r.Method != http.MethodGet {
-		methodNotAllowed(w)
-		return
-	}
-
-	values, err := url.ParseQuery(r.URL.RawQuery)
-	if err != nil {
-		writeError(w, http.StatusBadRequest, "invalid_type", "query is malformed")
-		return
-	}
-	for key := range values {
-		if key != "type" {
-			writeError(w, http.StatusBadRequest, "invalid_type", "only type is supported")
-			return
-		}
-	}
-	types, hasType := values["type"]
-	typeName := ""
-	if hasType {
-		if len(types) != 1 {
-			writeError(w, http.StatusBadRequest, "invalid_type", "type must be specified once")
-			return
-		}
-		typeName = types[0]
-		if typeName != poetry.TypeFiveCharacter && typeName != poetry.TypeSevenCharacter {
-			writeError(w, http.StatusBadRequest, "invalid_type", "type must be 五言绝句 or 七言绝句")
-			return
-		}
-	}
-
-	poem, err := h.source.Random(typeName)
-	if err != nil {
-		writeError(w, http.StatusInternalServerError, "selection_failed", "unable to select a poem")
-		return
-	}
-	if len(poem.Verses) != 4 {
-		writeError(w, http.StatusInternalServerError, "invalid_catalog", "selected poem is invalid")
-		return
-	}
-	writeJSON(w, http.StatusOK, legacyRandomResponse{
-		Data: legacyResponsePoem{
-			ID:      poem.ID,
-			Title:   poem.Title,
-			Content: []string{joinCouplet(poem.Verses[0], poem.Verses[1]), joinCouplet(poem.Verses[2], poem.Verses[3])},
-			Author:  namedValue{Name: poem.Author},
-			Dynasty: namedValue{Name: poem.Dynasty},
-			Type:    namedValue{Name: poem.Type},
-		},
-		Lang: "zh-Hans",
-	})
-}
-
-func joinCouplet(first, second string) string {
-	return strings.Join([]string{first, second}, "，") + "。"
-}
-
 func (h *Handler) health(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Cache-Control", "no-store")
 	if r.Method != http.MethodGet {
@@ -345,20 +284,6 @@ type codedValue struct {
 
 type namedValue struct {
 	Name string `json:"name"`
-}
-
-type legacyRandomResponse struct {
-	Data legacyResponsePoem `json:"data"`
-	Lang string             `json:"lang"`
-}
-
-type legacyResponsePoem struct {
-	ID      string     `json:"id"`
-	Title   string     `json:"title"`
-	Content []string   `json:"content"`
-	Author  namedValue `json:"author"`
-	Dynasty namedValue `json:"dynasty"`
-	Type    namedValue `json:"type"`
 }
 
 type healthResponse struct {

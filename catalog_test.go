@@ -133,25 +133,6 @@ func TestWorkCharacterCountIgnoresUnicodePunctuationAndWhitespace(t *testing.T) 
 	}
 }
 
-func TestLegacyRandomViewPreservesOldContract(t *testing.T) {
-	catalog := mustLoad(t)
-	poem, err := catalog.Random(TypeFiveCharacter)
-	if err != nil {
-		t.Fatalf("Random() error = %v", err)
-	}
-	if poem.Type != TypeFiveCharacter || len(poem.Verses) != 4 {
-		t.Fatalf("legacy poem = %#v", poem)
-	}
-	for _, verse := range poem.Verses {
-		if strings.ContainsAny(verse, "，。") {
-			t.Fatalf("legacy verse contains corpus punctuation: %q", verse)
-		}
-	}
-	if _, err := catalog.Random("词"); err == nil {
-		t.Fatal("Random(unsupported type) error = nil")
-	}
-}
-
 func TestWorksAndStatsReturnCopies(t *testing.T) {
 	catalog := mustLoad(t)
 	works := catalog.Works()

@@ -42,7 +42,7 @@ sudo certbot renew --dry-run
 Release 完成后，在生产机手动指定明确版本：
 
 ```bash
-sudo /usr/local/sbin/deploy-poetry-api v0.2.0
+sudo /usr/local/sbin/deploy-poetry-api v0.2.1
 ```
 
 脚本依次下载同一 Release 的文件、核对 SHA-256、创建

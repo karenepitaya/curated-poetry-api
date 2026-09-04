@@ -26,8 +26,6 @@ var embeddedCorpus embed.FS
 // reader is only replaceable by package tests before concurrent access begins.
 type Catalog struct {
 	works          []Work
-	legacy         []Poem
-	legacyByType   map[string][]int
 	editions       []Edition
 	collections    []Collection
 	normalizations []NormalizationRule
@@ -291,7 +289,6 @@ func corpusRevision(dataFS fs.FS, names []string) (string, error) {
 func newCatalog(data corpusData) *Catalog {
 	catalog := &Catalog{
 		works:          cloneWorks(data.works),
-		legacyByType:   map[string][]int{TypeFiveCharacter: {}, TypeSevenCharacter: {}},
 		editions:       append([]Edition(nil), data.editions...),
 		collections:    cloneCollections(data.collections),
 		normalizations: cloneNormalizations(data.normalizations),
@@ -304,13 +301,6 @@ func newCatalog(data corpusData) *Catalog {
 	}
 	for _, work := range catalog.works {
 		catalog.stats.ByDynasty[work.Dynasty]++
-		poem, ok := legacyPoem(work)
-		if !ok {
-			continue
-		}
-		index := len(catalog.legacy)
-		catalog.legacy = append(catalog.legacy, poem)
-		catalog.legacyByType[poem.Type] = append(catalog.legacyByType[poem.Type], index)
 	}
 	return catalog
 }
@@ -417,56 +407,6 @@ func workCharacterCount(work Work, script Script) int {
 	return count
 }
 
-// Random serves only records representable by the deprecated four-line API.
-func (c *Catalog) Random(typeName string) (Poem, error) {
-	var indices []int
-	if typeName == "" {
-		indices = make([]int, len(c.legacy))
-		for i := range c.legacy {
-			indices[i] = i
-		}
-	} else {
-		var ok bool
-		indices, ok = c.legacyByType[typeName]
-		if !ok {
-			return Poem{}, fmt.Errorf("unsupported poem type %q", typeName)
-		}
-	}
-	if len(indices) == 0 {
-		return Poem{}, ErrNoMatchingWorks
-	}
-	selected, err := randomIndexFrom(c.randomReader, len(indices))
-	if err != nil {
-		return Poem{}, err
-	}
-	return clonePoem(c.legacy[indices[selected]]), nil
-}
-
-func legacyPoem(work Work) (Poem, bool) {
-	if work.Dynasty != DynastyTang || work.Genre != GenreShi || work.Form != FormJueju || len(work.Sections) != 1 || len(work.Sections[0].Lines) != 4 {
-		return Poem{}, false
-	}
-	typeName := TypeFiveCharacter
-	if work.Meter == MeterSeven {
-		typeName = TypeSevenCharacter
-	} else if work.Meter != MeterFive {
-		return Poem{}, false
-	}
-	poem := Poem{
-		ID:               work.ID,
-		Title:            work.Title.Hans,
-		TitleTraditional: work.Title.Hant,
-		Author:           work.Author.Name.Hans,
-		Dynasty:          "唐",
-		Type:             typeName,
-	}
-	for _, line := range work.Sections[0].Lines {
-		poem.Verses = append(poem.Verses, trimTerminalPunctuation(line.Hans))
-		poem.VersesTraditional = append(poem.VersesTraditional, trimTerminalPunctuation(line.Hant))
-	}
-	return poem, true
-}
-
 func randomIndexFrom(reader io.Reader, length int) (int, error) {
 	if length <= 0 {
 		return 0, errors.New("no works available")
@@ -515,12 +455,6 @@ func cloneWorks(works []Work) []Work {
 		result[i] = cloneWork(works[i])
 	}
 	return result
-}
-
-func clonePoem(poem Poem) Poem {
-	poem.Verses = append([]string(nil), poem.Verses...)
-	poem.VersesTraditional = append([]string(nil), poem.VersesTraditional...)
-	return poem
 }
 
 func cloneCollections(collections []Collection) []Collection {

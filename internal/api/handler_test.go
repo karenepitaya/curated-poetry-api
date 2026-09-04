@@ -13,13 +13,9 @@ import (
 
 type fakeSource struct {
 	work      poetry.Work
-	poem      poetry.Poem
 	workErr   error
-	poemErr   error
 	lastQuery poetry.Query
-	lastType  string
 	workCalls int
-	poemCalls int
 	revision  string
 }
 
@@ -37,12 +33,6 @@ func (f *fakeSource) RandomWork(query poetry.Query) (poetry.Work, error) {
 	f.workCalls++
 	f.lastQuery = query
 	return f.work, f.workErr
-}
-
-func (f *fakeSource) Random(typeName string) (poetry.Poem, error) {
-	f.poemCalls++
-	f.lastType = typeName
-	return f.poem, f.poemErr
 }
 
 func testWork() poetry.Work {
@@ -66,17 +56,6 @@ func testWork() poetry.Work {
 		}},
 		Collections: []poetry.WorkCollection{{ID: "tangshi-sanbaishou-1933", PositionStatus: "pending"}},
 		Evidence:    poetry.WorkEvidence{Level: poetry.EvidencePrimaryScanReviewed},
-	}
-}
-
-func testPoem() poetry.Poem {
-	return poetry.Poem{
-		ID:      "tang-li-bai-jing-ye-si",
-		Title:   "静夜思",
-		Author:  "李白",
-		Dynasty: "唐",
-		Type:    poetry.TypeFiveCharacter,
-		Verses:  []string{"床前明月光", "疑是地上霜", "举头望明月", "低头思故乡"},
 	}
 }
 
@@ -272,39 +251,19 @@ func TestMalformedWorkDoesNotPanic(t *testing.T) {
 	assertErrorShape(t, recorder, "invalid_catalog")
 }
 
-func TestLegacyRandomPoemResponse(t *testing.T) {
-	source := &fakeSource{poem: testPoem()}
+func TestRemovedLegacyRouteReturns404(t *testing.T) {
+	source := &fakeSource{work: testWork()}
 	recorder := httptest.NewRecorder()
-	request := httptest.NewRequest(http.MethodGet, "/api/poems/random?type="+poetry.TypeFiveCharacter, nil)
+	request := httptest.NewRequest(http.MethodGet, "/api/poems/random", nil)
 
-	New(source, "v0.2.0").ServeHTTP(recorder, request)
+	New(source, "v0.2.1").ServeHTTP(recorder, request)
 
-	if recorder.Code != http.StatusOK {
-		t.Fatalf("status = %d, want 200; body=%s", recorder.Code, recorder.Body)
+	if recorder.Code != http.StatusNotFound {
+		t.Fatalf("status = %d, want 404; body=%s", recorder.Code, recorder.Body)
 	}
-	if source.lastType != poetry.TypeFiveCharacter {
-		t.Fatalf("legacy type = %q", source.lastType)
+	if source.workCalls != 0 {
+		t.Fatalf("RandomWork calls = %d, want 0", source.workCalls)
 	}
-	var response legacyRandomResponse
-	if err := json.Unmarshal(recorder.Body.Bytes(), &response); err != nil {
-		t.Fatalf("decode response: %v", err)
-	}
-	if got, want := response.Data.Content[0], "床前明月光，疑是地上霜。"; got != want {
-		t.Fatalf("first couplet = %q, want %q", got, want)
-	}
-}
-
-func TestLegacyRandomPoemRejectsMalformedQuery(t *testing.T) {
-	source := &fakeSource{poem: testPoem()}
-	recorder := httptest.NewRecorder()
-	request := httptest.NewRequest(http.MethodGet, "/api/poems/random?type=%zz", nil)
-
-	New(source, "v0.2.0").ServeHTTP(recorder, request)
-
-	if recorder.Code != http.StatusBadRequest {
-		t.Fatalf("status = %d, want 400; body=%s", recorder.Code, recorder.Body)
-	}
-	assertErrorShape(t, recorder, "invalid_type")
 }
 
 func TestWrongMethod(t *testing.T) {

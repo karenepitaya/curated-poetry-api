@@ -23,10 +23,6 @@ const (
 	MeterMixed = "mixed"
 
 	EvidencePrimaryScanReviewed = "primary-scan-reviewed"
-
-	// Deprecated legacy values kept until /api/poems/random is removed.
-	TypeFiveCharacter  = "五言绝句"
-	TypeSevenCharacter = "七言绝句"
 )
 
 // LocalizedText stores the curated simplified and traditional renderings.
@@ -170,18 +166,6 @@ type NormalizationOverride struct {
 	From     string          `json:"from"`
 	To       string          `json:"to"`
 	Reason   string          `json:"reason"`
-}
-
-// Poem is the deprecated four-line view used by the compatibility endpoint.
-type Poem struct {
-	ID                string   `json:"id"`
-	Title             string   `json:"title"`
-	TitleTraditional  string   `json:"titleTraditional"`
-	Author            string   `json:"author"`
-	Dynasty           string   `json:"dynasty"`
-	Type              string   `json:"type"`
-	Verses            []string `json:"verses"`
-	VersesTraditional []string `json:"versesTraditional"`
 }
 
 type Query struct {
