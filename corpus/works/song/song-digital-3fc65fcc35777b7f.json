@@ -43,7 +43,13 @@
           "id": "line-4",
           "hans": "长向月圆时候、望人归。",
           "hant": "長向月圓時候、望人歸。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-5",
           "hans": "罗衣著破前香在。",
@@ -79,7 +85,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 33,

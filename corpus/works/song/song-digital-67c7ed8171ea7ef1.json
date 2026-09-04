@@ -38,7 +38,13 @@
           "id": "line-3",
           "hans": "忍凝眸。",
           "hant": "忍凝眸。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-4",
           "hans": "杳杳神京，盈盈仙子，别来锦字终难偶。",
@@ -53,7 +59,13 @@
           "id": "line-6",
           "hans": "思悠悠。",
           "hant": "思悠悠。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-7",
           "hans": "暗想当初，有多少、幽欢佳会，岂知聚散难期，翻成雨恨云愁。",
@@ -84,7 +96,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 141,

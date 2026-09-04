@@ -1,6 +1,11 @@
 Curated Poetry API notices
 ==========================
 
+Song Ci stanza boundary metadata references the explicit circle markers in
+https://github.com/rime-aca/corpus/blob/d74f5c03669b349f26428ec00c2fc12bc5726fff/宋詞三百首.txt
+Only boundary facts are recorded; no replacement text is imported. See
+sources/chinese-poetry-songci/stanzas.json for the reference hash and reviews.
+
 Code in this repository is licensed under the MIT License. See LICENSE.
 
 The project's independent transcriptions, structured metadata, variant

@@ -18,6 +18,18 @@ def encode(value):
     return (json.dumps(value, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
 
+def split_stanzas(lines, boundary):
+    text = "".join(line["hans"] for line in lines)
+    if hashlib.sha256(text.encode()).hexdigest() != boundary["textSHA256"]:
+        raise ValueError("stanza source SHA-256 mismatch")
+    cuts = boundary["breakAfterLine"]
+    if cuts != sorted(set(cuts)) or any(type(cut) is not int or not 0 < cut < len(lines) for cut in cuts):
+        raise ValueError("invalid stanza boundaries")
+    starts, ends = [0, *cuts], [*cuts, len(lines)]
+    return [{"id": f"stanza-{i + 1}", "kind": "stanza", "lines": lines[start:end]}
+            for i, (start, end) in enumerate(zip(starts, ends))]
+
+
 def han(char):
     return unicodedata.name(char, "").startswith(("CJK UNIFIED IDEOGRAPH", "CJK COMPATIBILITY IDEOGRAPH"))
 
@@ -52,6 +64,7 @@ def generate(root=ROOT):
     if digest != edition["sha256"]:
         raise ValueError("source SHA-256 mismatch")
     records = json.loads(raw)
+    boundaries = json.loads((root / "sources/chinese-poetry-songci/stanzas.json").read_text(encoding="utf-8"))["works"]
     converter = OpenCC("s2t")
     def localized(text):
         return {"hans": text, "hant": converter.convert(text)}
@@ -80,14 +93,14 @@ def generate(root=ROOT):
             "id": work_id, "title": localized(title), "author": author,
             "dynasty": "song", "genre": "ci", "form": "ci", "meter": "mixed",
             "tune": localized(record["rhythmic"]),
-            "sections": [{"id": "stanza-1", "kind": "stanza", "lines": [
+            "sections": split_stanzas([
                 {"id": f"line-{i + 1}", **localized(p)} for i, p in enumerate(record["paragraphs"])
-            ]}],
+            ], boundaries[work_id]),
             "collections": [{"id": COLLECTION, "positionStatus": "pending"}],
             "evidence": {
                 "level": "digital-text-checked", "status": "validated", "witnesses": [], "variants": [],
                 "reviewedAt": edition["accessedAt"],
-                "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+                "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
                 "digitalSource": {"editionId": EDITION, "recordIndex": index, "conversion": CONVERSION},
             },
         }
@@ -98,7 +111,7 @@ def generate(root=ROOT):
         "status": "in-progress", "primaryEditionId": EDITION, "members": members,
     })
     report = {"sourceSHA256": digest, "sourceRecords": len(records), "imported": len(members), "quarantined": len(rejected), "rejected": rejected,
-              "limitations": ["Not a complete historical edition; upstream file contains 280 records.", "Source paragraphs retained; original prefaces and stanza boundaries are not reconstructed.", "Hans retains source spellings, including mixed traditional forms; Hant is generated with OpenCC s2t.", "Mechanical validation does not prove historical textual accuracy."]}
+              "limitations": ["Not a complete historical edition; upstream file contains 280 records.", "Source lines retained; stanza boundaries reviewed against electronic references in stanzas.json; original prefaces are not reconstructed.", "Hans retains source spellings, including mixed traditional forms; Hant is generated with OpenCC s2t.", "Mechanical validation does not prove historical textual accuracy."]}
     outputs["sources/chinese-poetry-songci/import-report.json"] = encode(report)
     return outputs, report
 

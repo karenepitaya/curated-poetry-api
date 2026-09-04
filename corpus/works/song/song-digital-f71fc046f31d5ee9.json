@@ -58,7 +58,13 @@
           "id": "line-7",
           "hans": "长亭路，年去岁来，应折柔条过千尺。",
           "hant": "長亭路，年去歲來，應折柔條過千尺。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-8",
           "hans": "闲寻旧踪迹。",
@@ -83,7 +89,13 @@
           "id": "line-12",
           "hans": "望人在天北。",
           "hant": "望人在天北。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-13",
           "hans": "凄恻。",
@@ -129,7 +141,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 237,

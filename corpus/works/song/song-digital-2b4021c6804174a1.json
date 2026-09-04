@@ -43,7 +43,13 @@
           "id": "line-4",
           "hans": "想当年，金戈铁马，气吞万里如虎。",
           "hant": "想當年，金戈鐵馬，氣吞萬里如虎。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-5",
           "hans": "元嘉草草，封狼居胥，赢得仓皇北顾。",
@@ -79,7 +85,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 60,

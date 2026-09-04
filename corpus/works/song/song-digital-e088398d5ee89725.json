@@ -43,7 +43,13 @@
           "id": "line-4",
           "hans": "想半属、渔市樵村，欲暮竞然竹。",
           "hant": "想半屬、漁市樵村，欲暮競然竹。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-5",
           "hans": "须信风流未老，凭持酒、慰此凄凉心目。",
@@ -79,7 +85,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 184,

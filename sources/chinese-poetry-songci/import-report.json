@@ -31,7 +31,7 @@
   ],
   "limitations": [
     "Not a complete historical edition; upstream file contains 280 records.",
-    "Source paragraphs retained; original prefaces and stanza boundaries are not reconstructed.",
+    "Source lines retained; stanza boundaries reviewed against electronic references in stanzas.json; original prefaces are not reconstructed.",
     "Hans retains source spellings, including mixed traditional forms; Hant is generated with OpenCC s2t.",
     "Mechanical validation does not prove historical textual accuracy."
   ]

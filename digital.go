@@ -79,10 +79,17 @@ func validateDigitalRecord(label string, work Work, records map[string][]digital
 	if work.Dynasty != DynastySong || work.Genre != GenreCi {
 		problems = append(problems, label+": digital Song Ci source requires song/ci")
 	}
-	if len(work.Sections) != 1 || work.Sections[0].Kind != "stanza" || len(work.Sections[0].Lines) != len(record.Paragraphs) {
+	var lines []Line
+	for _, section := range work.Sections {
+		if section.Kind != "stanza" {
+			return append(problems, label+": digital body sections must be stanzas")
+		}
+		lines = append(lines, section.Lines...)
+	}
+	if len(lines) != len(record.Paragraphs) {
 		return append(problems, label+": paragraphs differ from pinned digital record")
 	}
-	for i, line := range work.Sections[0].Lines {
+	for i, line := range lines {
 		if line.Hans != record.Paragraphs[i] {
 			problems = append(problems, fmt.Sprintf("%s: paragraph %d differs from pinned digital record", label, i))
 		}

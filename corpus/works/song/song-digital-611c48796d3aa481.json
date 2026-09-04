@@ -38,7 +38,13 @@
           "id": "line-3",
           "hans": "露凉时、零乱多少寒，神京远，惟有蓝桥路近。",
           "hant": "露涼時、零亂多少寒，神京遠，惟有藍橋路近。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-4",
           "hans": "水晶帘不下，云母屏开，冷浸佳人淡脂粉。",
@@ -69,7 +75,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 222,

@@ -1,12 +1,44 @@
 import copy
+import hashlib
+import json
 import tempfile
 import unittest
 from pathlib import Path
 
-from import_songci import ROOT, generate, rejection
+from import_songci import ROOT, generate, rejection, split_stanzas
 
 
 class ImportTests(unittest.TestCase):
+    def test_stanzas_preserve_every_source_line_and_id(self):
+        outputs, _ = generate()
+        source = json.loads((ROOT / "sources/chinese-poetry-songci/songci-300.json").read_text(encoding="utf-8"))
+        counts = set()
+        for name, raw in outputs.items():
+            if not name.startswith("corpus/works/song/"):
+                continue
+            work = json.loads(raw)
+            lines = [line for section in work["sections"] for line in section["lines"]]
+            record = source[work["evidence"]["digitalSource"]["recordIndex"]]
+            self.assertEqual([line["hans"] for line in lines], record["paragraphs"])
+            self.assertEqual([line["id"] for line in lines], [f"line-{i + 1}" for i in range(len(lines))])
+            counts.add(len(work["sections"]))
+            if work["title"]["hans"] == "安公子·弱柳丝千缕":
+                self.assertEqual(len(work["sections"]), 2)
+                self.assertEqual(work["sections"][1]["lines"][0]["hans"], "庾信愁如许。")
+            if work["title"]["hans"] == "齐天乐·庾郎先自吟愁赋":
+                self.assertEqual(work["sections"][1]["lines"][0]["hans"], "西窗又吹暗雨。")
+        self.assertEqual(counts, {1, 2, 3, 4})
+
+    def test_stanza_metadata_rejects_changed_text_and_invalid_boundaries(self):
+        lines = [{"hans": "甲。"}, {"hans": "乙。"}]
+        boundary = {"textSHA256": hashlib.sha256("甲。乙。".encode()).hexdigest(), "breakAfterLine": [1]}
+        self.assertEqual(len(split_stanzas(lines, boundary)), 2)
+        for cuts in [[0], [2], [1, 1]]:
+            with self.assertRaisesRegex(ValueError, "invalid stanza"):
+                split_stanzas(lines, {**boundary, "breakAfterLine": cuts})
+        with self.assertRaisesRegex(ValueError, "SHA-256 mismatch"):
+            split_stanzas([{"hans": "丙。"}, lines[1]], boundary)
+
     def test_reproducible_complete_outputs(self):
         outputs, report = generate()
         self.assertEqual((report["sourceRecords"], report["imported"], report["quarantined"]), (280, 276, 4))

@@ -58,7 +58,13 @@
           "id": "line-7",
           "hans": "屏山掩，沈水倦熏，中酒心情怕杯勺。",
           "hant": "屏山掩，瀋水倦燻，中酒心情怕杯勺。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-8",
           "hans": "寻思旧京洛。",
@@ -83,7 +89,13 @@
           "id": "line-12",
           "hans": "又争信漂泊。",
           "hant": "又爭信漂泊。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-13",
           "hans": "寂寞。",
@@ -129,7 +141,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 114,

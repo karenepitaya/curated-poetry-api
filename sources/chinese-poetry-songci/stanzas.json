@@ -1,0 +1,1989 @@
+{
+  "reference": {
+    "url": "https://github.com/rime-aca/corpus/blob/d74f5c03669b349f26428ec00c2fc12bc5726fff/宋詞三百首.txt",
+    "sha256": "38c65819368f2b5a0f1367073cd189aa3e89c8448b515c386f865934d82fb2a8",
+    "marker": "○",
+    "accessedAt": "2026-09-05"
+  },
+  "method": "Reference stanza markers aligned to existing source lines; variant spellings unchanged. Only boundary facts are stored. breakAfterLine uses one-based source line counts; textSHA256 guards the exact original Hans text joined without separators. Explicit reviews handle missing markers and ambiguous alignments.",
+  "works": {
+    "song-digital-00de88b2b4dc7782": {
+      "title": "一丛花令・一丛花·伤高怀远几时穷",
+      "textSHA256": "4a082c5ef8fb754b4a84932919c5591c87c8a64ae260d8ed15005fd496975322",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-00ecfc87bfd3f418": {
+      "title": "八声甘州·渺空烟四远",
+      "textSHA256": "ee366d189912e7152e197ddcb29eb8a5bdb4eab0b30e0f9391572fa37b8ced7c",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-01ddf156dc0115e7": {
+      "title": "水龙吟·似花还似非花",
+      "textSHA256": "b8e3d948cd14d2efc3620e2bc454409f06d3bb5c3170a56dc1f80faadb870bfd",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-01ede129070e192c": {
+      "title": "玉楼春·春风只在园西畔",
+      "textSHA256": "a2da1b0f104297fa75f094569b22040b11a004b9cdfe49d95e01f5a22491cbf9",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-04b983b029b39bec": {
+      "title": "杏花天·绿丝低拂鸳鸯浦",
+      "textSHA256": "4ad847350d4cb35d180d53eb97b5e0f8fdc8142daa65f301e414b044b4acf76b",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-05121f14e783a3a7": {
+      "title": "蓦山溪·洗妆真态",
+      "textSHA256": "8fb286dd087d91d71ffbfd2f9e1272bcdd5086260778d580b5d503083d17af7c",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-08268e5e7fc0ce86": {
+      "title": "点绛唇·卷尽愁云",
+      "textSHA256": "99d6a0124b032c357c48ead1e29ae50c8dfac8b1bf32e730d375b0a149b2787a",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-08329138ff0d4ceb": {
+      "title": "烛影摇红·双阙中天",
+      "textSHA256": "7492401e70465647432f744d74d1f5a9bb2c1da2dfc7b6c53a2a30ac8c8df32b",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-08d9b14b699861b7": {
+      "title": "莺啼序·残寒正欺病酒",
+      "textSHA256": "8c74761dede77780f1fc11c679d4b01a2376e406a3435079f371a104321bba36",
+      "breakAfterLine": [
+        4,
+        8,
+        12
+      ]
+    },
+    "song-digital-0b4cbeac1c6636dc": {
+      "title": "浣溪沙·门隔花深梦旧游",
+      "textSHA256": "25636e47e6d98b71b9762cbfdd8804d79b36108d61dd06e461b56c512dcd196b",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-0b7da43be8ae4175": {
+      "title": "踏莎行·燕燕轻盈",
+      "textSHA256": "446636cb7d663cccbb79bf0223a060ea297d5f54cf6302028ed8844609601e8d",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-0c4e8a0a9350b757": {
+      "title": "六州歌头·东风著意",
+      "textSHA256": "99659795b164534c52854364238e9b283c21ea119b64e26338e6b06f91109a81",
+      "breakAfterLine": [
+        15
+      ]
+    },
+    "song-digital-0c5ed3e460e9b5f2": {
+      "title": "解佩环・疏影·江空不渡",
+      "textSHA256": "0217e14ea437c4fce01be9da046a3fa7c45609a09cd8e79d260f617ace43b84e",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-0d8f29494b40fe57": {
+      "title": "天仙子·水调数声持酒听",
+      "textSHA256": "ab5bc14bf4d108a93ef13b1a834e4ab0af2977b207bc05295b1d5155345f29db",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-0e7a7fe3fe16bd65": {
+      "title": "蝶恋花·月皎惊乌栖不定",
+      "textSHA256": "08cb5f6cb3c4c94c435f53bac95bd8326ef0386a97e05faa8affcb7ac2499771",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-0f69fe8c1439fc8d": {
+      "title": "江城子·画楼帘幕卷新晴",
+      "textSHA256": "b90d19947b8d9adbba316a28e0994747e39ceb495c9f2a448a8065071469aece",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-0f8bf6866589cb95": {
+      "title": "小重山·柳暗花明春事深",
+      "textSHA256": "645d2dc04360a0ed1fd14d48dd237ead7148eb0103696f6dd9fe4bb9074d47fe",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-0f9110983b749760": {
+      "title": "虞美人·落花已作风前舞",
+      "textSHA256": "88124b379ce0f57fc1053ad384598a666c429fabf0e9983cdf5774cc7f5d5e4c",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1048fd4300a01ac9": {
+      "title": "念奴娇·野棠花落",
+      "textSHA256": "3255e4678707d9f23eea10c7a849b56cf392b494eee7994b5e72b0290c128c5d",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1135a075a378d204": {
+      "title": "鹧鸪天·肥水东流无尽期",
+      "textSHA256": "92ce1e5d85a16c166f056a2266c866a7c9ec948058be8b9b90e79d664bb8cf2b",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-12bdb132f22a92a8": {
+      "title": "绣鸾凤花犯・花犯·楚江湄",
+      "textSHA256": "6ade1b95bd03493e9d5574c0546e75c4f42a2e16f1b54b81bbd980f8ccd7961a",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-13660e5ed1fb0112": {
+      "title": "湘春夜月·近清明",
+      "textSHA256": "1b79320fd9625f8beb308b533e823398310e4ab5b1497e50b59a6dd8f7f1df7a",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-137419bff2ca5dd7": {
+      "title": "六丑·似东风老大",
+      "textSHA256": "b45a303024ad7059e270ebe194e4746cf68c81dc90f8ae8cd1457bd0110e03ce",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-137e30389d451e86": {
+      "title": "水龙吟·闹花深处层楼",
+      "textSHA256": "0f94cedb3ce98eaaebeb8a1db359e85ef98aa7d3bb87929c1c0fe0d2495729cf",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-151615be18c254dc": {
+      "title": "念奴娇·萧条庭院",
+      "textSHA256": "0d09fab3371a1204ba761c486eff9fd7df21c7d3ed6c12b3129bc321210af086",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-187f4b944083cec7": {
+      "title": "生查子·关山魂梦长",
+      "textSHA256": "705f0e45b3409fb43bd6ee3d3331610cb07cb35ae5c553b4513349b4dea59253",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-19549cf2c157b98a": {
+      "title": "绮寮怨·上马人扶残醉",
+      "textSHA256": "2ef3cc98840ad68a66c3cdd61684cdf07ac1db7a3795d86ddbc9d76e6c2dec8b",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-19f3ebb37bbcfa7c": {
+      "title": "声声慢·寻寻觅觅",
+      "textSHA256": "e04d38270612523d7a9a96f5e54f653b1897c434f93aaa294bdd0185f673c5bc",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1a1d4d2af0f684ff": {
+      "title": "雨霖铃·寒蝉凄切",
+      "textSHA256": "dc12a3143cc5c10ff4ceca197af426e9bcb8968a476f668091384d6db50651d1",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-1a65df6e028926a1": {
+      "title": "八归·芳莲坠粉",
+      "textSHA256": "34e0107b34ac1d562557ffb7bb5551d7f12433c221c1188223f042d51a2c58ca",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1cc0f17e3304c043": {
+      "title": "祝英台令·宝钗分",
+      "textSHA256": "de0719556129de0fb00ee4dcee2e5e3fabf5e2a1516fc7f934049fca1a723c65",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1d0853fb5330b6e8": {
+      "title": "清平乐·金风细细",
+      "textSHA256": "12674599615ea737b891ab67c0679592ac9bd46c8e39bb6c82383523b97e0693",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1f90663a4f13298e": {
+      "title": "青玉案·年年社日停针线",
+      "textSHA256": "038186c7c4704943191e3f61624b22d2085aae11361d006b9ef00ed4dce671ce",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-1fc719b7d69f7aea": {
+      "title": "摸鱼儿·对西风",
+      "textSHA256": "f2776ca64ee48bd4dd6c0aab5275b1da59a8236d99c634f398b333c6a2967090",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-1fda0781e0b9b838": {
+      "title": "兰陵王·送春去",
+      "textSHA256": "fb1e51ecbed993fbc10c171d8a96be4fa325600e8582b2afc7335cda6f3bc074",
+      "breakAfterLine": [
+        6,
+        13
+      ]
+    },
+    "song-digital-1ff0d0af0d632dad": {
+      "title": "高阳台·宫粉雕痕",
+      "textSHA256": "d54b8d13ca06d1a9b7ae5516a159bb9e34accf0010342baa1b7c1279dcffa4cf",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-20bf6ea79857fc60": {
+      "title": "浣溪沙·一曲新词酒一杯",
+      "textSHA256": "2797edf4b14d093fc144b2e21a1374272605c77a2f2c247c6f91d1e02bf4faaf",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-213a28ce51ef4263": {
+      "title": "踏莎行·候馆梅残",
+      "textSHA256": "371638ec422bb6fd3df7b805fa07b1d032606dbfc906be249be8fa947ecfffaf",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-2277804c66291ba5": {
+      "title": "瑞鹤仙·郊原初过雨",
+      "textSHA256": "9d38b6d422450043ccdeea278aec8394d6481a9c6d318ef63b86b0a7c34c0451",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-22fe6103d3836ffa": {
+      "title": "青玉案·一年春事都来几",
+      "textSHA256": "488887a072208ea9dadce7433ab033a9304db6a691c6e021dcb2f03579bc9bec",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-24e1bb5965b9da6f": {
+      "title": "迷神引·一叶扁舟轻帆卷",
+      "textSHA256": "9f27542487fdaf535d1952224572df3ca0299c2f831f69d9315c44e4e62d652a",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-25690929e6caa829": {
+      "title": "疏影·苔枝缀玉",
+      "textSHA256": "0012be09dbab47e2be50e9092ec64f31720cc9daf9036a9c46e10b8c11509b81",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-263da11c525a46c4": {
+      "title": "点绛唇·燕雁无心",
+      "textSHA256": "12cfa5faaf11c44fe654ac0d689d320a485d3e4d323bb50055a338424b1cca83",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-263ea10bd5c2422d": {
+      "title": "解连环·怨怀无托",
+      "textSHA256": "5915f3c38c3416c776628d61a2d6d050151213e48e4afe4644f801790823f10e",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-27356dbb03dc0ae5": {
+      "title": "长亭怨・长亭怨慢·泛孤艇",
+      "textSHA256": "6efabdf45ed2208cb972587dc76cac61b99cce2a7a9485a20a2bad35b8dd1c5e",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-291e1264fa6f7c31": {
+      "title": "谢池春·残寒销尽",
+      "textSHA256": "7998c34875df5e6db4fbea4781e396d8fbe18a5aa7862c8029134a13cdcc16be",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-297f9dddb3e42788": {
+      "title": "念奴娇·闹红一舸",
+      "textSHA256": "84f29ca6c9905d205f5c0daafd0d6c03f0ce5d6f41ad408e24c708bc4498e2a4",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-2984c974ef2e8b93": {
+      "title": "大有·戏马台前",
+      "textSHA256": "744624094cad6fa103e45b9d25993c3320260fc77a35e665ecab6a94d631e87f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-2b4021c6804174a1": {
+      "title": "永遇乐·千古江山",
+      "textSHA256": "b58842bd9f5adb293ccf03b2192ebce58992ec35494130471b17a7a7a684ba5d",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-2bcd017629ace336": {
+      "title": "临江仙·高咏楚词酬午日",
+      "textSHA256": "ee9e234ee8d6dd89d61f1540381b0f5f9c57e016adec9158f262160d89dfc7f1",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-2bea2205c5a8282e": {
+      "title": "踏莎行·小径红稀",
+      "textSHA256": "732e01400814803d35d761b70e9aadbb9a3f9a21e14ad0734d3a86fbb6bbd597",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-2cb6d4acb3eb0822": {
+      "title": "玉楼春·年年跃马长安市",
+      "textSHA256": "7dee55566d0d08fbebeb66d831e54f145c77a7109c21da8cede18ab8f8174365",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-2d329054c6b33fe7": {
+      "title": "卜算子·缺月挂疏桐",
+      "textSHA256": "e1d250cdbe7b2870b392659e0963d42e02c245f982f9b5f79c680b59aed98ff1",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-2db7f1ca01e18a67": {
+      "title": "水调歌头·明月几时有",
+      "textSHA256": "3a8d9654d55269818638724a1b742a6b4648927008cae6f4402f48ce229a0eb1",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-2e4cd743c1ced82e": {
+      "title": "生查子·繁灯夺霁华",
+      "textSHA256": "02296daca1803b94681b366ad34ba7e175de49ede6a9cf0740466a3125363d85",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-2fc6178794588661": {
+      "title": "青玉案·三年枕上吴中路",
+      "textSHA256": "18e4d1ea17aa71d027f0507ad1ce2fe71d4465949880d6235c2430c030f196fb",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-3119311dfb9b5f66": {
+      "title": "鹧鸪天·彩袖殷勤捧玉锺",
+      "textSHA256": "f31e792369d5b57bd14e40224b62f74bb12aa45deeb6f2317d398e3580c8f926",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-31263ab72725a7d9": {
+      "title": "菩萨蛮·赤阑桥尽香街直",
+      "textSHA256": "8575791a2cf54c7dab2089d1f1883c3089c85c0466b6e698bdd1eff0ecaf5e2f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-32990fb2dbe91444": {
+      "title": "菩萨蛮·哀筝一弄湘江曲",
+      "textSHA256": "7e46f7ddfd4176c955c50d01926b9f99968fed8ca515fd864f117e01303365e2",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-32d41e18476517bc": {
+      "title": "浣溪沙·一向年光有限身",
+      "textSHA256": "17da104afbc39722dc13284097c3062641ff5a5e93fa9324fd28edc23ab10c9d",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-352967529c840c1a": {
+      "title": "花犯·粉墙低",
+      "textSHA256": "6c7d006f10d916a609aaa6d90d41fcffad053421e524742be6862f9fb65699df",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-36c5745ae37250a4": {
+      "title": "高阳台·接叶巢莺",
+      "textSHA256": "65c67ef755d8f44cc6aa7eb10433cb3840301b41ab2e284489931fbbaf98d5ff",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-370f6ee8c554da14": {
+      "title": "忆王孙·萋萋芳草忆王孙",
+      "textSHA256": "2abb165c66d4da03bc311a792f2994ae4203d71456860544c101ecab26d7cdb9",
+      "breakAfterLine": []
+    },
+    "song-digital-37283720b0900a64": {
+      "title": "摸鱼儿·怎知他",
+      "textSHA256": "48d6d99c11e35e72384ad570d10451d33e8c538922b11b19aff89fcf1fb09c36",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-376c8eb9f4e73cd0": {
+      "title": "石州慢·寒水依痕",
+      "textSHA256": "1300d0f15fc4f5c8a458f704c0d625ea579b1fe8e4482b3f881dc4cd229b25b6",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-378de098314fe01c": {
+      "title": "清平乐·红笺小字",
+      "textSHA256": "3a4936fdee881b64ba70bde5f92a7af75f579d3992ea9d25240dc0188b8f59be",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-38180b21f486f096": {
+      "title": "定风波·莫听穿林打叶声",
+      "textSHA256": "d874602262140281af87b8d282cadb07564358cfa9d1a8062a65ace236a881b8",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-393321ee93b74aca": {
+      "title": "菩萨蛮·绿芜墙绕青苔院",
+      "textSHA256": "defe5eea9400ce1019b3a956409184e5a3b1e336f35c7f70d2eaaa5628c916bb",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-3ab79ef3b2bb641a": {
+      "title": "瑞鹤仙·悄郊原带郭",
+      "textSHA256": "1244863ed5a819214cf98b6e1aa6fc513a4c5a5b892c8d9b98ec22684bb8cef1",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-3b3189cb6ab59073": {
+      "title": "绿头鸭・多丽·晚云收",
+      "textSHA256": "82175000f496b9b1b6d9acc0ba3b33e4a992a332e0a1af79c8c43a9a45b0cb58",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-3cb11ae26db642b7": {
+      "title": "伴云来・天香·烟络横林",
+      "textSHA256": "5017af12334d0432ca4743174c77c8b7dd36620030f242a6b1a1177e4f9a1273",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-3cc1eb67ca58e66f": {
+      "title": "清平乐·留春不住",
+      "textSHA256": "fa345ce05f9bace574188cbe898e5673d1120ea56dce82eb55ab0509a33beaec",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-3cddc14009bf9721": {
+      "title": "水龙吟·夜来风雨匆匆",
+      "textSHA256": "edad3298235b72080a3625b6445bf054fbf51c3675bbfc1ccb52af0a72c2a0b5",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-3d4239957b259453": {
+      "title": "贺新郎·湛湛长空黑",
+      "textSHA256": "db85679017021812876c41f2ea23497fcf2122b1ab32ae37ea4cc1a606199243",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-3fc65fcc35777b7f": {
+      "title": "虞美人·曲阑干外天如水",
+      "textSHA256": "5417895edb8ca5e6a83e3c27d56ad04f226b11b5726d8dabd9fe30627273582e",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-404084d7dc38d2e3": {
+      "title": "千秋岁·数声鶗鴂",
+      "textSHA256": "3823831829e0602fa924bacd58075b8c281159d6640e1c7c0b4d313356bc67c6",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-408110092f670da0": {
+      "title": "琵琶仙・自度曲·双桨来时",
+      "textSHA256": "6ff6c51c36af344197162da54f445b9676dd3a48a5e72d5ebf9c84038f549a7f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-41eb30ad64ba63de": {
+      "title": "夏云峰·天阔云高",
+      "textSHA256": "00be1533bd6fe5eca6e5178e23ca83398873b50c3a44690bfe721c880191c5aa",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-420c2ac0fecf1c93": {
+      "title": "好事近·凝碧旧池头",
+      "textSHA256": "87b9d201f294338010fec699d2812be060a1e13c279f16dc977d4d04cbc6201a",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-42f003c3b7d52906": {
+      "title": "浪涛沙・浪淘沙·昼阴重",
+      "textSHA256": "3bf195e55d6e10832f4070a22effc160df58b477fece69b16e16b76de5322e1e",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-4361753d45867474": {
+      "title": "秋霁·江水苍苍",
+      "textSHA256": "a113e5b724d42f8f64320d0d235339d6706b4a80b5a46a3cc904d11eef1ef9bf",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-44733a463767858e": {
+      "title": "浪淘沙·把酒祝东风",
+      "textSHA256": "a9cc3c44f96059220e6163e26db8d00f016b6a75e10fd1e899a4415151a22622",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-4550eee04964c203": {
+      "title": "扬州慢·淮左名都",
+      "textSHA256": "d895d807d4a9bd4f571564c3ae44de05f8bd7c6f9c196d24653cea028129222c",
+      "breakAfterLine": [
+        4
+      ],
+      "review": {
+        "nextStanzaStartsWith": "杜郎俊赏",
+        "sourceUrl": "https://www.gushiwen.cn/shiwenv_a8062138a414.aspx",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-4868b4ce7820481e": {
+      "title": "宴清都·绣幄鸳鸯柱",
+      "textSHA256": "65b88e9005c987a9a1ee94f46cb7aac822192b5301647bed8bc79b6a0f83045f",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-4934660047c4f3d0": {
+      "title": "六州歌头·长怀望断",
+      "textSHA256": "d19d881b7e6b11b6eb7c538c0718b174609bef9d4287055ae0726350860265f8",
+      "breakAfterLine": [
+        8
+      ]
+    },
+    "song-digital-498fcab2392bb1b0": {
+      "title": "满江红·怒发冲冠",
+      "textSHA256": "1645df7b41329ffbcf0a556ee39bc0a7e97d85b566287fb17b1fec0ee7c08ae8",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-4a11a792df81ea3f": {
+      "title": "宝鼎现·红妆春骑",
+      "textSHA256": "aef01d13a9d840688e663794e57f469ae0d79c3fce10bd66cba11d612fb10d08",
+      "breakAfterLine": [
+        6,
+        14
+      ]
+    },
+    "song-digital-4ec1de2863d52114": {
+      "title": "留春令·画屏天畔",
+      "textSHA256": "2a06e3369ae22726bc714337989aae39de38f82e5d18d512b4298a65dd011de1",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-4ed6bc3ddc625dfb": {
+      "title": "阮郎归·旧香残粉似当初",
+      "textSHA256": "fbb75ff070fc7c3b9b192ff46a8847ee8569ac4222cfac4852d73085a64c5649",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-4fdd9e9d0c7df20b": {
+      "title": "汉宫春·春已归来",
+      "textSHA256": "c6ce5093fca32d4aa481fb8ec872eb285d0441d35cc4f654d7ffa3c2d32e7e43",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-5209ffe4db25f3f1": {
+      "title": "六丑·正单衣试酒",
+      "textSHA256": "49ab20b574845579c9738ec1956f0612aedbafda65df7774252b1346a2b2f55c",
+      "breakAfterLine": [
+        8
+      ]
+    },
+    "song-digital-532d0dca5621f738": {
+      "title": "祝英台近·翦红情",
+      "textSHA256": "307954a0c02c9cbaff73443e7f5589d56985491ac0ab345c197cd9581da5799f",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-55ca5d54b7340f91": {
+      "title": "贺新郎·深院榴花吐",
+      "textSHA256": "6960f5160d5b9ce1322dce5b6de67ddd4408059ffba68b0112ca8ef9f01739d7",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-56ab15604caf08a1": {
+      "title": "醉花阴·薄雾浓云愁永昼",
+      "textSHA256": "24158a14f90dd4039af5b185069bfedd7e89ea8e679d4aecda3ef8b1086dd203",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-5753b1aafde469dc": {
+      "title": "清平乐·留人不住",
+      "textSHA256": "72a6d735ae2613e6f50ba622ce208d3a2a84a68c5734add93612870075486c7f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-581752e605ccb784": {
+      "title": "花犯·小娉婷",
+      "textSHA256": "c5e4d556f06efbe0eb90c9801322c765d89edfc04a934f28013649a68a4bbf62",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-58535a2c9064a8c7": {
+      "title": "减字浣溪沙・浣溪沙·楼角初销一缕霞",
+      "textSHA256": "a9077b7afe88597e2e51344757457c8ad3a8db095c8d3ed661dcccf5227daa3d",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-58b3bdb2aec10046": {
+      "title": "定风波·自春来",
+      "textSHA256": "ad7358624a3ed0dd93084accfa730a20975be571e760ff40105f74a8bb808890",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-593513bd3eaa3758": {
+      "title": "薄幸·青楼春晚",
+      "textSHA256": "0b046a00a29cae5fc8bc5b9f09425a4a06a9bcc7d241d08e6271b4b83ea8c389",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-59a47bb62f9d195c": {
+      "title": "瑞鹤仙·湿云黏雁影",
+      "textSHA256": "128b1256e81f8fd1d4ccc43a228860facf48f530c3204cba069fdcbfa5254c66",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-59fc603b6e1d5d2e": {
+      "title": "竹马子・竹马儿·登孤垒荒凉",
+      "textSHA256": "3d1d6910fd532d69e648de8c281ea7d0d880587a71937f23249cd032f1ff21ee",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-5b78391fba047de5": {
+      "title": "人南渡・感皇恩·兰芷满芳洲",
+      "textSHA256": "f5c941c61f236c0eb66e90e60a7d8da3589d71c272c0a2c40e3604ee014d023b",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-5cfd8776d6f2d04e": {
+      "title": "高阳台·照野旌旗",
+      "textSHA256": "8f54e7f506aa82656d16fc42e69a31ceea22765d1b46055ee41bfdeec8cc1319",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-5e3f50c2239127d7": {
+      "title": "踏莎行·情似游丝",
+      "textSHA256": "3a0a7b89e7f4b64d11ff983a3a42e5df02755930dba718d9c1e8048477808c25",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-5e9645188a62f0f2": {
+      "title": "三姝媚·湖山经醉惯",
+      "textSHA256": "63846a361b666aa99ab83bcafb738e440e657f29c143d3b0adee78744e735abd",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-608b9ab9fb8d3953": {
+      "title": "薄幸·艳真多态",
+      "textSHA256": "452065eb8436a73136c87313a0ecb795dcc55857f32941edb055285030a87deb",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-611c48796d3aa481": {
+      "title": "洞仙歌·青烟幂处",
+      "textSHA256": "289c7668af8fe1a449bc442abd88c89189d053b6f9ab53182c7e240cc7a4b8b8",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-6183fe91d283d353": {
+      "title": "烛影摇红·霭霭春空",
+      "textSHA256": "cf932f5a857b181dec3a53e397bb6932ed9b055e7bca368064c1f60f759921d1",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-61b5f6ad9807d1a6": {
+      "title": "应天长·条风布暖",
+      "textSHA256": "af7baa674c169365dd77d47cd60a486fef47ee8679489438fc42ecb531daa6c3",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-6376ff0f93d98635": {
+      "title": "清平乐·留春不住",
+      "textSHA256": "cf7307bd5dee8d1ceea9709abe2fc824dfe6d9b3a7df964dbc4745efcbd42b1f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-637ea9ed01ef7ad8": {
+      "title": "燕山亭·裁翦冰绡",
+      "textSHA256": "ce5298c02659eaea8a96e5f137a72faac15231df52cc09e24c7391ba3d4f0d63",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-6438a4c2e6711f5f": {
+      "title": "八声甘州·对潇潇",
+      "textSHA256": "bfaf31d2d1244d3a9a3fb98f97626a7cade96ceaca6da2a7cf9ff68a6c6c118f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-66f88947a8dfaf87": {
+      "title": "大·对宿烟收",
+      "textSHA256": "063761217bf1d332bd968fc511af362fa3bd932a086057c261d4eb7d5264535c",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-67c7ed8171ea7ef1": {
+      "title": "曲玉管·陇首云飞",
+      "textSHA256": "116be5ea4406f0bf3812c74b2c6cd6878b4d5ac7ec76a380ce5a2a99f2da54c2",
+      "breakAfterLine": [
+        3,
+        6
+      ]
+    },
+    "song-digital-6852ad943989d479": {
+      "title": "贺新郎·绿树听鹈",
+      "textSHA256": "bc5f5ef6737f20afcbbc260efc300009da90a48fd44ff1b6063010ad50134905",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-68b1f097d1a9f331": {
+      "title": "尉迟杯·隋堤路",
+      "textSHA256": "80a7027b74d75ab61dd0a3576a40a2bfedaa04919d52bf7640334130f6ef147f",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-6903414d09a5c0bc": {
+      "title": "兰陵王·卷朱箔",
+      "textSHA256": "61df1a23a0f2be77782c0933dc303d615f87ff9be89042c47887d8cd2d1a804a",
+      "breakAfterLine": [
+        7,
+        12
+      ]
+    },
+    "song-digital-69b7dfd7988869bd": {
+      "title": "夜游宫·叶下斜阳照水",
+      "textSHA256": "064756f5fb582a4b4af2adbf18ffc5d269bc2859559cf080b95842497cad227f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-69eb37fcfcfd5e22": {
+      "title": "江神子慢・江城子慢·玉台挂秋月",
+      "textSHA256": "7d0056e20c19d463c6eddc2b9e15f63a77cc8bead1ebad03513a2f6b930b969d",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-69eea9ef2b252ee6": {
+      "title": "解语花·风销焰蜡",
+      "textSHA256": "7fd7190afe57847afa5e08a73fdd8ee32fb33a0e16a49025cf2c272290e0ea5c",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-6a434e7dbeef9b4e": {
+      "title": "金缕歌・贺新郎·乔木生云气",
+      "textSHA256": "1e0fcfff0e596be332bea8dbc4789e3fce711b52dd5c141a26f41287aaa00c4e",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-6cb6773e8b2855ac": {
+      "title": "浪淘沙·梦觉",
+      "textSHA256": "8d1eba29091c6e2bbedf77096f8a7c3b287ada29e95cd3239a5baca1cce93ed5",
+      "breakAfterLine": [
+        4,
+        7
+      ]
+    },
+    "song-digital-6d28005b3d4d5960": {
+      "title": "苏幕遮·碧云天",
+      "textSHA256": "d5f2d3490846d1c8d5d45579eb3610748886ff8f16f0c7957e354c3cafd038c7",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-6eb45e73a3d9c31b": {
+      "title": "鹧鸪天·枕簟溪堂冷欲秋",
+      "textSHA256": "305545141026d24b16c8f98d9b748d8460e8d90c5dc48e3aea72d5b2daf6c777",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-6f1c21f550610121": {
+      "title": "高阳台·修竹凝妆",
+      "textSHA256": "ac83d4fef01ba5508d79415416ac63cb2bf8f03ac410c9bfa80f782b8efa0d86",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-6f51e3a13de6a469": {
+      "title": "惜黄花慢·送客吴皋",
+      "textSHA256": "ce35acebe5a3753caa2360fbddf7cdc8da56c7ac2e4a535de5c3735733664981",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-6f5e110351148850": {
+      "title": "阮郎归·天边金掌露成霜",
+      "textSHA256": "61ab2587fe2548de3b939b2cdf7e0d7c98b5e6f4676d046ff42a637921b97893",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-6faa799fcc83b741": {
+      "title": "点绛唇·新月娟娟",
+      "textSHA256": "cb914fccfc0dc2a28f8a59295fd37459b7f35a5b930b870f3f0c2befa45b9432",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-703d9e8a4ef66d40": {
+      "title": "关河令・清商怨·秋阴时晴渐向暝",
+      "textSHA256": "f9ca12d0294b2efeb29b3966bc64e81e415a238f1d8497f731bab77325943972",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-70536aef2bc77e65": {
+      "title": "玉楼春·东城渐觉风光好",
+      "textSHA256": "20cb0f5ca6c7949525112a5a2378953fb31deb3cce6aa1ca091c71c4bb592c58",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-712f97e7d496bc61": {
+      "title": "少年游·长安古道马迟迟",
+      "textSHA256": "d8b0e0efb92019f00372994a19690329f4b98de7b5e55a703409ee923510f972",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-7142366ed6843c3a": {
+      "title": "江神子・江城子·十年生死两茫茫",
+      "textSHA256": "fa48174e729bcf958aea156b3b4d7ff82be2f627d025474c2337a010c6dfca56",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-7245bbde435aa3f9": {
+      "title": "渔家傲·小雨廉纤风细细",
+      "textSHA256": "8338ba91e8f65457bee5fbb03efdd496f1fd60f4e886e89402e7c15cf567012f",
+      "breakAfterLine": [
+        5
+      ],
+      "review": {
+        "nextStanzaStartsWith": "九十光阴",
+        "sourceUrl": "https://www.gushiwen.cn/shiwenv_a56b61dd5bc3.aspx",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-7311c9697fb7a0b4": {
+      "title": "忆少年·无穷官柳",
+      "textSHA256": "cbd37a2334d8460efaf7e8406f5e4437f925b004e7ec1192f2061eaeb7bd495f",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-74735597e5a0a2cd": {
+      "title": "瑞鹤仙·晴丝牵绪乱",
+      "textSHA256": "4937ac37b94040f676f08a3ba027f66ae31612c47ecf9392b5953f5e5fdd778b",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-7570547ebaefbf3a": {
+      "title": "贺新郎·凤尾龙香拨",
+      "textSHA256": "f2b7b0d6c8936040e9e4f8800db1cdb83c1c389e00abfcb9279daa2e00d08e0d",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-75db26ac42d33053": {
+      "title": "汉宫春·潇洒江梅",
+      "textSHA256": "f2d80bd3bddc475a64ad38eb96279cc9045cb8336fb1d1be00972f29c2f623ea",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-767ecf55e3e8aeaa": {
+      "title": "千秋岁引·别馆寒砧",
+      "textSHA256": "3b7c9c21069c0dd9f306bd8d272ace572b3bd3f20f288d44a1139d82a263a21a",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-76c76049bac2714f": {
+      "title": "蝶恋花·醉别西楼醒不记",
+      "textSHA256": "d2fcbec9bc8393f4d155403a608799819e6e7278a67aa0d902cf91eef77973d0",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-7b3ec6cbb8fdfcc5": {
+      "title": "蝶恋花·梦入江南烟水路",
+      "textSHA256": "4b13c819cd6cdf453f71bfed2e74db7edadddc5799bc857939ba37cc581a5a52",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-7b8de97394ecef1d": {
+      "title": "念奴娇·洞庭青草",
+      "textSHA256": "266c777ffeb4c6b05d3c33da3d6cf261f94e41cb63739130cadac8bba20c3273",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-7e57eae04b9afa87": {
+      "title": "喜迁莺·晓光催角",
+      "textSHA256": "368f7a036563ef7d27087fd4c31038ddddf2e3a829eb675efa5dfdb6e6432e11",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-8065ddc72b1ede69": {
+      "title": "玉蝴蝶·望处雨收云断",
+      "textSHA256": "785b3fd8d7436f49d67ee600c63fb60ba9dae5b2bf7eba4c1a8ae6c612988ad2",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-807ff8140aca4a9f": {
+      "title": "解连环·楚江空晚",
+      "textSHA256": "9f572f8c388dca32bade7ab528a63b9d885d2f145add5928cffff54bb762ff43",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-80ff26d3ac97c13b": {
+      "title": "醉垂鞭·双蝶绣罗裙",
+      "textSHA256": "597b9c47aa1cfaac858d50aa3f0466510f4f0cadb84c7029840b5ea8790e4484",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-8139e48c5e1ab1b5": {
+      "title": "东风第一枝·巧沁兰心",
+      "textSHA256": "90f3f7dce65154c0f0436f10f5a4c88333f270d96dbd10894fed75992c09ccc3",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-820b928a0b7eb38b": {
+      "title": "阮郎归·湘天风雨破寒初",
+      "textSHA256": "d425cf466cb38d478d0e684016cd62b36f47cd888af4936227e8a783b171f267",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-8286da32c14c7cdf": {
+      "title": "御街行·街南绿树春饶絮",
+      "textSHA256": "a6141aeb0f9a1a2d8ee8ae663cb94d18db4d610a165776c804f9a5f683989cf1",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-83109b5c82c86286": {
+      "title": "夜合花·柳锁莺魂",
+      "textSHA256": "7e180cd00eb2c5595fcd426d72004a8a1ac644773cd8d9318a53c31eca267926",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-833bcafe95668bbc": {
+      "title": "永遇乐·落日熔金",
+      "textSHA256": "e86204cb033ebd9bc563dbebb56ab25ef6f2e0c0f8ef04af71799bd7404d8261",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-837c9daa980a308d": {
+      "title": "唐多令·芦叶满汀洲",
+      "textSHA256": "b0593452a63a68c952c9c822a2a5b6b5f78e42806d17122dcf402ef4d221dea3",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-854756637ab52fdc": {
+      "title": "玉京秋·烟水阔",
+      "textSHA256": "7bfb100693cda3f239ea3779b337dc060e7b0c7354bdf1a8f6dd21f7a0a0a0fb",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-8593a613d718ddcb": {
+      "title": "采莲令·月华收",
+      "textSHA256": "717048bdadf729fda7451319d4af033146fc6e9e03c495ab8d00c84fcfab3bc7",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-87a2d51817024d69": {
+      "title": "三姝媚·烟光摇缥瓦",
+      "textSHA256": "add8fbca5b1226a58fc91e1724ffb8d27bcefd93efc2b09f006d33f123369272",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-8874b594f8980939": {
+      "title": "临江仙·忆昔西池池上饮",
+      "textSHA256": "37c17057a74fdfb6b4747e108f363e8fdbf2d7d207c96e1879d3712094df62da",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-8aef83c02592f403": {
+      "title": "女冠子·蕙花香也",
+      "textSHA256": "ddf0ec370c413f562b513675d9b89d19d9559ac6fb18aa56a68c440870b86634",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-8b2cd69a6758b3d1": {
+      "title": "眼儿媚·酣酣日脚紫烟浮",
+      "textSHA256": "b8a447066ba51f6f8388f671fc443d40aeafda09e64d450d0d08329d247706dc",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-8d6014e3f15d33f4": {
+      "title": "霜天晓角·晚晴风歇",
+      "textSHA256": "2e198b65effcd152e3d5ec6d8b646fb768b7f4547d3fc477c60ba2ebf7f97730",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-8f0aebedeb73ff45": {
+      "title": "玉楼春·绿杨芳草长亭路",
+      "textSHA256": "7af3da75bc1bd2b8016b307ad828882e55b9519a405202cd2fe35cd768a9316b",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-8f6803241d1af3db": {
+      "title": "蹋莎行・踏莎行·润玉笼绡",
+      "textSHA256": "a5a4165e94c5f20ff4c3a9bd1cb0b6219e50c2894bc8d67ed64f281c3f2a662d",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-913bda85b634df49": {
+      "title": "齐天乐·烟波桃叶西陵路",
+      "textSHA256": "c80ed2973683f801d2610e7fd206f291d6eeeaaa3967184c0f3f7410b62c2fc6",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-91ba72cdd7bb363b": {
+      "title": "苏武慢·雁落平沙",
+      "textSHA256": "986b389c9bdc2f99b1f54d3f187935ddd6f42e3665c026d5a12ca2e069e1ff60",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-9251686648fe8f32": {
+      "title": "过秦楼·水浴清蟾",
+      "textSHA256": "8b4acf6f74aed3bf5d7a67000609441e7f6b8780fbca5d8a625dc8b0847e30c9",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-92dc9f0ebd094193": {
+      "title": "齐天乐·庾郎先自吟愁赋",
+      "textSHA256": "801222d041c8114e1c06bad6b8e0eab0242263d1ed204ca590dfcfc0e9527e6f",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-94d2ae5b74d51efe": {
+      "title": "玉楼春·别後不知君远近",
+      "textSHA256": "cfede593ee81363c818931f71c00e95ba831978f6f0c79f12c331aeba0381a48",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-9667226257d846ff": {
+      "title": "思远人·红叶黄花秋意晚",
+      "textSHA256": "16586339713d8481cb3c06862f877174a3a478ccd749e65b466653725a904ae0",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-989d362b194a80c3": {
+      "title": "贺新郎·梦冷黄金屋",
+      "textSHA256": "38baa6e60d81cd392c2a4af29012f73d02cf2aaf50373ef0c919382ac0c4daa1",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-992aa510f8ac1cbb": {
+      "title": "洞仙歌·雪云散尽",
+      "textSHA256": "fc13ad35455b745f1ad846f3cb7e83343da5c3fc38438b3f50e7351ff0fb2aea",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-996aade97f173f80": {
+      "title": "暗香·旧时月色",
+      "textSHA256": "70edb89ffe39ed0cff90599edc3536594018c1ec29dbd9603d092a65a0f4fb45",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-9bd3f3bcf5a2bb48": {
+      "title": "玉楼春·池塘水绿春微暖",
+      "textSHA256": "cd1f5dbef14213b0ad5256bee55bb4aaf29d059a6934706bcdbea26b9c7cda47",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-9c13241d68db75d3": {
+      "title": "绿头鸭・多丽·玉人家",
+      "textSHA256": "ce5af225ed948ce41324419ee46846c01c6433a363d90bd641b8986bbc58b70e",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-9c7cf7c02a3610fe": {
+      "title": "木兰花・玉楼春·燕鸿过後莺归去",
+      "textSHA256": "16cfedfe92a486e77c70eafceefa0da715bfd15e6e5ba4cdf044299fbcfeef72",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-9dc9b2d96bcb19e2": {
+      "title": "绮罗香·做冷欺花",
+      "textSHA256": "f323ad385c4441d34acd4e3cce472b520de2640f19173181660d1666d5db4f0c",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-9e0992bb479af85f": {
+      "title": "临江仙·梦後楼台高锁",
+      "textSHA256": "f5b3932b907fe9852f0eb672c9a144e721d074642766f0e7941fa3d4d35d2603",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-a0188c672434d0f3": {
+      "title": "永遇乐·璧月初晴",
+      "textSHA256": "fca3a69d94d3bf6ad88399142e5535316b3aa67093e51c4ff855bb528589bbbf",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-a02307cd60229e9d": {
+      "title": "水龙吟·问春何苦匆匆",
+      "textSHA256": "232257c2927948ddee00811d457bd5209160fbfda20fa8108c490c653ffff1e9",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-a0467b964d515ecb": {
+      "title": "生查子·关山魂梦长",
+      "textSHA256": "b590042148669dc6c4f766031a1239e3f03a23bb938f1abf3bfb29c3e3071c63",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-a2d607cb710533c9": {
+      "title": "帝台春·芳草碧色",
+      "textSHA256": "580a256fd8f99a4101e749165891f19b6f70051d1f78ed0e8c940cf5bdd18459",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-a41567e74bb8a338": {
+      "title": "月下笛·万里孤云",
+      "textSHA256": "86d607af39a6540bc6f5d2970068551681895c51e0063ea6acb785f4f701ce1d",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-a70b7cb9c46ab29e": {
+      "title": "翠楼吟·月冷龙沙",
+      "textSHA256": "1792d2df21e00bda6178d3f5bd0079bc3e4435ed115061ab8f0fbd60809a1fce",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-a7aeed745bcaede0": {
+      "title": "唐多令·何处合成愁",
+      "textSHA256": "ef4949204694d98a9ee9a9a858a34840173ca861775a2bafdee8e90af7514bce",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-a7d7996ce34a795b": {
+      "title": "洞仙歌·冰肌玉骨",
+      "textSHA256": "bae7810c1a40b6ad6d429b818c8b91516971164dcf3b101184193393166a2257",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-aa6404f0db3ce9af": {
+      "title": "西河·佳丽地",
+      "textSHA256": "e4a815265d700f5a269e5f2690cfc106f43429700a9cd110ace6d6d68d2f5974",
+      "breakAfterLine": [
+        4,
+        8
+      ]
+    },
+    "song-digital-aaaa6662a98ecb72": {
+      "title": "木兰花・玉楼春·城上风光莺语乱",
+      "textSHA256": "8bb92e502698ebf7f7c5a7453410caf144049013a9770bfe1292fcc9ec5dcf76",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-ab84d134337fa1f0": {
+      "title": "蝶恋花·卷絮风头寒欲尽",
+      "textSHA256": "e0545537de2e609debd8adeb6fefa1bc788958742aeec5cb60b1abb070d63ef2",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-abe626a30ce02095": {
+      "title": "甘州・八声甘州·记玉关",
+      "textSHA256": "bb6834515bef14d4c5708550ac0f430f4e668396e2ee30a9d58838395f8476f4",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-ac32315359c5c0cf": {
+      "title": "高阳台·残雪庭阴",
+      "textSHA256": "cc5f7fa17e59b37d59ff9c4c98191591e1e8638b2ab9953cb4733e8a7c2327f6",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-ad292987f4fa47d6": {
+      "title": "祝英台近·采幽香",
+      "textSHA256": "0060e866af2f54268674763841ee5cf91889ddd75c93f9db9956a4f5116c0886",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-ad39b44f286777ab": {
+      "title": "天香·孤峤蟠烟",
+      "textSHA256": "d9c98a989bca24a980d723bcb2f2c9866d6a23d8785eaa829b1531992a2f25bd",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-ae3dbab96b38900b": {
+      "title": "采桑子·群芳过後西湖好",
+      "textSHA256": "ae6b00f248b5563c586d9eedeebfe0375ae0a3537a1446b42fd1844390fe6c69",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-af11236767f8b639": {
+      "title": "双双燕·过春社了",
+      "textSHA256": "877640eab10a93a0408bb26e77d7ea3c2ca1784cb3e70e8717750e141a22ed11",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-b1a7b1a61662330c": {
+      "title": "夜合花·柳暝河桥",
+      "textSHA256": "6a1dd4b5cd9f42726489d1f99131ad94629b7b8a1f0c6debbef546b437e7b5f1",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-b29452491b83f887": {
+      "title": "石州引・石州慢·薄雨初寒",
+      "textSHA256": "1ea47fa3af02b994643dd98a1059f2f1cb9ec41d537b7309ce055a1ea3c2eeab",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-b29a21b66e8ed5bb": {
+      "title": "贺新郎·篆缕销金鼎",
+      "textSHA256": "0751423268c08479f87b6b7d03a82b20548e83f9f51639c1bd3ffcbddbaada44",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-b5b9748f5979d3d5": {
+      "title": "玉楼春·东风又作无情计",
+      "textSHA256": "f136425e1cbcdbd65d1caa8529e49f8b8e401e848a46948ecfcd844d53a0de4c",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-b62768fe7c2c5b85": {
+      "title": "玉胡蝶・玉蝴蝶·晚雨未摧宫树",
+      "textSHA256": "787bb87813e140caa419963ad2e20cc375295605335e95f3f24730ae8c450897",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-b639ab8b018bc332": {
+      "title": "卜算子·我住长江头",
+      "textSHA256": "0337f874ac8c1c343ef9439a525376ec831e1aba5860292e9872b708b5b4acee",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-ba01a6d34829eea2": {
+      "title": "虞美人·芙蓉落尽天涵水",
+      "textSHA256": "df82fcde03fd293c29d9d4118acc266049321c6291ae603c5aefdb57321f6b27",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-ba320763dda59c8d": {
+      "title": "桂枝香·登临送目",
+      "textSHA256": "2b63132c15ff79cb0dcfd62fa15412a5ad1cd3afd80e123f02a78b7f96c8f4cb",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-bab0184eae13c301": {
+      "title": "夜游宫·人去西楼雁杳",
+      "textSHA256": "45e914844640fdad0df2db0c5c25a70f9a3a1e4d5ed700581449523dca19448a",
+      "breakAfterLine": [
+        4
+      ],
+      "review": {
+        "nextStanzaStartsWith": "雨外蛩声",
+        "sourceUrl": "https://www.gushiwen.cn/shiwenv_3b18ac239732.aspx",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-bc1ebba46dd4aeb1": {
+      "title": "霓裳中序第一·亭皋正望极",
+      "textSHA256": "8c753f3c83565339abba3d626677690f9b00d481ade2ab9928e12a2f80536ad2",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-bc4a94f70829e631": {
+      "title": "眉妩·渐新痕悬柳",
+      "textSHA256": "66cba7f85da8694e0a89ea5973640b7644fffb7ab5cba7ec974b6efbd3f1acf1",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-bc779e64a252ce46": {
+      "title": "木兰花慢·老来情味减",
+      "textSHA256": "1b6dd885106ff83e507035072bf95c01b19eb71acc4b71ac6d684a612fe385f6",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-bd407fa9a6423012": {
+      "title": "澡兰香·盘丝系腕",
+      "textSHA256": "5a083c11272d88a27f91d831ec431948a2af38aee540c0a61978399ecca0b70f",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-be5c5ce024a9d66d": {
+      "title": "秦楼月・忆秦娥·楼阴缺",
+      "textSHA256": "51242fd286ca49b9a9a1496188a3c020ba9e2552100c9670acf7a96fb2455598",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-bf41f9cc65682c51": {
+      "title": "浣溪沙·波面铜花冷不收",
+      "textSHA256": "7f9027d81488a4b15a9f69ed384d14b41c70f8d628892561395c9b38d02380f0",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-bf5bbe84b384880d": {
+      "title": "安公子·弱柳丝千缕",
+      "textSHA256": "1c424c3ae3182dbc20376606a4c04b9023101afc51e6f286349163efd1704733",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-c0b75b878608b7dc": {
+      "title": "满庭芳·风老莺雏",
+      "textSHA256": "0a6b002205410fb92f9214868e8233bd1f3b76aeda9439df7aed9e0e186e80ca",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c149ab35a9cf6a4d": {
+      "title": "风入松·一春长费买花钱",
+      "textSHA256": "606df9fc2ec006078e8a70e76bc7770693922939c5a2eb0dc2d9d907b1659f2a",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c1f44fcd0aa5231a": {
+      "title": "蝶恋花·几许伤春春复暮",
+      "textSHA256": "eb52651c6714abe712c29e967f50202a06195443580c40827d3e2bde7f689fc7",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c50f9fbee23f0b5b": {
+      "title": "醉中真・浣溪沙·不信芳春厌老人",
+      "textSHA256": "f5b31412cd5ec4343b73361989eefee0e1f59b63a84efce966c47fc9ff82072a",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-c5abf97fdf8cf625": {
+      "title": "南浦·风悲画角",
+      "textSHA256": "699bc8b8e6c6395cb235d846a0ef81d0286142b4ee2d70cf0e9f1e8c877b59bd",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c6b36b2ed918b0ab": {
+      "title": "玉楼春·燕鸿过後春归去",
+      "textSHA256": "2a3df6198196d4da8dcad19ec2db61f6c0bd99fc51bf6dcfc884a27bb85cf307",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-c6bd1de73e9bd3a9": {
+      "title": "凤箫吟・芳草·锁离愁",
+      "textSHA256": "0e2171c44da22047e063897dd148feabc5dc58d8115f0ece716d10818725bb92",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c6e9ff9fa2905b91": {
+      "title": "拜星月・拜星月慢·夜色催更",
+      "textSHA256": "aff8454748947e497a8975fe071cb40d6dd336e3d66f5cea41f1a4e58fc71546",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c7e31957cb470676": {
+      "title": "法曲献仙音·层绿峨峨",
+      "textSHA256": "ca8424715198e6768bdf76642a292efc904aa1da02de2af3477161ca857d5ede",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-c7fde9427281c92d": {
+      "title": "临江仙·忆昔午桥桥上饮",
+      "textSHA256": "1d319144e76d88bbe944c702d45e79df77721555b83f3dbbf863250e27af6555",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-c810382cf93ca899": {
+      "title": "瑶花慢·朱钿宝",
+      "textSHA256": "be47e023f2c474d6598a787f64018966541e342e1becdc75c59b193df279b18a",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-c8431389fe8b4a16": {
+      "title": "满庭芳·晓色云开",
+      "textSHA256": "288bfdd9196264bd89d586fd8dc2513c016fdee335e29a806a4146c51022634e",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c8971a583dc02269": {
+      "title": "御街行·纷纷堕叶飘香砌",
+      "textSHA256": "994283b1cad5202105ce68afe656a8c0ce7a4bf1b533d79067e41a804b260768",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-c89f3b38197591e2": {
+      "title": "蝶恋花·独倚危楼风细细",
+      "textSHA256": "2d841a053380c4a382832206f7580b2f31cd33c2518906a9f25bd3bc33dcaa43",
+      "breakAfterLine": [
+        4
+      ],
+      "review": {
+        "nextStanzaStartsWith": "也拟疏狂",
+        "sourceUrl": "https://www.shidianguji.com/book/HY1103/chapter/1kp3udcunq2wi",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-c9382d545b36bc9f": {
+      "title": "喜迁莺·月波疑滴",
+      "textSHA256": "3b7ab73d6bafde078527adcaedb0747c019e7a4da2592e07a20a51507cb2ce0e",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-c9eb388dbb95cd4f": {
+      "title": "鹧鸪天·池上红衣伴倚阑",
+      "textSHA256": "f60f96065662d56f4b9c9ce9b7f8f92b33ca9de81f9271ff64e39edf8caf9df2",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-caa058b4a7bb59b6": {
+      "title": "渡江云·山空天入海",
+      "textSHA256": "ff2d249c7ff81860caee7c25ac475827f765f8551c0531a9c2660395b3c8e386",
+      "breakAfterLine": [
+        4
+      ],
+      "review": {
+        "nextStanzaStartsWith": "愁余",
+        "sourceUrl": "https://www.sohu.com/a/481275818_121124391",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-cad6c5dbbb698a05": {
+      "title": "贺新郎·篆缕销香鼎",
+      "textSHA256": "5674ff093cc90727bd3f6ec4734e7507f3cd9234c937cfa5ccd921c0de57fe34",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-cb6aead97485c295": {
+      "title": "天门谣·牛渚天门险",
+      "textSHA256": "fcde0b34bef040808f1d1a805108de2c7bb828e4c20197493be4da00b99004ef",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-cbc4a39918c82db3": {
+      "title": "庆宫春・高阳台·双桨莼波",
+      "textSHA256": "4118dab9b26f9820512d0658db61a36f2c0304bbb3854cab60eae8edd8db67cf",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-cbcc6b1aacde1a6f": {
+      "title": "一萼红·古城阴",
+      "textSHA256": "4afccaf9300d14c29a732e8ca8baeb4b6a88738c2a6a55b9d8499f39a5ea4d6c",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-cf930ec4feac2d11": {
+      "title": "木兰花・玉楼春·池塘水绿风微暖",
+      "textSHA256": "f5eb10406340d3f507823168ce4ff9e4713057b4f4bf4a86ab8c90012afea91b",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-d0533c9b2b27529a": {
+      "title": "诉衷情·清晨帘幕卷轻霜",
+      "textSHA256": "f8e1277d8c4e46a8e1c2c124155a573d06b1f3a1e22738d030f6e837c2d8f209",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-d13472c0b607485e": {
+      "title": "点绛唇·新月娟娟",
+      "textSHA256": "6b62bab0d5e84e64ff9b5ea6215a1557ab899107be31468634ea46916f9955f7",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-d25732fe74b7ff0c": {
+      "title": "瑞龙吟·章台路",
+      "textSHA256": "740f02598662db6751f3418feb7d7d2a68b076359c459c5cfa0a8b6a3b4787d7",
+      "breakAfterLine": [
+        3,
+        6
+      ]
+    },
+    "song-digital-d41d0782b64410ab": {
+      "title": "剑器近·夜来雨",
+      "textSHA256": "f872d4badf2befdd2e5d09b7619bdfe622817253362294558491f5148069027f",
+      "breakAfterLine": [
+        8
+      ]
+    },
+    "song-digital-d53bef81b137e8b9": {
+      "title": "风入松·听风听雨过清明",
+      "textSHA256": "41b07b1a5d6a7a67b1fa097873f91efb7b93875b0c9c49f4c726f75f5ebe44e7",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-d5bf12e07e1b79be": {
+      "title": "卜算子·驿外断桥边",
+      "textSHA256": "6db8a37f89ecd9d819a96b72d65fa89f322e28c5f58a9810c17771ef4817f44b",
+      "breakAfterLine": [
+        2
+      ]
+    },
+    "song-digital-d5d515d1c1c08e6d": {
+      "title": "木兰花・玉楼春·秋千院落重帘暮",
+      "textSHA256": "f690f439132704f7a98fdbff540f21b236f3bbf5a4470fb8000d414b583b1f7d",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-d67e772712bf45c5": {
+      "title": "青门饮·胡马嘶风",
+      "textSHA256": "432d8e55a9aa11160fbbe0f0d1d3af103c4f9a981bfca0f65af8ad4f6c73d7c9",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-d6b463a93f9df320": {
+      "title": "霜叶飞·断烟离绪",
+      "textSHA256": "7e296f37ff0a5abc7777178ef47b43da5d6e1a792b90c96836b7a6a25bd3c6ff",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-d747b3a27390bc93": {
+      "title": "夜飞鹊・夜飞鹊慢·河桥送人处",
+      "textSHA256": "053c1853de8ad7a0f474fde2c08d37ad19483661e168997c3533265c759892fa",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-d755cbd719974921": {
+      "title": "凤凰台上忆吹箫·香冷金猊",
+      "textSHA256": "8bdfdc7427c3839a3f6afa4ad1fc7e97d7c48f1bf0c98517d6b4becc3bd3979d",
+      "breakAfterLine": [
+        4
+      ],
+      "review": {
+        "nextStanzaStartsWith": "明朝",
+        "sourceUrl": "https://www.shidianguji.com/book/SBCK321/chapter/1klyj9a5zgdo4",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-d83ed4eeafbf3306": {
+      "title": "瑞鹤仙·脸霞红印枕",
+      "textSHA256": "fe11fab3081ed9267ba85c4da368a5611e8d9340a45c1cf0df167b80a419fd6b",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-d844e83fd8f7d416": {
+      "title": "渡江云三犯・渡江云·羞红颦浅恨",
+      "textSHA256": "50050c562e58eeac86f24c22718f0f8a6646bcba91541220e9a6199dc7adb756",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-d93a23d186f3eeb8": {
+      "title": "紫萸香慢·近重阳",
+      "textSHA256": "3ed9ff3fefe9d999154b2f5594a6ad423c94bc8cafb4935d7c34cc920b064df0",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-da398f36a8d206fc": {
+      "title": "青玉案·东风夜放花千树",
+      "textSHA256": "527b3014b141be6fa11e48a876a71fac050bfd85e3e3cd4ef149047ecbfcf4a5",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-dac46ef80ef7510e": {
+      "title": "宴清都·春讯飞琼管",
+      "textSHA256": "3a3633fe06b6c59195ce02c2aa6da3c9ddd3e698f79ac02075187b9445437428",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-dc8c0ce210556567": {
+      "title": "永遇乐·明月如霜",
+      "textSHA256": "812408ce5ad3d05044e3b0b12d50c7bda7623c2835d3a2de55dd68c61af2e8a0",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-dcee1f70f2b03dca": {
+      "title": "踏莎行·祖席离歌",
+      "textSHA256": "66ed20fd68108d786c616312f4bec9f92c9e95e75dc51be9dad01b0488e82560",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-dd5b45ec5c620e22": {
+      "title": "柳梢青·数声鶗鴂",
+      "textSHA256": "6eacef2fc44b0105ad0725c01bc479d5b681f1183032f445fa7cec443ca34b78",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-dfa1cfaa4045e9f8": {
+      "title": "曲游春·楚苑东风外",
+      "textSHA256": "b7f7d978a0b6641e559b6912199cfb6a930acdee6dc293fdafc0d6eb9360f041",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-e088398d5ee89725": {
+      "title": "八归·秋江带雨",
+      "textSHA256": "afd022d10a4e210e41a7e236d2e7bf8db31b06e50970f31194466d921f1237e1",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-e2aac6b363b45ef8": {
+      "title": "鹧鸪天·一点残红欲尽时",
+      "textSHA256": "306826242b14c9fdc643cf66bd2b9060b2105c65de04d9bc48c4b1ed2c51b54f",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-e38286641ddd602a": {
+      "title": "贺新郎·睡起啼莺语",
+      "textSHA256": "3dcae07d72831d5571afe1189d3de04762b6803293cda1b7867f535f073640a7",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-e3dd5fdf7073a8a5": {
+      "title": "长亭怨慢·渐吹尽",
+      "textSHA256": "07424048dbaeee0cb6fb1add489c0314ea728a19685d22e3a5bd8c97e7f33c6f",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-e41d860ab60ab089": {
+      "title": "水龙吟·楚天千里清秋",
+      "textSHA256": "95df989a82a6cb56f1da7344d1fd07b336e246867cd5b1781f3936fc29489423",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-e5cb36e35350acbd": {
+      "title": "齐天乐·一襟馀恨宫魂断",
+      "textSHA256": "50e5bfde11c00b0a3af61c71e4375448aaf31f4711bc22e44c4ec8aec70f2dc2",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-e63b1273ae2598b9": {
+      "title": "青门引・青门饮·乍暖还轻冷",
+      "textSHA256": "3421b0402d69f8751afe37ccc6b07af78f0707ad934f337df739f4176206dcd0",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-e6e148b9f6627b19": {
+      "title": "贺新郎·乳燕飞华屋",
+      "textSHA256": "49ffd0b9ca0178d1dfd5f91333bc0b9489e856f87a452d5ccda61e4dc2b165a8",
+      "breakAfterLine": [
+        6
+      ]
+    },
+    "song-digital-e9e09b7db6b1751b": {
+      "title": "菩萨蛮·郁孤台下清江水",
+      "textSHA256": "803ef2673941ffbca79a78b06e7fa8f5c0b4015a7a27c1f48554960e67948228",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-ea11146f1b3bbe0a": {
+      "title": "临江仙·夜饮东坡醒复醉",
+      "textSHA256": "26b289703d888f5dc956e06bbe88d3c773c4f7f45e93bed69cd00eb78269c3ff",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-ea31daf47ab256d3": {
+      "title": "望湘人·厌莺声到枕",
+      "textSHA256": "b50979dc1902aafde0c96a5833cfde8e760ba38e8fdf2b2b7e7faac29b56d940",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-eb1dfede4bf1443c": {
+      "title": "风流子·新绿小池塘",
+      "textSHA256": "52067fa851338422c0816eb144b05f5ed7d4a3f0b76543e64dcb5f7d7595a055",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-eb96d954bad25574": {
+      "title": "望海潮·梅英疏淡",
+      "textSHA256": "dfff355ce98fa624cc931f1ce1bb13ad879963648057c33d45ae49019926ca04",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-ebbf360bdef07fac": {
+      "title": "浣溪沙·漠漠轻寒上小楼",
+      "textSHA256": "e083a3f9fbdbb12a6eb94204550d1ad9f235d1a1988ffcf275a806b39696acba",
+      "breakAfterLine": [
+        3
+      ]
+    },
+    "song-digital-ef3d50ac8c78911e": {
+      "title": "三台·见梨花初带夜月",
+      "textSHA256": "65c6cc89a30c467721fb2cf66e48c781a7a8d574ab1a3dd73ec03c45b5fc0845",
+      "breakAfterLine": [
+        5,
+        10
+      ]
+    },
+    "song-digital-f1364351e6cc4078": {
+      "title": "淡黄柳·空城晓月",
+      "textSHA256": "7d47b7d5a8f64e67d9a8c75c18c54949f401328de87de165512d6f369c175e25",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-f1e4d4141f801e61": {
+      "title": "夜半乐·冻云黯淡天气",
+      "textSHA256": "43a8d5e09f24953548b8ffae38603dcfea8ab4bc8e0ba8b171a923e6e4553aa3",
+      "breakAfterLine": [
+        5,
+        9
+      ]
+    },
+    "song-digital-f26e94365d14c7e2": {
+      "title": "摸鱼儿·更能消",
+      "textSHA256": "09c4bc12a7a41f2fccdab77ced040f5348b66ca8ba1584fd666850b710a6e5f6",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-f4ad77d6ae89425a": {
+      "title": "惜分飞·泪湿阑干花著露",
+      "textSHA256": "2a0048bbda760696b8adaf28907984c50de267d2a2f07549d7a6362c878eead4",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-f4b81cf068cf9746": {
+      "title": "锁窗寒・琐寒窗·暗柳啼鸦",
+      "textSHA256": "c1ead104d97022c92f4ca05877c8f790fdfae6fa4514d6760b3e755f1b13305a",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-f71fc046f31d5ee9": {
+      "title": "兰陵王·柳阴直",
+      "textSHA256": "fae7ce4075485ae53a10f37873dd6c14227efed765ec0a5482d9e4d4888ef744",
+      "breakAfterLine": [
+        7,
+        12
+      ]
+    },
+    "song-digital-f738316018a54c84": {
+      "title": "戚氏·晚秋天",
+      "textSHA256": "fa07410e91d7aef41962f01044296391501735dadcdeb4f177c87ba3571e537c",
+      "breakAfterLine": [
+        9,
+        15
+      ]
+    },
+    "song-digital-f782429735534d0c": {
+      "title": "满庭芳·山抹微云",
+      "textSHA256": "d3f74d3ccab41696cdb5b05ed1f2252d4eee402503d84f9e8f82d1f85a94c78e",
+      "breakAfterLine": [
+        4
+      ]
+    },
+    "song-digital-f8b79492819738b2": {
+      "title": "六么令·绿阴春尽",
+      "textSHA256": "20996031d66dd84015f701a8c00ba8d73a944fb8a81a53c88e68281f1702b611",
+      "breakAfterLine": [
+        5
+      ]
+    },
+    "song-digital-fa707363ebb64a8d": {
+      "title": "瑞鹤仙·绀烟迷雁迹",
+      "textSHA256": "e4180813a05c5a5091e166d41a4685e1401b8c9afdd308086b6d7e1946b39e71",
+      "breakAfterLine": [
+        7
+      ]
+    },
+    "song-digital-fe872fe6ad8176ac": {
+      "title": "绿意・疏影·碧圆自洁",
+      "textSHA256": "3cb2efa1c7c2304026e59cd77c2b3152cbaa8a8b21e19a3635a1160a419fd4aa",
+      "breakAfterLine": [
+        5
+      ],
+      "review": {
+        "nextStanzaStartsWith": "回首当年",
+        "sourceUrl": "https://www.guwenxuexi.com/classical/19977.html",
+        "reason": "Reference omitted marker or variant wording needs explicit alignment."
+      }
+    },
+    "song-digital-fec4e9a2ce6bd50d": {
+      "title": "凤栖梧・蝶恋花·伫倚危楼风细细",
+      "textSHA256": "a7c433a6eecc6d9a2ab9ef779514908a92266384edf42b59d97bfafe108988a3",
+      "breakAfterLine": [
+        4
+      ]
+    }
+  }
+}

@@ -43,7 +43,13 @@
           "id": "line-4",
           "hans": "念羁情游荡，随风化为轻絮。",
           "hant": "念羈情遊蕩，隨風化爲輕絮。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-5",
           "hans": "十载西湖，傍柳系马，趁娇尘软雾。",
@@ -63,7 +69,13 @@
           "id": "line-8",
           "hans": "暝堤空，轻把斜阳，总还鸥鹭。",
           "hant": "暝堤空，輕把斜陽，總還鷗鷺。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-9",
           "hans": "幽兰旋老，杜若还生，水乡尚寄旅。",
@@ -83,7 +95,13 @@
           "id": "line-12",
           "hans": "青楼彷佛，临分败壁题诗，泪墨惨澹尘土。",
           "hant": "青樓彷佛，臨分敗壁題詩，淚墨慘澹塵土。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-4",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-13",
           "hans": "危亭望极，草色天涯，吹鬓侵半苎。",
@@ -119,7 +137,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 8,

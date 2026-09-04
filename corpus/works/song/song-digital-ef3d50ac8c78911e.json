@@ -48,7 +48,13 @@
           "id": "line-5",
           "hans": "好时代、朝野多欢，遍九陌、太平箫鼓。",
           "hant": "好時代、朝野多歡，遍九陌、太平簫鼓。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-6",
           "hans": "乍莺儿百啭断续，燕子飞来飞去。",
@@ -73,7 +79,13 @@
           "id": "line-10",
           "hans": "向晚骤、宝马雕鞍，醉襟惹、乱花飞絮。",
           "hant": "向晚驟、寶馬雕鞍，醉襟惹、亂花飛絮。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-11",
           "hans": "正轻寒轻暖漏永，半阴半晴云暮。",
@@ -114,7 +126,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 268,

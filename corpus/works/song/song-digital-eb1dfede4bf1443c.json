@@ -48,7 +48,13 @@
           "id": "line-5",
           "hans": "欲说又休，虑乖芳信，未歌先咽，愁近清觞。",
           "hant": "欲說又休，慮乖芳信，未歌先咽，愁近清觴。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-6",
           "hans": "遥知新妆了，开朱户，应自待月西厢。",
@@ -84,7 +90,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 225,

@@ -43,7 +43,13 @@
           "id": "line-4",
           "hans": "怒涛寂寞打孤城，风樯遥度天际。",
           "hant": "怒濤寂寞打孤城，風檣遙度天際。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-5",
           "hans": "断崖树，犹倒倚。",
@@ -63,7 +69,13 @@
           "id": "line-8",
           "hans": "夜深月过女墙来，赏心东望淮水。",
           "hant": "夜深月過女牆來，賞心東望淮水。"
-        },
+        }
+      ]
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "lines": [
         {
           "id": "line-9",
           "hans": "酒旗戏鼓甚处市。",
@@ -99,7 +111,7 @@
     "witnesses": [],
     "variants": [],
     "reviewedAt": "2026-09-05",
-    "reviewMethod": "固定电子来源逐段保留；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
+    "reviewMethod": "固定电子来源字句保留；按 sources/chinese-poetry-songci/stanzas.json 的电子文本标记核对分片；结构、字符与去重检查；繁体由 OpenCC s2t 生成，未作扫描校勘。",
     "digitalSource": {
       "editionId": "chinese-poetry-songci-b8594f8",
       "recordIndex": 238,

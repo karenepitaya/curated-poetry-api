@@ -33,7 +33,7 @@ func TestDigitalSourceRejectsTampering(t *testing.T) {
 	catalog := mustLoad(t)
 	var original Work
 	for _, work := range catalog.Works() {
-		if work.Evidence.Level == EvidenceDigitalTextChecked {
+		if work.Evidence.Level == EvidenceDigitalTextChecked && len(work.Sections) > 1 {
 			original = work
 			break
 		}
@@ -43,6 +43,8 @@ func TestDigitalSourceRejectsTampering(t *testing.T) {
 		change     func(*Work)
 	}{
 		{"body", "paragraph 0 differs", func(w *Work) { w.Sections[0].Lines[0].Hans = "篡改正文。" }},
+		{"lower-stanza", "differs from pinned digital record", func(w *Work) { w.Sections[1].Lines[0].Hans = "篡改下片。" }},
+		{"stanza-order", "differs from pinned digital record", func(w *Work) { w.Sections[0], w.Sections[1] = w.Sections[1], w.Sections[0] }},
 		{"truncated", "paragraphs differ", func(w *Work) { w.Sections[0].Lines = w.Sections[0].Lines[:1] }},
 		{"author", "author, tune or title differs", func(w *Work) { w.Author.Name.Hans = "李白" }},
 		{"locator", "out of range", func(w *Work) { w.Evidence.DigitalSource.RecordIndex = 10000 }},
