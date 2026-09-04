@@ -592,3 +592,36 @@ func mustDigitalRecords(t *testing.T) map[string][]digitalRecord {
 	}
 	return data.digitalRecords
 }
+
+func BenchmarkRandomSongCiLengthFilter(b *testing.B) {
+	catalog, err := Load()
+	if err != nil {
+		b.Fatal(err)
+	}
+	query := Query{Collection: "songci-digital-selection", MaxChars: 120, Script: ScriptHans}
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		if _, err := catalog.RandomWork(query); err != nil {
+			b.Fatal(err)
+		}
+	}
+}
+
+func TestLengthFilterUsesSelectedScriptAndIncludesPreface(t *testing.T) {
+	catalog := newCatalog(corpusData{works: []Work{{Sections: []Section{
+		{Kind: "preface", Lines: []Line{{Hans: "序。", Hant: "序。"}}},
+		{Kind: "stanza", Lines: []Line{{Hans: "甲，乙。", Hant: "甲乙丙。"}}},
+	}}}})
+	if _, err := catalog.RandomWork(Query{MaxChars: 3, Script: ScriptHans}); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := catalog.RandomWork(Query{MaxChars: 3, Script: ScriptHant}); !errors.Is(err, ErrNoMatchingWorks) {
+		t.Fatalf("hant boundary: %v", err)
+	}
+	if _, err := catalog.RandomWork(Query{MaxChars: 2, Script: ScriptHans}); !errors.Is(err, ErrNoMatchingWorks) {
+		t.Fatalf("preface boundary: %v", err)
+	}
+	if _, err := catalog.RandomWork(Query{MaxChars: 4, Script: ScriptHant}); err != nil {
+		t.Fatal(err)
+	}
+}

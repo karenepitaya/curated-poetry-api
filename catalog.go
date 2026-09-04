@@ -25,12 +25,13 @@ var embeddedCorpus embed.FS
 // Catalog is immutable after loading and safe for concurrent use. The random
 // reader is only replaceable by package tests before concurrent access begins.
 type Catalog struct {
-	works          []Work
-	editions       []Edition
-	collections    []Collection
-	normalizations []NormalizationRule
-	stats          CorpusStats
-	randomReader   io.Reader
+	characterCounts [][2]int // Hans and Hant counts, computed once for immutable works.
+	works           []Work
+	editions        []Edition
+	collections     []Collection
+	normalizations  []NormalizationRule
+	stats           CorpusStats
+	randomReader    io.Reader
 }
 
 // Load validates and loads the corpus embedded in the executable.
@@ -298,18 +299,20 @@ func corpusRevision(dataFS fs.FS, names []string) (string, error) {
 
 func newCatalog(data corpusData) *Catalog {
 	catalog := &Catalog{
-		works:          cloneWorks(data.works),
-		editions:       append([]Edition(nil), data.editions...),
-		collections:    cloneCollections(data.collections),
-		normalizations: cloneNormalizations(data.normalizations),
-		randomReader:   rand.Reader,
+		works:           cloneWorks(data.works),
+		characterCounts: make([][2]int, len(data.works)),
+		editions:        append([]Edition(nil), data.editions...),
+		collections:     cloneCollections(data.collections),
+		normalizations:  cloneNormalizations(data.normalizations),
+		randomReader:    rand.Reader,
 		stats: CorpusStats{
 			Works:          len(data.works),
 			ByDynasty:      map[string]int{DynastyTang: 0, DynastySong: 0},
 			CorpusRevision: data.revision,
 		},
 	}
-	for _, work := range catalog.works {
+	for i, work := range catalog.works {
+		catalog.characterCounts[i] = [2]int{workCharacterCount(work, ScriptHans), workCharacterCount(work, ScriptHant)}
 		catalog.stats.ByDynasty[work.Dynasty]++
 	}
 	return catalog
@@ -331,9 +334,13 @@ func (c *Catalog) RandomWork(query Query) (Work, error) {
 	if err := ValidateQuery(query); err != nil {
 		return Work{}, err
 	}
+	scriptIndex := 0
+	if query.Script == ScriptHant {
+		scriptIndex = 1
+	}
 	indices := make([]int, 0, len(c.works))
 	for i := range c.works {
-		if matchesQuery(c.works[i], query) {
+		if matchesQuery(c.works[i], query, c.characterCounts[i][scriptIndex]) {
 			indices = append(indices, i)
 		}
 	}
@@ -372,7 +379,7 @@ func ValidateQuery(query Query) error {
 	return nil
 }
 
-func matchesQuery(work Work, query Query) bool {
+func matchesQuery(work Work, query Query, characterCount int) bool {
 	if query.Collection != "" && !workInCollection(work, query.Collection) {
 		return false
 	}
@@ -388,7 +395,7 @@ func matchesQuery(work Work, query Query) bool {
 	if query.Meter != "" && work.Meter != query.Meter {
 		return false
 	}
-	if query.MaxChars > 0 && workCharacterCount(work, query.Script) > query.MaxChars {
+	if query.MaxChars > 0 && characterCount > query.MaxChars {
 		return false
 	}
 	return true
