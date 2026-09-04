@@ -68,6 +68,25 @@ fetch_with_retries() {
   return 1
 }
 
+download_asset() {
+  local asset="$1"
+  local target="$2"
+  local attempt
+
+  for ((attempt = 1; attempt <= 3; attempt++)); do
+    echo "downloading ${asset} (attempt ${attempt}/3)"
+    if curl --fail --location --show-error --progress-bar --continue-at - \
+      --connect-timeout 10 --max-time 180 \
+      --output "${target}" "${DOWNLOAD_BASE}/${asset}"; then
+      return 0
+    fi
+    if [[ ${attempt} -lt 3 ]]; then
+      sleep 2
+    fi
+  done
+  return 1
+}
+
 rollback() {
   local status=$?
   local link_restored=0
@@ -113,10 +132,7 @@ if [[ -e ${VERSION_DIR} || -L ${VERSION_DIR} || -e ${STAGING_DIR} ]]; then
 fi
 
 for asset in curated-poetry-api curated-poetry-api.sha256 LICENSE DATA_LICENSE NOTICE; do
-  echo "downloading ${asset}"
-  curl --fail --location --silent --show-error --retry 3 --retry-delay 1 \
-    --connect-timeout 5 --max-time 60 \
-    --output "${TEMP_DIR}/${asset}" "${DOWNLOAD_BASE}/${asset}"
+  download_asset "${asset}" "${TEMP_DIR}/${asset}"
 done
 
 (
